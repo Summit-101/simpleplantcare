@@ -1,0 +1,658 @@
+[
+  {
+    "id": "tomato", "name": "Tomato", "latin": "Solanum lycopersicum", "emoji": "🍅", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Tomato",
+    "tagline": "The most grown home garden vegetable worldwide. A warm tomato straight from the vine tastes nothing like shop-bought.",
+    "care": { "water": { "value": "Daily in summer", "detail": "Keep consistently moist. Irregular watering causes blossom end rot and split fruit.", "bar": 80 }, "sun": { "value": "8+ hours direct sun", "detail": "Non-negotiable. Less than 6 hours = leaves only, barely any fruit.", "bar": 95 }, "soil": { "value": "Rich, deep, well-draining", "detail": "Dig in plenty of compost. Feed with high-potassium fertiliser every 2 weeks once fruiting starts.", "bar": 75 }, "temp": { "value": "20–27°C optimal", "detail": "Won't set fruit above 35°C or below 10°C at night." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow indoors 6–8 weeks before last frost. Transplant once nights stay above 10°C." }, "germination": "6–12 days", "harvest": "60–80 days from transplant", "spacing": "50–60 cm" },
+    "tips": ["Bury the stem deep when transplanting — roots grow all along the buried stem, making the plant much stronger.", "Pinch out 'suckers' — the shoots that grow in the V between main stem and branch — to focus energy into fruit.", "Yellow lower leaves are normal as the plant matures — remove them to improve airflow.", "Crushed eggshells in the planting hole add calcium and help prevent blossom end rot."],
+    "warning": "Blossom end rot (black leathery patch on the bottom of fruit) means inconsistent watering or calcium deficiency — not disease. Water more regularly."
+  },
+  {
+    "id": "cucumber", "name": "Cucumber", "latin": "Cucumis sativus", "emoji": "🥒", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cucumber",
+    "tagline": "Incredibly productive once established. One healthy plant produces more cucumbers than most families can eat.",
+    "care": { "water": { "value": "Daily in warm weather", "detail": "Cucumbers are 95% water — inconsistent watering causes bitter, misshapen fruit.", "bar": 85 }, "sun": { "value": "8+ hours direct sun", "detail": "Heat and sun are essential. Won't produce in a cool or shady spot.", "bar": 92 }, "soil": { "value": "Rich, moisture-retaining", "detail": "Dig in a generous amount of compost. Mulch around the base to hold moisture.", "bar": 72 }, "temp": { "value": "22–30°C optimal", "detail": "Don't plant outside until nights are reliably above 12°C. They sulk in cold." }, "seedDepth": { "value": "1–2 cm, sow on edge", "detail": "Sow seeds on their side to prevent rotting. Start indoors 3–4 weeks before last frost." }, "germination": "7–10 days", "harvest": "50–70 days", "spacing": "40–60 cm" },
+    "tips": ["Train up a trellis — vertical growing produces straighter fruit, saves space, and improves airflow.", "Pick when full length but before they turn yellow — yellow cucumbers are overripe and bitter.", "Pinch out the growing tip once the plant reaches the top of its support to encourage side shoots.", "Feed with high-potassium liquid feed every week once flowering starts."],
+    "warning": "Powdery mildew (white powder on leaves) is almost inevitable by late summer. Improve airflow and avoid wetting leaves when watering."
+  },
+  {
+    "id": "lettuce", "name": "Lettuce", "latin": "Lactuca sativa", "emoji": "🥬", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lettuce",
+    "tagline": "The fastest food you can grow from seed. Sow today, eat in 3–4 weeks. Perfect for beginners.",
+    "care": { "water": { "value": "Every 1–2 days", "detail": "Keep consistently moist. Drying out causes bitter flavour and bolting.", "bar": 72 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade — actually benefits from afternoon shade in hot weather.", "bar": 55 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Mix in plenty of compost. Lettuce feeds fast.", "bar": 65 }, "temp": { "value": "10–20°C optimal", "detail": "Cool weather crop. Bolts (runs to seed, turns bitter) quickly above 25°C." }, "seedDepth": { "value": "Surface — barely cover", "detail": "Seeds need light to germinate. Press lightly onto moist compost, barely cover." }, "germination": "7–14 days", "harvest": "25–45 days — outer leaves first", "spacing": "20–30 cm" },
+    "tips": ["Cut-and-come-again: harvest outer leaves and leave the centre growing. Extends harvest by weeks.", "Sow a small row every 2–3 weeks for a continuous supply rather than a glut.", "In hot weather, sow in afternoon shade — this dramatically extends your harvest window.", "Water in the morning so leaves dry during the day, reducing mildew risk."],
+    "warning": "Bolts (sends up a flower stalk, leaves turn bitter) fast in heat or drought. In summer, some shade is essential."
+  },
+  {
+    "id": "courgette", "name": "Courgette / Zucchini", "latin": "Cucurbita pepo", "emoji": "🥒", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Courgette",
+    "tagline": "One of the most productive vegetables you can grow. A single plant can overwhelm a family all summer.",
+    "care": { "water": { "value": "Daily in warm weather", "detail": "Large leaves lose water fast. Inconsistent watering prevents bitter fruit.", "bar": 82 }, "sun": { "value": "8+ hours direct sun", "detail": "Loves heat and sun. Won't perform in a cool or shady spot.", "bar": 90 }, "soil": { "value": "Very rich, well-draining", "detail": "Plant into a hole filled with pure compost. The hungriest plant in the garden.", "bar": 80 }, "temp": { "value": "After last frost only", "detail": "Cold-sensitive. Even a light frost kills young plants instantly." }, "seedDepth": { "value": "2 cm deep, on edge", "detail": "Sow seeds on their edge to prevent rotting at the tip. Start indoors 3–4 weeks before last frost." }, "germination": "5–10 days", "harvest": "50–60 days — pick at 15–20cm", "spacing": "90 cm — they get enormous" },
+    "tips": ["Pick every 2–3 days — a missed courgette becomes a marrow overnight and drains energy from new fruit.", "If fruit rots at the flower end, hand-pollinate: transfer pollen from a male flower (no swelling behind it) to a female (small courgette behind the flower).", "Feed with high-potassium liquid feed every 2 weeks once flowering starts.", "One plant is genuinely enough for most families. Two is ambitious. Three is a crisis."],
+    "warning": "Powdery mildew covers the leaves from midsummer — normal and rarely fatal. The plant is usually done producing by then anyway."
+  },
+  {
+    "id": "peas", "name": "Garden Peas", "latin": "Pisum sativum", "emoji": "🫛", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Garden+Peas",
+    "tagline": "Sweet fresh peas eaten straight from the pod are one of the great pleasures of home growing.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist especially when pods are forming. Drought at this stage ruins the crop.", "bar": 60 }, "sun": { "value": "6+ hours sun", "detail": "Full sun preferred but tolerates light shade better than most vegetables.", "bar": 75 }, "soil": { "value": "Well-draining, moderately rich", "detail": "Not too rich — high nitrogen produces lots of leaves and very few pods.", "bar": 50 }, "temp": { "value": "10–20°C", "detail": "Cool weather crop. Sow early spring or autumn. Struggles above 25°C." }, "seedDepth": { "value": "2–3 cm deep", "detail": "Sow direct where they'll grow. Space seeds 5–7cm apart in a row." }, "germination": "7–14 days", "harvest": "60–70 days from sowing", "spacing": "5–7 cm in row, rows 45 cm apart" },
+    "tips": ["Push twiggy sticks or a trellis in when you sow — peas start climbing immediately and need support.", "Pick pods regularly — leaving pods on the plant tells it to stop producing more.", "Sow in batches every 3 weeks from early spring for a continuous harvest.", "After harvesting, cut stems at the ground and leave roots — they fix nitrogen and feed the next crop."],
+    "warning": "Mice and birds will dig up and eat pea seeds. Cover with netting or wire mesh for the first 3 weeks until established."
+  },
+  {
+    "id": "carrot", "name": "Carrot", "latin": "Daucus carota", "emoji": "🥕", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Carrot",
+    "tagline": "Slow and deeply satisfying. The first time you pull a homegrown carrot from the soil is genuinely joyful.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep evenly moist. Irregular watering causes roots to split or fork — a common frustration.", "bar": 55 }, "sun": { "value": "6+ hours sun", "detail": "Full sun produces the sweetest, most colourful roots.", "bar": 80 }, "soil": { "value": "Deep, loose, stone-free", "detail": "This is the most critical factor. Compacted or stony soil causes forked, stubby, useless carrots.", "bar": 40 }, "temp": { "value": "15–20°C optimal", "detail": "Cool weather crop. Light frost actually sweetens the roots noticeably." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Tiny seeds — mix with dry sand for more even sowing. Cover lightly with a fine layer of soil." }, "germination": "14–21 days", "harvest": "70–80 days", "spacing": "Thin to 5–7 cm apart" },
+    "tips": ["Thin seedlings ruthlessly when 5cm tall — crowded carrots are tiny and forked every time.", "Never add fresh compost or manure before sowing — it causes forked, hairy roots. Use last year's prepared bed.", "Mix carrot seed with radish seed — radishes germinate in days, mark the row, and loosen the soil as they grow.", "Green carrot shoulders taste bitter — mound soil over them as they grow to block light."],
+    "warning": "Carrot fly lays eggs near the smell of crushed carrot leaves. Avoid crushing foliage when thinning, and use a 60cm barrier of fine mesh around the bed."
+  },
+  {
+    "id": "spinach", "name": "Spinach", "latin": "Spinacia oleracea", "emoji": "🥬", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Spinach",
+    "tagline": "Incredibly fast from seed. Edible leaves within 3–4 weeks of sowing. One of the best value crops.",
+    "care": { "water": { "value": "Every 1–2 days", "detail": "Never let it dry out — even brief water stress causes immediate bolting.", "bar": 70 }, "sun": { "value": "4–6 hours, partial shade fine", "detail": "One of the best crops for shadier spots. Shade in summer prevents bolting.", "bar": 50 }, "soil": { "value": "Rich, moisture-retaining", "detail": "Hungry plant. Add plenty of compost before sowing.", "bar": 65 }, "temp": { "value": "10–18°C", "detail": "Cool weather crop. Bolts almost immediately above 25°C." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct in rows. Thin to 15cm apart when seedlings appear." }, "germination": "7–14 days", "harvest": "25–40 days", "spacing": "15 cm" },
+    "tips": ["Sow every 3 weeks from early spring to early summer, then again in late summer for autumn.", "Harvest outer leaves first and leave the growing centre — extends harvest significantly.", "In summer, grow under shade netting — this single step can triple your harvest window.", "If it bolts immediately, your soil temperature is too high — wait for cooler weather."],
+    "warning": "Bolts extremely fast in heat. Once bolted, leaves turn bitter and the plant is over. Prevention (shade, cool soil) is the only strategy."
+  },
+  {
+    "id": "kale", "name": "Kale", "latin": "Brassica oleracea acephala", "emoji": "🥬", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Kale",
+    "tagline": "The most cold-hardy vegetable in the garden. Frost genuinely improves the flavour. Grows when nothing else will.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Consistent moisture but more drought-tolerant than most brassicas.", "bar": 55 }, "sun": { "value": "6+ hours sun", "detail": "Full sun preferred but handles partial shade, especially in summer.", "bar": 72 }, "soil": { "value": "Rich, firm, well-draining", "detail": "Firm soil is important — brassicas need stability to grow straight stems. Add lime if acidic.", "bar": 68 }, "temp": { "value": "Hardy to -15°C", "detail": "Frost converts starches to sugar — the best kale is harvested after the first hard frost." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Can sow direct or start in trays 6 weeks before transplanting outside." }, "germination": "5–10 days", "harvest": "60–90 days, then continuously for months", "spacing": "45–60 cm" },
+    "tips": ["Harvest lower outer leaves and leave the central growing point — the plant produces continuously for months.", "After a hard frost, let harvested leaves sit for a day before cooking — starches genuinely convert to sugars.", "Cavolo Nero (black kale) and curly kale are the easiest and most productive varieties for beginners.", "Check undersides of leaves weekly for cabbage white butterfly egg clusters — cream-coloured and easy to squash."],
+    "warning": "Clubroot disease affects all brassicas. Rotate where you grow kale every year — never grow it in the same spot two years in a row."
+  },
+  {
+    "id": "broccoli", "name": "Broccoli", "latin": "Brassica oleracea italica", "emoji": "🥦", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Broccoli",
+    "tagline": "Homegrown broccoli is sweeter and more tender than anything from a supermarket.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Consistent moisture is important. Dry spells cause small, poor quality heads.", "bar": 62 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for good head formation.", "bar": 80 }, "soil": { "value": "Rich, firm, well-draining", "detail": "Firm soil and plenty of compost. Add lime if soil is acidic (pH below 6.5).", "bar": 70 }, "temp": { "value": "15–20°C optimal", "detail": "Cool weather crop. Heads bolt and flower in heat above 25°C." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Start indoors 6–8 weeks before transplanting outside." }, "germination": "5–10 days", "harvest": "80–100 days", "spacing": "45–60 cm" },
+    "tips": ["Harvest the central head before any yellow flowers begin to open — once it flowers the flavour deteriorates fast.", "After cutting the main head, smaller side shoots continue producing for several more weeks.", "Net plants with fine mesh to protect from cabbage white butterfly caterpillars.", "Don't grow in the same spot as other brassicas from the previous 2 years."],
+    "warning": "Caterpillars can strip plants overnight. Check undersides of leaves weekly from June onwards."
+  },
+  {
+    "id": "cauliflower", "name": "Cauliflower", "latin": "Brassica oleracea botrytis", "emoji": "🥦", "type": "vegetable", "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cauliflower",
+    "tagline": "The most challenging brassica but the most satisfying to get right. A perfect white head is a real achievement.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Needs consistent, even moisture. Irregular watering causes small, loose, or discoloured heads.", "bar": 68 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 82 }, "soil": { "value": "Very rich, firm, neutral pH", "detail": "Needs well-limed soil (pH 6.5–7.0). Very hungry — dig in plenty of compost.", "bar": 78 }, "temp": { "value": "15–20°C", "detail": "Dislikes both heat and hard frost. Needs consistently cool, mild conditions." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Start indoors 6–8 weeks before transplanting." }, "germination": "5–10 days", "harvest": "80–120 days depending on variety", "spacing": "60 cm" },
+    "tips": ["Tie outer leaves over the developing head to protect it from sun and rain — this keeps it white (blanching).", "Any check in growth (drought, cold snap, transplant shock) can cause a small or 'buttoned' head.", "Purple and Romanesco cauliflowers are more forgiving than white varieties.", "Keep soil consistently moist — a single dry week can ruin an entire head."],
+    "warning": "The most demanding common vegetable. Any stress — drought, cold, overcrowding, poor soil — causes failure. Not recommended as a first vegetable."
+  },
+  {
+    "id": "cabbage", "name": "Cabbage", "latin": "Brassica oleracea capitata", "emoji": "🥬", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cabbage",
+    "tagline": "A staple crop that produces huge yields and stores for months after harvest.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Consistent moisture prevents splitting heads when rain follows drought.", "bar": 60 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for solid heads.", "bar": 80 }, "soil": { "value": "Rich, firm, limed", "detail": "Firm the soil well after planting. Add lime to reach pH 6.5–7.0.", "bar": 72 }, "temp": { "value": "Hardy — survives frost", "detail": "Very cold-hardy. Winter cabbages survive freezing temperatures." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Start indoors 6–8 weeks before transplanting." }, "germination": "5–10 days", "harvest": "80–180 days depending on variety", "spacing": "45–50 cm" },
+    "tips": ["Choose the right type for the season — spring, summer, and winter cabbages are sown at different times.", "Firm the soil very well after planting — cabbages need physical stability to grow well.", "Net from day one to prevent cabbage white butterfly egg-laying.", "After harvesting the main head, cut a shallow cross in the stump — 4 small cabbages will regrow."],
+    "warning": "Clubroot, cabbage white caterpillars, and slugs are the main threats. Rotate crops every year without exception."
+  },
+  {
+    "id": "brussels-sprouts", "name": "Brussels Sprouts", "latin": "Brassica oleracea gemmifera", "emoji": "🥦", "type": "vegetable", "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Brussels+Sprouts",
+    "tagline": "Takes most of the year but delivers sprouts precisely when the garden has almost nothing else to offer.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Consistent moisture throughout the long growing season.", "bar": 58 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 80 }, "soil": { "value": "Very firm, rich, limed", "detail": "Firming the soil is critical — loose soil causes loose, leafy sprouts rather than tight buttons.", "bar": 75 }, "temp": { "value": "Hardy to -15°C", "detail": "Frost improves the flavour. Best harvested after first hard frost." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow indoors in March–April for a Christmas harvest." }, "germination": "5–10 days", "harvest": "28–36 weeks — a very long crop", "spacing": "60–75 cm — they grow very tall" },
+    "tips": ["Stake the tall plants — they become top-heavy and blow over in autumn winds.", "Harvest from the bottom of the stem upward as buttons become large enough.", "Remove yellowing lower leaves to improve airflow and reduce disease.", "'F1' hybrid varieties are far more reliable than open-pollinated types for beginners."],
+    "warning": "Takes up growing space for 9+ months. Only grow if you have the room and the patience."
+  },
+  {
+    "id": "onion", "name": "Onion", "latin": "Allium cepa", "emoji": "🧅", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Onion",
+    "tagline": "Grow from sets (small bulbs) and they almost look after themselves. Stores for months after harvest.",
+    "care": { "water": { "value": "Once a week", "detail": "Don't overwater. Onions prefer drier conditions than most vegetables.", "bar": 35 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential. Poor sun = small bulbs that won't store.", "bar": 82 }, "soil": { "value": "Well-draining, fertile", "detail": "Add compost but avoid fresh manure — causes disease. pH 6.0–7.0.", "bar": 58 }, "temp": { "value": "13–24°C optimal", "detail": "Hardy. Plant sets in early spring or autumn depending on variety." }, "seedDepth": { "value": "Sets: tip just below surface", "detail": "Push sets (small onion bulbs) in with just the very tip visible above the soil surface." }, "germination": "7–10 days (from seed)", "harvest": "100–120 days from sets", "spacing": "10 cm between bulbs, 25 cm between rows" },
+    "tips": ["Grow from sets rather than seed — much easier, faster, and more reliable.", "Stop watering when the leaves start to flop over — this signals the bulb has stopped swelling.", "After lifting, lay bulbs on the soil surface in sun for 2 weeks to dry before storing.", "Store in a cool dry place with good airflow — a net bag or tied in a plait."],
+    "warning": "Onion fly and white rot are the main problems. Rotate crops every year without fail."
+  },
+  {
+    "id": "garlic", "name": "Garlic", "latin": "Allium sativum", "emoji": "🧄", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Garlic",
+    "tagline": "Plant in autumn, largely ignore it all winter, harvest in summer. One of the most hands-off crops.",
+    "care": { "water": { "value": "Rarely — rain usually enough", "detail": "Water only in prolonged dry spells. Overwatering causes rot.", "bar": 20 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best, largest bulbs.", "bar": 82 }, "soil": { "value": "Well-draining, fertile", "detail": "Garlic hates sitting in wet soil. Raised beds or sandy loam ideal.", "bar": 55 }, "temp": { "value": "Needs cold winter for bulbing", "detail": "Plant in autumn — it needs winter cold (vernalisation) to form proper bulbs the following summer." }, "seedDepth": { "value": "5–7 cm deep", "detail": "Plant individual cloves pointy-end up, 5–7cm deep." }, "germination": "2–4 weeks to shoots", "harvest": "June–July when lower leaves brown", "spacing": "15 cm between cloves, 30 cm between rows" },
+    "tips": ["Plant in October/November for a July harvest. Spring-planted garlic produces much smaller bulbs.", "Harvest when the bottom 3–4 leaves have turned brown but some green leaves remain at the top.", "Cure bulbs in a warm dry place for 3–4 weeks before storing — extends shelf life to 6+ months.", "Save the biggest cloves from your harvest to plant next year — you gradually select for your specific conditions."],
+    "warning": "Rust (orange streaks on leaves) is common but rarely fatal. Improve airflow. Never grow alliums in the same spot two years running."
+  },
+  {
+    "id": "leek", "name": "Leek", "latin": "Allium ampeloprasum", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Leek",
+    "tagline": "A reliable, low-maintenance crop that stands in the ground all winter and is harvested as needed.",
+    "care": { "water": { "value": "Once a week", "detail": "Keep moist but don't overwater. Leeks are reasonably drought-tolerant.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best growth.", "bar": 78 }, "soil": { "value": "Rich, well-draining", "detail": "Add plenty of compost. Firm the soil after planting.", "bar": 65 }, "temp": { "value": "Hardy to -15°C", "detail": "One of the hardiest vegetables. Can be harvested through the winter." }, "seedDepth": { "value": "1–2 cm deep in seed tray", "detail": "Sow in seed trays in February–April. Transplant when pencil-thick (June–July)." }, "germination": "14–21 days", "harvest": "From October through winter", "spacing": "15 cm apart, 30 cm between rows" },
+    "tips": ["When transplanting, drop seedlings into deep holes made with a dibber and fill with water — don't backfill with soil.", "The deeper you plant, the longer the white blanched section.", "Earth up the stems as they grow to extend the white section.", "Pull as needed from autumn — they store better in the ground than in a fridge."],
+    "warning": "Leek rust (orange powder on leaves) is cosmetic — the leek is still edible. Improve airflow between plants."
+  },
+  {
+    "id": "potato", "name": "Potato", "latin": "Solanum tuberosum", "emoji": "🥔", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Potato",
+    "tagline": "Digging up potatoes feels like finding buried treasure. The most satisfying harvest in the vegetable garden.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep consistently moist especially once flowers appear — this is when tubers are swelling.", "bar": 65 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for good yields.", "bar": 82 }, "soil": { "value": "Deep, loose, fertile", "detail": "Deep loose soil lets tubers expand freely. Dig in plenty of compost before planting.", "bar": 70 }, "temp": { "value": "Plant after last frost risk", "detail": "Frost kills the green tops. If late frost threatens, earth up the stems to protect them." }, "seedDepth": { "value": "10–15 cm deep", "detail": "Plant seed potatoes 10–15cm deep. Earth up repeatedly as they grow." }, "germination": "2–4 weeks to shoots", "harvest": "Early: 10 weeks. Maincrop: 20 weeks.", "spacing": "30 cm, rows 60–75 cm apart" },
+    "tips": ["Chit seed potatoes on a bright windowsill 4–6 weeks before planting — short sturdy sprouts mean earlier harvest.", "Earth up the stems every few weeks — mound soil over the emerging shoots to increase yield dramatically.", "New potatoes: harvest when flowers open. Maincrop: wait until all foliage has died back completely.", "Never eat green potatoes — the green colour indicates solanine, which is toxic."],
+    "warning": "Blight is the main risk in warm wet summers. Brown patches on leaves spread rapidly. Remove and destroy affected foliage — do not compost."
+  },
+  {
+    "id": "radish", "name": "Radish", "latin": "Raphanus sativus", "emoji": "🌱", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Radish",
+    "tagline": "The fastest vegetable you can grow. From seed to harvest in under 4 weeks. Perfect for impatient gardeners.",
+    "care": { "water": { "value": "Every 1–2 days", "detail": "Keep consistently moist. Irregular watering causes hollow, woody, and unpleasantly hot roots.", "bar": 70 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade better than most vegetables.", "bar": 58 }, "soil": { "value": "Loose, well-draining", "detail": "Light soil allows roots to swell properly. Heavy soil causes misshapen roots.", "bar": 48 }, "temp": { "value": "10–18°C", "detail": "Cool weather crop. Bolts and turns pithy in summer heat." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct. Thin to 5cm apart after germination." }, "germination": "3–7 days", "harvest": "22–30 days — harvest promptly", "spacing": "5 cm" },
+    "tips": ["Harvest promptly when ready — left even a few days too long they turn woody, hollow, and burning hot.", "Sow a short row every week from spring to early summer for a constant supply.", "Excellent sown alongside slow-germinating crops like carrots — marks the row and loosens the soil.", "In summer, switch to mooli (daikon) radishes — they tolerate heat much better."],
+    "warning": "Flea beetle makes tiny holes in the leaves in dry weather. Use fleece over seedlings to prevent damage."
+  },
+  {
+    "id": "beetroot", "name": "Beetroot", "latin": "Beta vulgaris", "emoji": "🫀", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Beetroot",
+    "tagline": "Beautiful, versatile, and reliable. The deep red leaves look ornamental and the roots taste incredible roasted.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist but not waterlogged. Drought causes tough, woody roots.", "bar": 58 }, "sun": { "value": "6+ hours", "detail": "Full sun preferred but tolerates light shade.", "bar": 75 }, "soil": { "value": "Loose, well-draining, not too rich", "detail": "Avoid very rich soil — too much nitrogen produces all leaves and tiny roots.", "bar": 52 }, "temp": { "value": "10–24°C", "detail": "Fairly adaptable. Tolerates light frost." }, "seedDepth": { "value": "2–3 cm deep", "detail": "Each 'seed' is a corky cluster — multiple seedlings emerge. Thin to the strongest one." }, "germination": "10–14 days", "harvest": "7–10 weeks", "spacing": "10 cm" },
+    "tips": ["Each seed cluster produces multiple seedlings — thin to the strongest one per cluster.", "The thinnings are delicious — the baby leaves with their tiny roots are great in salads.", "Harvest when golf-ball to tennis-ball sized — they get tough and woody if left too long.", "The leaves are edible — cook like chard or use young leaves in salads."],
+    "warning": "Bolts (runs to seed) quickly if sown too early in cold soil. Wait until soil temperature is above 10°C."
+  },
+  {
+    "id": "sweet-pepper", "name": "Sweet Pepper", "latin": "Capsicum annuum", "emoji": "🫑", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sweet+Pepper",
+    "tagline": "Takes patience but homegrown sweet peppers — especially ripened red on the plant — are extraordinary.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep consistently moist. Irregular watering causes fruit to drop before ripening.", "bar": 70 }, "sun": { "value": "8+ hours direct sun", "detail": "More sun = more fruit and faster ripening to red. South-facing greenhouse is ideal.", "bar": 93 }, "soil": { "value": "Rich, well-draining", "detail": "Mix in compost. Feed weekly with tomato fertiliser once fruiting starts.", "bar": 72 }, "temp": { "value": "21–30°C optimal", "detail": "Very heat-loving. Never plant outside until nights are above 15°C." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Start indoors 10–12 weeks before last frost. Germination requires warmth (24°C+)." }, "germination": "10–21 days (needs 24°C+)", "harvest": "70–90 days from transplant", "spacing": "40–50 cm" },
+    "tips": ["Start seeds as early as January or February — peppers need the longest season of any vegetable.", "Green peppers are simply unripe red or yellow peppers. Leave them on the plant longer for full sweetness.", "Stake the plants early — heavy fruit can snap branches in strong wind.", "In cool climates, a greenhouse or polytunnel makes the difference between a real harvest and disappointment."],
+    "warning": "Peppers are slow and demand consistent warmth. In cool climates without protection, expect very limited results."
+  },
+  {
+    "id": "chilli", "name": "Chilli Pepper", "latin": "Capsicum frutescens", "emoji": "🌶️", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Chilli+Pepper",
+    "tagline": "Surprisingly easy once you give them warmth. Produces abundantly and the fruit dries and stores for months.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist. Slightly less water than sweet peppers — mild stress actually concentrates capsaicin.", "bar": 62 }, "sun": { "value": "8+ hours direct", "detail": "Maximum sun for hottest, most prolific fruit.", "bar": 92 }, "soil": { "value": "Well-draining, moderately rich", "detail": "Less demanding than sweet peppers. Good compost but not over-fed.", "bar": 62 }, "temp": { "value": "21–30°C", "detail": "Needs warmth. Windowsill, greenhouse, or very sheltered warm spot outdoors." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Start indoors 10–12 weeks before last frost at 24°C+." }, "germination": "10–21 days", "harvest": "70–90 days from transplant", "spacing": "35–45 cm" },
+    "tips": ["Start early — January or February indoors for the best crop.", "Slightly stressing the plant with slightly less water intensifies the heat of the fruit.", "Dry surplus fruit by hanging bunches upside down in a warm room.", "Chillis can be overwintered indoors as perennials — bring in before first frost for year two."],
+    "warning": "Always wash hands thoroughly after handling chillies. Never touch your eyes. Even mild varieties can cause burning."
+  },
+  {
+    "id": "sweetcorn", "name": "Sweetcorn", "latin": "Zea mays", "emoji": "🌽", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sweetcorn",
+    "tagline": "Sweetcorn eaten within minutes of picking is a completely different vegetable from anything you've bought.",
+    "care": { "water": { "value": "Daily in warm weather", "detail": "Needs consistent moisture especially when silks appear and cobs are forming.", "bar": 80 }, "sun": { "value": "8+ hours direct", "detail": "Full sun and warmth are essential.", "bar": 92 }, "soil": { "value": "Rich, deep, well-draining", "detail": "Dig in plenty of compost. Feed monthly with general fertiliser through the season.", "bar": 75 }, "temp": { "value": "Plant after last frost", "detail": "Needs warm soil above 16°C. Very sensitive to cold." }, "seedDepth": { "value": "3–4 cm deep", "detail": "Start indoors in small pots 3–4 weeks before last frost. Don't disturb roots when transplanting." }, "germination": "7–10 days", "harvest": "70–90 days", "spacing": "35 cm in blocks of at least 4×4" },
+    "tips": ["Plant in blocks not rows — sweetcorn is wind-pollinated and needs surrounding plants to pollinate properly.", "Test ripeness: peel back the husk and pierce a kernel. Milky liquid = perfect. Clear = not yet. Pasty = overripe.", "Cook or eat within minutes of picking — sugars convert to starch extremely fast after harvest.", "A second sowing 3 weeks after the first extends the harvest season significantly."],
+    "warning": "Birds and squirrels dig up germinating seeds. Cover with fleece or wire mesh until plants are 15cm tall."
+  },
+  {
+    "id": "pumpkin", "name": "Pumpkin", "latin": "Cucurbita maxima", "emoji": "🎃", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pumpkin",
+    "tagline": "Grows enormous from a single seed and stores for months after harvest. A dramatic, rewarding crop.",
+    "care": { "water": { "value": "Daily in warm weather", "detail": "Enormous leaves lose water fast. Never let them wilt — stress affects fruit quality.", "bar": 82 }, "sun": { "value": "8+ hours direct", "detail": "Needs maximum sun and warmth.", "bar": 90 }, "soil": { "value": "Very rich, well-draining", "detail": "Plant on a mound of pure compost. Among the hungriest plants in the garden.", "bar": 85 }, "temp": { "value": "After last frost", "detail": "Cold-sensitive. Plant out only once weather is settled and warm." }, "seedDepth": { "value": "2 cm deep, on edge", "detail": "Sow on edge to prevent tip rot. Start indoors 3–4 weeks before last frost." }, "germination": "7–10 days", "harvest": "90–120 days", "spacing": "1.5–2 m — they sprawl enormously" },
+    "tips": ["Let vines sprawl or train them — each plant can cover 3–4 square metres.", "Limit to 2–3 fruits per plant for the biggest, best quality results.", "Harvest when the skin is hard and the stalk begins to cork over and dry.", "Cure after harvest in a warm dry spot for 2 weeks — this hardens the skin and extends storage to 6 months."],
+    "warning": "Powdery mildew is inevitable by late summer — cosmetic and usually arrives after the plant has finished producing anyway."
+  },
+  {
+    "id": "squash-butternut", "name": "Butternut Squash", "latin": "Cucurbita moschata", "emoji": "🎃", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Butternut+Squash",
+    "tagline": "Rich, sweet, and incredibly versatile in the kitchen. Stores for months making it one of the best value crops.",
+    "care": { "water": { "value": "Daily in warm weather", "detail": "Consistent moisture throughout the growing season. Mulch heavily to retain moisture.", "bar": 80 }, "sun": { "value": "8+ hours direct", "detail": "Needs the warmest, sunniest spot in the garden.", "bar": 92 }, "soil": { "value": "Very rich, well-draining", "detail": "Plant into a generous hole filled with compost.", "bar": 82 }, "temp": { "value": "After last frost", "detail": "Needs a long warm season. In cool climates start early under cover." }, "seedDepth": { "value": "2 cm deep, on edge", "detail": "Start indoors 4–5 weeks before last frost." }, "germination": "7–10 days", "harvest": "100–120 days", "spacing": "90 cm–1.5 m" },
+    "tips": ["Needs a longer season than pumpkins — start earlier indoors.", "Cure in warm sun for 2 weeks after harvest to harden the skin — dramatically extends storage.", "Leave a decent length of stem on when harvesting — this prevents rot at the stalk end.", "In cool climates, choose shorter-season varieties labelled for northern growing."],
+    "warning": "Won't mature properly in cool, short summers without starting early indoors."
+  },
+  {
+    "id": "french-bean", "name": "French Bean", "latin": "Phaseolus vulgaris", "emoji": "🫘", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=French+Bean",
+    "tagline": "Fast, productive, and delicious. One of the most rewarding warm-season crops for a small garden.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep moist especially once flowers appear and pods are forming.", "bar": 68 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential. Tolerates very slight shade.", "bar": 82 }, "soil": { "value": "Well-draining, moderately rich", "detail": "Don't over-fertilise with nitrogen — beans fix their own. Too rich = leaves, not pods.", "bar": 55 }, "temp": { "value": "18–28°C", "detail": "Half-hardy. Plant after last frost. Don't sow in cold soil — seeds rot." }, "seedDepth": { "value": "4–5 cm deep", "detail": "Sow direct after last frost or start in small pots 3 weeks before." }, "germination": "8–12 days", "harvest": "50–60 days", "spacing": "15 cm between plants" },
+    "tips": ["Sow in small batches every 3 weeks from late spring to early summer for a continuous harvest.", "Pick pods when they snap cleanly and before the beans inside become visible through the pod — this keeps the plant producing.", "Climbing (pole) varieties produce for much longer than dwarf varieties.", "Don't dig in the roots after harvest — they contain nitrogen nodules that feed the next crop."],
+    "warning": "Seeds rot in cold or wet soil. Never sow outside before the last frost date or when soil temperature is below 12°C."
+  },
+  {
+    "id": "runner-bean", "name": "Runner Bean", "latin": "Phaseolus coccineus", "emoji": "🫘", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Runner+Bean",
+    "tagline": "A British garden staple. Spectacularly productive climbers with scarlet flowers and beans all summer.",
+    "care": { "water": { "value": "Daily in warm weather", "detail": "Mist the flowers in dry weather — poor pollination causes bare pods. Keep roots consistently moist.", "bar": 78 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred but tolerates partial shade better than most beans.", "bar": 78 }, "soil": { "value": "Rich, moisture-retaining", "detail": "Dig in plenty of compost. Runner beans are greedy feeders.", "bar": 72 }, "temp": { "value": "After last frost", "detail": "Frost-sensitive. Plant after last frost date." }, "seedDepth": { "value": "5 cm deep", "detail": "Sow direct after last frost at the base of supports. Two seeds per cane." }, "germination": "10–14 days", "harvest": "60–70 days", "spacing": "15 cm between plants up a cane or trellis" },
+    "tips": ["Set up a strong support structure before sowing — runner beans can reach 3m and become very heavy.", "Pick regularly and before pods become stringy — once pods are left to mature the plant stops producing.", "Mist the flowers in hot dry weather — they drop without setting pods when pollination is poor.", "In very hot weather, flowers drop without setting — this is normal and temporary."],
+    "warning": "Strong winds can topple the tall plants. Ensure supports are very well anchored before the plants are tall."
+  },
+  {
+    "id": "broad-bean", "name": "Broad Bean", "latin": "Vicia faba", "emoji": "🫘", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Broad+Bean",
+    "tagline": "Sow in autumn or early spring and harvest fresh beans in May — earlier than almost anything else.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist but don't overwater. More drought-tolerant than French or runner beans.", "bar": 50 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred but tolerates more shade than most vegetables.", "bar": 72 }, "soil": { "value": "Well-draining, fertile", "detail": "Not too rich in nitrogen — they fix their own. Good compost worked in is sufficient.", "bar": 58 }, "temp": { "value": "Hardy to -10°C once established", "detail": "Autumn-sown plants are very cold-hardy and produce the earliest spring crop." }, "seedDepth": { "value": "5 cm deep", "detail": "Sow direct outdoors in autumn (October/November) or early spring." }, "germination": "10–14 days", "harvest": "May–June (autumn sown) or July (spring sown)", "spacing": "20–25 cm between plants, 45 cm between rows" },
+    "tips": ["Pinch out the growing tips once 4–5 flower trusses have set — this deters blackfly and directs energy into pods.", "The pinched-out tips are delicious lightly steamed or stir-fried.", "Autumn-sown plants are stronger and more productive than spring-sown ones.", "Support with string and canes on windy sites — plants become top-heavy when podding."],
+    "warning": "Blackfly colonies colonise the growing tips in spring. Pinch out tips promptly to remove their preferred habitat."
+  },
+  {
+    "id": "spring-onion", "name": "Spring Onion", "latin": "Allium fistulosum", "emoji": "🌱", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Spring+Onion",
+    "tagline": "The quickest allium to grow. From seed to harvest in 8 weeks. Perfect for containers and small spaces.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist but not waterlogged.", "bar": 55 }, "sun": { "value": "4–6 hours", "detail": "Grows reasonably well in partial shade.", "bar": 58 }, "soil": { "value": "Well-draining, moderately rich", "detail": "Standard potting compost or good garden soil.", "bar": 52 }, "temp": { "value": "Hardy — sow almost year-round", "detail": "Very cold-hardy. Can be sown from February to October in successive batches." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct in rows. No need to thin — they can grow close together." }, "germination": "10–14 days", "harvest": "8 weeks from sowing", "spacing": "1 cm between seeds — no thinning needed" },
+    "tips": ["Sow a short row every 3 weeks throughout spring and summer for a constant supply.", "Pull alternate plants as they grow — the ones left behind swell slightly into mini-bulb onions.", "Excellent in containers on a balcony — harvest and eat the same day for the best flavour.", "Winter hardy varieties can be sown in September for a spring harvest."],
+    "warning": "Non-toxic and easy. The main issue is bolting in very hot, dry weather — sow in succession and keep watered."
+  },
+  {
+    "id": "shallot", "name": "Shallot", "latin": "Allium cepa var. aggregatum", "emoji": "🧅", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Shallot",
+    "tagline": "More refined flavour than onions, each bulb multiplies into a cluster of 5–8, and they store beautifully.",
+    "care": { "water": { "value": "Once a week", "detail": "Light watering. Stop watering when foliage starts to flop.", "bar": 30 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best bulbing.", "bar": 82 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good garden soil with some compost. Don't over-fertilise.", "bar": 55 }, "temp": { "value": "Plant sets in spring", "detail": "Plant sets (small bulbs) in March–April." }, "seedDepth": { "value": "Just below the surface", "detail": "Push sets in with the tip just showing. Space 15–20cm apart." }, "germination": "10–14 days to shoots", "harvest": "July–August", "spacing": "15–20 cm" },
+    "tips": ["Plant sets rather than growing from seed — faster, easier, and more reliable.", "Each set multiplies into a cluster of 5–8 shallots — you get far more than you plant.", "Dry and cure in the sun after lifting, then store in a cool dry place.", "Excellent in French cooking — more complex and less sharp than onions."],
+    "warning": "Same pests as onions — rotate crops annually."
+  },
+  {
+    "id": "turnip", "name": "Turnip", "latin": "Brassica rapa", "emoji": "🌱", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Turnip",
+    "tagline": "Fast-growing and hugely underrated. Baby turnips harvested young are tender and sweet.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist. Irregular watering causes woody, split roots.", "bar": 60 }, "sun": { "value": "6+ hours", "detail": "Full sun preferred but tolerates light shade.", "bar": 72 }, "soil": { "value": "Well-draining, firm", "detail": "Firm soil prevents forked roots. Not too rich.", "bar": 55 }, "temp": { "value": "10–20°C", "detail": "Cool weather crop. Best in spring and autumn." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct in rows. Thin to 10–15cm apart." }, "germination": "5–7 days", "harvest": "5–8 weeks depending on size wanted", "spacing": "10–15 cm" },
+    "tips": ["Harvest when golf ball size for the sweetest, most tender turnips — they get tougher and more bitter as they grow.", "The green tops are edible and nutritious — cook like spring greens.", "Sow in late summer for autumn turnips — the flavour improves after frost.", "A useful catch crop — grows fast in any gap in the garden between other plantings."],
+    "warning": "Flea beetle makes small holes in leaves. Cover with fleece in the seedling stage."
+  },
+  {
+    "id": "parsnip", "name": "Parsnip", "latin": "Pastinaca sativa", "emoji": "🌱", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Parsnip",
+    "tagline": "Requires patience but roasted parsnips after a frost are one of the finest things from the kitchen garden.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist but parsnips are reasonably drought-tolerant once established.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best roots.", "bar": 80 }, "soil": { "value": "Deep, loose, stone-free, no fresh manure", "detail": "Deep sandy soil is ideal. Fresh manure or compost causes forked, hairy roots.", "bar": 38 }, "temp": { "value": "Hardy — frost improves flavour", "detail": "Very hardy. Frost converts the starch to sugar — harvest after first hard frost for best flavour." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow fresh seed direct in spring — parsnip seed loses viability very fast. Always use fresh seed." }, "germination": "14–28 days (slow and unreliable)", "harvest": "October–February", "spacing": "Thin to 10–15 cm apart" },
+    "tips": ["Always use fresh seed — parsnip viability drops dramatically after one year.", "Germination is notoriously slow and patchy — sow thickly and be patient.", "Sow alongside radishes to mark the row while you wait 3–4 weeks for germination.", "Leave in the ground and harvest as needed through winter — they store better in the soil than anywhere else."],
+    "warning": "The leaves and sap cause phototoxic skin burns in sunlight (similar to giant hogweed but milder). Wear gloves and long sleeves when handling."
+  },
+  {
+    "id": "swede", "name": "Swede", "latin": "Brassica napus", "emoji": "🌱", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Swede",
+    "tagline": "Stores in the ground all winter and is harvested as needed. A true cold-season staple.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist but reasonably drought-tolerant once established.", "bar": 48 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 78 }, "soil": { "value": "Firm, well-draining, limed", "detail": "Firm soil and adequate lime to prevent clubroot.", "bar": 65 }, "temp": { "value": "Hardy — improves with frost", "detail": "Very cold-hardy. Frost improves the sweetness significantly." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct from May–June." }, "germination": "5–10 days", "harvest": "October–February as needed", "spacing": "Thin to 20–25 cm apart" },
+    "tips": ["Sow later than other root vegetables (May–June) — too early and they become woody.", "Leave in the ground and harvest as needed — they store better in situ than in a shed.", "Frost genuinely improves the flavour — the best swede is after a hard frost.", "A good companion to carrots in a winter stew — grows in the same conditions."],
+    "warning": "Mildew and clubroot are the main problems. Rotate brassica crops and lime soil every year."
+  },
+  {
+    "id": "celery", "name": "Celery", "latin": "Apium graveolens", "emoji": "🌿", "type": "vegetable", "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Celery",
+    "tagline": "Challenging but rewarding. Homegrown celery has a depth of flavour that shop celery completely lacks.",
+    "care": { "water": { "value": "Daily", "detail": "Celery demands constant moisture. Even brief drought causes stringy, bitter stalks.", "bar": 92 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred. Tolerates light shade.", "bar": 78 }, "soil": { "value": "Very rich, moisture-retaining", "detail": "Dig in a huge amount of compost or well-rotted manure. The hungriest leafy vegetable.", "bar": 88 }, "temp": { "value": "15–20°C", "detail": "Cool, moist conditions. Hates heat and drought equally." }, "seedDepth": { "value": "Surface — needs light", "detail": "Press seeds onto moist compost. Don't cover — they need light to germinate. Start indoors in March." }, "germination": "14–21 days", "harvest": "120–140 days from sowing", "spacing": "30 cm" },
+    "tips": ["Self-blanching varieties are much easier than trench celery — grow in a block so plants shade each other's stems.", "Feed every 2 weeks with a high-nitrogen liquid fertiliser.", "Water is everything — a water-retaining mulch around the plants is essential.", "Harvest a stem at a time from the outside, or cut the whole head at once."],
+    "warning": "Celery leaf blight causes brown spots on leaves. Improve airflow, avoid overhead watering. One of the most demanding vegetables."
+  },
+  {
+    "id": "celeriac", "name": "Celeriac", "latin": "Apium graveolens var. rapaceum", "emoji": "🌱", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Celeriac",
+    "tagline": "Knobbly and strange-looking but the flavour — roasted or in soup — is outstanding.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Needs consistent moisture throughout its long growing season.", "bar": 78 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred.", "bar": 78 }, "soil": { "value": "Rich, moisture-retaining", "detail": "Very hungry. Dig in plenty of compost.", "bar": 80 }, "temp": { "value": "15–20°C", "detail": "Cool season crop needing a very long growing period." }, "seedDepth": { "value": "Surface — needs light", "detail": "Press onto moist compost surface. Start indoors in March." }, "germination": "14–21 days", "harvest": "October–February — stores in the ground", "spacing": "30–40 cm" },
+    "tips": ["Remove lower side leaves in July to expose the swelling root to sun — this helps it develop.", "Much easier than celery despite the similar flavour.", "Stores in the ground through winter — harvest as needed.", "Peel thickly — the outer layer is rough and fibrous but the interior is creamy and dense."],
+    "warning": "Slow-growing — needs a long season. Start early and be patient."
+  },
+  {
+    "id": "asparagus", "name": "Asparagus", "latin": "Asparagus officinalis", "emoji": "🌱", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Asparagus",
+    "tagline": "A long-term investment — don't harvest for 2 years. Then produce for 20+ years with almost no effort.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Regular watering for first 2 years. Established beds are largely self-sufficient.", "bar": 42 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for good spear production.", "bar": 85 }, "soil": { "value": "Well-draining, fertile, weed-free", "detail": "The weed-free part is critical — asparagus doesn't compete well with weeds. Deep raised beds are ideal.", "bar": 68 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy. The ferny fronds die back each winter." }, "seedDepth": { "value": "Plant crowns 15–20 cm deep", "detail": "Plant crowns (one-year-old roots) in spring in prepared trenches." }, "germination": "Plant crowns, not seeds", "harvest": "Year 3 onwards — for 20+ years", "spacing": "30–45 cm between crowns" },
+    "tips": ["Don't harvest a single spear in years 1 and 2 — let the plant build a strong root system.", "Stop harvesting in late June to let the fronds grow — this feeds the crowns for next year's crop.", "Weed religiously — asparagus is very sensitive to competition.", "Buy 'all-male' hybrid varieties (Jersey Knight, Guelph Millennium) — they produce thicker spears and no seedlings."],
+    "warning": "Patience is mandatory. Any harvesting in the first 2 years weakens the plant for the next decade."
+  },
+  {
+    "id": "artichoke", "name": "Globe Artichoke", "latin": "Cynara cardunculus var. scolymus", "emoji": "🌱", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Globe+Artichoke",
+    "tagline": "Enormous architectural plants that produce spectacular edible flower buds. Beautiful and productive.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep consistently moist during the growing season.", "bar": 65 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 85 }, "soil": { "value": "Rich, well-draining", "detail": "Dig in lots of compost. Feed monthly during the growing season.", "bar": 72 }, "temp": { "value": "Hardy to -10°C with mulching", "detail": "Mulch the crowns deeply in winter to protect from hard frosts." }, "seedDepth": { "value": "Plant offsets or seeds 1 cm deep", "detail": "Much easier from offsets taken from established plants. Seeds take longer to establish." }, "germination": "14–21 days from seed", "harvest": "July–August, from year 2 onwards", "spacing": "90 cm — they grow large" },
+    "tips": ["Harvest buds before the purple flowers start to show — once flowering begins the bract becomes tough.", "The terminal (central, first) bud is always the largest and best.", "After harvesting, cut stems down to encourage a second flush of smaller buds.", "In cold climates, cut stems to 30cm and mulch crowns heavily with straw before first frost."],
+    "warning": "Very vigorous — give them plenty of space or they'll crowd out neighbouring plants."
+  },
+  {
+    "id": "fennel-vegetable", "name": "Florence Fennel", "latin": "Foeniculum vulgare var. azoricum", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Florence+Fennel",
+    "tagline": "Crisp, anise-flavoured bulbs that are delicious raw or roasted. Beautiful feathery foliage too.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep consistently moist. Drought causes immediate bolting.", "bar": 70 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 85 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost. Firm the soil after planting.", "bar": 65 }, "temp": { "value": "15–22°C", "detail": "Bolts in heat and cold. Needs steady, mild temperatures." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct in July–August for autumn harvest — later sowings bolt less readily." }, "germination": "7–14 days", "harvest": "70–80 days", "spacing": "30 cm" },
+    "tips": ["Sow later than you think — July to early August sowings are far less prone to bolting.", "Earth up around the swelling bulb to blanch it — this improves the colour and flavour.", "The feathery fronds are edible and add anise flavour to salads and fish dishes.", "Don't grow near dill — they cross-pollinate and both lose their distinct flavour."],
+    "warning": "Bolts at the slightest stress — heat, drought, cold nights, root disturbance. Sow direct and don't transplant."
+  },
+  {
+    "id": "chicory", "name": "Chicory", "latin": "Cichorium intybus", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Chicory",
+    "tagline": "A winter salad crop of real distinction. Slightly bitter, beautiful colours, and grows when little else does.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Reasonably drought-tolerant once established.", "bar": 48 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade well.", "bar": 55 }, "soil": { "value": "Well-draining, moderately rich", "detail": "Not fussy. Average garden soil with some compost.", "bar": 52 }, "temp": { "value": "Hardy to -10°C", "detail": "Cold-hardy. The best leaves come in autumn and winter." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct in summer for autumn/winter harvest." }, "germination": "7–14 days", "harvest": "Autumn and winter", "spacing": "25–30 cm" },
+    "tips": ["Radicchio varieties turn from green to vivid red and white as temperatures drop — a spectacular autumn transformation.", "Cut heads in autumn when the colour has developed — they will reshoot for a second crop.", "Forced chicory (witloof) is grown differently — dig up roots in autumn, pot in the dark for tender chicons.", "The mild bitterness pairs perfectly with strong cheese and walnuts."],
+    "warning": "Non-toxic. The main issue is bolting if sown too early — sow from June onwards."
+  },
+  {
+    "id": "endive", "name": "Endive", "latin": "Cichorium endivia", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Endive",
+    "tagline": "Productive autumn salad that adds flavour and texture when summer lettuces are finished.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist.", "bar": 60 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade.", "bar": 55 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Good compost mixed in.", "bar": 65 }, "temp": { "value": "Hardy to -5°C", "detail": "Autumn and early winter crop." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Sow direct in July–August for autumn crop." }, "germination": "7–14 days", "harvest": "8–12 weeks from sowing", "spacing": "30 cm" },
+    "tips": ["Blanching (tying outer leaves over the heart for 2 weeks) reduces bitterness significantly.", "Curly endive (frisée) is milder. Escarole is slightly more bitter.", "A useful gap-filler when summer crops are finished.", "Hardier than lettuce — continues producing into November and December."],
+    "warning": "Can bolt in hot weather. Sow from July onwards for best results."
+  },
+  {
+    "id": "swiss-chard", "name": "Swiss Chard", "latin": "Beta vulgaris subsp. vulgaris", "emoji": "🌈", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Swiss+Chard",
+    "tagline": "One of the most beautiful and productive vegetables. Vivid red, yellow, and white stems look stunning.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist. Tolerates some drought better than spinach.", "bar": 60 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade better than most vegetables.", "bar": 55 }, "soil": { "value": "Rich, well-draining", "detail": "Add compost. Not fussy.", "bar": 62 }, "temp": { "value": "Hardy to -10°C", "detail": "Sow in spring for summer harvest or late summer for autumn/winter." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct. Thin to 20–30cm apart." }, "germination": "7–14 days", "harvest": "8–10 weeks, then cut-and-come-again for months", "spacing": "20–30 cm" },
+    "tips": ["Rainbow chard (mixed bright colours) is as productive as plain and far more ornamental.", "Cut outer leaves and leave the centre — continuous harvest for months.", "Young leaves are excellent raw in salads. Larger leaves are best cooked like spinach.", "One of the longest-producing crops — a single sowing can produce for 6+ months."],
+    "warning": "Generally trouble-free. Slugs attack young seedlings — protect in the early stages."
+  },
+  {
+    "id": "pak-choi", "name": "Pak Choi", "latin": "Brassica rapa chinensis", "emoji": "🥬", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pak+Choi",
+    "tagline": "Fast-growing Asian green that's ready in 4–6 weeks. Perfect for stir-fries and excellent in small spaces.",
+    "care": { "water": { "value": "Every 1–2 days", "detail": "Keep consistently moist. Drought causes immediate bolting.", "bar": 72 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade — actually benefits from it in hot weather.", "bar": 55 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Add plenty of compost.", "bar": 68 }, "temp": { "value": "10–20°C", "detail": "Cool weather crop. Bolts in heat." }, "seedDepth": { "value": "1 cm deep", "detail": "Sow direct or in modules 4–6 weeks before last frost date or in late summer." }, "germination": "5–7 days", "harvest": "4–6 weeks", "spacing": "15–20 cm" },
+    "tips": ["Sow in spring or late summer — it bolts very quickly in summer heat.", "Can be harvested as a whole head or individual outer leaves for cut-and-come-again.", "Baby pak choi (harvested at 8–10cm) is tender and excellent raw in salads.", "Sow in succession every 3 weeks for a continuous harvest."],
+    "warning": "Bolts immediately in hot weather or drought. Flea beetle is the main pest — use fleece."
+  },
+  {
+    "id": "mizuna", "name": "Mizuna", "latin": "Brassica rapa var. nipposinica", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Mizuna",
+    "tagline": "A feathery Japanese salad green with a mild mustard flavour. Very fast and very productive.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep moist. Drought causes bolting.", "bar": 65 }, "sun": { "value": "4–6 hours", "detail": "Good in partial shade.", "bar": 52 }, "soil": { "value": "Rich, moist", "detail": "Any good soil with compost added.", "bar": 60 }, "temp": { "value": "Hardy to -10°C", "detail": "Very cold-hardy. Can be grown almost year-round." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct in rows. Thin or leave dense for baby leaves." }, "germination": "5–7 days", "harvest": "3–4 weeks for baby leaves, 6 weeks for full size", "spacing": "5 cm for baby leaves, 20 cm for full heads" },
+    "tips": ["One of the fastest and most productive salad crops you can grow.", "Can be harvested as baby leaves (3 weeks) or left for fuller heads (6 weeks).", "Very cold-hardy — sow in autumn for winter salad under cover.", "Mild mustard flavour that works in salads, stir-fries, and as a garnish."],
+    "warning": "Flea beetle makes tiny holes in leaves. Use fleece — especially important for seedlings."
+  },
+  {
+    "id": "watercress", "name": "Watercress", "latin": "Nasturtium officinale", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Watercress",
+    "tagline": "The most nutrient-dense salad leaf you can grow. Peppery, fresh, and fast.",
+    "care": { "water": { "value": "Keep constantly wet", "detail": "Watercress naturally grows in streams. Keep soil saturated or grow in a tray of water.", "bar": 95 }, "sun": { "value": "Partial shade", "detail": "Tolerates and even prefers partial shade, especially in summer.", "bar": 40 }, "soil": { "value": "Very moisture-retaining or in water", "detail": "Grow in a pot standing in a tray of water, or in very wet compost.", "bar": 90 }, "temp": { "value": "Hardy — cool conditions best", "detail": "Cool, moist conditions are ideal. Tolerates light frost." }, "seedDepth": { "value": "Surface sow", "detail": "Press onto wet compost. Germinates quickly in warmth." }, "germination": "7–10 days", "harvest": "4–5 weeks — harvest tips regularly", "spacing": "10–15 cm" },
+    "tips": ["Stand the pot in a tray of water and refill daily — watercress loves waterlogged conditions.", "Harvest shoot tips regularly — this keeps the plant compact and producing fresh tender growth.", "Grows well in a repurposed container with no drainage holes filled with wet compost.", "Goes bitter and peppery when it flowers — cut back hard at first signs of flowering."],
+    "warning": "Never harvest watercress from wild streams — it can carry liver fluke parasite. Only eat home-grown."
+  },
+  {
+    "id": "rocket", "name": "Rocket (Arugula)", "latin": "Eruca vesicaria", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rocket",
+    "tagline": "Peppery, fast, and endlessly useful in the kitchen. One of the best windowbox and balcony crops.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep moist. Drought causes extreme bitterness and bolting.", "bar": 65 }, "sun": { "value": "4–6 hours", "detail": "Tolerates and prefers some shade in summer — shade slows bolting significantly.", "bar": 52 }, "soil": { "value": "Moderately rich, well-draining", "detail": "Any decent soil or potting compost works.", "bar": 55 }, "temp": { "value": "Hardy to -5°C", "detail": "Cool weather crop. Very good in autumn, spring, and under cover in winter." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Scatter seed thinly in a row or patch. No thinning needed." }, "germination": "5–7 days", "harvest": "3–4 weeks for baby leaves", "spacing": "No thinning needed for baby leaves" },
+    "tips": ["Sow every 3 weeks in small batches — it bolts fast in summer.", "Wild rocket (narrower leaves) is slower to bolt and more peppery than standard rocket.", "In summer, grow in partial shade and harvest young — this is the key to non-bitter rocket.", "A cut-and-come-again crop: harvest outer leaves and the plant regrows."],
+    "warning": "Becomes extremely bitter and bolts very fast in heat. Summer sowings in full sun are largely a waste of seed."
+  },
+  {
+    "id": "corn-salad", "name": "Corn Salad (Mâche)", "latin": "Valerianella locusta", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Corn+Salad",
+    "tagline": "The hardiest salad leaf available. Grows through winter when nothing else will. Mild, nutty flavour.",
+    "care": { "water": { "value": "Every 4–5 days", "detail": "Keep moist but tolerates some drought. Very low-maintenance.", "bar": 42 }, "sun": { "value": "3–5 hours", "detail": "One of the most shade-tolerant salad crops.", "bar": 38 }, "soil": { "value": "Any reasonable soil", "detail": "Very undemanding. Grows in almost any soil.", "bar": 40 }, "temp": { "value": "Hardy to -15°C", "detail": "Extremely cold-hardy. Survives snow and hard frosts." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct in late summer/early autumn for winter harvest." }, "germination": "10–14 days", "harvest": "Autumn through winter and into spring", "spacing": "10–15 cm" },
+    "tips": ["Sow in August–September for a winter-long harvest.", "The tiny round leaves have a mild, slightly nutty flavour — excellent in mixed winter salads.", "Extremely low maintenance — scatter seed and largely ignore it through winter.", "Self-seeds prolifically — you may never need to buy seeds again after the first year."],
+    "warning": "Non-toxic. Virtually trouble-free. One of the lowest maintenance crops in the garden."
+  },
+  {
+    "id": "aubergine", "name": "Aubergine / Eggplant", "latin": "Solanum melongena", "emoji": "🍆", "type": "vegetable", "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Aubergine",
+    "tagline": "Challenging in cool climates but extraordinarily satisfying to harvest. Demands warmth and patience.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep consistently moist. Irregular watering causes the fruit to drop or develop bitter patches.", "bar": 72 }, "sun": { "value": "8+ hours direct sun", "detail": "Needs maximum heat and light. Greenhouse or polytunnel essential in cool climates.", "bar": 95 }, "soil": { "value": "Rich, well-draining", "detail": "Dig in plenty of compost. Feed weekly with tomato fertiliser once fruiting.", "bar": 75 }, "temp": { "value": "24–30°C optimal", "detail": "Even more heat-demanding than peppers. Below 20°C significantly reduces yields." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Start indoors in January–February with bottom heat (24°C+)." }, "germination": "10–21 days (needs 24°C+)", "harvest": "90–120 days from transplant", "spacing": "45–60 cm" },
+    "tips": ["Start seeds in January or early February — needs the longest growing season of any vegetable.", "Grow in a greenhouse in most temperate climates — outdoors is possible only in very warm, sheltered spots.", "Pinch out the growing tip when 30cm tall to encourage bushy growth and more fruit.", "Stake plants well — they become top-heavy with fruit."],
+    "warning": "Will fail completely outdoors in cool, cloudy climates. A greenhouse is not optional for reliable results."
+  },
+  {
+    "id": "okra", "name": "Okra", "latin": "Abelmoschus esculentus", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Okra",
+    "tagline": "A warm-season crop producing striking edible seed pods. Easier than its reputation suggests in warm conditions.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist but tolerates short dry spells once established.", "bar": 65 }, "sun": { "value": "8+ hours direct", "detail": "Needs full sun and warmth. A south-facing sheltered spot or greenhouse.", "bar": 92 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost-rich soil. Feed monthly during the growing season.", "bar": 70 }, "temp": { "value": "24–35°C optimal", "detail": "Truly tropical. Needs sustained warmth to perform well." }, "seedDepth": { "value": "2–3 cm deep", "detail": "Soak seeds overnight before sowing. Start indoors 6 weeks before last frost." }, "germination": "7–14 days (after soaking)", "harvest": "50–65 days from transplant — pick small", "spacing": "50–60 cm" },
+    "tips": ["Harvest pods when 7–10cm long — they become stringy and tough if left longer.", "Pick every 2–3 days — regular harvesting keeps the plant producing.", "The flowers are beautiful — hibiscus-like and ornamental before the pods develop.", "In cool climates, a greenhouse dramatically improves results."],
+    "warning": "The tiny spines on some varieties irritate skin. Wear gloves when harvesting."
+  },
+  {
+    "id": "sweetpotato", "name": "Sweet Potato", "latin": "Ipomoea batatas", "emoji": "🍠", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sweet+Potato",
+    "tagline": "A trailing tropical crop that produces well in warm summers. The leaves are also edible.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist during establishment. More drought-tolerant once vines are running.", "bar": 60 }, "sun": { "value": "8+ hours direct", "detail": "Needs maximum sun and warmth.", "bar": 92 }, "soil": { "value": "Well-draining, not too rich", "detail": "Avoid very nitrogen-rich soil — it produces vines but small tubers.", "bar": 52 }, "temp": { "value": "24–30°C optimal", "detail": "Tropical plant. Needs a long warm season — at least 4 months above 20°C." }, "seedDepth": { "value": "Plant slips 5–8 cm deep", "detail": "Grow slips (rooted shoots) from a sweet potato kept in water. Plant slips after last frost." }, "germination": "Slips root in 2–4 weeks", "harvest": "90–120 days — harvest before first frost", "spacing": "30 cm along rows, 75 cm between rows" },
+    "tips": ["Start slips by half-submerging a sweet potato in water in February — shoots emerge in 2–4 weeks.", "Plant slips only after all frost risk has passed and the soil is warm.", "The leaves and young shoots are edible — popular in Asian cooking.", "Harvest before first frost — cold damages the tubers even in the ground."],
+    "warning": "Will not form tubers in short, cool summers. Only worth growing in reliably warm climates or with greenhouse protection."
+  },
+  {
+    "id": "jerusalem-artichoke", "name": "Jerusalem Artichoke", "latin": "Helianthus tuberosus", "emoji": "🌻", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Jerusalem+Artichoke",
+    "tagline": "Plant a few tubers in spring, dig up masses in autumn. One of the easiest and most productive vegetables.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Extremely drought-tolerant once established. Essentially no watering required after the first month.", "bar": 15 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred but tolerates partial shade.", "bar": 72 }, "soil": { "value": "Any reasonable soil", "detail": "Genuinely grows in almost any soil including poor, clay, or dry conditions.", "bar": 30 }, "temp": { "value": "Hardy to -20°C", "detail": "Extremely cold-hardy. Leave in the ground all winter and harvest as needed." }, "seedDepth": { "value": "10–15 cm deep", "detail": "Plant tubers in spring like potatoes." }, "germination": "2–4 weeks to shoots", "harvest": "October–March", "spacing": "30–45 cm" },
+    "tips": ["Cut the tall stems (2–3m) to 1.5m in summer — this reduces wind rock and increases tuber size.", "Leave some small tubers in the ground when harvesting — they'll regrow without replanting.", "The plants make an excellent windbreak or temporary screen during summer.", "Roasting at high heat is the best way to cook them — caramelises the sugars beautifully."],
+    "warning": "Famous for causing extreme flatulence — earned the nickname 'fartichoke'. Start with small portions. Also spreads aggressively if tubers are left in the ground."
+  },
+  {
+    "id": "taro", "name": "Taro", "latin": "Colocasia esculenta", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Taro",
+    "tagline": "A tropical staple crop with enormous decorative leaves. The edible corms are a dietary staple across Asia and the Pacific.",
+    "care": { "water": { "value": "Keep constantly moist", "detail": "Loves moisture — can even be grown in shallow water. Never let it dry out.", "bar": 90 }, "sun": { "value": "Partial shade to full sun", "detail": "Prefers bright indirect light or some shade in the hottest part of the day.", "bar": 60 }, "soil": { "value": "Very rich, moisture-retaining", "detail": "Rich, heavy moisture-retaining soil. Can grow in boggy conditions.", "bar": 85 }, "temp": { "value": "20–30°C", "detail": "Tropical plant. Needs sustained warmth. Not frost-hardy." }, "seedDepth": { "value": "Corms 5–8 cm deep", "detail": "Plant corms in spring once soil is warm." }, "germination": "2–4 weeks", "harvest": "6–9 months from planting", "spacing": "60–90 cm" },
+    "tips": ["The corms must be cooked before eating — raw taro contains calcium oxalate crystals that cause severe burning.", "The leaves are also edible when cooked thoroughly.", "In temperate climates, start corms in pots indoors and transplant after last frost.", "Decorative 'Black Magic' variety (black-purple leaves) is stunning in containers."],
+    "warning": "All raw parts are toxic due to calcium oxalate crystals. Must always be cooked before eating. Never eat raw."
+  },
+  {
+    "id": "cucumber-armenian", "name": "Armenian Cucumber", "latin": "Cucumis melo var. flexuosus", "emoji": "🥒", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Armenian+Cucumber",
+    "tagline": "More heat-tolerant and productive than regular cucumbers. Technically a melon but eaten like a cucumber.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep consistently moist but more drought-tolerant than regular cucumbers.", "bar": 70 }, "sun": { "value": "8+ hours direct", "detail": "Loves heat and full sun.", "bar": 90 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost-rich soil.", "bar": 70 }, "temp": { "value": "22–35°C", "detail": "More heat-tolerant than regular cucumbers. Thrives in hot summers." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct after last frost or start indoors 3 weeks before." }, "germination": "7–10 days", "harvest": "50–65 days", "spacing": "45–60 cm" },
+    "tips": ["Harvest at 30–45cm for the best flavour — they can grow much longer but become seedy.", "More disease-resistant than regular cucumbers.", "The skin is thin and edible — no need to peel.", "Train up a trellis for straight fruit and better airflow."],
+    "warning": "Very prolific — same issue as courgettes. Check plants every 2–3 days once producing."
+  },
+  {
+    "id": "melon", "name": "Cantaloupe Melon", "latin": "Cucumis melo", "emoji": "🍈", "type": "vegetable", "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cantaloupe+Melon",
+    "tagline": "Challenging but the reward — a sun-warm melon from your own garden — is exceptional.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep moist but reduce watering as fruit ripens to concentrate the sugars.", "bar": 72 }, "sun": { "value": "8+ hours direct", "detail": "Maximum sun and heat. Greenhouse or polytunnel essential in cool climates.", "bar": 95 }, "soil": { "value": "Very rich, well-draining", "detail": "Plant into generous amounts of compost. Feed weekly with high-potassium fertiliser.", "bar": 82 }, "temp": { "value": "25–35°C optimal", "detail": "Demands sustained heat. A cold summer produces no ripe fruit." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Start indoors 3–4 weeks before last frost. Plant in the warmest spot possible." }, "germination": "7–10 days", "harvest": "70–90 days from transplant", "spacing": "60–90 cm" },
+    "tips": ["Train to a single main stem. Pinch out side shoots and allow only 3–4 fruits to develop per plant.", "Support developing fruit in nets or old tights tied to the trellis.", "Reduce watering significantly when fruit is nearly ripe — this concentrates the sugars dramatically.", "Ripe melons smell sweet near the stem end and separate from the vine with a gentle twist."],
+    "warning": "Requires sustained high temperatures to ripen properly. In cool climates, expect failure without a greenhouse."
+  },
+  {
+    "id": "watermelon", "name": "Watermelon", "latin": "Citrullus lanatus", "emoji": "🍉", "type": "vegetable", "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Watermelon",
+    "tagline": "Possible in warm summers with the right variety. A homegrown watermelon is an extraordinary achievement.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep moist during fruit development. Reduce dramatically as fruit ripens.", "bar": 68 }, "sun": { "value": "8+ hours direct", "detail": "Demands maximum heat and sunlight.", "bar": 95 }, "soil": { "value": "Very rich, well-draining, sandy", "detail": "Sandy, nutrient-rich soil with excellent drainage.", "bar": 78 }, "temp": { "value": "28–35°C optimal", "detail": "Needs hot days and warm nights. Very long season required." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Start indoors 4–5 weeks before last frost." }, "germination": "7–10 days", "harvest": "70–90 days from transplant", "spacing": "1.5–2 m" },
+    "tips": ["Choose small-fruited 'icebox' varieties for temperate climates — they mature faster.", "The hollow sound when tapped and the yellowing of the ground spot signal ripeness.", "Limit to 2–3 fruits per plant for the largest, sweetest melons.", "Plant through black plastic mulch to maximise soil temperature."],
+    "warning": "Needs a very long hot season. Challenging even in warm climates. Choose early-maturing varieties."
+  },
+  {
+    "id": "rhubarb", "name": "Rhubarb", "latin": "Rheum × hybridum", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rhubarb",
+    "tagline": "Plant once, harvest for 20+ years. Enormous, dramatic leaves and reliable stems every spring.",
+    "care": { "water": { "value": "Weekly", "detail": "Water regularly in dry spells during the growing season. Very drought-tolerant otherwise.", "bar": 42 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade better than most vegetables.", "bar": 60 }, "soil": { "value": "Very rich, well-draining", "detail": "Dig in huge amounts of compost at planting. Top-dress with compost every autumn.", "bar": 72 }, "temp": { "value": "Hardy to -25°C", "detail": "Needs cold winters to break dormancy properly. Very cold-hardy." }, "seedDepth": { "value": "Plant crowns at surface level", "detail": "Plant crowns in spring with the growing bud just at or slightly above soil level." }, "germination": "Buy crowns — don't grow from seed", "harvest": "Don't harvest year 1. Then April–June from year 2", "spacing": "90 cm — they spread to a large clump" },
+    "tips": ["Don't harvest a single stem in the first year — let the plant establish fully.", "Forced rhubarb (covering with a bucket or forcer in February) produces tender, sweeter, pink stems 3–4 weeks earlier.", "Remove flower stalks immediately — flowering weakens the plant.", "Split the crown every 5–6 years to maintain vigour and create new plants."],
+    "warning": "The leaves are highly toxic — oxalic acid levels are dangerous. Only eat the stems. Never put leaves in cooking or eat them."
+  },
+  {
+    "id": "samphire", "name": "Marsh Samphire", "latin": "Salicornia europaea", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Marsh+Samphire",
+    "tagline": "A unique coastal vegetable with a natural saltiness. Delicious with fish and eggs.",
+    "care": { "water": { "value": "Keep constantly moist with salty water", "detail": "Grows naturally in salt marshes. Use salted water (1 tsp salt per litre) for best growth.", "bar": 85 }, "sun": { "value": "Full sun", "detail": "Needs maximum sun.", "bar": 90 }, "soil": { "value": "Sandy, salty, well-draining", "detail": "Sandy soil. Add sea salt to mimic its natural habitat.", "bar": 35 }, "temp": { "value": "10–25°C", "detail": "Cool to moderate temperatures. Annual plant." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow in sandy compost in spring." }, "germination": "10–21 days", "harvest": "June–August — harvest tips", "spacing": "10–15 cm" },
+    "tips": ["Use mildly salted water when watering to mimic the coastal conditions it loves.", "Harvest the tips in early summer before the stems become woody.", "A genuinely unusual crop that's difficult to find in shops — worth growing for the novelty alone.", "Excellent simply blanched for 2 minutes and served with butter."],
+    "warning": "Non-toxic. The main challenge is providing the salty conditions it naturally prefers."
+  },
+  {
+    "id": "kohlrabi", "name": "Kohlrabi", "latin": "Brassica oleracea gongylodes", "emoji": "🌱", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Kohlrabi",
+    "tagline": "Weird-looking but delicious — a swollen stem that tastes like mild broccoli stalk. Fast and easy.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist. Irregular watering causes tough, woody flesh.", "bar": 62 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred.", "bar": 78 }, "soil": { "value": "Rich, firm, well-draining", "detail": "Good compost. Firm soil.", "bar": 65 }, "temp": { "value": "15–22°C", "detail": "Cool weather crop. Sow spring and late summer." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct or in modules for transplanting." }, "germination": "5–7 days", "harvest": "5–8 weeks — harvest when tennis ball sized", "spacing": "20–25 cm" },
+    "tips": ["Harvest when tennis ball size — larger ones become woody and unpleasant.", "The purple variety is more cold-hardy than the white/green.", "Can be eaten raw (crisp, like apple) or cooked.", "Faster than most brassicas — a good gap-filler between other crops."],
+    "warning": "Subject to the same pests as other brassicas — rotate crops and watch for caterpillars."
+  },
+  {
+    "id": "turnip-hakurei", "name": "Hakurei Turnip", "latin": "Brassica rapa", "emoji": "⚪", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hakurei+Turnip",
+    "tagline": "Japanese salad turnip that's sweet enough to eat raw. From seed to harvest in 38 days.",
+    "care": { "water": { "value": "Every 1–2 days", "detail": "Keep consistently moist for the sweetest, most tender roots.", "bar": 70 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade.", "bar": 58 }, "soil": { "value": "Well-draining, moderately rich", "detail": "Loose, friable soil for best root development.", "bar": 52 }, "temp": { "value": "10–18°C", "detail": "Cool weather crop. Best in spring and autumn." }, "seedDepth": { "value": "1 cm deep", "detail": "Sow direct. Thin to 7–10cm apart." }, "germination": "3–5 days", "harvest": "38–45 days", "spacing": "7–10 cm" },
+    "tips": ["Delicious eaten raw — mild, sweet, and crisp with none of the peppery heat of regular turnips.", "Harvest when golf ball size for the best flavour. Marble-size whole ones can be used as radish substitutes.", "The greens are edible and excellent in salads or lightly sautéed.", "Sow every 3 weeks in spring and again in late summer for continuous harvest."],
+    "warning": "Flea beetle is the main pest — protect with fleece at the seedling stage."
+  },
+  {
+    "id": "calabrese", "name": "Calabrese", "latin": "Brassica oleracea italica", "emoji": "🥦", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Calabrese",
+    "tagline": "What most people call broccoli — fast-maturing and very productive. Ready in summer unlike sprouting broccoli.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Consistent moisture for good head development.", "bar": 60 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 80 }, "soil": { "value": "Rich, firm, well-draining", "detail": "Good compost. Firm soil. Lime if pH is below 6.5.", "bar": 68 }, "temp": { "value": "15–20°C", "detail": "Cool weather crop. Matures faster than sprouting broccoli." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct in April–June or start indoors 4 weeks before transplanting." }, "germination": "5–10 days", "harvest": "60–80 days", "spacing": "30–45 cm" },
+    "tips": ["Sow in succession every 3 weeks from April to June for heads throughout summer.", "Harvest before any yellowing — once the tight green buds open to yellow flowers it's too late.", "After cutting the main head, side shoots produce smaller heads for weeks.", "Net immediately after transplanting — cabbage white butterflies find it within hours."],
+    "warning": "Subject to the same pests as all brassicas. Rotation and netting are essential."
+  },
+  {
+    "id": "mustard-greens", "name": "Mustard Greens", "latin": "Brassica juncea", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Mustard+Greens",
+    "tagline": "Peppery, fast-growing, and productive. Excellent in salads, stir-fries, and wilted as greens.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep moist. Drought causes bolting and excess heat in the leaves.", "bar": 65 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade. Shade slows bolting in summer.", "bar": 55 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Add compost. Hungry feeder.", "bar": 65 }, "temp": { "value": "Hardy to -5°C", "detail": "Cool weather crop. Best in spring, autumn, and winter under cover." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct or scatter in a patch. No thinning needed for baby leaves." }, "germination": "5–7 days", "harvest": "3–4 weeks for baby leaves, 6–8 weeks for full size", "spacing": "5 cm for baby leaves, 25 cm for full heads" },
+    "tips": ["Red mustard varieties are milder than green — good if you want less heat.", "Harvest as baby leaves (3 weeks) for salads, or let mature for cooking.", "Very cold-hardy — one of the best winter crops under a cold frame or in an unheated greenhouse.", "Self-seeds prolifically — let a few plants run to seed for an endless free supply."],
+    "warning": "Can become very peppery and hot in warm weather. Harvest young or grow in cool conditions."
+  },
+  {
+    "id": "asian-greens", "name": "Tatsoi", "latin": "Brassica rapa var. narinosa", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Tatsoi",
+    "tagline": "A flat rosette of dark, glossy leaves with a mild mustard flavour. Very cold-hardy and fast.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep moist. Drought causes bolting.", "bar": 65 }, "sun": { "value": "4–6 hours", "detail": "Tolerates shade well.", "bar": 50 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Any good soil with compost.", "bar": 62 }, "temp": { "value": "Hardy to -12°C", "detail": "One of the most cold-hardy Asian greens. Survives hard frosts." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct. Can be sown almost year-round except in hottest weather." }, "germination": "5–7 days", "harvest": "21–45 days depending on size wanted", "spacing": "10 cm for baby leaves, 25 cm for full rosettes" },
+    "tips": ["Very cold-hardy — excellent for winter growing under a cloche or in an unheated greenhouse.", "The flat rosette shape means it sheds rain and frost well.", "Excellent sautéed quickly with garlic — the texture and flavour are exceptional.", "One of the best crops for a winter salad mix."],
+    "warning": "Flea beetle is the main pest. Protect seedlings with fleece."
+  },
+  {
+    "id": "sorrel", "name": "Sorrel", "latin": "Rumex acetosa", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sorrel",
+    "tagline": "A perennial salad herb with a sharp lemony flavour. Plant once, harvest for years.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Tolerates drought once established. Keep moist for the largest, most tender leaves.", "bar": 45 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade very well.", "bar": 50 }, "soil": { "value": "Any reasonable soil", "detail": "Not fussy at all. Even poor soil works.", "bar": 40 }, "temp": { "value": "Hardy perennial", "detail": "Very cold-hardy. Dies back in winter, regrows in spring." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct in spring. Or buy a plant." }, "germination": "10–14 days", "harvest": "Leaves anytime once established. Harvest young leaves for the mildest flavour.", "spacing": "30–45 cm" },
+    "tips": ["Remove flower stalks as they appear — once it flowers the leaves become tougher and more acidic.", "The sharp lemony flavour pairs brilliantly with eggs, fish, and cream-based sauces.", "Large buckler-leaved sorrel is milder than common sorrel — better for raw eating.", "Divides easily — split the clump every 3 years to maintain vigour."],
+    "warning": "High in oxalic acid — eat in moderation, especially for people with kidney stones or gout."
+  },
+  {
+    "id": "lemongrass", "name": "Lemongrass", "latin": "Cymbopogon citratus", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lemongrass",
+    "tagline": "A tropical grass producing fragrant stalks essential in Thai and Vietnamese cooking.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist. More drought-tolerant than it looks.", "bar": 60 }, "sun": { "value": "8+ hours direct", "detail": "Loves full sun and heat.", "bar": 90 }, "soil": { "value": "Rich, well-draining", "detail": "Good quality compost. Grows well in large pots.", "bar": 65 }, "temp": { "value": "20–30°C optimal", "detail": "Not frost-hardy. Bring indoors before first frost." }, "seedDepth": { "value": "Propagate from stalks", "detail": "Place supermarket lemongrass stalks in water until roots appear (2–4 weeks), then pot up." }, "germination": "Roots in 2–4 weeks from stalks in water", "harvest": "Cut outer stalks from 30cm height", "spacing": "45–60 cm — forms large clumps" },
+    "tips": ["Root a supermarket lemongrass stalk in water — one of the easiest free propagation projects.", "Move outside in late May and bring back indoors in September.", "Harvest outer stalks at ground level — the inner stalks continue growing.", "The leaves make excellent lemongrass tea — dry them or use fresh."],
+    "warning": "Not frost-hardy. Must be overwintered indoors in temperate climates."
+  },
+  {
+    "id": "ginger", "name": "Ginger", "latin": "Zingiber officinale", "emoji": "🫚", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Ginger",
+    "tagline": "Grow your own ginger in a pot. Satisfying to harvest and the fresh flavour is far superior to dried.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist during growing season. Reduce significantly in autumn as foliage dies back.", "bar": 65 }, "sun": { "value": "Partial shade to bright indirect", "detail": "Prefers filtered light. Direct sun can scorch the leaves.", "bar": 50 }, "soil": { "value": "Rich, well-draining", "detail": "Good quality potting compost with perlite. Well-draining but moisture-retaining.", "bar": 68 }, "temp": { "value": "22–28°C growing season", "detail": "Tropical plant. Needs warmth to grow well. Bring indoors in cool climates." }, "seedDepth": { "value": "5 cm deep, eye facing up", "detail": "Soak a piece of supermarket ginger overnight, then plant eye-facing up just below the surface." }, "germination": "2–4 weeks in warmth", "harvest": "8–10 months — harvest when foliage dies back", "spacing": "15–20 cm between pieces" },
+    "tips": ["Use fresh supermarket ginger as your planting material — look for plump pieces with visible eyes (growth buds).", "Grow in a large pot in a warm spot or windowsill. Move outside in summer.", "Baby ginger (harvested early while still pink) is milder and can be eaten raw.", "In autumn, as the foliage yellows and dies, this signals the rhizomes are ready."],
+    "warning": "Not frost-hardy. Must be kept above 15°C. Patience required — it's a slow crop."
+  },
+  {
+    "id": "turmeric", "name": "Turmeric", "latin": "Curcuma longa", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Turmeric",
+    "tagline": "Beautiful tropical foliage and bright orange rhizomes. A fascinating crop for warm windowsills and greenhouses.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist in growing season. Reduce when foliage dies back in autumn.", "bar": 65 }, "sun": { "value": "Bright indirect to partial shade", "detail": "Prefers filtered bright light. Direct midday sun can scorch.", "bar": 55 }, "soil": { "value": "Rich, moisture-retaining", "detail": "Good compost with excellent moisture retention.", "bar": 72 }, "temp": { "value": "22–30°C growing season", "detail": "Tropical plant. Not frost-hardy." }, "seedDepth": { "value": "5 cm deep", "detail": "Plant fresh turmeric rhizomes from a health food shop just below the soil surface." }, "germination": "3–6 weeks in warmth", "harvest": "8–10 months when foliage dies back", "spacing": "15–20 cm between rhizomes" },
+    "tips": ["Buy fresh turmeric rhizomes from a health food or Asian grocery shop as your planting material.", "The vivid orange stains everything — wear gloves when harvesting and processing.", "Dry and grind for use as spice, or use fresh grated like ginger.", "Beautiful ornamental flowers appear in summer — pink, white, and yellow."],
+    "warning": "Turmeric stains skin, clothing, and work surfaces vivid orange. Wear gloves and an apron when handling."
+  },
+  {
+    "id": "wasabi", "name": "Wasabi", "latin": "Eutrema japonicum", "emoji": "🌿", "type": "vegetable", "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Wasabi",
+    "tagline": "One of the most challenging crops in the world. Also one of the most valuable. Extraordinary if you succeed.",
+    "care": { "water": { "value": "Keep constantly moist", "detail": "Naturally grows along stream banks. Needs consistently moist conditions, never waterlogged.", "bar": 88 }, "sun": { "value": "Deep shade to dappled light", "detail": "Grows naturally in shaded mountain streams. Direct sun kills it.", "bar": 18 }, "soil": { "value": "Rich, well-draining, constantly moist", "detail": "Well-draining but moisture-retaining compost. Perfect drainage while never drying out.", "bar": 78 }, "temp": { "value": "8–20°C", "detail": "Cool mountain plant. Dislikes heat above 20°C strongly." }, "seedDepth": { "value": "Plant rhizome sections", "detail": "Plant side shoots or pieces of rhizome with growing tips." }, "germination": "Buy plants — seeds rarely available", "harvest": "18–24 months minimum", "spacing": "30–40 cm" },
+    "tips": ["Keep consistently cool, moist, and shaded — the opposite of most garden crops.", "Water with cold water if possible — it naturally grows in cool mountain streams.", "Harvest a few outer leaves and stems while waiting for the rhizome to develop.", "Most wasabi sold commercially is horseradish with colouring — homegrown real wasabi is an extraordinary luxury."],
+    "warning": "Extremely challenging. Most attempts fail due to heat, drought, or direct sun. Only attempt if you have a cool, permanently shaded, moist spot."
+  },
+  {
+    "id": "horseradish", "name": "Horseradish", "latin": "Armoracia rusticana", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Horseradish",
+    "tagline": "Plant once and it grows forever. Fiercely productive roots with a sharp, sinus-clearing heat.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Extremely drought-tolerant once established. Essentially self-sufficient.", "bar": 20 }, "sun": { "value": "4–8 hours", "detail": "Tolerates partial shade but full sun produces the best roots.", "bar": 65 }, "soil": { "value": "Deep, well-draining, fertile", "detail": "Deep soil allows the roots to grow long and straight. Not fussy about soil type.", "bar": 52 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "Root sections 10–15 cm deep", "detail": "Plant root sections (thongs) diagonally at 45° about 10–15cm deep." }, "germination": "New shoots in 2–4 weeks", "harvest": "Autumn and winter — leave in ground until needed", "spacing": "30–45 cm" },
+    "tips": ["Grow in a large pot to contain the roots — in the ground it spreads aggressively and is nearly impossible to remove.", "Harvest roots in late autumn/winter when flavour is strongest.", "Any small piece of root left in the ground will regrow — effectively permanent once planted.", "Freshly grated horseradish is incomparably better than the jarred version."],
+    "warning": "Extremely invasive in the ground. Grow in containers or be prepared to spend years removing it."
+  },
+  {
+    "id": "corn-sweet", "name": "Popcorn Corn", "latin": "Zea mays var. everta", "emoji": "🍿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Popcorn+Corn",
+    "tagline": "Grow your own popcorn from seed to bowl. A uniquely satisfying and different crop for a warm spot.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep moist while growing. Allow to dry completely on the plant before harvesting.", "bar": 68 }, "sun": { "value": "8+ hours direct", "detail": "Needs full sun and warmth.", "bar": 90 }, "soil": { "value": "Rich, deep, well-draining", "detail": "Good compost. Feed monthly.", "bar": 72 }, "temp": { "value": "After last frost", "detail": "Warm season crop. Needs a long warm growing season." }, "seedDepth": { "value": "3–4 cm deep", "detail": "Sow direct after last frost in blocks of at least 4×4." }, "germination": "7–10 days", "harvest": "Leave on plant until fully dry — 100–120 days then another 4–6 weeks drying", "spacing": "30–35 cm in blocks" },
+    "tips": ["Don't harvest until the husks are completely dry and brown on the plant.", "After harvest, further dry indoors for 4–6 weeks before attempting to pop.", "Plant in blocks not rows — wind pollination requires surrounding plants.", "Test a few kernels — if they pop well, harvest the rest."],
+    "warning": "Cannot be eaten fresh like sweetcorn — must be fully dried. Isolate from sweetcorn to prevent cross-pollination which reduces sweetcorn quality."
+  },
+  {
+    "id": "edamame", "name": "Edamame", "latin": "Glycine max", "emoji": "🫘", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Edamame",
+    "tagline": "Fresh soybeans eaten straight from the pod. A warm-season crop that's genuinely delicious and satisfying.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep consistently moist especially during pod fill.", "bar": 68 }, "sun": { "value": "6–8 hours direct", "detail": "Full sun essential. Short days trigger flowering so long summer days are ideal.", "bar": 85 }, "soil": { "value": "Well-draining, moderately rich", "detail": "Don't over-fertilise — like all legumes, they fix nitrogen themselves.", "bar": 55 }, "temp": { "value": "18–28°C", "detail": "Warm season crop. Plant after last frost." }, "seedDepth": { "value": "3–4 cm deep", "detail": "Sow direct after last frost. Inoculate seeds with rhizobium for better nitrogen fixation." }, "germination": "7–12 days", "harvest": "75–100 days — harvest when pods are full but still bright green", "spacing": "15 cm between plants, 45 cm between rows" },
+    "tips": ["Harvest when pods are plump and bright green — leaving too long causes the beans to harden.", "Cook pods in boiling salted water for 3–5 minutes, then eat the beans directly from the pod.", "Pinch out the growing tip when the plant is 30cm tall to encourage bushy growth.", "The whole harvest comes at once — pick all pods when ready as they go past their best quickly."],
+    "warning": "Birds eat the seeds. Cover with netting or wire mesh after sowing."
+  },
+  {
+    "id": "chickpea", "name": "Chickpea", "latin": "Cicer arietinum", "emoji": "🫘", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Chickpea",
+    "tagline": "Unusual and satisfying to grow. Each hairy pod contains 1–2 beans. Needs a long warm season.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant once established. Don't overwater — they're adapted to dry conditions.", "bar": 40 }, "sun": { "value": "8+ hours direct", "detail": "Needs full sun and a long warm season.", "bar": 90 }, "soil": { "value": "Well-draining, sandy, not too rich", "detail": "Poor to moderate fertility. Too rich = leaves, not pods.", "bar": 38 }, "temp": { "value": "18–28°C", "detail": "Warm season crop. Needs sustained warmth to ripen properly." }, "seedDepth": { "value": "4–5 cm deep", "detail": "Sow direct in spring when soil is warm." }, "germination": "7–14 days", "harvest": "90–100 days — harvest when pods turn papery brown", "spacing": "15–20 cm" },
+    "tips": ["Best in warm, dry climates — they dislike humid, damp conditions.", "Each plant produces relatively few pods — grow a row rather than just a few plants.", "Fresh chickpeas (green, immature) are delicious and taste completely different from dried ones.", "Harvest when pods are dry and papery, then dry further indoors before storing."],
+    "warning": "The leaves, pods, and stems are covered in oxalic acid secretions that cause skin irritation. Wear gloves when handling."
+  },
+  {
+    "id": "lentil", "name": "Lentil", "latin": "Lens culinaris", "emoji": "🫘", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lentil",
+    "tagline": "An ancient crop that's rarely grown domestically. Delicate, beautiful plants with small but rewarding yields.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant. Don't overwater — roots rot in wet conditions.", "bar": 38 }, "sun": { "value": "6–8 hours direct", "detail": "Full sun essential.", "bar": 85 }, "soil": { "value": "Well-draining, sandy, neutral pH", "detail": "Poor to moderate fertility. Sandy loam is ideal.", "bar": 38 }, "temp": { "value": "18–24°C", "detail": "Warm season crop but tolerates some cool weather." }, "seedDepth": { "value": "3–4 cm deep", "detail": "Sow direct in spring. Use dried lentils from the pantry as seeds." }, "germination": "7–10 days", "harvest": "100–110 days — harvest when pods dry and turn yellow", "spacing": "10–15 cm" },
+    "tips": ["Dried supermarket lentils can be used as seeds — they germinate reliably if recent.", "The delicate feathery foliage is beautiful in the garden.", "Harvest the whole plant when most pods are dry, then shell indoors.", "Fresh green lentils (harvested before fully dried) can be eaten like peas."],
+    "warning": "Very low yields compared to space used. Grow for the interest and experience rather than self-sufficiency."
+  },
+  {
+    "id": "corn-salad-garden", "name": "Lamb's Lettuce", "latin": "Valerianella locusta", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lambs+Lettuce",
+    "tagline": "The hardiest winter salad leaf. Tiny rosettes with a mild, nutty flavour when everything else has stopped.",
+    "care": { "water": { "value": "Every 4–5 days", "detail": "Low maintenance. Very drought-tolerant for a salad crop.", "bar": 40 }, "sun": { "value": "3–5 hours", "detail": "One of the most shade-tolerant salad crops.", "bar": 38 }, "soil": { "value": "Any reasonable soil", "detail": "Genuinely undemanding.", "bar": 38 }, "temp": { "value": "Hardy to -15°C", "detail": "Extremely cold-hardy." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct in late summer/early autumn." }, "germination": "10–14 days", "harvest": "Autumn through winter", "spacing": "10–15 cm" },
+    "tips": ["One of the very few salad crops that actually thrives in winter conditions.", "Self-seeds freely — once established you may never need to sow again.", "Harvest the whole small rosette rather than individual leaves.", "Pairs well with strong-flavoured ingredients — walnuts, cheese, roasted beets."],
+    "warning": "Non-toxic. Virtually trouble-free. One of the lowest-maintenance crops."
+  },
+  {
+    "id": "amaranth", "name": "Amaranth", "latin": "Amaranthus tricolor", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Amaranth",
+    "tagline": "Beautiful, productive, and heat-tolerant. The leaves and seeds are both edible and nutritious.",
+    "care": { "water": { "value": "Every 3 days", "detail": "Drought-tolerant once established. Water regularly when young.", "bar": 48 }, "sun": { "value": "6–8 hours direct", "detail": "Loves heat and full sun.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Not fussy. Grows in poor soil but produces better in good compost.", "bar": 50 }, "temp": { "value": "20–30°C", "detail": "Warm season crop. One of the most heat-tolerant leafy vegetables." }, "seedDepth": { "value": "0.5 cm — barely cover", "detail": "Surface sow after last frost. Tiny seeds need warmth to germinate." }, "germination": "7–14 days", "harvest": "Leaves from 6 weeks. Seeds at 90–120 days.", "spacing": "30–45 cm" },
+    "tips": ["Harvest young leaves regularly — the more you pick, the more productive the plant.", "Let a few plants go to seed for a grain harvest — the tiny seeds are highly nutritious.", "Heat-tolerant unlike most greens — a great summer alternative to spinach.", "The dramatic red and purple varieties are as ornamental as they are edible."],
+    "warning": "Non-toxic. Generally trouble-free. Can self-seed prolifically if allowed to go to seed."
+  },
+  {
+    "id": "purslane", "name": "Purslane", "latin": "Portulaca oleracea", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Purslane",
+    "tagline": "One of the most nutritious vegetables you can grow. Succulent, mild, and heat-tolerant.",
+    "care": { "water": { "value": "Every 5–7 days", "detail": "Very drought-tolerant — succulent leaves store water. Don't overwater.", "bar": 25 }, "sun": { "value": "6+ hours direct", "detail": "Loves heat and full sun.", "bar": 85 }, "soil": { "value": "Any well-draining soil", "detail": "Genuinely grows in poor, sandy soil. Very undemanding.", "bar": 28 }, "temp": { "value": "20–30°C", "detail": "Heat-loving. Sow only after last frost when soil is warm." }, "seedDepth": { "value": "Surface sow — barely cover", "detail": "Scatter seed on soil surface after last frost. Needs light to germinate." }, "germination": "7–10 days", "harvest": "3–4 weeks for tips", "spacing": "15–20 cm" },
+    "tips": ["Harvest the shoot tips regularly — this keeps the plant compact and producing.", "Has one of the highest omega-3 fatty acid contents of any vegetable.", "Considered a weed in many gardens — it self-seeds prolifically.", "Excellent raw in salads or lightly cooked — the succulent texture is like samphire."],
+    "warning": "Self-seeds very prolifically. Can become a persistent weed if allowed to seed freely."
+  },
+  {
+    "id": "malabar-spinach", "name": "Malabar Spinach", "latin": "Basella alba", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Malabar+Spinach",
+    "tagline": "A heat-loving climbing spinach that thrives when regular spinach bolts. Glossy leaves and vivid stems.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist. Heat-tolerant but not drought-tolerant.", "bar": 65 }, "sun": { "value": "6–8 hours direct", "detail": "Loves heat and sun — the opposite of regular spinach.", "bar": 85 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost-rich soil.", "bar": 68 }, "temp": { "value": "24–35°C optimal", "detail": "Tropical plant. Thrives in hot conditions when regular spinach fails." }, "seedDepth": { "value": "1 cm deep", "detail": "Soak seeds overnight. Start indoors 4 weeks before last frost." }, "germination": "10–21 days after soaking", "harvest": "From 8 weeks — harvest tender tips", "spacing": "30 cm — trains up a trellis" },
+    "tips": ["A genuine summer spinach alternative when heat causes regular spinach to bolt.", "Train up a trellis or fence — it can reach 2–3m in a good summer.", "Harvest the tender growing tips regularly for best flavour.", "The purple-stemmed variety (Basella rubra) is ornamental as well as edible."],
+    "warning": "Not frost-hardy. Must be started indoors or grown as a warm-season annual."
+  },
+  {
+    "id": "brussels-sprout-red", "name": "Red Cabbage", "latin": "Brassica oleracea capitata f. rubra", "emoji": "🟣", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Red+Cabbage",
+    "tagline": "Beautiful deep purple heads that store exceptionally well and are excellent pickled or braised.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Consistent moisture prevents splitting.", "bar": 60 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 80 }, "soil": { "value": "Rich, firm, limed", "detail": "Firm soil and lime to pH 6.5–7.0.", "bar": 72 }, "temp": { "value": "Hardy — frost improves flavour", "detail": "Frost improves the flavour and deepens the colour." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Start indoors in March–April." }, "germination": "5–10 days", "harvest": "20–24 weeks", "spacing": "45–50 cm" },
+    "tips": ["Stores for months after harvest in a cool dark place.", "The vivid purple colour fades in cooking unless you add acid (vinegar or apple) to the dish.", "Excellent braised slowly with apple and spices — a classic winter dish.", "Net from transplanting to prevent cabbage white butterfly."],
+    "warning": "Subject to all brassica pests and diseases. Rotate annually."
+  },
+  {
+    "id": "chinese-cabbage", "name": "Chinese Cabbage", "latin": "Brassica rapa pekinensis", "emoji": "🥬", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Chinese+Cabbage",
+    "tagline": "Crisp, mild, and fast-maturing. Essential in stir-fries, kimchi, and Asian cooking.",
+    "care": { "water": { "value": "Every 1–2 days", "detail": "Needs consistent moisture. Drought causes bolting.", "bar": 72 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade.", "bar": 58 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Good compost. Firm the soil after planting.", "bar": 68 }, "temp": { "value": "15–20°C", "detail": "Cool weather crop. Bolts in summer heat. Best in spring and autumn." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct or in modules from late summer for autumn harvest." }, "germination": "5–7 days", "harvest": "45–70 days", "spacing": "30–40 cm" },
+    "tips": ["Sow in late July/August for autumn heads — summer sowings bolt almost immediately.", "Excellent for making kimchi — grow a large batch and ferment for the winter.", "Very fast-maturing in cool conditions — a good autumn gap-filler.", "Can be used as a cut-and-come-again crop if you harvest outer leaves only."],
+    "warning": "Bolts very readily in heat or when day length is increasing. Only reliable in cool conditions."
+  },
+  {
+    "id": "daikon", "name": "Daikon Radish", "latin": "Raphanus sativus var. longipinnatus", "emoji": "🌱", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Daikon+Radish",
+    "tagline": "Giant Japanese radish that's milder than regular radishes and excellent raw, pickled, or cooked.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist for the best, most tender roots.", "bar": 60 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred.", "bar": 78 }, "soil": { "value": "Deep, loose, well-draining", "detail": "Deep loose soil allows the long roots to grow straight. Rocky or compact soil causes forking.", "bar": 45 }, "temp": { "value": "10–20°C", "detail": "Cool weather crop. Tolerates light frost." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct in late summer. Thin to 15–20cm apart." }, "germination": "5–7 days", "harvest": "50–70 days", "spacing": "15–20 cm" },
+    "tips": ["Sow in late summer/early autumn for the best roots — spring sowings bolt more readily.", "More heat-tolerant than regular radishes — a better choice for summer sowings.", "The roots can grow 30–60cm long — make sure the soil is deep enough.", "Greens are edible and excellent in stir-fries."],
+    "warning": "Flea beetle is the main pest. Use fleece for seedlings."
+  },
+  {
+    "id": "salsify", "name": "Salsify", "latin": "Tragopogon porrifolius", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Salsify",
+    "tagline": "An old-fashioned root vegetable with an oyster-like flavour. Rare in shops, easy to grow.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant once established.", "bar": 42 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred.", "bar": 78 }, "soil": { "value": "Deep, loose, stone-free, not too rich", "detail": "Same requirements as parsnips and carrots. Deep, loose, stone-free.", "bar": 40 }, "temp": { "value": "Hardy — leave in ground over winter", "detail": "Hardy roots can be left in ground through winter." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct in spring. Use fresh seed." }, "germination": "14–21 days", "harvest": "Autumn and winter", "spacing": "Thin to 10–15 cm apart" },
+    "tips": ["Leave in ground through winter — frost improves the flavour.", "The flowers are beautiful purple — let a few plants flower for the ornamental effect.", "Peel just before cooking as the cut surface discolours rapidly — drop into acidulated water.", "The young leaves can be used in salads."],
+    "warning": "The cut surface discolours very fast — cook immediately after peeling or keep in lemon water."
+  },
+  {
+    "id": "scorzonera", "name": "Scorzonera", "latin": "Scorzonera hispanica", "emoji": "🌿", "type": "vegetable", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Scorzonera",
+    "tagline": "Black-skinned roots with creamy flesh and an unusual flavour. A genuine curiosity worth growing.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant once established.", "bar": 42 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred.", "bar": 78 }, "soil": { "value": "Deep, loose, stone-free", "detail": "Deep, loose, sandy soil for straight roots.", "bar": 40 }, "temp": { "value": "Hardy — frost improves flavour", "detail": "Leave in ground through winter. Frost improves flavour." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct in spring. Use fresh seed." }, "germination": "10–21 days", "harvest": "Autumn of year 1 or leave for year 2 for larger roots", "spacing": "Thin to 15 cm apart" },
+    "tips": ["Can be left in the ground for a second year for much larger roots.", "The white sap discolours cut surfaces — drop immediately into acidulated water.", "Young leaves and flower buds are edible.", "A genuinely unusual vegetable that's worth growing purely for interest."],
+    "warning": "The sap stains hands — wear gloves. Non-toxic."
+  },
+  {
+    "id": "chard-perpetual-spinach", "name": "Perpetual Spinach", "latin": "Beta vulgaris var. cicla", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Perpetual+Spinach",
+    "tagline": "A beet relative that produces spinach-like leaves for almost the entire year without bolting.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist. More drought-tolerant than true spinach.", "bar": 58 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade well.", "bar": 55 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost. Not fussy.", "bar": 62 }, "temp": { "value": "Hardy to -10°C", "detail": "Sow spring or late summer for year-round production. Hardy enough to overwinter." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct in rows. Thin to 20–30cm apart." }, "germination": "7–14 days", "harvest": "8–10 weeks, then cut-and-come-again for months", "spacing": "20–30 cm" },
+    "tips": ["Far less likely to bolt than true spinach — the most reliable leafy green for beginners.", "Sow in spring for summer harvest and again in late summer for autumn/winter.", "Cut outer leaves and leave the growing centre — extends harvest indefinitely.", "Can be overwintered for a very early spring harvest."],
+    "warning": "Generally trouble-free. A very forgiving crop for beginners."
+  },
+  {
+    "id": "land-cress", "name": "Land Cress", "latin": "Barbarea verna", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Land+Cress",
+    "tagline": "A peppery winter salad leaf that grows in shade and tolerates frost. Watercress without the water.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist. More drought-tolerant than watercress.", "bar": 52 }, "sun": { "value": "Shade to partial shade", "detail": "Actually prefers shade. One of the best crops for dark corners.", "bar": 30 }, "soil": { "value": "Moist, reasonably fertile", "detail": "Any moist soil or compost.", "bar": 55 }, "temp": { "value": "Hardy to -10°C", "detail": "Very cold-hardy. Sow in late summer for winter harvest." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct in late summer." }, "germination": "7–10 days", "harvest": "6–8 weeks, then cut-and-come-again", "spacing": "15–20 cm" },
+    "tips": ["Excellent for deep shade where little else will grow.", "Peppery flavour similar to watercress but less intense.", "Very cold-hardy — produces leaves through winter under cover or even outdoors in mild areas.", "Cut-and-come-again over a long period — a very productive winter crop."],
+    "warning": "Can self-seed prolifically. Non-toxic."
+  },
+  {
+    "id": "winter-purslane", "name": "Winter Purslane", "latin": "Claytonia perfoliata", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Winter+Purslane",
+    "tagline": "Also called miner's lettuce. Mild, succulent winter salad leaves that grow when almost nothing else will.",
+    "care": { "water": { "value": "Every 4–5 days", "detail": "Very drought-tolerant. Water occasionally.", "bar": 35 }, "sun": { "value": "Shade to partial shade", "detail": "Thrives in shade. One of the best winter crops for dark spots.", "bar": 30 }, "soil": { "value": "Any reasonable soil", "detail": "Extremely undemanding.", "bar": 35 }, "temp": { "value": "Hardy to -8°C", "detail": "Very cold-hardy. Excellent for autumn/winter/spring production." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Scatter seed in late summer/early autumn." }, "germination": "7–14 days", "harvest": "4–5 weeks for leaves", "spacing": "No thinning needed — scatter thinly" },
+    "tips": ["One of the very best crops for shaded, difficult winter growing conditions.", "Self-seeds prolifically — once established it reappears every year.", "The charming round leaves with the stem growing through the centre are unique.", "Mild, slightly succulent flavour — excellent raw in salads."],
+    "warning": "Non-toxic. Virtually maintenance-free. Can self-seed into a permanent colony."
+  },
+  {
+    "id": "good-king-henry", "name": "Good King Henry", "latin": "Blitum bonus-henricus", "emoji": "🌿", "type": "vegetable", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Good+King+Henry",
+    "tagline": "A perennial spinach-like plant that provides leaves from early spring. Plant once, harvest for decades.",
+    "care": { "water": { "value": "Every 4–5 days", "detail": "Drought-tolerant once established.", "bar": 38 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade very well.", "bar": 52 }, "soil": { "value": "Any reasonable soil", "detail": "Grows in most soils including poor ones.", "bar": 40 }, "temp": { "value": "Hardy to -20°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow in spring or divide established plants." }, "germination": "14–21 days", "harvest": "Young leaves from year 2. Flower spikes eaten like asparagus.", "spacing": "45 cm" },
+    "tips": ["Don't harvest heavily in year 1 — let the plant establish.", "Young flower spikes in spring can be eaten like asparagus — a real delicacy.", "Very early spring production when little else is growing.", "A genuinely ancient vegetable — grown in cottage gardens for centuries."],
+    "warning": "Contains oxalic acid — eat in moderation, especially for those with kidney stones."
+  }
+]

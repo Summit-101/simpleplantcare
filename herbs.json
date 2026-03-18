@@ -1,0 +1,538 @@
+[
+  {
+    "id": "basil", "name": "Basil", "latin": "Ocimum basilicum", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Basil",
+    "tagline": "The king of kitchen herbs. Grows fast, smells incredible, and transforms any dish it touches.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Let top 1cm of soil dry out. Wilting leaves = thirsty plant.", "bar": 65 }, "sun": { "value": "6+ hours direct sun", "detail": "South-facing windowsill is ideal. Less sun = leggy, flavourless leaves.", "bar": 85 }, "soil": { "value": "Light, well-draining", "detail": "Regular potting mix. Avoid heavy garden soil.", "bar": 50 }, "temp": { "value": "18–30°C", "detail": "Hates cold. Never below 10°C." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Just barely cover seeds. Sprouts in 5–10 days." }, "germination": "5–10 days", "harvest": "4–6 weeks", "spacing": "20–25 cm" },
+    "tips": ["Pinch off flower buds the moment you see them — once basil flowers the leaves turn bitter and growth slows dramatically.", "Pick from the top down, always leaving at least 2 sets of leaves on the stem.", "Water at the base, never the leaves — wet foliage invites mildew overnight.", "Grow near tomatoes — they genuinely do better together and you'll always have both for cooking."],
+    "warning": "Don't put basil near a cold draught or AC vent. It will turn black overnight and won't recover."
+  },
+  {
+    "id": "mint", "name": "Mint", "latin": "Mentha spicata", "emoji": "🌱", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Mint",
+    "tagline": "Grows so aggressively the main challenge is stopping it taking over. Always grow in a pot.",
+    "care": { "water": { "value": "Every 1–2 days", "detail": "Likes consistent moisture. Consistent watering = best flavour and growth.", "bar": 75 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade better than most herbs — great for less sunny spots.", "bar": 55 }, "soil": { "value": "Moist, rich", "detail": "Regular potting mix with good moisture retention works fine.", "bar": 50 }, "temp": { "value": "Frost-hardy perennial", "detail": "Dies back in winter and reliably returns in spring." }, "seedDepth": { "value": "Press onto surface", "detail": "Seeds are tiny — press onto moist compost. Better to buy a small plant." }, "germination": "10–15 days", "harvest": "Anytime once established", "spacing": "Grow in its own pot" },
+    "tips": ["Always grow in its own container — in the ground it spreads via underground runners and is nearly impossible to remove.", "Cut back by half after flowering — it regrows thicker and with better flavour.", "Repot every spring into fresh soil — mint exhausts nutrients quickly.", "A pot near the door or window deters flies — brushing the leaves releases the scent."],
+    "warning": "Never plant mint directly in a garden bed. Underground runners spread metres in a single season and are virtually unremovable."
+  },
+  {
+    "id": "rosemary", "name": "Rosemary", "latin": "Salvia rosmarinus", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rosemary",
+    "tagline": "Mediterranean toughness in plant form. Barely needs watering, loves hot dry conditions, lasts for decades.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Water when soil is dry 2–3cm down. Much less in winter.", "bar": 25 }, "sun": { "value": "6–8 hours direct", "detail": "Needs full sun. Grows slowly and poorly in shade.", "bar": 88 }, "soil": { "value": "Poor, dry, well-draining", "detail": "Thrives in poor soil. Too much nutrition creates soft growth prone to disease.", "bar": 20 }, "temp": { "value": "Hardy to -10°C", "detail": "Good cold tolerance once established. Protect young plants in hard frosts." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Slow and unreliable from seed. Buy a plant — quicker and easier." }, "germination": "2–4 weeks (unreliable)", "harvest": "Anytime once established", "spacing": "45–60 cm — becomes a large shrub" },
+    "tips": ["Prune after flowering each year to keep the plant compact and bushy — without pruning it becomes woody and sprawling.", "Take cuttings in summer — push 10cm stem sections into gritty compost, keep moist for a few weeks.", "A terracotta pot in full sun with minimal watering — this is its ideal environment.", "The blue flowers are edible and beautiful scattered over salads or bread."],
+    "warning": "Overwatering and poor drainage kill rosemary faster than anything else. Black mushy stem base = root rot — usually fatal."
+  },
+  {
+    "id": "thyme", "name": "Thyme", "latin": "Thymus vulgaris", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Thyme",
+    "tagline": "One of the most useful kitchen herbs and one of the least demanding. A tiny plant lasts for years.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant. Prefers to dry out between waterings. Overwatering causes root rot.", "bar": 28 }, "sun": { "value": "6+ hours direct", "detail": "More sun = more intense flavour and aromatic oils.", "bar": 88 }, "soil": { "value": "Poor, well-draining", "detail": "Sandy or gritty soil. Rich compost weakens the flavour.", "bar": 22 }, "temp": { "value": "Hardy to -15°C", "detail": "Very cold-hardy. Evergreen in mild winters." }, "seedDepth": { "value": "1–2 mm, barely cover", "detail": "Seeds need light to germinate. Press onto surface and mist. Or just buy a plant." }, "germination": "14–21 days", "harvest": "Anytime, best before flowering", "spacing": "20–30 cm" },
+    "tips": ["Cut back by half in spring before new growth starts — prevents the woody, sprawling habit.", "The more you pick, the bushier and more productive it grows.", "Lemon thyme is milder and citrusy — a great variation if regular thyme is too strong for you.", "Leave some flowers for bees — thyme flowers are a major favourite for pollinators."],
+    "warning": "Heavy wet soil in winter is the main killer. If it dies over winter, waterlogging is almost always the reason."
+  },
+  {
+    "id": "chives", "name": "Chives", "latin": "Allium schoenoprasum", "emoji": "🌱", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Chives",
+    "tagline": "Basically unkillable. A true perennial — plant once, harvest every year for decades.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Fairly drought-tolerant once established.", "bar": 42 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade better than most herbs.", "bar": 58 }, "soil": { "value": "Any reasonable soil", "detail": "Not fussy at all. Regular potting mix or garden soil both work fine.", "bar": 48 }, "temp": { "value": "Hardy perennial", "detail": "Dies back in winter, reliably returns every spring without fail." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Scatter seeds thinly. Much easier to buy a clump from a garden centre." }, "germination": "10–14 days", "harvest": "Snip anytime once 15cm+ tall", "spacing": "20–30 cm clumps" },
+    "tips": ["Snip leaves 2–3cm from the base — they regrow continuously throughout the entire growing season.", "The purple flowers are edible and beautiful scattered on salads and soups.", "Divide the clump every 2–3 years in spring — keeps the plant vigorous and gives you free new plants.", "Grow near roses — chives are widely said to deter aphids."],
+    "warning": "If you let it flower and set seed it self-seeds prolifically. Deadhead the flowers if you don't want chives popping up everywhere."
+  },
+  {
+    "id": "parsley", "name": "Parsley", "latin": "Petroselinum crispum", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Parsley",
+    "tagline": "Slow to start but incredibly productive once established. One plant produces more than most families use.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist. Drying out weakens flavour and causes premature bolting.", "bar": 62 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade better than most herbs.", "bar": 60 }, "soil": { "value": "Rich, moisture-retaining", "detail": "Unlike Mediterranean herbs, parsley wants good rich soil.", "bar": 65 }, "temp": { "value": "Hardy biennial", "detail": "Survives frost. In its second year it flowers then dies — replace annually." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Soak seeds overnight before sowing to speed up the notoriously slow germination." }, "germination": "21–28 days (slow)", "harvest": "10–12 weeks from seed", "spacing": "15–20 cm" },
+    "tips": ["Patience — parsley is notoriously slow to germinate. Sow alongside a fast radish to mark the row while you wait.", "Harvest outer stems first, cutting close to the base.", "Don't let it flower in year one — cut flower stems off immediately to extend the harvest season.", "Flat-leaf (Italian) parsley has more flavour; curly parsley is more cold-hardy and decorative."],
+    "warning": "In its second year it will flower and die — this is completely normal biennial behaviour. Start fresh plants every spring for continuity."
+  },
+  {
+    "id": "oregano", "name": "Oregano", "latin": "Origanum vulgare", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Oregano",
+    "tagline": "Drought-tolerant and intensely flavourful. The hotter and drier the conditions, the better it tastes.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Let soil dry between waterings. Overwatering causes root rot and weak flavour.", "bar": 30 }, "sun": { "value": "6+ hours direct", "detail": "Full sun = intense flavour. The aromatic oils concentrate in hot, dry conditions.", "bar": 88 }, "soil": { "value": "Poor, well-draining", "detail": "Like all Mediterranean herbs, prefers lean, gritty soil over rich compost.", "bar": 22 }, "temp": { "value": "Hardy to -10°C", "detail": "Perennial in most climates. Dies back in winter, returns reliably in spring." }, "seedDepth": { "value": "Press onto surface", "detail": "Tiny seeds need light. Press onto moist compost. Or buy a plant." }, "germination": "7–14 days", "harvest": "Just before flowering for the most intense flavour", "spacing": "20–30 cm" },
+    "tips": ["Harvest just before the plant flowers — this is when the volatile oils and flavour are at their absolute peak.", "Cut back hard after flowering to keep it bushy and productive for the following year.", "Greek oregano is significantly stronger than common oregano — use noticeably less of it.", "Dry bundles hung upside down in a warm room preserve the flavour for months."],
+    "warning": "In heavy wet soil it tends to rot over winter. Plant in well-drained or raised beds without exception."
+  },
+  {
+    "id": "sage", "name": "Sage", "latin": "Salvia officinalis", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sage",
+    "tagline": "Beautiful silver-green leaves, highly fragrant, and remarkably tough. A garden staple.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Allow to dry between waterings. Overwatering is the main cause of failure.", "bar": 28 }, "sun": { "value": "6+ hours direct", "detail": "Full sun produces the best flavour and most compact, attractive growth.", "bar": 85 }, "soil": { "value": "Well-draining, lean", "detail": "Sandy or gritty soil. Too rich = soft, disease-prone growth and poor flavour.", "bar": 25 }, "temp": { "value": "Hardy to -15°C", "detail": "Very hardy once established. Evergreen in mild winters." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Can be grown from seed but buying a plant is faster and more reliable." }, "germination": "10–21 days", "harvest": "Anytime, best before flowering", "spacing": "45–60 cm — becomes a substantial bush" },
+    "tips": ["Cut back by half in spring before new growth starts — keeps it compact and prevents it going woody.", "Never cut into old brown woody stems — new growth won't emerge from old wood.", "Purple, tricolour, and golden sage varieties are ornamental as well as functional.", "Exceptional with pork, chicken, brown butter pasta, and stuffing."],
+    "warning": "Sage goes very woody and unproductive if not pruned every year. Once very woody, it's often easier to start fresh with a new cutting."
+  },
+  {
+    "id": "dill", "name": "Dill", "latin": "Anethum graveolens", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Dill",
+    "tagline": "Fast-growing and feathery. Both leaves and seeds are useful. Attracts beneficial insects in large numbers.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist. Irregular watering triggers premature bolting.", "bar": 55 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential. Grows weakly in shade.", "bar": 85 }, "soil": { "value": "Light, well-draining", "detail": "Not too rich. Light, sandy soil gives the best flavour.", "bar": 45 }, "temp": { "value": "15–25°C", "detail": "Bolts in heat and cold. Best in spring and early autumn." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct — dill hates root disturbance and bolts if transplanted." }, "germination": "7–14 days", "harvest": "8–10 weeks for leaves", "spacing": "15–20 cm" },
+    "tips": ["Sow direct — dill hates being transplanted and goes to seed almost immediately if disturbed.", "Never grow near fennel — they cross-pollinate and both plants lose their distinct flavour.", "Leave some plants to flower and set seed — the seeds are equally valuable in cooking and pickling.", "An excellent companion for brassicas — attracts predatory wasps that eat caterpillars."],
+    "warning": "Bolts quickly in heat. In summer, provide afternoon shade or sow more frequently in small batches."
+  },
+  {
+    "id": "coriander", "name": "Coriander / Cilantro", "latin": "Coriandrum sativum", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Coriander",
+    "tagline": "Both leaves and seeds are essential in world cooking. But it bolts frustratingly fast in heat.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist but not waterlogged. Any stress causes immediate bolting.", "bar": 58 }, "sun": { "value": "4–5 hours, partial shade", "detail": "Unlike most herbs, actually does better with some afternoon shade in summer.", "bar": 50 }, "soil": { "value": "Well-draining, moderately rich", "detail": "Light, free-draining compost mix. Not too rich.", "bar": 52 }, "temp": { "value": "15–21°C", "detail": "Cool weather herb. Bolts almost immediately in temperatures above 25°C." }, "seedDepth": { "value": "1 cm deep", "detail": "Sow direct — hates root disturbance. The 'seed' is actually two seeds in one corky coat." }, "germination": "7–10 days", "harvest": "3–4 weeks for leaves, 90 days for seeds", "spacing": "5–8 cm" },
+    "tips": ["Sow direct — coriander bolts immediately if transplanted, without exception.", "Sow a small patch every 3 weeks throughout spring and early summer for continuous leaf supply.", "In summer, sow in afternoon shade and water regularly — this significantly delays bolting.", "If it bolts, let it flower and set seed — the coriander seeds are equally valuable in cooking."],
+    "warning": "Bolts extremely fast in heat or drought. Summer growing is challenging without shade and regular watering."
+  },
+  {
+    "id": "fennel-herb", "name": "Fennel (Herb)", "latin": "Foeniculum vulgare", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Fennel+Herb",
+    "tagline": "Tall, feathery, and anise-scented. A beautiful perennial herb that self-seeds generously.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant once established. Don't overwater.", "bar": 32 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for the best growth and flavour.", "bar": 85 }, "soil": { "value": "Well-draining, fertile", "detail": "Good garden soil. Not fussy about richness.", "bar": 52 }, "temp": { "value": "Hardy to -15°C", "detail": "Perennial in most climates. Self-seeds freely." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct in spring. Or buy a young plant." }, "germination": "7–14 days", "harvest": "Leaves anytime. Seeds when umbrella heads dry.", "spacing": "45–60 cm — becomes tall (1.5–2m)" },
+    "tips": ["Bronze fennel is ornamental with rich coppery-purple feathery foliage — just as edible as green fennel.", "Never grow near dill — they cross-pollinate and both lose their characteristic flavour.", "Cut back hard after flowering to encourage fresh new growth.", "Self-seeds so freely that once established, you'll likely never need to sow it again."],
+    "warning": "A poor companion plant — fennel inhibits the growth of many vegetables. Keep it away from the kitchen garden."
+  },
+  {
+    "id": "lemon-balm", "name": "Lemon Balm", "latin": "Melissa officinalis", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lemon+Balm",
+    "tagline": "Lemon-scented leaves for teas, desserts, and salads. Easy and very pretty. Bees absolutely love it.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist but reasonably drought-tolerant once established.", "bar": 48 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade well. Can become invasive in full sun.", "bar": 58 }, "soil": { "value": "Any reasonable soil", "detail": "Grows in almost any soil. Not fussy at all.", "bar": 45 }, "temp": { "value": "Hardy perennial", "detail": "Very cold-hardy. Dies back in winter, returns strongly in spring." }, "seedDepth": { "value": "Press onto surface", "detail": "Tiny seeds need light. Press onto moist compost." }, "germination": "10–14 days", "harvest": "Leaves anytime. Best before flowering.", "spacing": "30–45 cm" },
+    "tips": ["Harvest before flowering for the most intense lemon flavour.", "Cut back hard after flowering to encourage a fresh flush of young, fragrant leaves.", "Excellent dried — dry bunches quickly retain the lemon fragrance well.", "A significant self-seeder — deadhead flowers to prevent it spreading too freely."],
+    "warning": "Can become invasive like mint if allowed to self-seed freely. Grow in a container if you want to control it."
+  },
+  {
+    "id": "tarragon-french", "name": "French Tarragon", "latin": "Artemisia dracunculus var. sativa", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=French+Tarragon",
+    "tagline": "The essential herb of French cuisine. Anise-like flavour that's irreplaceable in béarnaise and fines herbes.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant. Let soil dry between waterings.", "bar": 35 }, "sun": { "value": "6+ hours direct", "detail": "Full sun produces the best flavour.", "bar": 85 }, "soil": { "value": "Well-draining, fertile", "detail": "Good garden soil with excellent drainage. Hates waterlogged conditions.", "bar": 52 }, "temp": { "value": "Hardy to -15°C", "detail": "Dies back in winter, returns in spring. Needs winter dormancy." }, "seedDepth": { "value": "Buy plants only", "detail": "French tarragon produces no viable seed. Must be bought as a plant or propagated by cuttings or division." }, "germination": "No seeds — buy plants", "harvest": "Spring through summer", "spacing": "40–60 cm" },
+    "tips": ["Always buy French tarragon, not Russian tarragon — Russian tarragon has virtually no flavour.", "Flavour is strongest just as flowers are forming — harvest heavily at this point.", "Divide every 2–3 years in spring to maintain vigour.", "The flavour deteriorates significantly when dried — freeze in butter or oil for the best preservation."],
+    "warning": "Russian tarragon (sold as seed) has almost no flavour. Insist on French tarragon, available only as plants."
+  },
+  {
+    "id": "chervil", "name": "Chervil", "latin": "Anthriscus cerefolium", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Chervil",
+    "tagline": "A delicate, anise-flavoured herb essential in classic French cooking. Thrives in cool shade.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist. Drought causes immediate bolting.", "bar": 62 }, "sun": { "value": "Partial shade preferred", "detail": "One of the very few herbs that prefers shade. Full sun causes it to bolt rapidly.", "bar": 35 }, "soil": { "value": "Rich, moist", "detail": "Moist, fertile soil. One of the most shade and moisture-tolerant herbs.", "bar": 65 }, "temp": { "value": "Hardy — cool conditions ideal", "detail": "Cool weather herb. Excellent in spring, autumn, and under cover in winter." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Sow direct where it will grow. Don't transplant." }, "germination": "14–21 days", "harvest": "6–8 weeks from sowing", "spacing": "15–20 cm" },
+    "tips": ["Sow in autumn for a spring harvest — the best production is in cool conditions.", "Unlike most herbs, actually grows better in partial or full shade.", "The delicate flavour of anise and parsley disappears completely when cooked — add at the very last moment.", "Self-seeds freely in good conditions — once established it may perpetuate itself indefinitely."],
+    "warning": "Bolts very fast in heat and direct sun. For summer growing, a shaded spot is absolutely essential."
+  },
+  {
+    "id": "lovage", "name": "Lovage", "latin": "Levisticum officinale", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lovage",
+    "tagline": "A tall, powerful perennial herb with an intense celery-like flavour. One plant is almost always enough.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist. More drought-tolerant than celery but appreciates consistent moisture.", "bar": 50 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade well. Prefers some shade in hot weather.", "bar": 58 }, "soil": { "value": "Rich, deep, well-draining", "detail": "Deep soil to accommodate the large taproot. Dig in plenty of compost.", "bar": 65 }, "temp": { "value": "Hardy to -20°C", "detail": "Extremely cold-hardy perennial. Established for decades." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Fresh seed sown in autumn or spring. Or buy a small plant." }, "germination": "10–21 days", "harvest": "Leaves from year 2. Seeds when dry.", "spacing": "60–90 cm — grows 1.5–2m tall" },
+    "tips": ["One plant is genuinely sufficient — the flavour is intense and you rarely need much.", "Cut back to ground level in summer for a fresh flush of young, milder leaves.", "The hollow stems can be used as drinking straws in Bloody Mary cocktails — traditional use.", "All parts are edible: leaves, stems, seeds, and even the root."],
+    "warning": "Very powerful flavour — use sparingly. Can overwhelm a dish. One plant is always enough — don't grow more than one."
+  },
+  {
+    "id": "bay", "name": "Bay Laurel", "latin": "Laurus nobilis", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Bay+Laurel",
+    "tagline": "A long-lived aromatic shrub that provides bay leaves for cooking year-round for decades.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant once established. Water regularly in pots.", "bar": 35 }, "sun": { "value": "4–8 hours", "detail": "Adaptable. Grows in sun or partial shade.", "bar": 62 }, "soil": { "value": "Well-draining, fertile", "detail": "Good compost-rich soil with good drainage.", "bar": 58 }, "temp": { "value": "Hardy to -5°C (young), -10°C (established)", "detail": "Young plants need frost protection. Established plants are much hardier." }, "seedDepth": { "value": "Buy a plant", "detail": "Very slow from seed. Buy a small plant — it will grow steadily for decades." }, "germination": "Buy a plant", "harvest": "Leaves year-round once established", "spacing": "Can be grown as a container tree or left to become a large shrub/tree" },
+    "tips": ["Grow in a large pot to control the size and move to shelter in hard winters.", "Shape into topiary balls, pyramids, or standards — it clips beautifully and holds its form.", "Fresh bay is more pungent than dried — use half as many leaves.", "Scale insects are the main pest — check the undersides of leaves regularly and treat with neem oil."],
+    "warning": "Not the same as cherry laurel (Prunus laurocerasus) which is toxic. Only Laurus nobilis is edible."
+  },
+  {
+    "id": "lemon-verbena", "name": "Lemon Verbena", "latin": "Aloysia citrodora", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lemon+Verbena",
+    "tagline": "The most intensely lemon-scented plant you can grow. Even a single leaf perfumes a whole room.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist in growing season. Reduce significantly in winter.", "bar": 55 }, "sun": { "value": "6+ hours direct", "detail": "Needs full sun and warmth for the best fragrance.", "bar": 88 }, "soil": { "value": "Well-draining, fertile", "detail": "Good compost with excellent drainage.", "bar": 58 }, "temp": { "value": "Bring indoors below 5°C", "detail": "Half-hardy in most temperate climates. Bring indoors before first frost." }, "seedDepth": { "value": "Stem cuttings", "detail": "Take softwood cuttings in summer. Seeds are rarely available." }, "germination": "Cuttings root in 4–6 weeks", "harvest": "Leaves from late spring to autumn", "spacing": "60–90 cm — grows large in warm conditions" },
+    "tips": ["Move outside in late May and back inside in September in temperate climates.", "The leaves drop in winter (it's deciduous) — don't discard the plant as it regrows from the woody stems in spring.", "Use fresh leaves in teas, desserts, lemonade, and ice cream — the flavour is incomparable.", "The dried leaves retain fragrance exceptionally well — use in potpourri and sachets."],
+    "warning": "Drops all leaves in winter and looks dead — this is completely normal. Keep barely moist and wait for spring regrowth."
+  },
+  {
+    "id": "lavender", "name": "Lavender", "latin": "Lavandula angustifolia", "emoji": "💜", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lavender",
+    "tagline": "Drought-tolerant, beautiful, and smells incredible. Bees love it and it barely needs attention.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Let soil dry between waterings. Established plants survive on rainfall alone in mild climates.", "bar": 25 }, "sun": { "value": "Full sun, 6+ hours", "detail": "More sun = more flowers and more intense fragrance.", "bar": 90 }, "soil": { "value": "Poor, well-draining, alkaline", "detail": "Prefers poor soil. Rich compost causes lush growth but dramatically fewer flowers.", "bar": 20 }, "temp": { "value": "Hardy to -15°C", "detail": "Very cold-hardy. Wet roots in winter kill it faster than any cold." }, "seedDepth": { "value": "3–4 mm deep", "detail": "Slow from seed (2–3 months to germinate). Easier to buy a small plant." }, "germination": "2–3 months (buy plants instead)", "harvest": "Cut when half the flowers are open", "spacing": "30–45 cm" },
+    "tips": ["Cut back by one-third after flowering every single year. Never cut into old woody growth — it won't regrow.", "Poor drainage is the number one killer. Plant in raised beds or add grit to the soil.", "Harvest when about half the tiny flowers are open — they continue opening after cutting.", "Dried bundles in wardrobes and drawers repel moths naturally and smell wonderful for months."],
+    "warning": "Never let lavender sit in waterlogged soil, especially in winter. Root rot will kill it quickly and is irreversible."
+  },
+  {
+    "id": "marjoram", "name": "Marjoram", "latin": "Origanum majorana", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Marjoram",
+    "tagline": "Sweeter and more delicate than oregano. A key herb in Mediterranean cooking with a gentler flavour.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant. Let soil dry between waterings.", "bar": 30 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most aromatic, flavourful leaves.", "bar": 85 }, "soil": { "value": "Well-draining, lean", "detail": "Gritty, well-draining soil. Too rich = poor flavour.", "bar": 28 }, "temp": { "value": "Half-hardy — bring in before frost", "detail": "Less hardy than oregano. Bring indoors or treat as annual in cold climates." }, "seedDepth": { "value": "Press onto surface", "detail": "Tiny seeds need light to germinate." }, "germination": "10–14 days", "harvest": "Leaves anytime, best before flowering", "spacing": "20–30 cm" },
+    "tips": ["Sweeter and more delicate than oregano — use when you want a gentler Mediterranean herb flavour.", "Harvest just before flowering for the most intense aroma and flavour.", "In cool climates, grow as an annual or bring indoors in a sunny spot for winter.", "Excellent with lamb, chicken, eggs, and soft cheeses."],
+    "warning": "Less hardy than oregano — will die in a hard frost without protection. In cold climates treat as an annual."
+  },
+  {
+    "id": "hyssop", "name": "Hyssop", "latin": "Hyssopus officinalis", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hyssop",
+    "tagline": "A semi-evergreen shrubby herb with beautiful blue flowers and a complex minty, slightly bitter flavour.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant once established.", "bar": 28 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 88 }, "soil": { "value": "Well-draining, alkaline", "detail": "Lean, alkaline soil. Excellent drainage essential.", "bar": 22 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy. Semi-evergreen in mild winters." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Sow in spring or buy a plant." }, "germination": "10–14 days", "harvest": "Leaves and flower tips anytime", "spacing": "30–40 cm" },
+    "tips": ["The blue flowers are edible and beautiful — use them to decorate salads.", "A traditional herb in liqueurs like Chartreuse.", "Attracts bees and butterflies prolifically — great for the herb garden or border.", "Cut back by half in spring to keep compact and bushy."],
+    "warning": "Non-toxic. Very easy once established in well-drained conditions."
+  },
+  {
+    "id": "borage", "name": "Borage", "latin": "Borago officinalis", "emoji": "💙", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Borage",
+    "tagline": "Vivid blue star-shaped flowers that are edible and taste of cucumber. Self-seeds freely for years.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant once established. Don't overwater.", "bar": 40 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred. Tolerates light shade.", "bar": 78 }, "soil": { "value": "Any well-draining soil", "detail": "Not fussy at all. Thrives in poor soil.", "bar": 35 }, "temp": { "value": "Hardy annual", "detail": "Self-seeds prolifically — once established it reappears every year." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct in spring where it will grow. Hates being transplanted." }, "germination": "7–14 days", "harvest": "Flowers from 8 weeks", "spacing": "30–45 cm" },
+    "tips": ["Freeze the beautiful blue star flowers in ice cubes for drinks — they look spectacular.", "The cucumber-flavoured flowers are traditional in Pimm's and gin cocktails.", "Self-seeds so freely that once you've grown it, you'll likely never need to sow it again.", "A fantastic companion plant — attracts pollinators and is said to deter tomato hornworm."],
+    "warning": "Sow direct — hates root disturbance. Contains small amounts of pyrrolizidine alkaloids — avoid eating large quantities regularly."
+  },
+  {
+    "id": "calendula", "name": "Calendula (Pot Marigold)", "latin": "Calendula officinalis", "emoji": "🌼", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Calendula",
+    "tagline": "Bright orange flowers that are edible, medicinal, and beautiful. Self-seeds freely all season.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Fairly drought-tolerant. Don't overwater.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers. Tolerates light shade.", "bar": 80 }, "soil": { "value": "Any reasonable soil", "detail": "Very undemanding. Even poor soil is fine.", "bar": 38 }, "temp": { "value": "Hardy annual — self-seeds", "detail": "Hardy enough to overwinter as a seedling in mild climates." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct in spring or autumn." }, "germination": "7–14 days", "harvest": "Flowers from 8 weeks onwards", "spacing": "20–30 cm" },
+    "tips": ["The petals are edible — scatter over salads for colour or use to make infused oils.", "Traditional skin remedy — infused calendula oil is soothing for dry or irritated skin.", "Deadhead regularly to extend flowering over the entire season.", "Self-seeds reliably — scatter seed where you want it and it will return every year."],
+    "warning": "Can cause allergic reactions in people sensitive to plants in the Asteraceae family (daisies, chrysanthemums)."
+  },
+  {
+    "id": "chamomile-german", "name": "German Chamomile", "latin": "Matricaria chamomilla", "emoji": "🌼", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=German+Chamomile",
+    "tagline": "The chamomile used for tea. Delicate daisy flowers, apple-like scent, and extremely easy to grow.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Reasonably drought-tolerant once established.", "bar": 42 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred. Tolerates light shade.", "bar": 78 }, "soil": { "value": "Any well-draining soil", "detail": "Thrives in poor, sandy soil. Very undemanding.", "bar": 35 }, "temp": { "value": "Hardy annual — self-seeds freely", "detail": "Self-seeds prolifically once established." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Scatter seed and press gently onto soil. Do not cover." }, "germination": "7–14 days", "harvest": "Flowers when fully open", "spacing": "15–20 cm" },
+    "tips": ["Harvest flowers when fully open on a dry day and dry quickly for the best flavour.", "Self-seeds so freely that once established you'll have it permanently without sowing.", "The apple-scented flowers make an excellent calming tea — harvest regularly throughout summer.", "Roman chamomile (Anthemis nobilis) is a perennial alternative with the same uses but lower growing."],
+    "warning": "Can cause allergic reactions in people sensitive to ragweed, chrysanthemums, or daisies."
+  },
+  {
+    "id": "echinacea", "name": "Echinacea (Coneflower)", "latin": "Echinacea purpurea", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Echinacea",
+    "tagline": "Beautiful purple coneflowers with significant medicinal properties. Tough, long-lived, and striking.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Drought-tolerant once established. Water regularly in the first year.", "bar": 40 }, "sun": { "value": "6+ hours direct", "detail": "Full sun produces the most flowers.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Not fussy. Average garden soil works well.", "bar": 48 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow in autumn or cold-stratify seeds before spring sowing." }, "germination": "10–21 days", "harvest": "Flowers mid to late summer from year 2", "spacing": "45–60 cm" },
+    "tips": ["Requires cold stratification for reliable germination — refrigerate seeds for 4 weeks before sowing.", "The roots are the most medicinally potent part — harvest from year 3 onwards from mature plants.", "Leave seed heads standing through winter for goldfinches and other birds.", "Divide every 4–5 years to maintain vigour and create more plants."],
+    "warning": "Can cause allergic reactions in people sensitive to Asteraceae plants. Avoid if you have autoimmune conditions without medical advice."
+  },
+  {
+    "id": "valerian", "name": "Valerian", "latin": "Valeriana officinalis", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Valerian",
+    "tagline": "Tall, fragrant, and medicinal. The roots are used for sleep support. Cats are attracted to it like catnip.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Prefers moist conditions but is reasonably drought-tolerant once established.", "bar": 55 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade well.", "bar": 58 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Moist, fertile soil. Grows particularly well near water.", "bar": 65 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface", "detail": "Tiny seeds need light. Press onto moist compost." }, "germination": "14–21 days", "harvest": "Roots from year 2–3, flowers in summer", "spacing": "60–90 cm — grows 1.5–2m tall" },
+    "tips": ["Cats are strongly attracted to the roots — protect them in the garden.", "The flowers attract bees, butterflies, and other pollinators in large numbers.", "The roots are harvested in autumn of years 2–3 for medicinal use.", "Cut back after flowering to prevent aggressive self-seeding."],
+    "warning": "Medicinal use of the roots should be discussed with a healthcare provider. The roots smell unpleasant to many people — earthy and slightly rotten."
+  },
+  {
+    "id": "St-Johns-wort", "name": "St John's Wort", "latin": "Hypericum perforatum", "emoji": "🌼", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=St+Johns+Wort",
+    "tagline": "Bright yellow flowers with significant traditional medicinal use. Hardy perennial that virtually looks after itself.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Drought-tolerant. Very low maintenance once established.", "bar": 28 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers and highest medicinal potency.", "bar": 85 }, "soil": { "value": "Any well-draining soil", "detail": "Thrives in poor soil. Very undemanding.", "bar": 32 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Tiny seeds need light to germinate. Press onto moist compost." }, "germination": "14–21 days", "harvest": "Flowers just as buds open, late June–July", "spacing": "30–45 cm" },
+    "tips": ["Harvest flowers when buds are just opening — the hypericin content is highest at this point.", "The tiny black dots on the leaves are oil glands — hold a leaf up to light to see them.", "Cut back after flowering to keep compact and encourage fresh growth.", "Self-seeds moderately — a manageable amount."],
+    "warning": "Significant drug interactions — affects the metabolism of many medications including antidepressants, blood thinners, and contraceptives. Consult a doctor before medicinal use."
+  },
+  {
+    "id": "elderflower", "name": "Elder", "latin": "Sambucus nigra", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Elder",
+    "tagline": "Fragrant flower clusters for cordial and champagne in early summer. Then black berries for wine and jam.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water regularly for the first 2 years. Drought-tolerant once established.", "bar": 40 }, "sun": { "value": "4–8 hours", "detail": "Adaptable. Grows in sun or shade.", "bar": 60 }, "soil": { "value": "Any reasonable soil", "detail": "Very adaptable. Grows in almost any soil including clay.", "bar": 42 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy." }, "seedDepth": { "value": "Plant from cuttings or buy a plant", "detail": "Hardwood cuttings in winter root easily. Or buy a small plant." }, "germination": "Cuttings root in 4–8 weeks", "harvest": "Flowers in June, berries in August–September", "spacing": "3–5 m — grows into a large shrub/small tree" },
+    "tips": ["Harvest flowers on dry days in the morning before the fragrance diminishes.", "Cut back hard every year or every other year to encourage vigorous growth and the best flowers.", "The flowers must be used fresh — they lose fragrance within hours of picking.", "The black berries require cooking before eating — don't eat them raw."],
+    "warning": "All parts except ripe cooked berries and flowers are toxic. Raw berries cause nausea. Never eat the leaves, bark, or roots."
+  },
+  {
+    "id": "meadowsweet", "name": "Meadowsweet", "latin": "Filipendula ulmaria", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Meadowsweet",
+    "tagline": "Creamy, fragrant flower clusters with an almond-like scent. Excellent for cordials and desserts.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Loves moisture. Grows naturally in wet meadows and stream banks.", "bar": 80 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade. Prefers some shade in hot weather.", "bar": 55 }, "soil": { "value": "Rich, moist, heavy", "detail": "Loves heavy, moist, even boggy soil — opposite of most herbs.", "bar": 82 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Seeds need light and cold stratification. Or divide established plants." }, "germination": "14–28 days", "harvest": "Flowers in June–August", "spacing": "60–90 cm" },
+    "tips": ["Harvest flowers just as they open fully for the best fragrance in cordials.", "The aspirin-like compound salicylic acid was originally derived from meadowsweet.", "A gorgeous addition to wildlife gardens, pond edges, and damp borders.", "Dry the flowers quickly to preserve the delicate fragrance."],
+    "warning": "Avoid if sensitive to aspirin — contains related salicylate compounds."
+  },
+  {
+    "id": "angelica", "name": "Angelica", "latin": "Angelica archangelica", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Angelica",
+    "tagline": "A dramatic architectural herb reaching 2m. Stems are candied for cake decoration, leaves flavour gin.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Loves moisture. Keep consistently moist.", "bar": 70 }, "sun": { "value": "4–6 hours, partial shade", "detail": "Tolerates and even prefers partial shade. Excellent for damp, shady spots.", "bar": 48 }, "soil": { "value": "Rich, deep, moist", "detail": "Deep, fertile, moisture-retaining soil.", "bar": 78 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy biennial or short-lived perennial." }, "seedDepth": { "value": "0.5 cm deep — fresh seed only", "detail": "Seed must be fresh (sow immediately after collection or buy fresh). Old seed has very low viability." }, "germination": "14–28 days (fresh seed only)", "harvest": "Stems in spring of year 2. Seeds when dry.", "spacing": "90 cm — very large plant" },
+    "tips": ["Always use fresh seed — angelica viability drops dramatically within months.", "Removing flower heads can extend the plant's life beyond the biennial habit.", "The hollow stems can be candied for traditional cake decoration.", "Self-seeds where conditions suit — once established can persist indefinitely."],
+    "warning": "Can cause photosensitivity skin reactions. Wear gloves and long sleeves when handling. Don't confuse with hemlock — both have hollow stems and similar looks."
+  },
+  {
+    "id": "winter-savory", "name": "Winter Savory", "latin": "Satureja montana", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Winter+Savory",
+    "tagline": "A peppery perennial herb that's one of the classic companions to beans in cooking.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant once established.", "bar": 28 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 88 }, "soil": { "value": "Well-draining, lean", "detail": "Poor to moderately fertile, well-draining soil.", "bar": 25 }, "temp": { "value": "Hardy to -15°C", "detail": "More cold-hardy than summer savory." }, "seedDepth": { "value": "Press onto surface", "detail": "Tiny seeds need light. Press onto moist compost." }, "germination": "10–21 days", "harvest": "Anytime, best before flowering", "spacing": "20–30 cm" },
+    "tips": ["The classic companion to bean dishes in German and French cooking.", "Stronger flavour than summer savory — use less of it in cooking.", "Semi-evergreen — provides leaves through mild winters.", "Clip back hard after flowering to keep compact."],
+    "warning": "Non-toxic. Easy once established in well-drained conditions."
+  },
+  {
+    "id": "summer-savory", "name": "Summer Savory", "latin": "Satureja hortensis", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Summer+Savory",
+    "tagline": "A milder, more delicate version of winter savory. An annual with a fresh, peppery herb flavour.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist but don't overwater.", "bar": 50 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good soil with excellent drainage.", "bar": 45 }, "temp": { "value": "Half-hardy annual", "detail": "Sow after last frost. Not frost-tolerant." }, "seedDepth": { "value": "Press onto surface", "detail": "Tiny seeds need light. Press onto moist compost." }, "germination": "7–14 days", "harvest": "From 8 weeks — leaves and stems", "spacing": "15–20 cm" },
+    "tips": ["Milder and more delicate than winter savory — better when you want a subtle peppery note.", "Excellent with beans, peas, and lamb.", "Grow alongside beans as a companion — said to improve their flavour and deter bean beetles.", "Self-seeds in warm conditions."],
+    "warning": "Non-toxic. Easy annual."
+  },
+  {
+    "id": "bergamot-monarda", "name": "Bergamot (Bee Balm)", "latin": "Monarda didyma", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Bergamot",
+    "tagline": "Vivid red flowers with an oregano-like flavour. Used to make Oswego tea — a native American herbal drink.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist. Tolerates wet conditions better than most herbs.", "bar": 62 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade.", "bar": 60 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Good compost-rich, moist soil.", "bar": 65 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface", "detail": "Tiny seeds need light." }, "germination": "10–14 days", "harvest": "Flowers mid to late summer", "spacing": "45–60 cm" },
+    "tips": ["Attracts hummingbirds, bees, and butterflies prolifically — a wildlife garden essential.", "The flowers and leaves are both edible — use the petals in salads.", "Divide every 2–3 years to prevent the centre dying out.", "Powdery mildew is common — plant in good airflow and water at the base."],
+    "warning": "Can spread aggressively by underground runners. Plant in a contained spot or in a large pot."
+  },
+  {
+    "id": "costmary", "name": "Costmary", "latin": "Tanacetum balsamita", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Costmary",
+    "tagline": "A perennial herb with minty-balsamic scented leaves. Used historically to flavour beer before hops.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Drought-tolerant once established.", "bar": 30 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best fragrance and flavour.", "bar": 82 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Not fussy. Average garden soil with good drainage.", "bar": 48 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "Division or root cuttings", "detail": "Rarely grown from seed. Divide established clumps." }, "germination": "Division: immediate", "harvest": "Leaves anytime during growing season", "spacing": "60–90 cm — spreads by rhizome" },
+    "tips": ["A genuinely ancient herb with a fascinating history — used as a Bible bookmark (hence 'Bible leaf').", "The minty-balsamic flavour is unique — use sparingly in salads and herb butters.", "Spreads by underground rhizomes — grow in a contained area.", "Dried leaves retain fragrance well — use in sachets and potpourri."],
+    "warning": "Spreads via rhizomes and can become invasive in suitable conditions. Grow in a contained area."
+  },
+  {
+    "id": "southernwood", "name": "Southernwood", "latin": "Artemisia abrotanum", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Southernwood",
+    "tagline": "A fragrant, feathery shrubby herb used as a moth repellent and in traditional medicine.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Drought-tolerant. Let dry between waterings.", "bar": 25 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 88 }, "soil": { "value": "Well-draining, poor to moderate", "detail": "Poor, dry soil. Rich soil causes soft, disease-prone growth.", "bar": 25 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "Stem cuttings", "detail": "Rarely from seed. Take hardwood cuttings in autumn or softwood in summer." }, "germination": "Cuttings root in 4–8 weeks", "harvest": "Leaves anytime during growing season", "spacing": "45–60 cm" },
+    "tips": ["The lemon-camphor scent deters moths — place dried bundles in wardrobes and drawers.", "Cut back hard in spring to prevent it becoming leggy and shapeless.", "The feathery silver-grey foliage is highly ornamental in herb gardens.", "Traditional insect repellent — crush leaves and rub on skin."],
+    "warning": "Internal medicinal use should be avoided. For aromatic and repellent use only."
+  },
+  {
+    "id": "wormwood", "name": "Wormwood", "latin": "Artemisia absinthium", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Wormwood",
+    "tagline": "Dramatic silver-grey foliage. The source of absinthe's distinctive flavour. Extremely bitter.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Very drought-tolerant. Excellent drainage essential.", "bar": 22 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for the silver foliage colour.", "bar": 90 }, "soil": { "value": "Poor, dry, well-draining", "detail": "Poor, lean soil. Rich soil causes soft, pale growth.", "bar": 18 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Tiny seeds need light. Or take cuttings in summer." }, "germination": "14–21 days", "harvest": "Leaves before flowering for the most silver foliage", "spacing": "45–60 cm" },
+    "tips": ["The intensely bitter leaves are a natural insect repellent — place branches in cupboards to deter pests.", "The silver foliage is stunning as a contrasting foliage plant in borders.", "Cut back hard in spring to encourage the most silvery new growth.", "The compound thujone (responsible for absinthe's effects) is present — not for casual consumption."],
+    "warning": "The thujone content makes this toxic in significant quantities. Not for eating or making drinks without specialist knowledge."
+  },
+  {
+    "id": "mugwort", "name": "Mugwort", "latin": "Artemisia vulgaris", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Mugwort",
+    "tagline": "A traditional European herb with silver-backed leaves. Used in cooking and traditional medicine for centuries.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Very drought-tolerant once established.", "bar": 25 }, "sun": { "value": "4–8 hours", "detail": "Adaptable to sun or partial shade.", "bar": 60 }, "soil": { "value": "Any well-draining soil", "detail": "Grows in almost any soil. Very undemanding.", "bar": 35 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface", "detail": "Scatter seed onto soil surface. Or divide established clumps." }, "germination": "14–21 days", "harvest": "Young leaves in spring for cooking", "spacing": "60–90 cm" },
+    "tips": ["Young spring leaves can be used in stuffing and to flavour goose and pork.", "The silver-backed leaves are distinctive and ornamental.", "Can spread aggressively by rhizomes — grow in a contained area.", "Traditional use in Japanese mochi (rice cakes) and Korean cuisine."],
+    "warning": "Avoid during pregnancy — stimulates uterine contractions. Contains thujone — avoid large quantities."
+  },
+  {
+    "id": "tansy", "name": "Tansy", "latin": "Tanacetum vulgare", "emoji": "🌼", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Tansy",
+    "tagline": "A vigorous perennial with bright yellow button flowers. A traditional insect repellent and companion plant.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Very drought-tolerant. Will grow in almost any conditions.", "bar": 28 }, "sun": { "value": "4–8 hours", "detail": "Grows in full sun or partial shade.", "bar": 58 }, "soil": { "value": "Any soil", "detail": "Literally grows anywhere. One of the most undemanding plants.", "bar": 28 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface", "detail": "Scatter seed and press down. Or divide existing clumps." }, "germination": "10–14 days", "harvest": "Leaves and flowers anytime", "spacing": "60–90 cm — can spread widely" },
+    "tips": ["Plant near the compost heap — said to accelerate decomposition.", "The dried yellow flowers last beautifully and hold their colour for months.", "A traditional fly repellent — hang bundles in the kitchen.", "Grows vigorously and may need containing — remove flower heads before they set seed."],
+    "warning": "Toxic if eaten in significant quantities — contains toxic ketones. For aromatic and companion planting use only, not cooking."
+  },
+  {
+    "id": "yarrow", "name": "Yarrow", "latin": "Achillea millefolium", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Yarrow",
+    "tagline": "A tough, feathery perennial with flat-topped flower heads. Medicinal, edible, and beautiful.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Very drought-tolerant once established.", "bar": 25 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers.", "bar": 85 }, "soil": { "value": "Any well-draining soil", "detail": "Thrives in poor soil. Very undemanding.", "bar": 30 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Tiny seeds need light. Press onto soil. Or divide established plants." }, "germination": "10–21 days", "harvest": "Leaves anytime, flowers when fully open", "spacing": "45–60 cm" },
+    "tips": ["Traditional wound herb — the young leaves can be applied to minor cuts to slow bleeding.", "Excellent companion plant — said to improve the vigour and flavour of nearby herbs.", "Divide every 3–4 years to maintain vigour — the clumps can become large.", "Dried flower heads retain their shape and colour beautifully for dried arrangements."],
+    "warning": "Can cause allergic skin reactions (yarrow dermatitis) in sensitive individuals. Avoid during pregnancy."
+  },
+  {
+    "id": "comfrey", "name": "Comfrey", "latin": "Symphytum officinale", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Comfrey",
+    "tagline": "One of the most useful plants in the garden. Dynamic accumulator, liquid fertiliser, and compost activator.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Drought-tolerant once established. Prefers moist soil.", "bar": 40 }, "sun": { "value": "4–8 hours", "detail": "Grows in sun or shade. Remarkably adaptable.", "bar": 55 }, "soil": { "value": "Any soil", "detail": "Grows in almost any soil including poor or heavy clay.", "bar": 35 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "Root cuttings", "detail": "Plant root sections in spring or autumn. The smallest piece of root grows." }, "germination": "New shoots in 2–4 weeks from root sections", "harvest": "Leaves throughout growing season", "spacing": "60–90 cm" },
+    "tips": ["Make liquid fertiliser by filling a bucket with leaves, weighing down, and covering with water for 4–6 weeks — dilute 1:20 to use.", "Add leaves directly to the planting hole for potatoes and tomatoes — they break down into nutrients rapidly.", "Bocking 14 variety is sterile and non-invasive — the best choice for gardens.", "Use as a compost activator — the leaves break down rapidly and add nutrients."],
+    "warning": "Contains pyrrolizidine alkaloids — avoid ingesting large quantities regularly. The sterile Bocking 14 variety is preferred for garden use."
+  },
+  {
+    "id": "nettle", "name": "Stinging Nettle", "latin": "Urtica dioica", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Stinging+Nettle",
+    "tagline": "Deliberately cultivating nettles is the mark of a serious gardener. Edible, medicinal, and wildlife essential.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Extremely vigorous. Virtually self-sufficient.", "bar": 15 }, "sun": { "value": "4–8 hours", "detail": "Grows in almost any light condition.", "bar": 50 }, "soil": { "value": "Rich, moist", "detail": "Grows most vigorously in rich, nitrogen-rich soil.", "bar": 60 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface", "detail": "Scatter seed. Much easier to transplant a small plant from the wild." }, "germination": "7–14 days", "harvest": "Young spring tops only — wear gloves", "spacing": "Contain in a corner or large pot" },
+    "tips": ["Harvest only the young spring tops — wear thick gloves. Cooking or drying completely removes the sting.", "Rich in iron and vitamins — make nettle soup, tea, or pesto.", "Make nettle liquid fertiliser like comfrey — excellent high-nitrogen feed for leafy crops.", "A critical habitat plant — over 40 insect species depend on nettles including red admiral and peacock butterfly larvae."],
+    "warning": "The sting causes painful burning and rash. Always wear thick gloves. Dock leaves nearby provide relief from the sting."
+  },
+  {
+    "id": "plantain-herb", "name": "Ribwort Plantain", "latin": "Plantago lanceolata", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Ribwort+Plantain",
+    "tagline": "A common 'weed' that's actually a valuable medicinal herb. Excellent for minor wounds and insect bites.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Extremely drought-tolerant. Essentially grows itself.", "bar": 15 }, "sun": { "value": "4–8 hours", "detail": "Grows in sun or shade.", "bar": 50 }, "soil": { "value": "Any soil", "detail": "Grows in the most difficult, compacted soils.", "bar": 20 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface", "detail": "Press onto soil surface. Often grows itself in lawns." }, "germination": "7–14 days", "harvest": "Young leaves anytime", "spacing": "No spacing needed — scatter" },
+    "tips": ["Crush a fresh leaf and apply directly to a bee sting, wasp sting, or nettle sting for almost instant relief.", "Young leaves are edible in salads — mild, slightly bitter flavour.", "A roadside plant with impressive medicinal properties that are gaining scientific attention.", "One of the best first-aid plants to keep in the garden."],
+    "warning": "Non-toxic. One of the safest herbs with a long history of external use."
+  },
+  {
+    "id": "wood-sorrel-oxalis", "name": "Wood Sorrel", "latin": "Oxalis acetosella", "emoji": "🍀", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Wood+Sorrel",
+    "tagline": "Clover-like leaves with a delightful sharp lemon flavour. Excellent in salads and as a garnish.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist. Tolerates partial drought.", "bar": 48 }, "sun": { "value": "Shade to partial shade", "detail": "Prefers shaded conditions. One of the few edible herbs for deep shade.", "bar": 28 }, "soil": { "value": "Moist, woodland soil", "detail": "Moist, humus-rich soil. Excellent under trees.", "bar": 62 }, "temp": { "value": "Hardy perennial", "detail": "Evergreen in mild winters. Cold-hardy." }, "seedDepth": { "value": "Small bulbs just below surface", "detail": "Plant tiny bulbils just below the surface. Or allow self-seeding." }, "germination": "Sprouts in 2–3 weeks", "harvest": "Young leaves anytime", "spacing": "10–15 cm — forms a carpet" },
+    "tips": ["The sharp lemony flavour comes from oxalic acid — excellent as a surprise garnish.", "Grows naturally in woodland — excellent groundcover under trees where little else grows.", "The leaves fold up at night and in cloudy weather.", "Beautiful as a ground covering herb in dappled shade areas."],
+    "warning": "Contains oxalic acid — eat in moderation. Avoid if you have kidney stones, gout, or rheumatism."
+  },
+  {
+    "id": "sweet-cicely", "name": "Sweet Cicely", "latin": "Myrrhis odorata", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sweet+Cicely",
+    "tagline": "A tall, fragrant perennial with an anise flavour. Naturally sweet — use leaves to reduce sugar in cooking.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Prefers moist conditions. Keep consistently moist.", "bar": 55 }, "sun": { "value": "Partial shade to shade", "detail": "Prefers partial or full shade. Excellent for shaded spots.", "bar": 38 }, "soil": { "value": "Rich, moist, deep", "detail": "Deep, fertile, moist soil. Grows well under deciduous trees.", "bar": 68 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "1–2 cm deep — needs cold stratification", "detail": "Sow in autumn or cold-stratify seeds for 8–12 weeks before spring sowing." }, "germination": "21–42 days", "harvest": "Leaves spring through summer. Seeds when green.", "spacing": "60–90 cm — grows 1–1.5m tall" },
+    "tips": ["Add leaves when cooking sharp fruits like rhubarb or gooseberries — reduces the amount of sugar needed.", "One of the first herbs to emerge in spring, providing fresh anise-flavoured leaves very early.", "Green seeds are delicious eaten straight from the plant — sweet with an anise crunch.", "Self-seeds freely in good conditions once established."],
+    "warning": "Non-toxic. One of the safest and most useful culinary perennial herbs."
+  },
+  {
+    "id": "woodruff", "name": "Sweet Woodruff", "latin": "Galium odoratum", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sweet+Woodruff",
+    "tagline": "A fragrant groundcover for deep shade. Tiny white flowers and vanilla-like scent when dried.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keeps moist. Grows in naturally moist woodland soil.", "bar": 55 }, "sun": { "value": "Deep shade to partial shade", "detail": "One of the very best plants for deep shade where almost nothing else grows.", "bar": 22 }, "soil": { "value": "Moist, humus-rich", "detail": "Moist, leafy, woodland soil. Excellent under established trees.", "bar": 68 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy. Semi-evergreen." }, "seedDepth": { "value": "Press onto surface", "detail": "Scatter seed under trees. Or divide established plants." }, "germination": "21–42 days", "harvest": "Leaves anytime. Harvest before flowering for the best fragrance when dried.", "spacing": "30–45 cm — forms a spreading mat" },
+    "tips": ["Dried leaves develop a vanilla-hay scent (from coumarin) — use in potpourri and sachets.", "Traditional flavouring for German Maibowle (May wine) — infuse fresh leaves in white wine.", "An excellent ground-covering plant for problem shady areas under trees.", "Spreads slowly to form a neat, attractive carpet."],
+    "warning": "Contains coumarin — avoid in large medicinal doses. Culinary use in modest quantities is traditional and considered safe."
+  },
+  {
+    "id": "vervain", "name": "Vervain", "latin": "Verbena officinalis", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Vervain",
+    "tagline": "An ancient sacred herb of druids and healers. Small lilac flowers on wiry stems throughout summer.",
+    "care": { "water": { "value": "Every 2–3 weeks", "detail": "Drought-tolerant once established.", "bar": 28 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best growth and flowering.", "bar": 85 }, "soil": { "value": "Well-draining, poor to moderate", "detail": "Thrives in lean, dry soil. Too rich = leafy with few flowers.", "bar": 28 }, "temp": { "value": "Hardy to -10°C", "detail": "Hardy perennial in most climates." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Tiny seeds need light. Press onto moist compost. Cold stratification helps." }, "germination": "14–28 days", "harvest": "Aerial parts just before flowering", "spacing": "30–40 cm" },
+    "tips": ["An important plant in traditional herbalism with a history going back to ancient Rome and the druids.", "Attracts butterflies particularly well — especially common blue and small copper.", "Leave standing through winter for structural interest and wildlife.", "Best effects come from growing in poor, lean soil."],
+    "warning": "Avoid during pregnancy. Medicinal use should be discussed with a healthcare provider."
+  },
+  {
+    "id": "ashwagandha", "name": "Ashwagandha", "latin": "Withania somnifera", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Ashwagandha",
+    "tagline": "An adaptogenic Ayurvedic herb gaining enormous popularity. Roots are the medicinally active part.",
+    "care": { "water": { "value": "Every 5–7 days", "detail": "Drought-tolerant once established. Don't overwater.", "bar": 35 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential. Loves heat.", "bar": 88 }, "soil": { "value": "Well-draining, sandy", "detail": "Light, sandy, well-draining soil. Heavy soil causes root rot.", "bar": 30 }, "temp": { "value": "Not frost-hardy — grown as annual in cool climates", "detail": "Native to India and Africa. Treat as a tender annual in temperate climates." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Start indoors 6–8 weeks before last frost." }, "germination": "14–21 days", "harvest": "Roots after 150–180 days when leaves turn yellow", "spacing": "60–90 cm" },
+    "tips": ["Start indoors early — needs a long growing season to develop substantial roots.", "Harvest roots in autumn when the plant's leaves begin to yellow.", "The roots are dried and ground for use — the characteristic bitter-earthy smell is normal.", "Small orange fruits appear after flowering — the seeds inside can be saved for next year."],
+    "warning": "Avoid during pregnancy and with thyroid conditions. Significant drug interactions possible — consult a healthcare provider before medicinal use."
+  },
+  {
+    "id": "tulsi-holy-basil", "name": "Tulsi (Holy Basil)", "latin": "Ocimum tenuiflorum", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Tulsi+Holy+Basil",
+    "tagline": "Sacred in Hindu tradition and increasingly popular as an adaptogenic herb. Clove-like scented leaves.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist. Similar to sweet basil.", "bar": 62 }, "sun": { "value": "6+ hours direct", "detail": "Full sun and warmth essential.", "bar": 88 }, "soil": { "value": "Rich, well-draining", "detail": "Good potting compost with good drainage.", "bar": 58 }, "temp": { "value": "Not frost-hardy", "detail": "Treat as an annual in temperate climates. Needs warmth." }, "seedDepth": { "value": "Press onto surface", "detail": "Tiny seeds need light. Start indoors 6 weeks before last frost." }, "germination": "7–14 days", "harvest": "Leaves from 8 weeks. Harvest before flowering.", "spacing": "30–45 cm" },
+    "tips": ["Pinch out flower buds to extend the leaf harvest season.", "The clove-pepper scent is quite different from sweet basil — excellent in teas and stir-fries.", "Excellent made into a calming adaptogenic tea with honey and ginger.", "Grow near doorways and windows — said to repel insects and bring positive energy."],
+    "warning": "Avoid high doses during pregnancy. Consult a healthcare provider for medicinal use."
+  },
+  {
+    "id": "thai-basil", "name": "Thai Basil", "latin": "Ocimum basilicum var. thyrsiflora", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Thai+Basil",
+    "tagline": "More robust than Italian basil with a distinct anise-clove flavour. Essential in Thai cooking.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist but not waterlogged.", "bar": 62 }, "sun": { "value": "6+ hours direct", "detail": "Full sun and warmth.", "bar": 85 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost-rich soil.", "bar": 58 }, "temp": { "value": "Not frost-hardy", "detail": "Treat as an annual. Needs warmth and sun." }, "seedDepth": { "value": "Press onto surface", "detail": "Tiny seeds need light. Start indoors 6 weeks before last frost." }, "germination": "7–14 days", "harvest": "Leaves from 8 weeks", "spacing": "25–35 cm" },
+    "tips": ["More resilient than Italian basil — holds its flavour better when cooked briefly.", "The purple flowers and stems are beautiful — this is also an ornamental plant.", "Holds up much better in warm salads and stir-fries than sweet basil.", "Pinch out flower heads to extend the harvest but the flowers are also beautiful and edible."],
+    "warning": "Similar care to sweet basil. Non-toxic. Hates cold and draughts."
+  },
+  {
+    "id": "vietnamese-coriander", "name": "Vietnamese Coriander", "latin": "Persicaria odorata", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Vietnamese+Coriander",
+    "tagline": "Looks like coriander but doesn't bolt. A tropical herb with intense coriander-like flavour.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist. Prefers consistently moist conditions.", "bar": 68 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade well.", "bar": 58 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Moist, fertile soil. Grows well in containers.", "bar": 70 }, "temp": { "value": "Not frost-hardy — bring indoors before frost", "detail": "Tender tropical herb. Bring indoors in autumn." }, "seedDepth": { "value": "Stem cuttings", "detail": "Root stem cuttings in water — very easy and fast." }, "germination": "Roots in 1–2 weeks from cuttings", "harvest": "Leaves anytime from growing shoots", "spacing": "20–30 cm" },
+    "tips": ["The solution to the bolting coriander problem — doesn't bolt in heat.", "Root cuttings in a glass of water in just 1–2 weeks — extremely easy to propagate.", "Intense coriander-like flavour — use in pho, laksa, and any dish that calls for coriander.", "Bring indoors in autumn and grow on a bright windowsill through winter."],
+    "warning": "Non-toxic. The main consideration is that it cannot survive frost."
+  },
+  {
+    "id": "perilla-shiso", "name": "Perilla / Shiso", "latin": "Perilla frutescens", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Shiso",
+    "tagline": "Essential in Japanese cuisine. Green or red varieties with a unique anise-basil-cinnamon flavour.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist. Similar to basil.", "bar": 62 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade unlike most herbs.", "bar": 58 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost-rich soil.", "bar": 62 }, "temp": { "value": "Half-hardy annual", "detail": "Start after last frost. Needs warmth." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Tiny seeds need light. Press onto moist compost and keep warm." }, "germination": "10–21 days", "harvest": "Leaves from 8 weeks", "spacing": "30–40 cm" },
+    "tips": ["Red shiso is used to colour Japanese umeboshi plums and pickled ginger.", "Green shiso (ao-shiso) is used fresh in sushi and salads.", "Self-seeds prolifically in warm conditions.", "The flavour changes significantly when heated — better used fresh."],
+    "warning": "Non-toxic. Self-seeds freely — may become a garden weed in warm, sheltered spots."
+  },
+  {
+    "id": "curry-leaf", "name": "Curry Leaf Plant", "latin": "Murraya koenigii", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Curry+Leaf",
+    "tagline": "Authentic curry leaf flavour, impossible to replicate with dried leaves. Grows as a pot plant in cool climates.",
+    "care": { "water": { "value": "Every 5–7 days", "detail": "Let top soil dry between waterings. Don't overwater.", "bar": 42 }, "sun": { "value": "6+ hours direct", "detail": "Full sun and warmth. South-facing window or outdoors in summer.", "bar": 85 }, "soil": { "value": "Well-draining, slightly acidic", "detail": "Good quality potting compost. Slightly acidic pH (5.5–6.5).", "bar": 55 }, "temp": { "value": "Bring indoors below 10°C", "detail": "Tropical/subtropical plant. Not frost-hardy." }, "seedDepth": { "value": "Fresh seeds 1–2 cm deep", "detail": "Fresh seeds germinate well. Stem cuttings also possible but slow." }, "germination": "14–28 days (fresh seed only)", "harvest": "Leaves year-round on established plants", "spacing": "Container plant — size depends on pot" },
+    "tips": ["Fresh leaves are absolutely different from dried — the flavour is incomparably better.", "Move outside to a sheltered sunny spot in summer for the fastest growth.", "Feed monthly with a balanced fertiliser during the growing season.", "The small black berries are edible and sweet — the seeds inside can be planted."],
+    "warning": "Only use the leaves, not the berries, for cooking. Move indoors well before first frost."
+  },
+  {
+    "id": "kaffir-lime", "name": "Kaffir Lime", "latin": "Citrus hystrix", "emoji": "🍋", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Kaffir+Lime",
+    "tagline": "The leaves are essential in Thai and Indonesian cooking. Grown as a container plant in cool climates.",
+    "care": { "water": { "value": "Every 5–7 days", "detail": "Water when top 3–4cm is dry. Never waterlogged.", "bar": 48 }, "sun": { "value": "6+ hours direct", "detail": "Maximum sun. South-facing window or outdoors in summer.", "bar": 90 }, "soil": { "value": "Citrus/well-draining mix", "detail": "Citrus compost or well-draining potting mix. Slightly acidic.", "bar": 52 }, "temp": { "value": "Bring indoors below 10°C", "detail": "Tropical plant. Not frost-hardy." }, "seedDepth": { "value": "Buy a plant", "detail": "Very slow from seed. Buy a grafted plant for quickest results." }, "germination": "Buy a plant", "harvest": "Leaves year-round. Fruit when produced.", "spacing": "Container plant" },
+    "tips": ["The double leaves are distinctive and unmistakeable — no substitute for their flavour.", "The zest of the highly aromatic fruit is also used in cooking.", "Feed monthly with citrus fertiliser during growing season.", "Move outside in late May when nights are reliably above 10°C."],
+    "warning": "Not frost-hardy. Must be kept above 10°C in winter. Move indoors in September."
+  },
+  {
+    "id": "lemongrass-herb", "name": "Lemongrass", "latin": "Cymbopogon citratus", "emoji": "🌾", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lemongrass",
+    "tagline": "Fragrant tropical grass essential in Thai and Vietnamese cooking. Surprisingly easy from supermarket stalks.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist. Large grass needs regular watering in summer.", "bar": 62 }, "sun": { "value": "8+ hours direct", "detail": "Needs maximum sun and heat.", "bar": 90 }, "soil": { "value": "Rich, well-draining", "detail": "Good potting compost. Grows well in large pots.", "bar": 65 }, "temp": { "value": "Bring indoors before frost", "detail": "Tropical. Not frost-hardy in most climates." }, "seedDepth": { "value": "Root supermarket stalks in water", "detail": "Place fresh supermarket lemongrass in water — roots in 2–4 weeks." }, "germination": "Roots in 2–4 weeks from stalks", "harvest": "Cut outer stalks from 30cm height", "spacing": "45–60 cm — grows into large clumps" },
+    "tips": ["Root a supermarket stalk in water — one of the easiest free herb projects.", "Move outside in late May, back inside in September.", "Harvest outer stalks at ground level — the plant continues growing from the centre.", "Dried leaves make excellent lemongrass tea — dry and crush before use."],
+    "warning": "Not frost-hardy. Must be overwintered indoors in temperate climates."
+  },
+  {
+    "id": "galangal", "name": "Galangal", "latin": "Alpinia galanga", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Galangal",
+    "tagline": "A ginger relative essential in Thai cuisine with a sharper, more piney flavour than ginger.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist during growing season.", "bar": 68 }, "sun": { "value": "Partial shade to bright indirect", "detail": "Prefers bright but indirect light. Direct midday sun can scorch.", "bar": 52 }, "soil": { "value": "Rich, well-draining", "detail": "Rich, moisture-retaining compost with good drainage.", "bar": 70 }, "temp": { "value": "Not frost-hardy — 20–30°C ideal", "detail": "Tropical plant. Grown as a pot plant in cool climates." }, "seedDepth": { "value": "Rhizome sections just below surface", "detail": "Plant fresh rhizomes from Asian grocery stores just below the surface." }, "germination": "2–4 weeks in warmth", "harvest": "8–12 months when shoots die back", "spacing": "30–40 cm between rhizomes" },
+    "tips": ["Buy fresh galangal rhizomes from an Asian grocery store as your planting material.", "Needs a warm, sheltered position — a greenhouse or conservatory in cool climates.", "The leaves and young shoots are also fragrant and used in some cuisines.", "Divide and repot annually to maintain vigour."],
+    "warning": "Not frost-hardy. Must be kept above 15°C throughout the growing season."
+  },
+  {
+    "id": "pandan", "name": "Pandan", "latin": "Pandanus amaryllifolius", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pandan",
+    "tagline": "The 'vanilla of Southeast Asia'. Long, strap-like leaves with a uniquely sweet, floral aroma.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist. Tropical plant that loves humidity.", "bar": 70 }, "sun": { "value": "Bright indirect to partial shade", "detail": "Bright indirect light. Direct sun can scorch.", "bar": 55 }, "soil": { "value": "Rich, well-draining", "detail": "Good quality tropical potting mix. Good drainage.", "bar": 65 }, "temp": { "value": "Minimum 15°C — tropical", "detail": "Tropical plant. Not frost-hardy." }, "seedDepth": { "value": "Offsets from the base", "detail": "Remove suckers from the base of mature plants and pot separately." }, "germination": "N/A — propagate from offsets", "harvest": "Leaves anytime from mature plants", "spacing": "45–60 cm container plant" },
+    "tips": ["Tie a leaf into a knot and drop into rice while cooking — infuses an incomparable sweet, floral fragrance.", "High humidity helps — mist regularly or grow in a humid bathroom.", "The leaves are used as natural food colouring (green) and flavouring across Southeast Asia.", "Grow in a large pot — it will produce side shoots (keikis) that can be separated."],
+    "warning": "Not frost-hardy. Must be kept warm and moist throughout the year."
+  },
+  {
+    "id": "safflower", "name": "Safflower", "latin": "Carthamus tinctorius", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Safflower",
+    "tagline": "A thistle-like plant producing brilliant orange flowers. Dried petals are used as saffron substitute.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant. Very minimal watering needed once established.", "bar": 25 }, "sun": { "value": "8+ hours direct", "detail": "Full sun essential. Loves heat.", "bar": 92 }, "soil": { "value": "Well-draining, sandy", "detail": "Sandy, lean soil. Excellent drainage. Hates wet conditions.", "bar": 22 }, "temp": { "value": "Half-hardy annual", "detail": "Sow after last frost. Needs warm conditions." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct after last frost. Dislikes root disturbance." }, "germination": "7–14 days", "harvest": "Flowers in mid to late summer", "spacing": "20–30 cm" },
+    "tips": ["Harvest flowers when fully open and dry immediately — they lose colour if dried slowly.", "The dried petals can be infused in warm water to produce a yellow-orange colour as a saffron substitute.", "The seeds are an excellent source of oil — press for cooking oil.", "Very ornamental — the vivid orange spiky flowers are striking in borders."],
+    "warning": "The spiny bracts around the flowers are sharp. Handle with care when harvesting."
+  },
+  {
+    "id": "fenugreek", "name": "Fenugreek", "latin": "Trigonella foenum-graecum", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Fenugreek",
+    "tagline": "Both leaves and seeds are used extensively in Indian and Middle Eastern cooking. Fast and easy.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist but don't overwater. Drought-tolerant once established.", "bar": 48 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred. Tolerates some shade.", "bar": 80 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Average garden soil. Not fussy.", "bar": 50 }, "temp": { "value": "Frost-sensitive annual", "detail": "Sow after last frost. Tolerates mild cold." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct. Use dried supermarket fenugreek seeds as your planting material." }, "germination": "5–7 days", "harvest": "Leaves from 3 weeks. Seeds at 90 days.", "spacing": "10 cm — no thinning needed for leaves" },
+    "tips": ["Supermarket dried fenugreek seeds germinate reliably — a free planting source.", "Harvest leaves young for the best flavour — older leaves become more bitter.", "The seeds are the primary spice — harvest pods when they turn yellow and dry.", "Grows as a sprout — soak seeds and use as microgreens in just 2–3 days."],
+    "warning": "May lower blood sugar — people with diabetes should monitor closely. Avoid in large doses during pregnancy."
+  },
+  {
+    "id": "cumin", "name": "Cumin", "latin": "Cuminum cyminum", "emoji": "🌿", "type": "herb", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cumin",
+    "tagline": "One of the world's most important spices. Surprisingly possible to grow in a warm, sheltered spot.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant once established. Don't overwater.", "bar": 40 }, "sun": { "value": "8+ hours direct", "detail": "Maximum sun and warmth. Needs a very warm, sheltered spot.", "bar": 95 }, "soil": { "value": "Well-draining, sandy, fertile", "detail": "Light, sandy, warm soil. Heavy clay soil is a serious problem.", "bar": 38 }, "temp": { "value": "Needs sustained warmth — 25–30°C", "detail": "Needs a long, hot summer to ripen seeds." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Start indoors 6–8 weeks before last frost at 24°C+." }, "germination": "7–14 days", "harvest": "90–120 days — harvest when seed heads turn brown", "spacing": "15–20 cm" },
+    "tips": ["Start early indoors — needs 3–4 months of warm weather to produce seed.", "In cool climates, a greenhouse or polytunnel is almost essential for seed production.", "The seeds ripen unevenly — harvest whole stalks when most are brown.", "Dry thoroughly before storing to prevent mould."],
+    "warning": "Needs sustained high temperatures. In cool or cloudy climates, seed production is unreliable without protection."
+  },
+  {
+    "id": "black-cumin", "name": "Nigella / Black Seed", "latin": "Nigella sativa", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Nigella+Black+Seed",
+    "tagline": "Beautiful blue flowers, ornamental seed pods, and seeds with a complex peppery, oregano-like flavour.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant once established.", "bar": 40 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred. Tolerates light shade.", "bar": 80 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Average garden soil with good drainage.", "bar": 48 }, "temp": { "value": "Hardy annual — sow early", "detail": "Can be autumn sown in mild climates. Spring sow elsewhere." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Sow direct where it will grow. Dislikes transplanting." }, "germination": "10–14 days", "harvest": "Seeds when pods are brown and rattling", "spacing": "15–20 cm" },
+    "tips": ["Self-seeds freely once established — you may never need to sow again.", "The ornamental seed pods are beautiful in dried flower arrangements.", "The seeds (nigella/black seed/kalonji) are used in Indian, Middle Eastern, and Eastern European cooking.", "Let some pods ripen fully and shatter naturally for a self-seeding colony."],
+    "warning": "Non-toxic in culinary amounts. Medicinal doses may interact with blood thinners and blood pressure medications."
+  },
+  {
+    "id": "nasturtium", "name": "Nasturtium", "latin": "Tropaeolum majus", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Nasturtium",
+    "tagline": "Entirely edible from flower to seed. Peppery flavour, cheerful colours, and thrives in poor soil.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant. Overwatering and rich soil causes leaves but no flowers.", "bar": 40 }, "sun": { "value": "4–8 hours", "detail": "Full sun or partial shade both work.", "bar": 65 }, "soil": { "value": "Poor, well-draining", "detail": "Key: rich soil produces leaves not flowers. Don't feed or add compost.", "bar": 20 }, "temp": { "value": "Half-hardy annual", "detail": "Plant after last frost. Self-seeds freely." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct where they'll grow. Hate root disturbance." }, "germination": "7–14 days", "harvest": "Flowers from 8 weeks, seeds 12 weeks", "spacing": "20–25 cm" },
+    "tips": ["The peppery flowers, leaves, and seeds are all edible.", "Seeds can be pickled like capers — an excellent and unusual condiment.", "Don't fertilise — poor soil produces more flowers. This is the key to success.", "Self-seeds freely — after the first year you'll never need to sow again."],
+    "warning": "Rich soil produces an enormous mass of leaves with almost no flowers. Never feed nasturtiums."
+  },
+  {
+    "id": "motherwort", "name": "Motherwort", "latin": "Leonurus cardiaca", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Motherwort",
+    "tagline": "A tall medicinal herb with significant traditional use for heart and women's health.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Tolerates some drought. Keep moist for best growth.", "bar": 48 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade very well.", "bar": 55 }, "soil": { "value": "Any reasonable soil", "detail": "Grows in most conditions. Very adaptable.", "bar": 42 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Tiny seeds need light. Cold stratification improves germination." }, "germination": "14–28 days", "harvest": "Aerial parts just before flowering", "spacing": "45–60 cm — grows tall (1–1.5m)" },
+    "tips": ["The tiny pink flowers in summer are attractive and a pollinator magnet.", "Self-seeds moderately — manageable.", "Harvest the aerial parts (stems, leaves, flowers) just as flowering begins.", "The spiny seed cases attach to clothing — position away from paths."],
+    "warning": "Avoid during pregnancy — stimulates uterine contractions. Do not use alongside blood pressure or heart medications without medical advice."
+  },
+  {
+    "id": "clary-sage", "name": "Clary Sage", "latin": "Salvia sclarea", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Clary+Sage",
+    "tagline": "Tall, dramatic spires of flowers in pink and purple. Musky-sweet scented and intensely ornamental.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant once established. Don't overwater.", "bar": 30 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the tallest, most spectacular flower spires.", "bar": 88 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Average to poor garden soil with good drainage.", "bar": 40 }, "temp": { "value": "Hardy to -15°C", "detail": "Biennial or short-lived perennial. Flowers in year two." }, "seedDepth": { "value": "Press onto surface or 0.5 cm deep", "detail": "Sow in spring or early summer for flowering the following year." }, "germination": "10–21 days", "harvest": "Flowers in year 2, early summer", "spacing": "45–60 cm" },
+    "tips": ["The pink and purple flower spires can reach 1.2m — dramatic at the back of a border.", "Self-seeds freely — once established it perpetuates itself without intervention.", "The essential oil is used extensively in aromatherapy.", "Flowers attract bees, particularly bumblebees, in large numbers."],
+    "warning": "Avoid during pregnancy. Do not use the essential oil near alcohol as it can intensify intoxication."
+  },
+  {
+    "id": "agastache", "name": "Agastache (Anise Hyssop)", "latin": "Agastache foeniculum", "emoji": "🌸", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Agastache",
+    "tagline": "Long lavender-blue flower spikes with an anise-mint scent. One of the best herbs for pollinators.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant once established.", "bar": 32 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Average to good garden soil with excellent drainage.", "bar": 48 }, "temp": { "value": "Hardy to -20°C", "detail": "Cold-hardy perennial. Dies back in winter, returns in spring." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Tiny seeds need light. Press onto moist compost." }, "germination": "7–14 days", "harvest": "Flowers and leaves from midsummer", "spacing": "45–60 cm" },
+    "tips": ["One of the absolute best plants for bees — attracts an extraordinary diversity of species.", "The anise-scented leaves make excellent tea and can be used in cooking.", "Deadhead spent spikes to encourage continued flowering through summer.", "Self-seeds in well-drained spots — manageable and welcome."],
+    "warning": "Non-toxic. Safe for humans and pets. One of the most beneficial garden herbs for wildlife."
+  },
+  {
+    "id": "russian-tarragon", "name": "Mexican Tarragon", "latin": "Tagetes lucida", "emoji": "🌼", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Mexican+Tarragon",
+    "tagline": "A heat-tolerant tarragon substitute with small yellow flowers and an intense anise flavour.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist but drought-tolerant.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best flavour.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Average garden soil. Not fussy.", "bar": 48 }, "temp": { "value": "Half-hardy perennial — bring in before frost", "detail": "Perennial in warm climates. Treat as tender in cold climates." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Start indoors 6 weeks before last frost." }, "germination": "7–14 days", "harvest": "Leaves anytime. Flowers in late summer.", "spacing": "30–40 cm" },
+    "tips": ["Better heat tolerance than French tarragon — the go-to choice for warm climates.", "The flavour is similar to French tarragon — use in the same dishes.", "Small golden flowers in late summer are a bonus and edible.", "Can be overwintered indoors on a bright windowsill."],
+    "warning": "Non-toxic. Can cause allergic reactions in people sensitive to Asteraceae plants."
+  },
+  {
+    "id": "epazote", "name": "Epazote", "latin": "Dysphania ambrosioides", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Epazote",
+    "tagline": "Essential in Mexican and Central American cooking. Pungent, complex, and indispensable in bean dishes.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant once established.", "bar": 40 }, "sun": { "value": "6+ hours direct", "detail": "Full sun preferred.", "bar": 82 }, "soil": { "value": "Any well-draining soil", "detail": "Grows in almost any soil. Very undemanding.", "bar": 35 }, "temp": { "value": "Half-hardy annual", "detail": "Frost-sensitive. Sow after last frost." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Tiny seeds need light." }, "germination": "7–14 days", "harvest": "Leaves anytime from 8 weeks", "spacing": "30–40 cm" },
+    "tips": ["Added to bean dishes not for flavour alone but also to reduce gas-causing compounds.", "The pungent smell is acquired — described as petroleum, turpentine, or strong herb depending on the cook.", "Self-seeds vigorously in warm conditions.", "Traditional medicinal use as an antiparasitic — widely used in folk medicine."],
+    "warning": "Avoid large quantities — the essential oil contains ascaridole which is toxic in excess. Culinary amounts are considered safe."
+  },
+  {
+    "id": "papalo", "name": "Papalo", "latin": "Porophyllum ruderale", "emoji": "🌿", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Papalo",
+    "tagline": "A South American herb used like coriander but with much more heat tolerance. Complex, bold flavour.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant. Don't overwater.", "bar": 38 }, "sun": { "value": "6+ hours direct", "detail": "Full sun and warmth.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Average garden soil.", "bar": 48 }, "temp": { "value": "Half-hardy annual — loves heat", "detail": "Thrives in the heat that makes regular coriander bolt. Sow after last frost." }, "seedDepth": { "value": "Press onto surface", "detail": "Tiny seeds need light. Sow direct after last frost." }, "germination": "7–14 days", "harvest": "Leaves from 6–8 weeks", "spacing": "30–40 cm" },
+    "tips": ["The summer solution when regular coriander bolts — grows well in the heat that kills coriander.", "The flavour is more intense than coriander — use less of it.", "Popular in Mexican street food, particularly on cemitas sandwiches.", "Self-seeds in warm conditions."],
+    "warning": "Non-toxic in culinary amounts. The strong flavour divides opinion — try a leaf before growing a whole bed."
+  },
+  {
+    "id": "spilanthes", "name": "Toothache Plant", "latin": "Acmella oleracea", "emoji": "🌼", "type": "herb", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Toothache+Plant",
+    "tagline": "Eye-catching yellow and red flowers that cause a tingling, numbing sensation in the mouth when chewed.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist but not waterlogged.", "bar": 60 }, "sun": { "value": "6+ hours direct", "detail": "Full sun and warmth for the best flowering.", "bar": 85 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost-rich soil.", "bar": 62 }, "temp": { "value": "Half-hardy annual", "detail": "Frost-sensitive. Start indoors 6 weeks before last frost." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Tiny seeds need light. Start indoors." }, "germination": "7–14 days", "harvest": "Flowers throughout summer", "spacing": "30–40 cm" },
+    "tips": ["Chew a flower and hold it against a toothache — the numbing sensation is real and quite dramatic.", "The active compound (spilanthol) is the same principle as local dental anaesthetics.", "A genuinely fascinating plant to grow and share with visitors.", "Also used in cocktails — the tingling sensation enhances drinks."],
+    "warning": "Avoid during pregnancy. Not for internal medicinal use beyond culinary amounts without professional guidance."
+  }
+]

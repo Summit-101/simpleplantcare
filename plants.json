@@ -1,0 +1,2477 @@
+[
+  {
+    "id": "basil",
+    "name": "Basil",
+    "latin": "Ocimum basilicum",
+    "emoji": "\ud83c\udf3f",
+    "type": "herb",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Basil",
+    "tagline": "The most rewarding herb on a windowsill. Smells incredible, grows fast, makes everything taste better.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Let top 1cm of soil dry out. Wilting leaves = thirsty plant.",
+        "bar": 65
+      },
+      "sun": {
+        "value": "6+ hours direct sun",
+        "detail": "South-facing windowsill is ideal. Less sun = leggy, flavourless leaves.",
+        "bar": 85
+      },
+      "soil": {
+        "value": "Light, well-draining",
+        "detail": "Regular potting mix. Avoid heavy garden soil.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "18\u201330\u00b0C",
+        "detail": "Hates cold. Never below 10\u00b0C."
+      },
+      "seedDepth": {
+        "value": "0.5 cm deep",
+        "detail": "Just barely cover seeds. Sprouts in 5\u201310 days."
+      },
+      "germination": "5\u201310 days",
+      "harvest": "4\u20136 weeks",
+      "spacing": "20\u201325 cm"
+    },
+    "tips": [
+      "Pinch off flower buds immediately \u2014 once basil flowers the leaves turn bitter.",
+      "Pick from the top down, always leave 2 sets of leaves on the stem.",
+      "Water at the base, not the leaves. Wet leaves invite mildew.",
+      "Grow near tomatoes \u2014 they genuinely do better together."
+    ],
+    "warning": "Don't put basil near a cold draught or AC vent. It will turn black overnight."
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "latin": "Solanum lycopersicum",
+    "emoji": "\ud83c\udf45",
+    "type": "vegetable",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Tomato",
+    "tagline": "More work than most but a warm tomato from your own garden is worth every bit of it.",
+    "care": {
+      "water": {
+        "value": "Daily in summer",
+        "detail": "Keep consistently moist. Irregular watering causes fruit to split.",
+        "bar": 80
+      },
+      "sun": {
+        "value": "8+ hours direct sun",
+        "detail": "Less than 6 hours = lots of leaves, barely any fruit.",
+        "bar": 95
+      },
+      "soil": {
+        "value": "Rich, deep, well-draining",
+        "detail": "Mix compost in. Feed every 2 weeks once fruiting starts.",
+        "bar": 75
+      },
+      "temp": {
+        "value": "20\u201327\u00b0C optimal",
+        "detail": "Won't set fruit above 35\u00b0C or below 10\u00b0C."
+      },
+      "seedDepth": {
+        "value": "0.5\u20131 cm deep",
+        "detail": "Sow indoors 6\u20138 weeks before last frost."
+      },
+      "germination": "6\u201312 days",
+      "harvest": "60\u201380 days from transplant",
+      "spacing": "50\u201360 cm"
+    },
+    "tips": [
+      "Bury the stem deep when transplanting \u2014 roots grow all along the buried stem.",
+      "Pinch out 'suckers' in the V between main stem and branch.",
+      "Yellow lower leaves are normal \u2014 remove for better airflow.",
+      "Crushed eggshells in the planting hole prevent blossom end rot."
+    ],
+    "warning": "Blossom end rot (black patch on fruit bottom) means inconsistent watering \u2014 not disease."
+  },
+  {
+    "id": "peas",
+    "name": "Garden Peas",
+    "latin": "Pisum sativum",
+    "emoji": "\ud83e\udedb",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Garden%2BPeas",
+    "tagline": "Sweet fresh peas from the garden taste nothing like anything from a shop.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Keep moist especially when pods are forming.",
+        "bar": 60
+      },
+      "sun": {
+        "value": "6+ hours sun",
+        "detail": "Full sun preferred but tolerates partial shade.",
+        "bar": 75
+      },
+      "soil": {
+        "value": "Well-draining, moderately rich",
+        "detail": "Not too rich \u2014 high nitrogen means lots of leaves, few pods.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "10\u201320\u00b0C",
+        "detail": "Cool weather crop. Struggles in summer heat above 25\u00b0C."
+      },
+      "seedDepth": {
+        "value": "2\u20133 cm deep",
+        "detail": "Sow direct in the ground. Space seeds 5\u20137cm apart."
+      },
+      "germination": "7\u201314 days",
+      "harvest": "60\u201370 days from sowing",
+      "spacing": "5\u20137 cm in row, rows 45 cm apart"
+    },
+    "tips": [
+      "Push twiggy sticks or a trellis in when you sow \u2014 peas climb immediately.",
+      "Pick pods regularly \u2014 leaving pods on signals the plant to stop producing.",
+      "Sow in batches every 2\u20133 weeks for a continuous harvest.",
+      "After harvesting, cut stems at ground level and leave roots \u2014 they feed the next crop."
+    ],
+    "warning": "Mice and birds love freshly sown pea seeds. Cover with netting for the first 2\u20133 weeks."
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "latin": "Daucus carota",
+    "emoji": "\ud83e\udd55",
+    "type": "vegetable",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Carrot",
+    "tagline": "Slow and satisfying. Pulling your first homegrown carrot is unexpectedly joyful.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Keep evenly moist. Uneven watering causes roots to split.",
+        "bar": 55
+      },
+      "sun": {
+        "value": "6+ hours sun",
+        "detail": "Full sun produces the best, sweetest roots.",
+        "bar": 80
+      },
+      "soil": {
+        "value": "Deep, loose, stone-free",
+        "detail": "Compacted or stony soil causes forked, stubby carrots.",
+        "bar": 40
+      },
+      "temp": {
+        "value": "15\u201320\u00b0C optimal",
+        "detail": "Light frost actually sweetens the roots."
+      },
+      "seedDepth": {
+        "value": "0.5\u20131 cm deep",
+        "detail": "Tiny seeds \u2014 sprinkle thinly in a shallow drill. Cover lightly."
+      },
+      "germination": "14\u201321 days",
+      "harvest": "70\u201380 days",
+      "spacing": "Thin to 5\u20137 cm apart"
+    },
+    "tips": [
+      "Thin seedlings ruthlessly when 5cm tall \u2014 crowded carrots are tiny and forked.",
+      "Don't add fresh compost before sowing \u2014 it causes forked roots.",
+      "Sow a pinch of radish seeds with carrots \u2014 they germinate fast and mark the row.",
+      "Green carrot shoulders taste bitter \u2014 mound soil up over them as they grow."
+    ],
+    "warning": "Carrot fly is the main pest. Use fleece or a 60cm barrier around the bed."
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "latin": "Cucumis sativus",
+    "emoji": "\ud83e\udd52",
+    "type": "vegetable",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cucumber",
+    "tagline": "Fast-growing and incredibly productive. One plant can produce more than a family can eat.",
+    "care": {
+      "water": {
+        "value": "Daily in warm weather",
+        "detail": "Cucumbers are 95% water \u2014 inconsistent watering causes bitter fruit.",
+        "bar": 85
+      },
+      "sun": {
+        "value": "8+ hours direct sun",
+        "detail": "Warmth and sun are essential.",
+        "bar": 92
+      },
+      "soil": {
+        "value": "Rich, moisture-retaining",
+        "detail": "Dig in plenty of compost. Mulch around the base.",
+        "bar": 72
+      },
+      "temp": {
+        "value": "22\u201330\u00b0C optimal",
+        "detail": "Don't plant outside until nights are above 12\u00b0C."
+      },
+      "seedDepth": {
+        "value": "1\u20132 cm deep, sow on side",
+        "detail": "Sow on their side to prevent rotting. Start indoors 3\u20134 weeks before last frost."
+      },
+      "germination": "7\u201310 days",
+      "harvest": "50\u201370 days",
+      "spacing": "40\u201360 cm"
+    },
+    "tips": [
+      "Train up a trellis \u2014 vertical growing gives straighter fruit and saves space.",
+      "Pick when full length but before turning yellow \u2014 yellow ones are overripe.",
+      "Pinch out the growing tip once it reaches the top of its support.",
+      "Feed with high-potassium liquid feed every week once flowering starts."
+    ],
+    "warning": "Powdery mildew appears as white powder on leaves in late summer. Improve airflow and avoid wetting leaves."
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "latin": "Spinacia oleracea",
+    "emoji": "\ud83e\udd6c",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Spinach",
+    "tagline": "Incredibly fast from seed. You can be eating salad leaves within 3\u20134 weeks of sowing.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 days",
+        "detail": "Never let it dry out \u2014 stress causes it to bolt immediately.",
+        "bar": 70
+      },
+      "sun": {
+        "value": "4\u20136 hours, partial shade fine",
+        "detail": "One of the best crops for shadier spots.",
+        "bar": 50
+      },
+      "soil": {
+        "value": "Rich, moisture-retaining",
+        "detail": "Spinach is a hungry plant. Add plenty of compost.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "10\u201318\u00b0C",
+        "detail": "Cool weather crop. Bolts quickly in heat above 25\u00b0C."
+      },
+      "seedDepth": {
+        "value": "1\u20132 cm deep",
+        "detail": "Sow direct in rows. Thin to 15cm apart."
+      },
+      "germination": "7\u201314 days",
+      "harvest": "25\u201340 days",
+      "spacing": "15 cm"
+    },
+    "tips": [
+      "Sow every 3 weeks from early spring to early summer, then again in late summer.",
+      "Harvest outer leaves first, leaving the growing centre.",
+      "In summer heat, grow under light shade netting.",
+      "If it bolts, your garden is getting too warm for cool-weather crops."
+    ],
+    "warning": "Bolts extremely fast in hot weather. Once it bolts, leaves turn bitter and the plant is done."
+  },
+  {
+    "id": "kale",
+    "name": "Kale",
+    "latin": "Brassica oleracea acephala",
+    "emoji": "\ud83e\udd6c",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Kale",
+    "tagline": "The toughest vegetable you can grow. Frost improves the flavour. Grows when nothing else will.",
+    "care": {
+      "water": {
+        "value": "2\u20133 times per week",
+        "detail": "Keep moist but not waterlogged.",
+        "bar": 55
+      },
+      "sun": {
+        "value": "6+ hours sun",
+        "detail": "Full sun preferred but handles partial shade.",
+        "bar": 72
+      },
+      "soil": {
+        "value": "Rich, firm, well-draining",
+        "detail": "Kale loves rich compost. Firm the soil well after planting.",
+        "bar": 68
+      },
+      "temp": {
+        "value": "Hardy to -15\u00b0C",
+        "detail": "Frost genuinely improves sweetness."
+      },
+      "seedDepth": {
+        "value": "1\u20132 cm deep",
+        "detail": "Sow direct or start in trays 6 weeks before transplanting."
+      },
+      "germination": "5\u201310 days",
+      "harvest": "60\u201390 days, then continuously",
+      "spacing": "45\u201360 cm"
+    },
+    "tips": [
+      "Harvest lower, outer leaves and leave the central growing point \u2014 produces for months.",
+      "After frost, let harvested leaves sit a day before cooking \u2014 starches convert to sugars.",
+      "Curly kale and Cavolo Nero are the easiest varieties for beginners.",
+      "Check undersides of leaves weekly for caterpillar eggs and squash them."
+    ],
+    "warning": "Rotate where you grow kale each year \u2014 don't grow it in the same spot twice (clubroot disease)."
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "latin": "Lactuca sativa",
+    "emoji": "\ud83e\udd6c",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lettuce",
+    "tagline": "The fastest, easiest food you can grow. Seed to salad in under 30 days.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 days",
+        "detail": "Keep consistently moist. Drying out makes it bitter and causes bolting.",
+        "bar": 72
+      },
+      "sun": {
+        "value": "4\u20136 hours",
+        "detail": "Tolerates partial shade. In hot weather, shade prevents bolting.",
+        "bar": 55
+      },
+      "soil": {
+        "value": "Rich, moist, well-draining",
+        "detail": "Mix in plenty of compost.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "10\u201320\u00b0C optimal",
+        "detail": "Bolts quickly in heat above 25\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Surface, barely cover",
+        "detail": "Seeds need light to germinate. Press lightly onto moist soil."
+      },
+      "germination": "7\u201314 days",
+      "harvest": "25\u201345 days \u2014 outer leaves first",
+      "spacing": "20\u201330 cm"
+    },
+    "tips": [
+      "Cut-and-come-again: harvest outer leaves, leave the centre. Keeps producing for weeks.",
+      "Sow small amounts every 2\u20133 weeks for continuous supply.",
+      "In summer, sow in afternoon shade \u2014 extends harvest before it bolts.",
+      "Water in the morning so leaves dry during the day, reducing mildew."
+    ],
+    "warning": "Bolts in heat or drought. In summer, shade cloth is essential."
+  },
+  {
+    "id": "courgette",
+    "name": "Courgette / Zucchini",
+    "latin": "Cucurbita pepo",
+    "emoji": "\ud83e\udd52",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Courgette%2B/%2BZucchini",
+    "tagline": "Outrageously productive. One plant can overwhelm a family with courgettes in summer.",
+    "care": {
+      "water": {
+        "value": "Daily in warm weather",
+        "detail": "Large leaves lose water fast. Consistent watering prevents bitter fruit.",
+        "bar": 82
+      },
+      "sun": {
+        "value": "8+ hours direct",
+        "detail": "Loves heat and sun. Won't perform in a cool shadowy spot.",
+        "bar": 90
+      },
+      "soil": {
+        "value": "Very rich, well-draining",
+        "detail": "Dig in a full bucket of compost per plant.",
+        "bar": 80
+      },
+      "temp": {
+        "value": "Plant after last frost",
+        "detail": "Cold-sensitive. Even a light frost kills young plants."
+      },
+      "seedDepth": {
+        "value": "2 cm deep, on edge",
+        "detail": "Sow seeds on their edge to prevent rotting."
+      },
+      "germination": "5\u201310 days",
+      "harvest": "50\u201360 days \u2014 pick at 15\u201320cm",
+      "spacing": "90 cm \u2014 they need space"
+    },
+    "tips": [
+      "Pick every 2\u20133 days \u2014 a missed courgette becomes a marrow overnight.",
+      "If fruit rots at the end, hand-pollinate with a brush between male and female flowers.",
+      "Feed with high-potassium liquid feed every 2 weeks once flowering starts.",
+      "One plant is usually enough for a family. Two is ambitious."
+    ],
+    "warning": "Powdery mildew appears from midsummer \u2014 normal and rarely fatal. Improve airflow."
+  },
+  {
+    "id": "pepper",
+    "name": "Bell Pepper",
+    "latin": "Capsicum annuum",
+    "emoji": "\ud83e\uded1",
+    "type": "vegetable",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Bell%2BPepper",
+    "tagline": "Takes patience but growing your own peppers \u2014 especially red ones \u2014 is deeply satisfying.",
+    "care": {
+      "water": {
+        "value": "Every 2 days",
+        "detail": "Keep consistently moist. Irregular watering causes fruit to drop.",
+        "bar": 70
+      },
+      "sun": {
+        "value": "8+ hours direct sun",
+        "detail": "More sun = more fruit and faster ripening to red.",
+        "bar": 93
+      },
+      "soil": {
+        "value": "Rich, well-draining",
+        "detail": "Mix in compost. Feed weekly with tomato fertiliser once fruiting starts.",
+        "bar": 72
+      },
+      "temp": {
+        "value": "21\u201330\u00b0C optimal",
+        "detail": "Very heat-loving. Never plant outside until nights are above 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "0.5 cm deep",
+        "detail": "Start indoors 10\u201312 weeks before last frost. Germination needs warmth (24\u00b0C+)."
+      },
+      "germination": "10\u201321 days (needs warmth)",
+      "harvest": "70\u201390 days from transplant",
+      "spacing": "40\u201350 cm"
+    },
+    "tips": [
+      "Start seeds indoors as early as January/February \u2014 peppers need a long season.",
+      "Green peppers are just unripe red/yellow peppers. Leave them on longer for full sweetness.",
+      "Stake the plants early \u2014 heavy fruit can snap branches.",
+      "Grow in a greenhouse or the sunniest, most sheltered spot you have."
+    ],
+    "warning": "Peppers are slow and demand heat. In cool climates, a greenhouse or polytunnel makes the difference between a harvest and disappointment."
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "latin": "Allium cepa",
+    "emoji": "\ud83e\uddc5",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Onion",
+    "tagline": "Incredibly easy when grown from sets (small bulbs). Low maintenance and stores for months after harvest.",
+    "care": {
+      "water": {
+        "value": "Once a week",
+        "detail": "Don't overwater. Onions prefer drier conditions than most vegetables.",
+        "bar": 35
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun essential. Poor sun = small bulbs.",
+        "bar": 82
+      },
+      "soil": {
+        "value": "Well-draining, fertile",
+        "detail": "Add compost but avoid fresh manure \u2014 causes disease.",
+        "bar": 58
+      },
+      "temp": {
+        "value": "13\u201324\u00b0C optimal",
+        "detail": "Hardy. Plant sets in early spring or autumn depending on variety."
+      },
+      "seedDepth": {
+        "value": "Sets: tip just below surface",
+        "detail": "Plant sets (small bulbs) with the tip just showing above soil. From seed: 1cm deep."
+      },
+      "germination": "7\u201310 days (from seed)",
+      "harvest": "100\u2013120 days from sets",
+      "spacing": "10 cm between bulbs"
+    },
+    "tips": [
+      "Grow from sets (small onion bulbs) rather than seed \u2014 much easier and faster.",
+      "Stop watering when the leaves start to flop over \u2014 this is the signal to harvest.",
+      "Lift bulbs and let them dry in the sun for 2 weeks before storing.",
+      "Never store onions near potatoes \u2014 they make each other rot faster."
+    ],
+    "warning": "Onion fly and white rot are the main problems. Rotate crops every year and never grow onions in the same bed two years running."
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "latin": "Allium sativum",
+    "emoji": "\ud83e\uddc4",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Garlic",
+    "tagline": "Plant in autumn, forget about it all winter, harvest in summer. One of the most hands-off vegetables you can grow.",
+    "care": {
+      "water": {
+        "value": "Rarely \u2014 rain usually enough",
+        "detail": "Water only in very dry spells. Overwatering causes rot.",
+        "bar": 20
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun for the best bulbs.",
+        "bar": 82
+      },
+      "soil": {
+        "value": "Well-draining, fertile",
+        "detail": "Garlic hates sitting in wet soil. Raised beds or sandy loam ideal.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "Needs cold period to bulb up",
+        "detail": "Plant in autumn \u2014 it needs winter cold (vernalisation) to form proper bulbs."
+      },
+      "seedDepth": {
+        "value": "5\u20137 cm deep",
+        "detail": "Plant individual cloves pointy-end up, 5\u20137cm deep."
+      },
+      "germination": "2\u20134 weeks to shoots",
+      "harvest": "June\u2013July \u2014 when lower leaves brown",
+      "spacing": "15 cm between cloves"
+    },
+    "tips": [
+      "Plant in October/November for a July harvest. Spring-planted garlic produces much smaller bulbs.",
+      "Harvest when the bottom 3\u20134 leaves have turned brown but the top leaves are still green.",
+      "Let bulbs cure in a warm dry place for 3\u20134 weeks before storing \u2014 they'll last months.",
+      "Save the biggest cloves from your harvest to plant next year \u2014 you'll gradually select for your conditions."
+    ],
+    "warning": "Rust (orange streaks on leaves) is common and rarely fatal. Improve airflow and don't grow alliums in the same spot two years in a row."
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "latin": "Solanum tuberosum",
+    "emoji": "\ud83e\udd54",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Potato",
+    "tagline": "Incredibly satisfying to grow. Digging up potatoes feels like finding buried treasure every time.",
+    "care": {
+      "water": {
+        "value": "2\u20133 times per week",
+        "detail": "Keep consistently moist especially once flowers appear \u2014 this is when tubers swell.",
+        "bar": 65
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun essential for good yields.",
+        "bar": 82
+      },
+      "soil": {
+        "value": "Deep, loose, fertile",
+        "detail": "Deep loose soil lets tubers expand freely. Dig in plenty of compost.",
+        "bar": 70
+      },
+      "temp": {
+        "value": "Plant after last frost risk",
+        "detail": "Frost kills the green tops. If a late frost threatens, earth up the stems."
+      },
+      "seedDepth": {
+        "value": "10\u201315 cm deep",
+        "detail": "Plant seed potatoes 10\u201315cm deep. Earth up as they grow."
+      },
+      "germination": "2\u20134 weeks to shoots",
+      "harvest": "Early: 10 weeks. Maincrop: 20 weeks.",
+      "spacing": "30 cm, rows 60 cm apart"
+    },
+    "tips": [
+      "Chit (pre-sprout) seed potatoes on a windowsill for 4\u20136 weeks before planting for earlier harvest.",
+      "Earth up the stems every few weeks \u2014 mound soil over the emerging shoots to increase yield.",
+      "New potatoes: harvest when flowers open. Maincrop: wait until foliage dies back completely.",
+      "Never eat green potatoes \u2014 the green parts contain solanine which is toxic."
+    ],
+    "warning": "Blight is the main risk in warm wet summers \u2014 brown patches on leaves spread fast. Remove affected foliage immediately and don't compost it."
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "latin": "Brassica oleracea italica",
+    "emoji": "\ud83e\udd66",
+    "type": "vegetable",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Broccoli",
+    "tagline": "Homegrown broccoli is sweeter and more tender than anything from a shop.",
+    "care": {
+      "water": {
+        "value": "2\u20133 times per week",
+        "detail": "Consistent moisture. Dry spells cause small, poor-quality heads.",
+        "bar": 62
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun essential.",
+        "bar": 80
+      },
+      "soil": {
+        "value": "Rich, firm, well-draining",
+        "detail": "Firm soil is important \u2014 brassicas need stability. Add lime if soil is acidic.",
+        "bar": 70
+      },
+      "temp": {
+        "value": "15\u201320\u00b0C optimal",
+        "detail": "Cool weather crop. Heads bolt and flower quickly in heat."
+      },
+      "seedDepth": {
+        "value": "1\u20132 cm deep",
+        "detail": "Start indoors 6\u20138 weeks before transplanting."
+      },
+      "germination": "5\u201310 days",
+      "harvest": "80\u2013100 days",
+      "spacing": "45\u201360 cm"
+    },
+    "tips": [
+      "Harvest the central head before any yellow flowers open \u2014 once it flowers it's over.",
+      "After cutting the main head, smaller side shoots continue to produce for weeks.",
+      "Net plants to protect from cabbage white butterfly caterpillars.",
+      "Don't grow in the same spot as other brassicas from the previous year."
+    ],
+    "warning": "Cabbage white butterfly caterpillars can strip plants overnight. Check undersides of leaves weekly."
+  },
+  {
+    "id": "radish",
+    "name": "Radish",
+    "latin": "Raphanus sativus",
+    "emoji": "\ud83c\udf31",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Radish",
+    "tagline": "The fastest vegetable you can grow. Seed to harvest in under 4 weeks. Perfect for impatient gardeners.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 days",
+        "detail": "Keep consistently moist. Irregular watering causes hollow, woody roots.",
+        "bar": 70
+      },
+      "sun": {
+        "value": "4\u20136 hours",
+        "detail": "Tolerates partial shade better than most vegetables.",
+        "bar": 58
+      },
+      "soil": {
+        "value": "Loose, well-draining",
+        "detail": "Light soil allows roots to develop properly.",
+        "bar": 48
+      },
+      "temp": {
+        "value": "10\u201318\u00b0C",
+        "detail": "Cool weather crop. Bolts and turns hot and pithy in summer heat."
+      },
+      "seedDepth": {
+        "value": "1\u20132 cm deep",
+        "detail": "Sow direct. Thin to 5cm apart."
+      },
+      "germination": "3\u20137 days",
+      "harvest": "22\u201330 days",
+      "spacing": "5 cm"
+    },
+    "tips": [
+      "Harvest promptly when ready \u2014 left too long they turn woody, hollow, and very hot.",
+      "Sow a short row every week from spring to early summer for constant supply.",
+      "Sow alongside slow-germinating crops like carrots \u2014 radishes mark the row and loosen the soil.",
+      "In summer, switch to slower-maturing daikon (mooli) radishes which tolerate heat better."
+    ],
+    "warning": "Flea beetle makes tiny holes in the leaves \u2014 use fleece or fine mesh to protect seedlings."
+  },
+  {
+    "id": "beetroot",
+    "name": "Beetroot",
+    "latin": "Beta vulgaris",
+    "emoji": "\ud83e\udec0",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Beetroot",
+    "tagline": "Incredibly versatile and beautiful. The deep red leaves look as good as the roots taste.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Keep moist but not waterlogged. Drought causes tough, woody roots.",
+        "bar": 58
+      },
+      "sun": {
+        "value": "6+ hours",
+        "detail": "Full sun preferred but tolerates light shade.",
+        "bar": 75
+      },
+      "soil": {
+        "value": "Loose, well-draining, not too rich",
+        "detail": "Too much nitrogen means lots of leaves and tiny roots.",
+        "bar": 52
+      },
+      "temp": {
+        "value": "10\u201324\u00b0C",
+        "detail": "Fairly adaptable. Tolerates light frost."
+      },
+      "seedDepth": {
+        "value": "2\u20133 cm deep",
+        "detail": "Each 'seed' is actually a cluster \u2014 thin to one seedling after germination."
+      },
+      "germination": "10\u201314 days",
+      "harvest": "7\u201310 weeks",
+      "spacing": "10 cm"
+    },
+    "tips": [
+      "Each seed cluster produces multiple seedlings \u2014 thin to the strongest one.",
+      "Don't discard the thinnings \u2014 the baby leaves are delicious in salads.",
+      "Harvest when golf-ball to tennis-ball sized \u2014 they get tough and woody if left too long.",
+      "The leaves are edible too, cooked like chard."
+    ],
+    "warning": "Bolts (runs to seed) quickly if sown too early in cold soil. Wait until soil is above 10\u00b0C."
+  },
+  {
+    "id": "sweetcorn",
+    "name": "Sweetcorn",
+    "latin": "Zea mays",
+    "emoji": "\ud83c\udf3d",
+    "type": "vegetable",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sweetcorn",
+    "tagline": "Sweetcorn eaten within minutes of picking is a completely different vegetable from anything in a shop.",
+    "care": {
+      "water": {
+        "value": "Daily in warm weather",
+        "detail": "Needs consistent moisture especially when silks appear and cobs are forming.",
+        "bar": 80
+      },
+      "sun": {
+        "value": "8+ hours direct",
+        "detail": "Full sun and warmth essential.",
+        "bar": 92
+      },
+      "soil": {
+        "value": "Rich, deep, well-draining",
+        "detail": "Dig in plenty of compost. Feed monthly with general fertiliser.",
+        "bar": 75
+      },
+      "temp": {
+        "value": "Plant after last frost",
+        "detail": "Needs warm soil (above 16\u00b0C). Very cold-sensitive."
+      },
+      "seedDepth": {
+        "value": "3\u20134 cm deep",
+        "detail": "Start indoors in small pots 3\u20134 weeks before last frost."
+      },
+      "germination": "7\u201310 days",
+      "harvest": "70\u201390 days",
+      "spacing": "35 cm, in blocks not rows"
+    },
+    "tips": [
+      "Plant in blocks of at least 4\u00d74, not in rows \u2014 sweetcorn is wind-pollinated and needs neighbours to set cobs.",
+      "Test for ripeness: peel back the husk and pierce a kernel with a fingernail. Milky liquid = ready. Clear = not yet. Doughy = overripe.",
+      "Cook within minutes of picking \u2014 the sugars convert to starch extremely fast.",
+      "Grow a second sowing 2\u20133 weeks after the first for an extended harvest."
+    ],
+    "warning": "Birds and squirrels will dig up germinating seeds. Cover with fleece until plants are 15cm tall."
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "latin": "Cucurbita maxima",
+    "emoji": "\ud83c\udf83",
+    "type": "vegetable",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pumpkin",
+    "tagline": "Grows enormous from a single seed and keeps for months after harvest. A dramatic garden plant.",
+    "care": {
+      "water": {
+        "value": "Daily in warm weather",
+        "detail": "Enormous leaves lose water fast. Never let them wilt.",
+        "bar": 82
+      },
+      "sun": {
+        "value": "8+ hours direct",
+        "detail": "Needs maximum sun and warmth.",
+        "bar": 90
+      },
+      "soil": {
+        "value": "Very rich, well-draining",
+        "detail": "Plant on a mound of pure compost. They are the hungriest plants in the garden.",
+        "bar": 85
+      },
+      "temp": {
+        "value": "After last frost",
+        "detail": "Cold-sensitive. Plant out only when weather is settled and warm."
+      },
+      "seedDepth": {
+        "value": "2 cm deep, on edge",
+        "detail": "Sow on edge to prevent rotting. Start indoors 3\u20134 weeks before last frost."
+      },
+      "germination": "7\u201310 days",
+      "harvest": "90\u2013120 days",
+      "spacing": "1.5\u20132 m \u2014 they sprawl enormously"
+    },
+    "tips": [
+      "Let the vines sprawl or train them \u2014 they can cover 3\u20134 square metres per plant.",
+      "Limit to 2\u20133 fruits per plant for the biggest results. Remove extra developing fruits.",
+      "Harvest when the skin is hard and the stem is starting to dry and cork over.",
+      "Cure after harvest in a warm dry spot for 2 weeks \u2014 this hardens the skin and extends storage to 6 months."
+    ],
+    "warning": "Powdery mildew is inevitable by late summer. It's cosmetic \u2014 the plant is done producing by then anyway."
+  },
+  {
+    "id": "aloe",
+    "name": "Aloe Vera",
+    "latin": "Aloe barbadensis miller",
+    "emoji": "\ud83c\udf35",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Aloe%2BVera",
+    "tagline": "The world's most forgiving houseplant. Neglect it and it thrives. Overwater it and it dies.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Water deeply then let soil dry completely. In winter, once a month.",
+        "bar": 20
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Loves light but direct harsh sun scorches tips.",
+        "bar": 70
+      },
+      "soil": {
+        "value": "Cactus/succulent mix",
+        "detail": "Drainage is everything. Add perlite if using regular potting mix.",
+        "bar": 30
+      },
+      "temp": {
+        "value": "13\u201327\u00b0C",
+        "detail": "Bring indoors if below 5\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Grown from offsets",
+        "detail": "Separate 'pups' at the base and pot separately."
+      },
+      "germination": "N/A",
+      "harvest": "Leaves anytime",
+      "spacing": "30 cm"
+    },
+    "tips": [
+      "Thin curling leaves = thirsty. Soft mushy base = overwatered.",
+      "Always use a pot with drainage holes. Standing water kills aloe.",
+      "Repot only when roots emerge from the bottom \u2014 aloe likes being root-bound.",
+      "The clear gel inside is real \u2014 slice a lower leaf open for burns or dry skin."
+    ],
+    "warning": "Root rot from overwatering is almost always fatal. When in doubt, don't water."
+  },
+  {
+    "id": "peace-lily",
+    "name": "Peace Lily",
+    "latin": "Spathiphyllum wallisii",
+    "emoji": "\ud83e\udd0d",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Peace%2BLily",
+    "tagline": "The most tolerant houseplant for low-light rooms. Droops when thirsty but recovers within an hour.",
+    "care": {
+      "water": {
+        "value": "Once a week",
+        "detail": "Water when top 2\u20133cm is dry. It droops visibly when thirsty.",
+        "bar": 50
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "Survives quite dark rooms. Direct sun scorches leaves.",
+        "bar": 35
+      },
+      "soil": {
+        "value": "Rich, well-draining indoor mix",
+        "detail": "Standard houseplant mix. Repot every 1\u20132 years.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "18\u201330\u00b0C",
+        "detail": "Hates cold draughts and below 12\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Division only",
+        "detail": "Not grown from seed at home. Divide root ball when repotting."
+      },
+      "germination": "N/A",
+      "harvest": "Flowers in spring",
+      "spacing": "30\u201360 cm spread"
+    },
+    "tips": [
+      "Brown leaf tips = air too dry. Put pot on a tray of damp pebbles.",
+      "Wipe leaves with damp cloth monthly \u2014 removes dust and helps the plant breathe.",
+      "Don't rush to repot \u2014 peace lilies flower better when slightly root-bound.",
+      "Genuinely filters indoor air pollutants including formaldehyde."
+    ],
+    "warning": "Toxic to cats and dogs if eaten. Wash hands after handling sap."
+  },
+  {
+    "id": "monstera",
+    "name": "Monstera",
+    "latin": "Monstera deliciosa",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Monstera",
+    "tagline": "The iconic Swiss cheese plant. Almost impossible to kill, grows impressively large.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 2\u20135cm of soil is dry. Overwatering is the main mistake.",
+        "bar": 40
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Thrives in bright filtered light. Direct sun scorches leaves.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Well-draining, rich",
+        "detail": "Chunky potting mix with perlite. Roots need oxygen.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold draughts. Below 10\u00b0C causes damage."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Take a cutting with at least one node, root in water or moist compost."
+      },
+      "germination": "Roots in 3\u20136 weeks",
+      "harvest": "Decorative",
+      "spacing": "60\u201390 cm spread"
+    },
+    "tips": [
+      "Holes in the leaves are normal and healthy \u2014 they appear as the plant matures.",
+      "Wipe leaves monthly \u2014 large leaves accumulate a lot of dust.",
+      "Give it a moss pole \u2014 it grows bigger leaves with something to attach to.",
+      "Yellow leaves usually mean overwatering."
+    ],
+    "warning": "All parts are toxic to cats, dogs and humans if ingested."
+  },
+  {
+    "id": "snake-plant",
+    "name": "Snake Plant",
+    "latin": "Dracaena trifasciata",
+    "emoji": "\ud83c\udf31",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Snake%2BPlant",
+    "tagline": "The toughest houseplant alive. Survives weeks without water, thrives in low light.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20136 weeks",
+        "detail": "Let soil dry completely between waterings.",
+        "bar": 12
+      },
+      "sun": {
+        "value": "Any light, prefers indirect",
+        "detail": "Survives very low light. Better growth in brighter spots.",
+        "bar": 45
+      },
+      "soil": {
+        "value": "Well-draining, sandy",
+        "detail": "Cactus mix or regular mix with added grit.",
+        "bar": 25
+      },
+      "temp": {
+        "value": "15\u201330\u00b0C",
+        "detail": "Tolerates a wide range. Avoid below 10\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Leaf cuttings or division",
+        "detail": "Cut a leaf into sections and push into gritty compost, or divide at the root."
+      },
+      "germination": "4\u20138 weeks to root",
+      "harvest": "Decorative",
+      "spacing": "Stays compact"
+    },
+    "tips": [
+      "The only way to kill it is to overwater \u2014 root rot is fatal and fast.",
+      "Wipe leaves with a damp cloth to keep them glossy.",
+      "Produces oxygen at night \u2014 a popular choice for bedrooms.",
+      "Repot only every 2\u20133 years \u2014 it prefers being root-bound."
+    ],
+    "warning": "Mildly toxic to cats and dogs. Can cause nausea if eaten."
+  },
+  {
+    "id": "pothos",
+    "name": "Pothos",
+    "latin": "Epipremnum aureum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pothos",
+    "tagline": "Practically grows itself. Trails beautifully from shelves, tolerates neglect, and propagates for free.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 2\u20133cm is dry. Yellowing leaves usually mean overwatering.",
+        "bar": 38
+      },
+      "sun": {
+        "value": "Low to bright indirect",
+        "detail": "Incredibly adaptable. The variegated varieties need more light to keep their pattern.",
+        "bar": 45
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard potting mix with some perlite.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "15\u201330\u00b0C",
+        "detail": "No cold draughts. Below 10\u00b0C causes leaf drop."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings in water",
+        "detail": "Cut just below a node, place in water. Roots in 2\u20134 weeks then pot up."
+      },
+      "germination": "Roots in 2\u20134 weeks",
+      "harvest": "Decorative \u2014 trails to several metres",
+      "spacing": "Trails widely"
+    },
+    "tips": [
+      "Propagate endlessly \u2014 put cuttings in a glass of water on the windowsill and pot them up when rooted.",
+      "Wipe leaves occasionally \u2014 they accumulate dust fast.",
+      "Pale, washed-out leaves in a variegated variety = not enough light.",
+      "A single plant can eventually trail several metres \u2014 great for high shelves."
+    ],
+    "warning": "Toxic to cats and dogs. Can cause oral irritation if eaten."
+  },
+  {
+    "id": "spider-plant",
+    "name": "Spider Plant",
+    "latin": "Chlorophytum comosum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Spider%2BPlant",
+    "tagline": "The most beginner-friendly houseplant. Produces baby plants constantly. Almost impossible to kill.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when soil is partly dry. Very forgiving of irregular watering.",
+        "bar": 42
+      },
+      "sun": {
+        "value": "Indirect light",
+        "detail": "Bright indirect light is ideal. Tolerates lower light well.",
+        "bar": 50
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard houseplant mix. Not fussy.",
+        "bar": 48
+      },
+      "temp": {
+        "value": "13\u201327\u00b0C",
+        "detail": "Very adaptable. Tolerates cool rooms but not frost."
+      },
+      "seedDepth": {
+        "value": "Plantlets from runners",
+        "detail": "Pin the baby plants (spiderettes) onto moist compost. Roots form in 1\u20132 weeks."
+      },
+      "germination": "N/A",
+      "harvest": "Decorative",
+      "spacing": "30\u201340 cm"
+    },
+    "tips": [
+      "The hanging baby plants (spiderettes) can be pinned onto compost in a separate pot while still attached to the mother \u2014 snip the runner once rooted.",
+      "Brown leaf tips are common and usually caused by fluoride in tap water \u2014 use filtered or rainwater.",
+      "One pot can produce dozens of baby plants in a season \u2014 great for gifts.",
+      "Perfect for hanging baskets where the long trailing runners look spectacular."
+    ],
+    "warning": "Non-toxic to humans and pets \u2014 one of the safest houseplants you can have."
+  },
+  {
+    "id": "fiddle-leaf",
+    "name": "Fiddle Leaf Fig",
+    "latin": "Ficus lyrata",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Fiddle%2BLeaf%2BFig",
+    "tagline": "The most dramatic-looking houseplant you can own. Also the most demanding. Worth it if you can get it right.",
+    "care": {
+      "water": {
+        "value": "Once a week",
+        "detail": "Water thoroughly, let the top 3\u20135cm dry out between waterings. Very sensitive to over and underwatering.",
+        "bar": 48
+      },
+      "sun": {
+        "value": "Bright indirect light, 6+ hours",
+        "detail": "Needs consistent bright light. A few hours of gentle morning sun is ideal.",
+        "bar": 78
+      },
+      "soil": {
+        "value": "Well-draining, rich",
+        "detail": "Use good quality potting mix with perlite. Must drain freely.",
+        "bar": 60
+      },
+      "temp": {
+        "value": "18\u201330\u00b0C, no draughts",
+        "detail": "Hates temperature fluctuations. Keep away from vents, draughty windows, and outside doors."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Take a large cutting with 2\u20133 leaves, dip in rooting hormone, keep warm and humid."
+      },
+      "germination": "Roots in 4\u20138 weeks",
+      "harvest": "Decorative",
+      "spacing": "Large statement plant \u2014 60cm+ spread"
+    },
+    "tips": [
+      "Once you find a spot it's happy in \u2014 don't move it. It drops leaves every time it's moved.",
+      "Wipe each large leaf with a damp cloth monthly \u2014 dust blocks the light it needs.",
+      "Brown spots with yellow halo = overwatering. Brown crispy edges = underwatering or low humidity.",
+      "Feed monthly in spring and summer with a balanced liquid fertiliser."
+    ],
+    "warning": "Drops leaves dramatically when stressed by moving, cold draughts, or sudden changes in light or watering. Patience is essential."
+  },
+  {
+    "id": "zz-plant",
+    "name": "ZZ Plant",
+    "latin": "Zamioculcas zamiifolia",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=ZZ%2BPlant",
+    "tagline": "Practically thrives on neglect. Dark, dry rooms that kill everything else \u2014 the ZZ plant does fine.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20134 weeks",
+        "detail": "Stores water in its thick roots. Let soil dry completely between waterings.",
+        "bar": 18
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "One of the most shade-tolerant houseplants. Direct sun bleaches the leaves.",
+        "bar": 30
+      },
+      "soil": {
+        "value": "Well-draining mix",
+        "detail": "Cactus mix or standard mix with added grit.",
+        "bar": 28
+      },
+      "temp": {
+        "value": "15\u201330\u00b0C",
+        "detail": "Tolerates a wide range. Avoid below 8\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Leaf or stem cuttings",
+        "detail": "Very slow to propagate \u2014 patience required. Division is faster."
+      },
+      "germination": "Months to root",
+      "harvest": "Decorative",
+      "spacing": "45\u201360 cm spread"
+    },
+    "tips": [
+      "Water even less in winter \u2014 once a month is often enough.",
+      "The thick underground rhizomes store water \u2014 the plant is genuinely drought-adapted.",
+      "Wipe the glossy leaves monthly for best appearance.",
+      "Perfect for offices and rooms with artificial light only."
+    ],
+    "warning": "All parts are toxic if ingested and the sap can irritate skin. Wear gloves when handling and keep away from children and pets."
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "latin": "Mentha spicata",
+    "emoji": "\ud83c\udf31",
+    "type": "herb",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Mint",
+    "tagline": "Grows so aggressively the main challenge is stopping it taking over. Always grow in a pot.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 days",
+        "detail": "Likes moisture. Consistent watering = best flavour.",
+        "bar": 75
+      },
+      "sun": {
+        "value": "4\u20136 hours",
+        "detail": "Tolerates partial shade better than most herbs.",
+        "bar": 55
+      },
+      "soil": {
+        "value": "Moist, rich",
+        "detail": "Regular potting mix with good moisture retention.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "Frost-hardy",
+        "detail": "Dies back in winter, returns in spring."
+      },
+      "seedDepth": {
+        "value": "Press onto surface",
+        "detail": "Seeds are tiny. Better to buy a small plant."
+      },
+      "germination": "10\u201315 days",
+      "harvest": "Anytime once established",
+      "spacing": "Grow in its own pot"
+    },
+    "tips": [
+      "Always grow in its own container. In the ground it spreads everywhere.",
+      "Cut back by half after flowering \u2014 regrows thicker with better flavour.",
+      "Repot every spring into fresh soil.",
+      "A pot near the door deters flies."
+    ],
+    "warning": "Never plant mint in a garden bed. It spreads via underground runners and is near-impossible to contain."
+  },
+  {
+    "id": "lavender",
+    "name": "Lavender",
+    "latin": "Lavandula angustifolia",
+    "emoji": "\ud83d\udc9c",
+    "type": "flower",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lavender",
+    "tagline": "Drought-tolerant, beautiful, smells incredible. Bees love it and it barely needs attention.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Let soil dry between waterings. Established lavender survives on rainfall.",
+        "bar": 25
+      },
+      "sun": {
+        "value": "Full sun, 6+ hours",
+        "detail": "More sun = more flowers.",
+        "bar": 90
+      },
+      "soil": {
+        "value": "Poor, well-draining",
+        "detail": "Prefers poor soil. Rich compost causes lush growth but fewer flowers.",
+        "bar": 20
+      },
+      "temp": {
+        "value": "Hardy to -15\u00b0C",
+        "detail": "Wet roots in winter kill it faster than cold."
+      },
+      "seedDepth": {
+        "value": "3\u20134 mm deep",
+        "detail": "Slow from seed. Easier to buy a small plant."
+      },
+      "germination": "2\u20133 months",
+      "harvest": "Cut when half the flowers are open",
+      "spacing": "30\u201345 cm"
+    },
+    "tips": [
+      "Cut back by one-third after flowering every year. Never cut into old woody growth.",
+      "Number one killer is poor drainage. Plant in raised beds or add grit to soil.",
+      "Harvest when about half the tiny flowers are open.",
+      "Dried bundles in wardrobes repel moths naturally."
+    ],
+    "warning": "Never let lavender sit in waterlogged soil in winter. Root rot will kill it quickly."
+  },
+  {
+    "id": "rosemary",
+    "name": "Rosemary",
+    "latin": "Salvia rosmarinus",
+    "emoji": "\ud83c\udf3f",
+    "type": "herb",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rosemary",
+    "tagline": "Mediterranean toughness. Barely needs watering, loves hot dry conditions, tastes incredible.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when soil is dry 2\u20133cm down. Much less in winter.",
+        "bar": 25
+      },
+      "sun": {
+        "value": "6\u20138 hours direct",
+        "detail": "Needs full sun. Grows poorly in shade.",
+        "bar": 88
+      },
+      "soil": {
+        "value": "Poor, dry, well-draining",
+        "detail": "Thrives in poor soil. Too much nutrition = soft growth prone to disease.",
+        "bar": 20
+      },
+      "temp": {
+        "value": "Hardy to -10\u00b0C",
+        "detail": "Good cold tolerance."
+      },
+      "seedDepth": {
+        "value": "0.5 cm deep",
+        "detail": "Slow and unreliable from seed. Buy a plant."
+      },
+      "germination": "2\u20134 weeks (unreliable)",
+      "harvest": "Anytime once established",
+      "spacing": "45\u201360 cm"
+    },
+    "tips": [
+      "Prune after flowering each year to keep compact and bushy.",
+      "Take cuttings in summer \u2014 push 10cm stems into gritty compost.",
+      "Terracotta pot in full sun, barely watered \u2014 this is its ideal life.",
+      "The blue flowers are edible and beautiful scattered over salads."
+    ],
+    "warning": "Overwatering and poor drainage kill rosemary fast. Black mushy stem base = root rot."
+  },
+  {
+    "id": "thyme",
+    "name": "Thyme",
+    "latin": "Thymus vulgaris",
+    "emoji": "\ud83c\udf3f",
+    "type": "herb",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Thyme",
+    "tagline": "One of the most useful kitchen herbs and one of the least demanding. A tiny plant lasts for years.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Drought-tolerant. Prefers to dry out between waterings.",
+        "bar": 28
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "More sun = more intense flavour.",
+        "bar": 88
+      },
+      "soil": {
+        "value": "Poor, well-draining",
+        "detail": "Sandy or gritty soil. Doesn't want rich compost.",
+        "bar": 22
+      },
+      "temp": {
+        "value": "Hardy to -15\u00b0C",
+        "detail": "Very cold-hardy. Evergreen in mild winters."
+      },
+      "seedDepth": {
+        "value": "1\u20132 mm, barely cover",
+        "detail": "Seeds need light. Press onto surface and mist."
+      },
+      "germination": "14\u201321 days",
+      "harvest": "Anytime, best before flowering",
+      "spacing": "20\u201330 cm"
+    },
+    "tips": [
+      "Cut back by half in spring before new growth \u2014 prevents the woody, sprawling look.",
+      "The more you pick, the bushier it grows.",
+      "Lemon thyme is milder and citrusy \u2014 great if regular thyme is too strong.",
+      "Leave some flowers for bees \u2014 thyme is a favourite."
+    ],
+    "warning": "Thyme hates wet heavy soil in winter. If it dies over winter, waterlogging is almost always the cause."
+  },
+  {
+    "id": "chives",
+    "name": "Chives",
+    "latin": "Allium schoenoprasum",
+    "emoji": "\ud83c\udf31",
+    "type": "herb",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Chives",
+    "tagline": "Basically unkillable. Perennial \u2014 plant once, harvest for years. The perfect beginner herb.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20134 days",
+        "detail": "Fairly drought-tolerant once established.",
+        "bar": 42
+      },
+      "sun": {
+        "value": "4\u20136 hours",
+        "detail": "Grows in partial shade. Less demanding than most herbs.",
+        "bar": 58
+      },
+      "soil": {
+        "value": "Any reasonable soil",
+        "detail": "Not fussy. Regular potting mix or garden soil both work.",
+        "bar": 48
+      },
+      "temp": {
+        "value": "Hardy perennial",
+        "detail": "Dies back in winter, reliably returns every spring."
+      },
+      "seedDepth": {
+        "value": "0.5 cm deep",
+        "detail": "Scatter seeds thinly. Easier to buy a clump."
+      },
+      "germination": "10\u201314 days",
+      "harvest": "Snip anytime once 15cm+ tall",
+      "spacing": "20\u201330 cm clumps"
+    },
+    "tips": [
+      "Snip leaves 2\u20133cm from the base \u2014 they regrow continuously.",
+      "The purple flowers are edible and beautiful scattered on salads.",
+      "Divide the clump every 2\u20133 years in spring.",
+      "Grow near roses \u2014 chives are said to deter aphids."
+    ],
+    "warning": "If you let it flower and set seed, it self-seeds prolifically. Deadhead if you don't want chives everywhere."
+  },
+  {
+    "id": "parsley",
+    "name": "Parsley",
+    "latin": "Petroselinum crispum",
+    "emoji": "\ud83c\udf3f",
+    "type": "herb",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Parsley",
+    "tagline": "Slow to start but then incredibly productive. One plant produces more than most families use.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Keep consistently moist. Drying out weakens flavour.",
+        "bar": 62
+      },
+      "sun": {
+        "value": "4\u20136 hours",
+        "detail": "Tolerates partial shade better than most herbs.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Rich, moisture-retaining",
+        "detail": "Unlike rosemary and thyme, parsley wants good rich soil.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "Hardy biennial",
+        "detail": "Survives frosts. In year two it flowers and dies."
+      },
+      "seedDepth": {
+        "value": "0.5\u20131 cm deep",
+        "detail": "Soak seeds overnight before sowing to speed germination."
+      },
+      "germination": "21\u201328 days (slow)",
+      "harvest": "10\u201312 weeks from seed",
+      "spacing": "15\u201320 cm"
+    },
+    "tips": [
+      "Patience \u2014 parsley is notoriously slow to germinate.",
+      "Harvest outer stems first, cutting close to the base.",
+      "Don't let it flower in year one \u2014 cut flower stems off immediately.",
+      "Flat-leaf (Italian) parsley is more flavourful; curly is more cold-hardy."
+    ],
+    "warning": "In its second year it will flower and die \u2014 this is normal. Start fresh plants every spring."
+  },
+  {
+    "id": "oregano",
+    "name": "Oregano",
+    "latin": "Origanum vulgare",
+    "emoji": "\ud83c\udf3f",
+    "type": "herb",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Oregano",
+    "tagline": "Drought-tolerant and intensely flavourful. The hotter and drier the conditions, the better it tastes.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Let soil dry between waterings. Overwatering causes root rot and weak flavour.",
+        "bar": 30
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun = intense flavour. More sun = more aromatic oils.",
+        "bar": 88
+      },
+      "soil": {
+        "value": "Poor, well-draining",
+        "detail": "Like most Mediterranean herbs, prefers lean, gritty soil.",
+        "bar": 22
+      },
+      "temp": {
+        "value": "Hardy to -10\u00b0C",
+        "detail": "Perennial in most climates. Dies back in winter, returns in spring."
+      },
+      "seedDepth": {
+        "value": "Press onto surface",
+        "detail": "Seeds are tiny and need light. Press onto moist compost. Or buy a plant."
+      },
+      "germination": "7\u201314 days",
+      "harvest": "Just before flowering for best flavour",
+      "spacing": "20\u201330 cm"
+    },
+    "tips": [
+      "Harvest just before the plant flowers \u2014 this is when the volatile oils (and flavour) are at their peak.",
+      "Cut back hard after flowering to keep it bushy and productive for next year.",
+      "Greek oregano is stronger than common oregano \u2014 use less of it.",
+      "Dry bundles hung upside down in a warm room \u2014 keeps the flavour for months."
+    ],
+    "warning": "In heavy wet soil it tends to rot over winter. Plant in well-drained or raised beds."
+  },
+  {
+    "id": "coriander",
+    "name": "Coriander / Cilantro",
+    "latin": "Coriandrum sativum",
+    "emoji": "\ud83c\udf3f",
+    "type": "herb",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Coriander%2B/%2BCilantro",
+    "tagline": "Incredibly versatile \u2014 both the leaves and seeds are used in cooking. But it bolts frustratingly fast.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Keep moist but not waterlogged. Stress causes it to bolt.",
+        "bar": 58
+      },
+      "sun": {
+        "value": "4\u20135 hours, partial shade",
+        "detail": "Unlike most herbs, coriander actually does better with some shade in summer.",
+        "bar": 50
+      },
+      "soil": {
+        "value": "Well-draining, moderately rich",
+        "detail": "Not too rich. Light, free-draining compost mix.",
+        "bar": 52
+      },
+      "temp": {
+        "value": "15\u201321\u00b0C",
+        "detail": "Cool weather herb. Bolts almost immediately in heat."
+      },
+      "seedDepth": {
+        "value": "1 cm deep",
+        "detail": "Sow direct \u2014 it hates being transplanted. The 'seed' is actually two seeds \u2014 both may sprout."
+      },
+      "germination": "7\u201310 days",
+      "harvest": "3\u20134 weeks for leaves, 90 days for seeds",
+      "spacing": "5\u20138 cm"
+    },
+    "tips": [
+      "Sow direct \u2014 coriander hates root disturbance and bolts immediately if transplanted.",
+      "Sow a small patch every 3 weeks for continuous leaf supply.",
+      "In summer, sow in afternoon shade and this significantly delays bolting.",
+      "If it bolts, let it flower and set seed \u2014 the seeds are just as useful in cooking and you get next year's supply."
+    ],
+    "warning": "Bolts (runs to flower) extremely fast in heat or dry conditions. In summer, shade and regular watering are essential."
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "latin": "Salvia officinalis",
+    "emoji": "\ud83c\udf3f",
+    "type": "herb",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sage",
+    "tagline": "Beautiful, fragrant, drought-tolerant. The silver-green leaves look as good as they taste.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Allow to dry between waterings. Overwatering is the main cause of failure.",
+        "bar": 28
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun produces the best flavour and most compact growth.",
+        "bar": 85
+      },
+      "soil": {
+        "value": "Well-draining, lean",
+        "detail": "Sandy or gritty soil. Too rich = soft, disease-prone growth.",
+        "bar": 25
+      },
+      "temp": {
+        "value": "Hardy to -15\u00b0C",
+        "detail": "Very hardy once established. Evergreen in mild winters."
+      },
+      "seedDepth": {
+        "value": "0.5\u20131 cm deep",
+        "detail": "Can be grown from seed but buying a plant is faster."
+      },
+      "germination": "10\u201321 days",
+      "harvest": "Anytime, best before flowering",
+      "spacing": "45\u201360 cm \u2014 it gets bushy"
+    },
+    "tips": [
+      "Cut back by half in spring before new growth starts \u2014 keeps it compact and prevents it going woody.",
+      "Never cut into old brown woody stems \u2014 it won't regrow from there.",
+      "Purple sage and tricolour sage are ornamental varieties with the same flavour.",
+      "Exceptional with pork, chicken, and brown butter pasta."
+    ],
+    "warning": "Sage can get leggy and woody if not pruned annually. Once very woody, it's often easier to start fresh with a new plant."
+  },
+  {
+    "id": "dill",
+    "name": "Dill",
+    "latin": "Anethum graveolens",
+    "emoji": "\ud83c\udf3f",
+    "type": "herb",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Dill",
+    "tagline": "Fast-growing and feathery. Both the leaves and seeds are useful. Attracts beneficial insects.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Keep moist. Inconsistent watering causes premature bolting.",
+        "bar": 55
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun essential. Weak in shade.",
+        "bar": 85
+      },
+      "soil": {
+        "value": "Light, well-draining",
+        "detail": "Not too rich. Light, sandy soil is ideal.",
+        "bar": 45
+      },
+      "temp": {
+        "value": "15\u201325\u00b0C",
+        "detail": "Bolts in heat. Sow spring and early autumn for best results."
+      },
+      "seedDepth": {
+        "value": "0.5\u20131 cm deep",
+        "detail": "Sow direct \u2014 it hates being transplanted."
+      },
+      "germination": "7\u201314 days",
+      "harvest": "8\u201310 weeks for leaves",
+      "spacing": "15\u201320 cm"
+    },
+    "tips": [
+      "Sow direct \u2014 dill hates root disturbance and goes to seed if transplanted.",
+      "Don't grow near fennel \u2014 they cross-pollinate and both lose their distinct flavour.",
+      "Leave some plants to flower and set seed \u2014 the seeds are just as valuable as the leaves.",
+      "Great companion plant for brassicas \u2014 attracts predatory wasps that eat caterpillars."
+    ],
+    "warning": "Bolts quickly in heat. In summer, provide some afternoon shade or sow more frequently."
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "latin": "Fragaria \u00d7 ananassa",
+    "emoji": "\ud83c\udf53",
+    "type": "fruit",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Strawberry",
+    "tagline": "Perfect for balconies and small spaces. Grows in pots and hanging baskets. Fruit in the first year.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 days in heat",
+        "detail": "Keep moist during fruiting. Water at the base \u2014 wet fruit rots.",
+        "bar": 70
+      },
+      "sun": {
+        "value": "6\u20138 hours direct",
+        "detail": "More sun = sweeter fruit.",
+        "bar": 80
+      },
+      "soil": {
+        "value": "Rich, slightly acidic",
+        "detail": "pH 5.5\u20136.5. Mix in compost.",
+        "bar": 60
+      },
+      "temp": {
+        "value": "15\u201326\u00b0C optimal",
+        "detail": "Hardy in winter. Best fruit in warm days, cool nights."
+      },
+      "seedDepth": {
+        "value": "Grown from runners",
+        "detail": "Buying starter plants is much easier than seed."
+      },
+      "germination": "Buy plants",
+      "harvest": "June\u2013August",
+      "spacing": "30 cm"
+    },
+    "tips": [
+      "Remove first flowers in year one \u2014 the plant roots deeper and gives far more fruit in years 2 and 3.",
+      "Runners can be pegged into small pots to make free new plants.",
+      "Lay straw under fruit to keep it off wet soil.",
+      "Net the plants once berries form \u2014 birds love them."
+    ],
+    "warning": "Grey mould thrives in wet conditions. Space plants well and remove rotting fruit immediately."
+  },
+  {
+    "id": "blueberry",
+    "name": "Blueberry",
+    "latin": "Vaccinium corymbosum",
+    "emoji": "\ud83e\uded0",
+    "type": "fruit",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Blueberry",
+    "tagline": "Takes patience to establish but then produces fruit for 20+ years with minimal care.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Needs consistent moisture, especially in the first 2 years.",
+        "bar": 65
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun essential for good fruit production.",
+        "bar": 85
+      },
+      "soil": {
+        "value": "Very acidic (pH 4.5\u20135.5)",
+        "detail": "Critical. Regular soil will slowly kill blueberries. Use ericaceous (acid) compost.",
+        "bar": 30
+      },
+      "temp": {
+        "value": "Hardy to -20\u00b0C",
+        "detail": "Very cold-hardy. Needs cold winters to fruit well."
+      },
+      "seedDepth": {
+        "value": "Buy 2-year-old plants",
+        "detail": "Don't grow from seed. Plant 2+ varieties for better pollination."
+      },
+      "germination": "Buy plants",
+      "harvest": "July\u2013September, from year 2\u20133",
+      "spacing": "1.5 m between plants"
+    },
+    "tips": [
+      "Always use ericaceous compost. Collect rainwater \u2014 tap water is often too alkaline.",
+      "Plant at least two varieties near each other for cross-pollination.",
+      "Prune out the oldest, darkest stems every winter.",
+      "Mulch with wood chip or pine needles to maintain soil acidity."
+    ],
+    "warning": "Yellow leaves mean the soil pH is too high \u2014 they're starving for nutrients they can't access."
+  },
+  {
+    "id": "raspberry",
+    "name": "Raspberry",
+    "latin": "Rubus idaeus",
+    "emoji": "\ud83c\udf53",
+    "type": "fruit",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Raspberry",
+    "tagline": "Once established, one of the most productive and low-maintenance fruits you can grow.",
+    "care": {
+      "water": {
+        "value": "2\u20133 times per week",
+        "detail": "Keep moist during fruiting. Mulch well to retain moisture.",
+        "bar": 65
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun for best yields. Tolerates light shade.",
+        "bar": 78
+      },
+      "soil": {
+        "value": "Rich, well-draining, slightly acidic",
+        "detail": "Dig in plenty of compost. Raspberries hate waterlogged soil.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "Hardy to -20\u00b0C",
+        "detail": "Very cold-hardy. Canes die back to the ground each year."
+      },
+      "seedDepth": {
+        "value": "Plant canes from nursery",
+        "detail": "Plant bare-root canes in autumn or early spring, 5\u20138cm deep."
+      },
+      "germination": "N/A \u2014 plant canes",
+      "harvest": "July\u2013August (summer) or Sept\u2013Oct (autumn varieties)",
+      "spacing": "40\u201345 cm between canes"
+    },
+    "tips": [
+      "After summer raspberries fruit, cut ALL the canes that fruited down to the ground. Leave the new green canes for next year.",
+      "Autumn varieties are even easier \u2014 cut all canes to the ground in February and they fruit on new growth.",
+      "Tie canes to wires or a frame \u2014 they flop without support and the fruit rots on the ground.",
+      "Mulch heavily with wood chip each spring to suppress weeds and retain moisture."
+    ],
+    "warning": "Raspberry beetle grubs inside the fruit are common. Pick any white grubs out \u2014 they're harmless but unpleasant."
+  },
+  {
+    "id": "apple",
+    "name": "Apple Tree",
+    "latin": "Malus domestica",
+    "emoji": "\ud83c\udf4e",
+    "type": "fruit",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Apple%2BTree",
+    "tagline": "A long-term investment that pays dividends for decades. Even a small garden can fit a dwarf apple tree.",
+    "care": {
+      "water": {
+        "value": "Weekly when young",
+        "detail": "Water regularly for the first 2\u20133 years. Established trees are largely self-sufficient.",
+        "bar": 45
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun essential for fruiting and disease resistance.",
+        "bar": 85
+      },
+      "soil": {
+        "value": "Deep, well-draining, fertile",
+        "detail": "Dig in compost when planting. Mulch annually around the base.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "Hardy to -30\u00b0C (varies by variety)",
+        "detail": "Needs cold winters for dormancy and spring frosts can kill blossoms."
+      },
+      "seedDepth": {
+        "value": "Plant bare-root or container tree",
+        "detail": "Plant bare-root trees in autumn or winter when dormant."
+      },
+      "germination": "N/A \u2014 plant trees",
+      "harvest": "August\u2013November depending on variety",
+      "spacing": "Dwarf: 2\u20133m. Standard: 6\u20138m."
+    },
+    "tips": [
+      "Choose a self-fertile variety (e.g. Cox, Braeburn, James Grieve) or plant two compatible varieties nearby.",
+      "Annual pruning in winter \u2014 remove crossing branches, dead wood, and the centre to create an open goblet shape.",
+      "Thin the fruitlets in June \u2014 reduce clusters to one or two fruits for larger, better-quality apples.",
+      "Dwarf or semi-dwarf rootstocks make management easy \u2014 M9 or M26 for small gardens."
+    ],
+    "warning": "Codling moth and apple scab are the two main problems. Both are manageable with good hygiene \u2014 pick up fallen fruit, prune for airflow."
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon Tree",
+    "latin": "Citrus limon",
+    "emoji": "\ud83c\udf4b",
+    "type": "fruit",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lemon%2BTree",
+    "tagline": "Possible even in cool climates in a pot. Flowers smell incredible and the fruit is a genuine achievement.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20135 days",
+        "detail": "Water when top 3\u20134cm of soil is dry. Never waterlogged. Use room-temperature water.",
+        "bar": 55
+      },
+      "sun": {
+        "value": "8+ hours direct",
+        "detail": "As much sun as possible. South-facing wall or greenhouse. Outdoors in summer only in cool climates.",
+        "bar": 95
+      },
+      "soil": {
+        "value": "Citrus-specific or well-draining mix",
+        "detail": "Use citrus compost. Must drain fast \u2014 never sit in water.",
+        "bar": 58
+      },
+      "temp": {
+        "value": "Bring indoors below 10\u00b0C",
+        "detail": "Not frost-hardy. In cool climates: outside in summer, bright cool room in winter."
+      },
+      "seedDepth": {
+        "value": "Buy a grafted tree",
+        "detail": "Seed-grown lemons take 7\u201315 years to fruit. Buy a grafted tree for fruit in 2\u20133 years."
+      },
+      "germination": "Buy grafted tree",
+      "harvest": "Year-round on established trees",
+      "spacing": "Container: no issue"
+    },
+    "tips": [
+      "Feed with citrus fertiliser every month from spring to autumn \u2014 yellowing leaves usually mean nutrient deficiency.",
+      "Move outside in late May when nights are above 10\u00b0C. Move back inside in September.",
+      "Inconsistent watering causes fruit drop. Keep moisture consistent.",
+      "Dry indoor air in winter causes leaf drop \u2014 mist the leaves occasionally or use a pebble tray."
+    ],
+    "warning": "Scale insects (brown lumps on stems) and vine weevil are the main pests in indoor citrus. Check monthly and treat early."
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "latin": "Helianthus annuus",
+    "emoji": "\ud83c\udf3b",
+    "type": "flower",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sunflower",
+    "tagline": "The most satisfying seed-to-flower journey. A fingernail-sized seed becomes a plant taller than you.",
+    "care": {
+      "water": {
+        "value": "2\u20133 times per week",
+        "detail": "Water well when young. Established plants are surprisingly drought-tolerant.",
+        "bar": 60
+      },
+      "sun": {
+        "value": "Full sun, 6\u20138 hours",
+        "detail": "They track the sun. They need as much as possible.",
+        "bar": 95
+      },
+      "soil": {
+        "value": "Any reasonable soil",
+        "detail": "Not fussy at all. Grows in almost anything.",
+        "bar": 45
+      },
+      "temp": {
+        "value": "Sow after last frost",
+        "detail": "Grow fast in warm soil. Sow direct where they'll live."
+      },
+      "seedDepth": {
+        "value": "2.5 cm deep",
+        "detail": "Sow direct \u2014 they hate being transplanted. One seed per hole."
+      },
+      "germination": "7\u201310 days",
+      "harvest": "75\u2013100 days to flower",
+      "spacing": "30\u201345 cm for tall varieties"
+    },
+    "tips": [
+      "Sow directly where they'll grow \u2014 sunflowers hate root disturbance.",
+      "For giant single heads, remove side shoots. For multiple flowers, leave them.",
+      "Stake tall varieties early \u2014 staking a toppling sunflower is hard.",
+      "Leave the seed head after flowering for birds all autumn."
+    ],
+    "warning": "Slugs eat seedlings overnight. Use copper ring or slug protection around young plants for the first few weeks."
+  },
+  {
+    "id": "rose",
+    "name": "Rose",
+    "latin": "Rosa",
+    "emoji": "\ud83c\udf39",
+    "type": "flower",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rose",
+    "tagline": "More forgiving than their reputation. Modern varieties are tough, disease-resistant, and flower all summer.",
+    "care": {
+      "water": {
+        "value": "Twice a week",
+        "detail": "Deep watering at the base. Never overhead \u2014 wet leaves invite blackspot.",
+        "bar": 65
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Less than 6 hours = fewer flowers and more disease.",
+        "bar": 82
+      },
+      "soil": {
+        "value": "Rich, well-draining",
+        "detail": "Dig in lots of compost. Feed monthly during growing season.",
+        "bar": 70
+      },
+      "temp": {
+        "value": "Hardy to -20\u00b0C (varies)",
+        "detail": "Most modern roses are very cold-hardy."
+      },
+      "seedDepth": {
+        "value": "Plant from bare root or pot",
+        "detail": "Plant bare root roses in winter/early spring when dormant."
+      },
+      "germination": "Plant from nursery",
+      "harvest": "Flowers June\u2013frost (repeat-flowering)",
+      "spacing": "60\u201390 cm between plants"
+    },
+    "tips": [
+      "Prune in early spring when you see new red buds \u2014 cut to an outward-facing bud at 45\u00b0.",
+      "Deadhead spent flowers throughout summer to trigger more blooms.",
+      "Feed with high-potassium feed after first flowering to fuel the next flush.",
+      "David Austin English roses combine old-fashioned scent with repeat-flowering."
+    ],
+    "warning": "Blackspot (black spots on leaves, then yellowing) is common in wet summers. Remove affected leaves and avoid overhead watering."
+  },
+  {
+    "id": "marigold",
+    "name": "Marigold",
+    "latin": "Tagetes patula",
+    "emoji": "\ud83c\udf3c",
+    "type": "flower",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Marigold",
+    "tagline": "Cheerful, long-flowering, and one of the best companion plants in the garden. Repels pests naturally.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Keep moist but not waterlogged. Drought-tolerant once established.",
+        "bar": 50
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun produces the most flowers. Tolerates partial shade.",
+        "bar": 82
+      },
+      "soil": {
+        "value": "Any reasonable soil",
+        "detail": "Not fussy at all. Even poor soil works.",
+        "bar": 40
+      },
+      "temp": {
+        "value": "Plant after last frost",
+        "detail": "Half-hardy annual. Frost kills them."
+      },
+      "seedDepth": {
+        "value": "0.5 cm deep",
+        "detail": "Easy from seed. Start indoors 6\u20138 weeks before last frost or sow direct after frost."
+      },
+      "germination": "5\u20137 days",
+      "harvest": "Flowers June\u2013frost",
+      "spacing": "20\u201330 cm"
+    },
+    "tips": [
+      "Plant near tomatoes, peppers, and courgettes \u2014 the scent deters aphids and whitefly.",
+      "Deadhead regularly to keep the flowers coming all summer.",
+      "Edible petals \u2014 sprinkle the orange and yellow petals over salads.",
+      "One of the easiest flowers to save seed from \u2014 let some flowers dry on the plant and collect the seeds."
+    ],
+    "warning": "Slugs eat seedlings. Protect young plants. Once established they're much more resilient."
+  },
+  {
+    "id": "nasturtium",
+    "name": "Nasturtium",
+    "latin": "Tropaeolum majus",
+    "emoji": "\ud83c\udf38",
+    "type": "flower",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Nasturtium",
+    "tagline": "Entirely edible, completely easy, and utterly cheerful. Flowers in poor soil where nothing else will.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20134 days",
+        "detail": "Drought-tolerant. Overwatering and rich soil causes lots of leaves and few flowers.",
+        "bar": 40
+      },
+      "sun": {
+        "value": "4\u20138 hours",
+        "detail": "Full sun or partial shade both work.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Poor, well-draining",
+        "detail": "This is key \u2014 rich soil produces leaves not flowers. Don't add compost.",
+        "bar": 20
+      },
+      "temp": {
+        "value": "Plant after last frost",
+        "detail": "Half-hardy annual. Frost kills them but they self-seed prolifically."
+      },
+      "seedDepth": {
+        "value": "1\u20132 cm deep",
+        "detail": "Sow direct where they'll grow. Hate root disturbance."
+      },
+      "germination": "7\u201314 days",
+      "harvest": "Flowers from 8 weeks",
+      "spacing": "20\u201325 cm"
+    },
+    "tips": [
+      "Entire plant is edible \u2014 flowers have a peppery flavour, seeds can be pickled like capers, young leaves go in salads.",
+      "Don't fertilise \u2014 really. Poor soil = more flowers. Rich soil = a sea of green leaves.",
+      "Aphids love them \u2014 use as a 'trap crop' planted near vegetables to draw aphids away.",
+      "Self-seeds generously \u2014 you'll likely never need to buy seeds again after the first year."
+    ],
+    "warning": "Too much fertiliser or rich soil is the main reason for no flowers. If it's all leaves, stop feeding and move to poorer soil."
+  },
+  {
+    "id": "geranium",
+    "name": "Geranium (Pelargonium)",
+    "latin": "Pelargonium \u00d7 hortorum",
+    "emoji": "\ud83c\udf38",
+    "type": "flower",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Geranium%2B%28Pelargonium%29",
+    "tagline": "The classic balcony and windowbox flower. Tough, long-flowering, and comes in an enormous range of colours.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Water when top of soil is dry. They tolerate drought better than most flowering plants.",
+        "bar": 48
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun produces the most flowers. Tolerates light shade.",
+        "bar": 80
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard potting compost with good drainage.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "Not frost-hardy",
+        "detail": "Bring indoors before first frost. Overwinter in a cool bright room."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Take 10cm cuttings in late summer. Root in gritty compost. Easy and free."
+      },
+      "germination": "Roots in 3\u20134 weeks from cuttings",
+      "harvest": "Flowers May\u2013October",
+      "spacing": "25\u201330 cm"
+    },
+    "tips": [
+      "Deadhead regularly \u2014 remove old flowers with a sharp downward pull to prevent disease.",
+      "Take cuttings in August before the frosts \u2014 you'll have free plants for next year.",
+      "Overwintered plants bloom more profusely the following year than new plants from seed.",
+      "Remove yellow leaves immediately \u2014 they encourage botrytis (grey mould)."
+    ],
+    "warning": "Waterlogging kills them quickly. Always use pots with drainage holes and never let them sit in water."
+  },
+  {
+    "id": "petunia",
+    "name": "Petunia",
+    "latin": "Petunia \u00d7 atkinsiana",
+    "emoji": "\ud83c\udf3a",
+    "type": "flower",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Petunia",
+    "tagline": "Spectacular trailing flowers all summer. Perfect for hanging baskets and window boxes.",
+    "care": {
+      "water": {
+        "value": "Daily in summer",
+        "detail": "Hanging baskets especially dry out very fast. Water daily in heat.",
+        "bar": 80
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun essential for flowering. Poor in shade.",
+        "bar": 85
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Good quality compost with slow-release fertiliser added.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "Not frost-hardy",
+        "detail": "Plant out after last frost. Flowers until first autumn frost."
+      },
+      "seedDepth": {
+        "value": "Surface \u2014 seeds need light",
+        "detail": "Tiny seeds need light to germinate. Press onto moist compost. Or buy plug plants."
+      },
+      "germination": "7\u201310 days",
+      "harvest": "Flowers May\u2013October",
+      "spacing": "25\u201330 cm"
+    },
+    "tips": [
+      "Feed every week with liquid tomato fertiliser \u2014 petunias are very hungry in containers.",
+      "Deadhead regularly or give the whole plant a trim when it gets straggly \u2014 it bounces back fast.",
+      "Sticky stems are normal for petunias \u2014 they trap insects as a minor carnivory adaptation.",
+      "Trailing varieties (Surfinia, Wave) are more vigorous and require less deadheading."
+    ],
+    "warning": "Botrytis (grey mould) in wet weather can kill plants. Improve airflow and remove affected material immediately."
+  },
+  {
+    "id": "lavender",
+    "name": "Lavender",
+    "latin": "Lavandula angustifolia",
+    "emoji": "\ud83d\udc9c",
+    "type": "flower",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lavender",
+    "tagline": "Drought-tolerant, beautiful, smells incredible. Bees love it and it barely needs attention.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Let soil dry between waterings. Established lavender survives on rainfall.",
+        "bar": 25
+      },
+      "sun": {
+        "value": "Full sun, 6+ hours",
+        "detail": "More sun = more flowers.",
+        "bar": 90
+      },
+      "soil": {
+        "value": "Poor, well-draining",
+        "detail": "Prefers poor soil. Rich compost causes lush growth but fewer flowers.",
+        "bar": 20
+      },
+      "temp": {
+        "value": "Hardy to -15\u00b0C",
+        "detail": "Wet roots in winter kill it faster than cold."
+      },
+      "seedDepth": {
+        "value": "3\u20134 mm deep",
+        "detail": "Slow from seed. Easier to buy a small plant."
+      },
+      "germination": "2\u20133 months",
+      "harvest": "Cut when half the flowers are open",
+      "spacing": "30\u201345 cm"
+    },
+    "tips": [
+      "Cut back by one-third after flowering every year. Never cut into old woody growth.",
+      "Number one killer is poor drainage. Plant in raised beds or add grit to soil.",
+      "Harvest when about half the tiny flowers are open.",
+      "Dried bundles in wardrobes repel moths naturally."
+    ],
+    "warning": "Never let lavender sit in waterlogged soil in winter. Root rot will kill it quickly."
+  },
+  {
+    "id": "pansy",
+    "name": "Pansy",
+    "latin": "Viola \u00d7 wittrockiana",
+    "emoji": "\ud83c\udf38",
+    "type": "flower",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pansy",
+    "tagline": "The cheerful face of winter and spring gardens. Thrives in cold when almost nothing else flowers.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Keep moist. Drying out causes wilting and fewer flowers.",
+        "bar": 58
+      },
+      "sun": {
+        "value": "4\u20136 hours",
+        "detail": "Cool-season plants that appreciate some afternoon shade in warmer months.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Rich, moist, well-draining",
+        "detail": "Good potting compost. Feed monthly.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "Hardy to -10\u00b0C",
+        "detail": "Winter pansies are specifically bred for cold. Plant in autumn for colour all winter."
+      },
+      "seedDepth": {
+        "value": "0.5 cm deep",
+        "detail": "Sow in summer for winter/spring flowering. Or buy plug plants."
+      },
+      "germination": "10\u201314 days",
+      "harvest": "Flowers autumn through spring",
+      "spacing": "15\u201320 cm"
+    },
+    "tips": [
+      "Deadhead regularly \u2014 removing old flowers dramatically extends the flowering season.",
+      "Plant autumn pansies in September for flowers through winter and into May.",
+      "The flowers are entirely edible \u2014 use to decorate cakes or salads.",
+      "They struggle in summer heat \u2014 replace with summer bedding plants in June."
+    ],
+    "warning": "Slugs eat them enthusiastically in autumn. Protect with copper tape or slug pellets around containers."
+  },
+  {
+    "id": "dahlia",
+    "name": "Dahlia",
+    "latin": "Dahlia pinnata",
+    "emoji": "\ud83c\udf3a",
+    "type": "flower",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Dahlia",
+    "tagline": "The most spectacular late-summer flowers you can grow from tubers. Dramatic, long-lasting, and cut-flower perfect.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Keep consistently moist once in full growth. Drought causes bud drop.",
+        "bar": 65
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun is essential for good flowers.",
+        "bar": 85
+      },
+      "soil": {
+        "value": "Rich, well-draining",
+        "detail": "Dig in plenty of compost. Feed every 2 weeks with high-potassium fertiliser once budding starts.",
+        "bar": 72
+      },
+      "temp": {
+        "value": "Plant after last frost",
+        "detail": "Frost-sensitive. Plant tubers in spring, lift in autumn before hard frosts."
+      },
+      "seedDepth": {
+        "value": "Plant tubers 10\u201315cm deep",
+        "detail": "Plant in spring when soil has warmed. Eye (growth bud) facing up."
+      },
+      "germination": "Shoots in 3\u20135 weeks",
+      "harvest": "Flowers July\u2013October",
+      "spacing": "60\u201390 cm"
+    },
+    "tips": [
+      "Pinch out the growing tip when the plant is 40cm tall \u2014 this produces more stems and more flowers.",
+      "Stake early \u2014 dahlias get top-heavy and snap in wind.",
+      "Cut flowers regularly \u2014 the more you cut, the more they produce.",
+      "In autumn, lift tubers after first frost blackens the foliage. Store in a cool dry place in barely damp compost."
+    ],
+    "warning": "Slugs and snails devour emerging shoots in spring. Protect tubers with grit and check nightly for the first few weeks."
+  },
+  {
+    "id": "blackhaw",
+    "name": "Blackhaw",
+    "latin": "Viburnum prunifolium",
+    "emoji": "\ud83c\udf33",
+    "type": "shrub",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Blackhaw",
+    "tagline": "A native North American shrub with four seasons of interest \u2014 spring flowers, berries, autumn colour, winter structure.",
+    "care": {
+      "water": {
+        "value": "Weekly when young",
+        "detail": "Regular watering for the first 2 years. Drought-tolerant once mature.",
+        "bar": 45
+      },
+      "sun": {
+        "value": "Full sun to partial shade",
+        "detail": "Remarkably adaptable. Best flowering and berrying in full sun.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Adaptable \u2014 most soils",
+        "detail": "Tolerates clay, loam, or sandy soils.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "Hardy to -30\u00b0C",
+        "detail": "Extremely cold-hardy native shrub."
+      },
+      "seedDepth": {
+        "value": "Plant from nursery stock",
+        "detail": "Difficult from seed. Buy a 1\u20132 year old plant from a nursery."
+      },
+      "germination": "Buy nursery plants",
+      "harvest": "Blue-black berries in September\u2013October",
+      "spacing": "2\u20134 m"
+    },
+    "tips": [
+      "Plant in autumn or early spring. Water well for the first two seasons.",
+      "Berries are edible and sweet after frost, used for jams and preserves.",
+      "Rarely needs pruning \u2014 only remove dead or crossing branches in late winter.",
+      "Attracts pollinators in spring and birds in autumn. Excellent wildlife plant."
+    ],
+    "warning": "Young plants are slow to establish \u2014 don't give up if it looks dormant in year one."
+  },
+  {
+    "id": "hydrangea",
+    "name": "Hydrangea",
+    "latin": "Hydrangea macrophylla",
+    "emoji": "\ud83d\udc90",
+    "type": "shrub",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hydrangea",
+    "tagline": "Spectacular large flower heads that last from summer to autumn and dry beautifully for indoor displays.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Needs consistent moisture. Wilts dramatically when thirsty but recovers quickly.",
+        "bar": 72
+      },
+      "sun": {
+        "value": "Morning sun, afternoon shade",
+        "detail": "Bright morning sun with afternoon shade is ideal. Full sun scorches the flowers.",
+        "bar": 55
+      },
+      "soil": {
+        "value": "Rich, moist, well-draining",
+        "detail": "Add plenty of compost. Acidic soil produces blue flowers; alkaline = pink.",
+        "bar": 70
+      },
+      "temp": {
+        "value": "Hardy to -15\u00b0C (varies)",
+        "detail": "Most are cold-hardy but late frosts can damage emerging flower buds."
+      },
+      "seedDepth": {
+        "value": "Plant from nursery or cuttings",
+        "detail": "Easy from softwood cuttings in summer. Or buy a plant."
+      },
+      "germination": "N/A \u2014 buy plants or take cuttings",
+      "harvest": "Flowers July\u2013September",
+      "spacing": "1\u20131.5 m"
+    },
+    "tips": [
+      "Blue flowers = acidic soil. Pink flowers = alkaline soil. Add ericaceous compost or aluminium sulphate for blue.",
+      "Don't prune in autumn \u2014 leave old flowerheads on to protect next year's buds over winter. Prune in late spring.",
+      "Dead flowerheads look beautiful through winter and can be cut for dried arrangements.",
+      "Mulch heavily each spring to retain moisture \u2014 hydrangeas are thirsty."
+    ],
+    "warning": "Late spring frosts kill emerging flower buds \u2014 avoid frost-prone spots or protect with fleece in late April."
+  },
+  {
+    "id": "buddleia",
+    "name": "Buddleia (Butterfly Bush)",
+    "latin": "Buddleja davidii",
+    "emoji": "\ud83e\udd8b",
+    "type": "shrub",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Buddleia%2B%28Butterfly%2BBush%29",
+    "tagline": "The ultimate wildlife shrub. Cut it to the ground each spring and it regrows to 2m and flowers by July.",
+    "care": {
+      "water": {
+        "value": "Rarely \u2014 drought-tolerant",
+        "detail": "Established plants survive on rainfall. Water only in extreme drought.",
+        "bar": 22
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun essential for best flowering.",
+        "bar": 88
+      },
+      "soil": {
+        "value": "Any well-draining soil",
+        "detail": "Incredibly adaptable. Grows in poor rubble, chalk, or clay.",
+        "bar": 30
+      },
+      "temp": {
+        "value": "Hardy to -20\u00b0C",
+        "detail": "Very cold-hardy once established."
+      },
+      "seedDepth": {
+        "value": "Buy a plant",
+        "detail": "Self-seeds prolifically if not deadheaded. Can buy small plants cheaply."
+      },
+      "germination": "Self-seeds freely",
+      "harvest": "Flowers July\u2013September",
+      "spacing": "2\u20133 m"
+    },
+    "tips": [
+      "Cut down hard to 30cm from the ground every spring in March \u2014 it regrows vigorously and flowers on new wood.",
+      "Deadhead spent flower spikes to encourage more flowers and prevent aggressive self-seeding.",
+      "Attracts more butterfly species than almost any other garden plant \u2014 plant near a seating area.",
+      "White, pink, and dark purple varieties all available \u2014 mix for extended season."
+    ],
+    "warning": "Invasive in some regions \u2014 check local regulations. Always deadhead before seeds set to prevent spread."
+  },
+  {
+    "id": "wisteria",
+    "name": "Wisteria",
+    "latin": "Wisteria sinensis",
+    "emoji": "\ud83c\udf38",
+    "type": "shrub",
+    "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Wisteria",
+    "tagline": "The most spectacular flowering climber. The waterfall of purple flowers in May is worth every bit of effort.",
+    "care": {
+      "water": {
+        "value": "Weekly when young",
+        "detail": "Regular watering for the first 2\u20133 years. Drought-tolerant once established.",
+        "bar": 42
+      },
+      "sun": {
+        "value": "6+ hours direct",
+        "detail": "Full sun on a warm south or west-facing wall is ideal.",
+        "bar": 90
+      },
+      "soil": {
+        "value": "Fertile, well-draining",
+        "detail": "Not too rich in nitrogen \u2014 encourages leaves over flowers.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "Hardy to -20\u00b0C",
+        "detail": "Very cold-hardy. Late frosts can damage flower buds."
+      },
+      "seedDepth": {
+        "value": "Buy a grafted plant",
+        "detail": "Seed-grown plants can take 20 years to flower. Buy a named grafted variety."
+      },
+      "germination": "Buy grafted plant",
+      "harvest": "Flowers May\u2013June, sometimes again in August",
+      "spacing": "Needs 5\u201310m of wall space"
+    },
+    "tips": [
+      "Buy a named grafted variety \u2014 not seed-grown. Check it was flowering when you bought it.",
+      "Prune twice a year: summer (July) \u2014 cut new shoots to 5 leaves. Winter \u2014 cut those same shoots to 2 buds.",
+      "If it won't flower: too much shade, too much nitrogen, or too young. Restrict the roots if vigorous but flowerless.",
+      "Tie in the structural branches when young \u2014 once woody they're impossible to redirect."
+    ],
+    "warning": "All parts are toxic if eaten. Keep children away from the seeds especially \u2014 they look appealing."
+  },
+  {
+    "id": "oak",
+    "name": "English Oak",
+    "latin": "Quercus robur",
+    "emoji": "\ud83c\udf33",
+    "type": "shrub",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=English%2BOak",
+    "tagline": "The most ecologically valuable tree you can plant. Supports over 500 species of insects, birds, and fungi.",
+    "care": {
+      "water": {
+        "value": "Weekly when young",
+        "detail": "Water regularly for the first 2\u20133 years. After that, entirely self-sufficient.",
+        "bar": 38
+      },
+      "sun": {
+        "value": "Full sun to partial shade",
+        "detail": "Grows well in a wide range of light conditions.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Adaptable \u2014 most soils",
+        "detail": "Tolerates heavy clay, loam, or sandy soils. Deep soil preferred.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "Hardy to -30\u00b0C",
+        "detail": "Extremely cold-hardy. Long-lived to 500\u20131000 years."
+      },
+      "seedDepth": {
+        "value": "Plant acorns 3\u20134cm deep",
+        "detail": "Collect fresh acorns in autumn and plant immediately. Or buy a young tree."
+      },
+      "germination": "Spring after autumn planting",
+      "harvest": "Acorns from age 40\u201350. Timber in 100+ years.",
+      "spacing": "Mature spread: 15\u201325 m"
+    },
+    "tips": [
+      "Plant as a gift to the future \u2014 even a 10-year-old oak is already a significant wildlife habitat.",
+      "Grow from acorns collected locally \u2014 locally-sourced genetics are better adapted to your conditions.",
+      "Small oaks (up to 1m) transplant better than larger ones. Plant young.",
+      "If space is limited, plant in a large container for the first 5\u201310 years."
+    ],
+    "warning": "Mature size is enormous. Only plant in gardens large enough to accommodate a mature tree. Check for overhead cables."
+  }
+]
