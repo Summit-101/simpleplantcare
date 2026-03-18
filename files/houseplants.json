@@ -1,0 +1,3557 @@
+[
+  {
+    "id": "monstera",
+    "name": "Monstera",
+    "latin": "Monstera deliciosa",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Monstera",
+    "tagline": "The world's most iconic houseplant. Almost impossible to kill and grows to jaw-dropping size.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 2\u20135cm of soil is dry. Overwatering is the main mistake.",
+        "bar": 40
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Thrives in bright filtered light. Direct sun scorches leaves.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Well-draining, chunky mix",
+        "detail": "Chunky potting mix with perlite. Roots need oxygen \u2014 don't compact.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold draughts. Below 10\u00b0C causes damage."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Take a cutting with at least one node, root in water or moist compost."
+      },
+      "germination": "Roots in 3\u20136 weeks",
+      "harvest": "Decorative",
+      "spacing": "60\u201390 cm spread"
+    },
+    "tips": [
+      "Those holes in the leaves are normal \u2014 they appear as the plant matures and indicate good health.",
+      "Give it a moss pole \u2014 it grows significantly bigger leaves with something to climb.",
+      "Wipe leaves monthly with a damp cloth \u2014 large leaves collect dust fast.",
+      "Yellow leaves usually mean overwatering. Let soil dry out more between waterings."
+    ],
+    "warning": "All parts are toxic to cats, dogs and humans if ingested. Keep away from pets and children."
+  },
+  {
+    "id": "snake-plant",
+    "name": "Snake Plant",
+    "latin": "Dracaena trifasciata",
+    "emoji": "\ud83c\udf31",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Snake%2BPlant",
+    "tagline": "The world's most searched houseplant. Survives neglect, low light, and irregular watering with ease.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20136 weeks",
+        "detail": "Let soil dry completely between waterings. In winter, once every 6\u20138 weeks.",
+        "bar": 12
+      },
+      "sun": {
+        "value": "Any light level",
+        "detail": "Survives very low light. Better growth in brighter spots \u2014 but it really does handle anything.",
+        "bar": 45
+      },
+      "soil": {
+        "value": "Well-draining, sandy mix",
+        "detail": "Cactus mix or regular mix with added grit. Must drain freely.",
+        "bar": 25
+      },
+      "temp": {
+        "value": "15\u201330\u00b0C",
+        "detail": "Tolerates a wide range. Avoid below 10\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Leaf cuttings or division",
+        "detail": "Cut a leaf into sections and push into gritty compost, or divide at the root."
+      },
+      "germination": "4\u20138 weeks to root",
+      "harvest": "Decorative",
+      "spacing": "Stays compact"
+    },
+    "tips": [
+      "The only reliable way to kill it is overwatering \u2014 root rot is fast and usually fatal.",
+      "Wipe leaves with a damp cloth occasionally to keep them glossy.",
+      "Produces oxygen at night \u2014 a popular choice for bedrooms.",
+      "Repot only every 2\u20133 years \u2014 it genuinely prefers being root-bound."
+    ],
+    "warning": "Mildly toxic to cats and dogs if eaten. Can cause nausea and vomiting."
+  },
+  {
+    "id": "pothos",
+    "name": "Pothos",
+    "latin": "Epipremnum aureum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pothos",
+    "tagline": "Practically grows itself. Trails beautifully, tolerates neglect, and propagates endlessly for free.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 2\u20133cm is dry. Yellow leaves usually mean overwatering.",
+        "bar": 38
+      },
+      "sun": {
+        "value": "Low to bright indirect",
+        "detail": "Incredibly adaptable. Variegated varieties need more light to keep their pattern.",
+        "bar": 45
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard potting mix with some perlite.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "15\u201330\u00b0C",
+        "detail": "No cold draughts. Below 10\u00b0C causes leaf drop."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings in water",
+        "detail": "Cut just below a node, place in water. Roots in 2\u20134 weeks then pot up."
+      },
+      "germination": "Roots in 2\u20134 weeks",
+      "harvest": "Decorative \u2014 trails to several metres",
+      "spacing": "Trails widely"
+    },
+    "tips": [
+      "Propagate endlessly \u2014 put cuttings in a glass of water on the windowsill and pot when rooted.",
+      "Pale, washed-out leaves on a variegated variety means not enough light.",
+      "A single plant can trail several metres \u2014 great for high shelves.",
+      "Pinch growing tips to make it bushier instead of trailing."
+    ],
+    "warning": "Toxic to cats and dogs. Can cause oral irritation and vomiting if eaten."
+  },
+  {
+    "id": "aloe-vera",
+    "name": "Aloe Vera",
+    "latin": "Aloe barbadensis miller",
+    "emoji": "\ud83c\udf35",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Aloe%2BVera",
+    "tagline": "The most forgiving succulent you can own. Neglect it and it thrives. Overwater it and it dies.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Water deeply then let soil dry completely. In winter, once a month.",
+        "bar": 20
+      },
+      "sun": {
+        "value": "Bright indirect to direct",
+        "detail": "Loves bright light. Some direct sun is fine but intense midday sun scorches tips.",
+        "bar": 75
+      },
+      "soil": {
+        "value": "Cactus/succulent mix",
+        "detail": "Drainage is everything. Add perlite or grit if using regular potting mix.",
+        "bar": 28
+      },
+      "temp": {
+        "value": "13\u201327\u00b0C",
+        "detail": "Bring indoors if temperatures drop below 5\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Grown from offsets (pups)",
+        "detail": "Separate baby plants that appear at the base and pot them individually."
+      },
+      "germination": "N/A",
+      "harvest": "Leaves usable anytime",
+      "spacing": "30\u201340 cm"
+    },
+    "tips": [
+      "Thin curling leaves = thirsty. Soft mushy base = overwatered \u2014 the two key signs to watch.",
+      "Always use a pot with drainage holes. Standing water causes root rot.",
+      "Repot only when roots emerge from the bottom \u2014 aloe likes being root-bound.",
+      "The clear gel inside is genuinely soothing \u2014 slice a lower leaf for minor burns or dry skin."
+    ],
+    "warning": "Root rot from overwatering is almost always fatal and irreversible. When in doubt, don't water."
+  },
+  {
+    "id": "peace-lily",
+    "name": "Peace Lily",
+    "latin": "Spathiphyllum wallisii",
+    "emoji": "\ud83e\udd0d",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Peace%2BLily",
+    "tagline": "The best houseplant for dark rooms. Droops dramatically when thirsty then recovers within the hour.",
+    "care": {
+      "water": {
+        "value": "Once a week",
+        "detail": "Water when top 2\u20133cm is dry. It droops visibly when thirsty \u2014 that's your reminder.",
+        "bar": 50
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "Survives quite dark rooms. Direct sun scorches the leaves brown.",
+        "bar": 35
+      },
+      "soil": {
+        "value": "Rich, well-draining indoor mix",
+        "detail": "Standard houseplant mix. Repot every 1\u20132 years.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "18\u201330\u00b0C",
+        "detail": "Hates cold draughts and temperatures below 12\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Division only",
+        "detail": "Not grown from seed at home. Divide the root ball when repotting."
+      },
+      "germination": "N/A",
+      "harvest": "Flowers in spring, sometimes twice yearly",
+      "spacing": "30\u201360 cm spread"
+    },
+    "tips": [
+      "Brown leaf tips = air too dry. Put the pot on a tray of damp pebbles.",
+      "Wipe leaves with a damp cloth monthly to remove dust.",
+      "Don't rush to repot \u2014 peace lilies flower better when slightly root-bound.",
+      "NASA-verified air purifier \u2014 removes formaldehyde and other VOCs."
+    ],
+    "warning": "Toxic to cats, dogs, and humans if ingested. Causes burning and swelling of mouth. Wash hands after handling sap."
+  },
+  {
+    "id": "spider-plant",
+    "name": "Spider Plant",
+    "latin": "Chlorophytum comosum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Spider%2BPlant",
+    "tagline": "The ultimate beginner houseplant. Produces baby plants constantly and is practically impossible to kill.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when soil is partly dry. Very forgiving of irregular watering.",
+        "bar": 42
+      },
+      "sun": {
+        "value": "Indirect light",
+        "detail": "Bright indirect light is ideal. Tolerates lower light very well.",
+        "bar": 50
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard houseplant mix. Not fussy at all.",
+        "bar": 48
+      },
+      "temp": {
+        "value": "13\u201327\u00b0C",
+        "detail": "Very adaptable. Tolerates cool rooms but not frost."
+      },
+      "seedDepth": {
+        "value": "Plantlets from runners",
+        "detail": "Pin the baby plants (spiderettes) onto moist compost while still attached to the mother plant."
+      },
+      "germination": "Roots in 1\u20132 weeks",
+      "harvest": "Decorative",
+      "spacing": "30\u201340 cm"
+    },
+    "tips": [
+      "Pin baby plants (spiderettes) onto compost in a separate pot while still attached \u2014 snip the runner once rooted.",
+      "Brown leaf tips are caused by fluoride in tap water \u2014 use filtered or rainwater.",
+      "One pot produces dozens of baby plants in a season \u2014 perfect for gifts.",
+      "Looks spectacular in hanging baskets where the long trailing runners can dangle freely."
+    ],
+    "warning": "Non-toxic to humans and pets \u2014 one of the very few completely safe houseplants for animal-owning households."
+  },
+  {
+    "id": "rubber-plant",
+    "name": "Rubber Plant",
+    "latin": "Ficus elastica",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rubber%2BPlant",
+    "tagline": "A classic houseplant that never goes out of style. Big glossy leaves, architectural shape, very tough.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3\u20134cm of soil is dry. Reduce in winter.",
+        "bar": 40
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light is best. Tolerates lower light but growth slows. Direct sun scorches.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Good quality potting compost with perlite for drainage.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "15\u201327\u00b0C",
+        "detail": "No cold draughts or temperatures below 12\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Take a cutting below a leaf node, allow the white sap to dry, then root in moist compost."
+      },
+      "germination": "Roots in 4\u20138 weeks",
+      "harvest": "Decorative",
+      "spacing": "60\u201390 cm as it grows large"
+    },
+    "tips": [
+      "Wipe the large glossy leaves with a damp cloth monthly \u2014 they collect dust which blocks light.",
+      "Rotate the pot a quarter turn each month for even growth \u2014 it leans toward light.",
+      "The white sap is a skin irritant \u2014 wear gloves when taking cuttings.",
+      "Variegated varieties (tricolor, tineke) need more light to keep their patterns vibrant."
+    ],
+    "warning": "Toxic to cats and dogs. The white milky sap can irritate skin and cause issues if ingested."
+  },
+  {
+    "id": "fiddle-leaf-fig",
+    "name": "Fiddle Leaf Fig",
+    "latin": "Ficus lyrata",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Fiddle%2BLeaf%2BFig",
+    "tagline": "The most dramatic-looking houseplant you can own. Also the most demanding. Worth the effort if you get it right.",
+    "care": {
+      "water": {
+        "value": "Once a week",
+        "detail": "Water thoroughly, let top 3\u20135cm dry out between waterings. Very sensitive to both over and underwatering.",
+        "bar": 48
+      },
+      "sun": {
+        "value": "Bright indirect, 6+ hours",
+        "detail": "Needs consistent bright light. A few hours of gentle morning sun is ideal.",
+        "bar": 78
+      },
+      "soil": {
+        "value": "Well-draining, rich mix",
+        "detail": "Good quality potting mix with perlite. Must drain freely.",
+        "bar": 60
+      },
+      "temp": {
+        "value": "18\u201330\u00b0C, no draughts",
+        "detail": "Hates temperature fluctuations. Keep away from AC vents, draughty windows, and exterior doors."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Take a large cutting with 2\u20133 leaves, dip in rooting hormone, keep warm and humid."
+      },
+      "germination": "Roots in 4\u20138 weeks",
+      "harvest": "Decorative",
+      "spacing": "Large statement plant \u2014 60cm+ spread"
+    },
+    "tips": [
+      "Once you find a spot it's happy in \u2014 don't move it. It drops leaves every time it's relocated.",
+      "Wipe each large leaf with a damp cloth monthly \u2014 dust blocks the light it needs.",
+      "Brown spots with yellow halo = overwatering. Brown crispy edges = underwatering or low humidity.",
+      "Feed monthly in spring and summer with a balanced liquid fertiliser."
+    ],
+    "warning": "Drops leaves dramatically when stressed by moving, cold draughts, or sudden changes in watering. Patience and consistency are essential."
+  },
+  {
+    "id": "zz-plant",
+    "name": "ZZ Plant",
+    "latin": "Zamioculcas zamiifolia",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=ZZ%2BPlant",
+    "tagline": "Thrives on neglect. Dark, dry rooms that kill everything else \u2014 the ZZ plant does fine.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20134 weeks",
+        "detail": "Stores water in thick roots. Let soil dry completely between waterings.",
+        "bar": 18
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "One of the most shade-tolerant houseplants. Direct sun bleaches the leaves.",
+        "bar": 30
+      },
+      "soil": {
+        "value": "Well-draining mix",
+        "detail": "Cactus mix or standard mix with added grit.",
+        "bar": 28
+      },
+      "temp": {
+        "value": "15\u201330\u00b0C",
+        "detail": "Tolerates a wide range. Avoid below 8\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Leaf or stem cuttings",
+        "detail": "Very slow to propagate \u2014 patience required. Division is faster."
+      },
+      "germination": "Months to root",
+      "harvest": "Decorative",
+      "spacing": "45\u201360 cm spread"
+    },
+    "tips": [
+      "Water even less in winter \u2014 once a month is often enough.",
+      "The thick underground rhizomes store water \u2014 it's genuinely drought-adapted.",
+      "Wipe the glossy leaves monthly for best appearance.",
+      "Perfect for offices and rooms with only artificial light."
+    ],
+    "warning": "All parts are toxic if ingested and the sap can irritate skin. Wear gloves when handling and keep away from children and pets."
+  },
+  {
+    "id": "calathea",
+    "name": "Calathea",
+    "latin": "Calathea orbifolia",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Calathea",
+    "tagline": "The most beautiful patterned leaves in the houseplant world. Folds its leaves up at night like hands in prayer.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Keep soil consistently moist but never waterlogged. Use room-temperature water.",
+        "bar": 62
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "Thrives in indirect light. Direct sun fades the intricate leaf patterns.",
+        "bar": 38
+      },
+      "soil": {
+        "value": "Rich, well-draining, moisture-retaining",
+        "detail": "Peat-free multipurpose compost with some perlite.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Hates cold draughts, cold windows in winter, and temperatures below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Division only",
+        "detail": "Divide the root ball when repotting in spring."
+      },
+      "germination": "N/A",
+      "harvest": "Decorative \u2014 leaves move at night",
+      "spacing": "45\u201360 cm"
+    },
+    "tips": [
+      "Use filtered or rainwater \u2014 calatheas are sensitive to the fluoride and chlorine in tap water, causing brown leaf edges.",
+      "Mist the leaves or use a pebble tray with water to increase humidity \u2014 they're tropical plants.",
+      "Brown edges are usually caused by low humidity or tap water. Crispy edges = too dry. Yellow leaves = overwatering.",
+      "The leaves fold up at night (nyctinasty) \u2014 this is completely normal and a sign of a healthy plant."
+    ],
+    "warning": "Sensitive to tap water chemicals. Use rainwater or filtered water consistently for best results."
+  },
+  {
+    "id": "philodendron-heartleaf",
+    "name": "Heartleaf Philodendron",
+    "latin": "Philodendron hederaceum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Heartleaf%2BPhilodendron",
+    "tagline": "The easiest trailing houseplant after pothos. Fast-growing, tolerant, and endlessly propagatable.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 2\u20133cm of soil is dry. Tolerates some drought.",
+        "bar": 42
+      },
+      "sun": {
+        "value": "Low to bright indirect",
+        "detail": "Tolerates low light well. Brighter light produces faster growth and larger leaves.",
+        "bar": 48
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard potting mix with perlite.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold draughts. Below 12\u00b0C causes damage."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings in water",
+        "detail": "Cut below a node and root in water \u2014 incredibly easy and fast."
+      },
+      "germination": "Roots in 2\u20133 weeks",
+      "harvest": "Decorative \u2014 trails long",
+      "spacing": "Trails to several metres"
+    },
+    "tips": [
+      "Roots in water incredibly easily \u2014 one of the best plants for propagation beginners.",
+      "Yellow leaves almost always mean overwatering.",
+      "Pinch growing tips to encourage a bushier, fuller plant.",
+      "Naturally climbs \u2014 give it a pole to train upward for larger, more impressive leaves."
+    ],
+    "warning": "Toxic to cats, dogs, and humans if ingested. Contains calcium oxalate crystals which cause mouth irritation."
+  },
+  {
+    "id": "philodendron-split-leaf",
+    "name": "Split-Leaf Philodendron",
+    "latin": "Thaumatophyllum bipinnatifidum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Split-Leaf%2BPhilodendron",
+    "tagline": "A dramatic floor plant with deeply cut tropical leaves. Makes any room feel like a jungle.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3\u20135cm of soil is dry. Reduce in winter.",
+        "bar": 40
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Needs bright indirect light for the dramatic leaf shape. Low light = smaller, less-cut leaves.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Rich, well-draining mix",
+        "detail": "Chunky potting mix with perlite or bark.",
+        "bar": 58
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Tropical plant \u2014 no cold draughts or temperatures below 13\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings or air layering",
+        "detail": "Take stem cuttings with a node, root in moist compost."
+      },
+      "germination": "Roots in 4\u20136 weeks",
+      "harvest": "Decorative",
+      "spacing": "90\u2013120 cm \u2014 gets very large"
+    },
+    "tips": [
+      "Wipe the large dramatic leaves with a damp cloth to keep them dust-free and glossy.",
+      "Stake the central stem as it grows \u2014 it can become top-heavy.",
+      "Yellow leaves = overwatering. Brown tips = low humidity or underwatering.",
+      "Repot every 2 years into a pot 5cm larger \u2014 it grows into an impressive specimen plant."
+    ],
+    "warning": "Toxic to cats, dogs, and humans if ingested. All parts contain calcium oxalate crystals."
+  },
+  {
+    "id": "chinese-evergreen",
+    "name": "Chinese Evergreen",
+    "latin": "Aglaonema commutatum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Chinese%2BEvergreen",
+    "tagline": "One of the toughest houseplants. Survives low light, dry air, and irregular watering with beautiful patterned leaves.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3\u20134cm is dry. Tolerates drought much better than overwatering.",
+        "bar": 40
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "Dark green varieties tolerate low light. Colourful pink/red varieties need brighter indirect light.",
+        "bar": 38
+      },
+      "soil": {
+        "value": "Well-draining, slightly sandy",
+        "detail": "Standard potting mix with extra perlite or sand.",
+        "bar": 45
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Hates cold. Keep away from cold windows and below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings or division",
+        "detail": "Root stem cuttings in water or divide the plant when repotting."
+      },
+      "germination": "Roots in 4\u20136 weeks",
+      "harvest": "Decorative",
+      "spacing": "45\u201360 cm"
+    },
+    "tips": [
+      "One of NASA's top air-purifying plants.",
+      "Brighter-coloured varieties (pink, red, orange) need more light than dark green ones.",
+      "Wipe leaves regularly \u2014 they accumulate dust quickly.",
+      "Feed monthly in spring and summer with a balanced liquid fertiliser."
+    ],
+    "warning": "Toxic to cats and dogs. Contains calcium oxalate crystals \u2014 causes mouth and stomach irritation."
+  },
+  {
+    "id": "dracaena",
+    "name": "Dracaena",
+    "latin": "Dracaena marginata",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Dracaena",
+    "tagline": "Architectural and striking. Long slender leaves on bare stems give it a dramatic palm-like silhouette.",
+    "care": {
+      "water": {
+        "value": "Every 2 weeks",
+        "detail": "Let soil dry out between waterings. Very drought-tolerant \u2014 one of the most forgiving houseplants.",
+        "bar": 32
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Prefers bright indirect light but tolerates low light. Direct sun scorches the leaf tips.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Good quality potting compost \u2014 not too rich.",
+        "bar": 48
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold draughts. Below 13\u00b0C causes leaf drop."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Cut a stem section and push into moist compost. Root in a warm bright spot."
+      },
+      "germination": "Roots in 4\u20138 weeks",
+      "harvest": "Decorative",
+      "spacing": "60\u201390 cm"
+    },
+    "tips": [
+      "Brown leaf tips are almost always caused by fluoride in tap water \u2014 switch to filtered or rainwater.",
+      "Trim brown tips with scissors (cut at an angle to mimic the natural leaf shape).",
+      "Slow-growing but very long-lived \u2014 a well-cared-for dracaena can live for decades.",
+      "Multiple stems can be planted together in one pot for a fuller, more dramatic look."
+    ],
+    "warning": "Toxic to cats and dogs. Can cause vomiting and dilated pupils in cats."
+  },
+  {
+    "id": "bird-of-paradise",
+    "name": "Bird of Paradise",
+    "latin": "Strelitzia reginae",
+    "emoji": "\ud83c\udf3a",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Bird%2Bof%2BParadise",
+    "tagline": "The most dramatic statement houseplant you can own. Paddle-shaped leaves and stunning orange flowers indoors.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3\u20135cm is dry. Drought-tolerant once established.",
+        "bar": 45
+      },
+      "sun": {
+        "value": "Bright direct to indirect",
+        "detail": "Needs as much light as possible to thrive and eventually flower. South-facing window is ideal.",
+        "bar": 85
+      },
+      "soil": {
+        "value": "Rich, well-draining mix",
+        "detail": "Good potting compost with perlite. Feed regularly during growing season.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "18\u201330\u00b0C",
+        "detail": "Tolerates brief cold but prefers consistently warm conditions."
+      },
+      "seedDepth": {
+        "value": "Division or seeds",
+        "detail": "Seeds take 3\u20135 years to flower. Division is much faster \u2014 split the root clump when repotting."
+      },
+      "germination": "Seeds: 1\u20132 months. Division: immediate.",
+      "harvest": "Flowers after 3\u20135 years indoors",
+      "spacing": "90\u2013120 cm \u2014 impressive specimen plant"
+    },
+    "tips": [
+      "Needs to be slightly root-bound to flower \u2014 don't rush to repot.",
+      "Split leaves are normal \u2014 caused by wind or low humidity. Doesn't damage the plant.",
+      "Feed every 2 weeks in spring and summer with a high-potassium fertiliser.",
+      "Move outdoors in summer in a sheltered sunny spot \u2014 it accelerates growth and can trigger flowering."
+    ],
+    "warning": "Mildly toxic to cats and dogs if eaten. The flowers and seeds cause digestive upset."
+  },
+  {
+    "id": "orchid-phalaenopsis",
+    "name": "Moth Orchid",
+    "latin": "Phalaenopsis spp.",
+    "emoji": "\ud83c\udf38",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Moth%2BOrchid",
+    "tagline": "The most popular flowering houseplant. Flowers last months and it blooms again every year.",
+    "care": {
+      "water": {
+        "value": "Once a week",
+        "detail": "Water thoroughly then let dry out almost completely. Never let roots sit in water.",
+        "bar": 35
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "East or west-facing window ideal. Direct sun burns the leaves and fades flowers.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Orchid bark or chunky bark mix",
+        "detail": "Never use regular compost \u2014 roots need air. Specialist orchid bark is essential.",
+        "bar": 30
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Needs a cool night (3\u20135\u00b0C cooler than daytime) to trigger re-blooming."
+      },
+      "seedDepth": {
+        "value": "Division or keikis",
+        "detail": "Baby plants (keikis) sometimes appear on the flower spike \u2014 pot these up when they have roots."
+      },
+      "germination": "N/A",
+      "harvest": "Flowers last 2\u20134 months",
+      "spacing": "30\u201340 cm"
+    },
+    "tips": [
+      "After flowers drop, cut the spike just above the second node \u2014 a new spike often emerges from there.",
+      "A cool windowsill in autumn (15\u00b0C nights) triggers re-blooming \u2014 the temperature drop is the cue.",
+      "Transparent pots let you see the root condition \u2014 healthy roots are green-silver. Mushy grey roots = rot.",
+      "Ice cube watering is a myth \u2014 use room-temperature water and let it drain completely."
+    ],
+    "warning": "Non-toxic to humans and pets. One of the few completely safe flowering houseplants."
+  },
+  {
+    "id": "anthurium",
+    "name": "Anthurium",
+    "latin": "Anthurium andraeanum",
+    "emoji": "\u2764\ufe0f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Anthurium",
+    "tagline": "One of the longest-flowering houseplants. Those glossy red 'flowers' can last up to 3 months.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Water when top 2\u20133cm is dry. Needs consistent moisture but no waterlogging.",
+        "bar": 55
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light produces the most flowers. Direct sun bleaches the spathes.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Chunky, well-draining mix",
+        "detail": "Orchid bark mixed with potting compost. Roots need excellent drainage and air.",
+        "bar": 52
+      },
+      "temp": {
+        "value": "18\u201328\u00b0C",
+        "detail": "Tropical plant \u2014 no cold draughts or below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Division or stem cuttings",
+        "detail": "Divide when the plant has multiple stems, or take stem cuttings with a node."
+      },
+      "germination": "Roots in 4\u20136 weeks",
+      "harvest": "Flowers year-round in good conditions",
+      "spacing": "30\u201345 cm"
+    },
+    "tips": [
+      "The 'flowers' are actually modified leaves (spathes) \u2014 the true flowers are the tiny ones on the central spike.",
+      "Feed every 2 weeks with a high-phosphorus fertiliser during the growing season to encourage more blooms.",
+      "Mist occasionally or use a pebble tray \u2014 they love humidity.",
+      "Wipe the glossy leaves with a damp cloth to keep them shiny."
+    ],
+    "warning": "Toxic to cats, dogs, and humans. Causes burning and swelling of the mouth and throat if ingested."
+  },
+  {
+    "id": "jade-plant",
+    "name": "Jade Plant",
+    "latin": "Crassula ovata",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Jade%2BPlant",
+    "tagline": "The money plant. A tough, slow-growing succulent that can live for 100+ years with minimal care.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Let soil dry out completely between waterings. In winter, reduce to once a month.",
+        "bar": 22
+      },
+      "sun": {
+        "value": "Bright light, some direct sun",
+        "detail": "Loves direct sun. South or east-facing window is ideal. Insufficient light = leggy, weak growth.",
+        "bar": 80
+      },
+      "soil": {
+        "value": "Cactus/succulent mix",
+        "detail": "Gritty, fast-draining soil is essential. Regular compost holds too much moisture.",
+        "bar": 25
+      },
+      "temp": {
+        "value": "13\u201325\u00b0C",
+        "detail": "Tolerates cool temperatures but not frost. Bring indoors below 5\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Leaf or stem cuttings",
+        "detail": "Let cuttings dry for 2\u20133 days before potting into dry compost. Water only after 1 week."
+      },
+      "germination": "Roots in 4\u20138 weeks",
+      "harvest": "Decorative \u2014 occasionally flowers",
+      "spacing": "30\u201360 cm"
+    },
+    "tips": [
+      "Let cuttings callous (dry) for 2\u20133 days before planting \u2014 prevents rotting at the cut end.",
+      "Red leaf edges in bright sun are normal and actually desirable \u2014 a sign of a happy plant.",
+      "Repot in spring every 2\u20133 years \u2014 jade grows slowly but steadily.",
+      "Can become bonsai-like with age \u2014 some specimens live for decades and become impressive tree-like shapes."
+    ],
+    "warning": "Mildly toxic to cats and dogs. Can cause vomiting and lethargy if eaten."
+  },
+  {
+    "id": "succulents-echeveria",
+    "name": "Echeveria",
+    "latin": "Echeveria elegans",
+    "emoji": "\ud83c\udf38",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Echeveria",
+    "tagline": "The perfect windowsill succulent. Rosette-shaped, colourful, and almost thrives on neglect.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Water thoroughly then let dry completely. 'Soak and dry' method is best.",
+        "bar": 20
+      },
+      "sun": {
+        "value": "Direct sun, 4\u20136 hours",
+        "detail": "Needs direct sunlight to maintain compact shape and vibrant colour. Stretched, pale growth = not enough light.",
+        "bar": 88
+      },
+      "soil": {
+        "value": "Cactus/succulent mix",
+        "detail": "Fast-draining mix is essential. Add grit or perlite to regular compost.",
+        "bar": 20
+      },
+      "temp": {
+        "value": "10\u201327\u00b0C",
+        "detail": "Tolerates brief cold but not frost. Hardy down to about 5\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Leaf or offset propagation",
+        "detail": "Twist a healthy leaf off cleanly, let dry for 2 days, then lay on moist gritty compost."
+      },
+      "germination": "Leaves sprout in 2\u20136 weeks",
+      "harvest": "Decorative",
+      "spacing": "10\u201315 cm"
+    },
+    "tips": [
+      "'Soak and dry' method: water thoroughly until it drains, then don't water again until completely dry.",
+      "Etiolation (stretched, pale growth) means not enough light \u2014 move to a brighter spot immediately.",
+      "Bright sun stress colours the tips red, orange, or purple \u2014 this is healthy and very pretty.",
+      "Remove dead lower leaves to prevent pest harbourage and rot."
+    ],
+    "warning": "Overwatering and insufficient light are the two main killers. Both are irreversible once root rot sets in."
+  },
+  {
+    "id": "cactus-general",
+    "name": "Desert Cactus",
+    "latin": "Mammillaria spp.",
+    "emoji": "\ud83c\udf35",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Desert%2BCactus",
+    "tagline": "The ultimate low-maintenance plant. Survives weeks without water and produces surprising blooms.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20134 weeks in summer",
+        "detail": "Water when completely dry in summer. In winter, barely water at all \u2014 once every 6\u20138 weeks.",
+        "bar": 15
+      },
+      "sun": {
+        "value": "Direct sun, 4\u20136 hours",
+        "detail": "Needs as much direct sun as possible. A south-facing windowsill is ideal.",
+        "bar": 92
+      },
+      "soil": {
+        "value": "Cactus mix, very gritty",
+        "detail": "50% cactus compost, 50% grit or perlite. Drainage is critical.",
+        "bar": 12
+      },
+      "temp": {
+        "value": "10\u201335\u00b0C (cold winter triggers blooming)",
+        "detail": "Most desert cacti need a cool dry winter (5\u201312\u00b0C) to trigger spring blooms."
+      },
+      "seedDepth": {
+        "value": "Seeds or offsets",
+        "detail": "Press seeds onto surface of cactus mix, barely cover. Most cacti produce small offset 'pups' that can be separated."
+      },
+      "germination": "2\u20134 weeks from seed",
+      "harvest": "Flowers in spring after cool dry winter",
+      "spacing": "Varies \u2014 can cluster together"
+    },
+    "tips": [
+      "A cool, dry winter rest (minimal watering, cooler temperature) triggers the best spring flowering.",
+      "Never let the pot sit in a saucer of water \u2014 even briefly.",
+      "Terracotta pots are ideal \u2014 they breathe and dry out faster than plastic.",
+      "Spring flowers are often surprisingly large and vivid for such small plants \u2014 worth the wait."
+    ],
+    "warning": "The spines are obviously painful. Wear thick gloves or use folded newspaper to handle. Some species have hair-like glochids that are more irritating than the spines."
+  },
+  {
+    "id": "christmas-cactus",
+    "name": "Christmas Cactus",
+    "latin": "Schlumbergera bridgesii",
+    "emoji": "\ud83c\udf3a",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Christmas%2BCactus",
+    "tagline": "Flowers prolifically in winter when almost nothing else does. A reliable, long-lived houseplant gift.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "More regular watering than desert cacti. Keep moist during flowering. Reduce after blooming.",
+        "bar": 50
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light. Direct sun can cause bleaching.",
+        "bar": 58
+      },
+      "soil": {
+        "value": "Well-draining, slightly acidic mix",
+        "detail": "Regular potting mix with added perlite. Slightly acidic pH preferred.",
+        "bar": 48
+      },
+      "temp": {
+        "value": "15\u201321\u00b0C",
+        "detail": "Needs short days and cool temperatures (below 15\u00b0C at night) in autumn to trigger flowering."
+      },
+      "seedDepth": {
+        "value": "Stem segment cuttings",
+        "detail": "Twist off 2\u20133 leaf segments, let callous for a day, then push into moist compost."
+      },
+      "germination": "Roots in 3\u20134 weeks",
+      "harvest": "Flowers November\u2013January",
+      "spacing": "30\u201345 cm spread"
+    },
+    "tips": [
+      "To trigger flowering: from October, give 14 hours of darkness per day and keep at 15\u00b0C for 6 weeks.",
+      "During the rest period (spring\u2013summer), water less and stop feeding.",
+      "Feed monthly from spring to early autumn with a balanced fertiliser.",
+      "Can live for 20\u201330 years \u2014 a true heirloom plant that gets more spectacular with age."
+    ],
+    "warning": "Mildly toxic to cats and dogs. Can cause vomiting and diarrhoea if eaten in quantity."
+  },
+  {
+    "id": "hoya",
+    "name": "Hoya (Wax Plant)",
+    "latin": "Hoya carnosa",
+    "emoji": "\ud83c\udf38",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hoya%2B%28Wax%2BPlant%29",
+    "tagline": "Waxy, fragrant star-shaped flowers appear year after year. Tolerates neglect and propagates easily.",
+    "care": {
+      "water": {
+        "value": "Every 2 weeks",
+        "detail": "Let soil dry out between waterings. Tolerates drought but not waterlogging.",
+        "bar": 35
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light is ideal. Some gentle direct morning sun is fine.",
+        "bar": 68
+      },
+      "soil": {
+        "value": "Well-draining, chunky mix",
+        "detail": "Mix of potting compost and orchid bark or perlite. Excellent drainage essential.",
+        "bar": 42
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold below 10\u00b0C. Keep away from draughts."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Take a 10\u201315cm cutting with 2\u20133 leaf pairs. Root in water or moist compost."
+      },
+      "germination": "Roots in 3\u20135 weeks",
+      "harvest": "Fragrant flowers appear on spurs \u2014 mainly in summer",
+      "spacing": "Trails or climbs \u2014 can reach several metres"
+    },
+    "tips": [
+      "Never remove old flower spurs (the small knobby stems) \u2014 new flowers grow from the same spots each year.",
+      "A period of cooler, drier conditions in winter can trigger flowering in spring.",
+      "There are hundreds of hoya species and varieties \u2014 all have slightly different needs but the same basics.",
+      "Wonderfully long-lived \u2014 some hoyas are passed down through generations."
+    ],
+    "warning": "The milky sap can irritate skin in sensitive individuals. Not highly toxic but best kept away from pets."
+  },
+  {
+    "id": "bromeliad",
+    "name": "Bromeliad",
+    "latin": "Guzmania lingulata",
+    "emoji": "\ud83c\udf3a",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Bromeliad",
+    "tagline": "A striking tropical plant with a central cup that holds water. The coloured bract lasts months.",
+    "care": {
+      "water": {
+        "value": "Keep central cup filled",
+        "detail": "Fill the central rosette cup with water. Flush and refill monthly to prevent stagnation. Keep soil lightly moist.",
+        "bar": 45
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright filtered light. Direct sun bleaches the colour.",
+        "bar": 62
+      },
+      "soil": {
+        "value": "Free-draining, low-nutrient mix",
+        "detail": "Specialist bromeliad mix or regular compost with lots of perlite.",
+        "bar": 38
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Tropical plant \u2014 no cold draughts or below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Offsets (pups)",
+        "detail": "The main plant flowers once then dies. Baby pups grow at the base \u2014 pot these up when 15cm tall."
+      },
+      "germination": "Pups take 1\u20132 years to flower",
+      "harvest": "Central bract lasts 2\u20136 months",
+      "spacing": "30\u201345 cm"
+    },
+    "tips": [
+      "Water in the central cup, not the soil. Change the cup water monthly to prevent mosquito larvae.",
+      "After flowering, the main plant slowly dies \u2014 this is normal. The pups take over.",
+      "Pot up pups when they're about 1/3 the size of the mother plant with their own roots.",
+      "Ethylene gas (from a ripe apple placed near the plant in a bag) can trigger flowering in reluctant bromeliads."
+    ],
+    "warning": "The central cup can harbour stagnant water \u2014 change it monthly. Non-toxic to humans and pets."
+  },
+  {
+    "id": "air-plant",
+    "name": "Air Plant",
+    "latin": "Tillandsia spp.",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Air%2BPlant",
+    "tagline": "No soil needed. They absorb water from the air. Display them anywhere \u2014 driftwood, shells, glass globes.",
+    "care": {
+      "water": {
+        "value": "Mist 2\u20133 times per week or soak weekly",
+        "detail": "Mist thoroughly 2\u20133 times a week or soak in room-temperature water for 20\u201330 minutes once a week. Shake off excess water after soaking.",
+        "bar": 55
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light is ideal. Direct sun dries them out too fast.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "No soil needed",
+        "detail": "Mount on driftwood, cork bark, or display in glass globes. Never bury in soil.",
+        "bar": 0
+      },
+      "temp": {
+        "value": "15\u201332\u00b0C",
+        "detail": "Warm temperatures. No frost."
+      },
+      "seedDepth": {
+        "value": "Offsets (pups)",
+        "detail": "Pups appear after flowering. Leave attached until 1/3 the mother's size, then separate."
+      },
+      "germination": "N/A",
+      "harvest": "Flowers once, then produces pups",
+      "spacing": "Display individually or clustered"
+    },
+    "tips": [
+      "After soaking, always shake gently and let dry within 4 hours \u2014 water trapped in the base causes rot.",
+      "Use rainwater or filtered water \u2014 chlorine and fluoride damage them over time.",
+      "They flower once in their lifetime, then produce 2\u20138 pups before dying.",
+      "Silver-leafed varieties are more drought-tolerant. Green-leafed varieties need more frequent watering."
+    ],
+    "warning": "The number one killer is rot from trapped water. Always allow to dry upside-down after soaking or misting."
+  },
+  {
+    "id": "money-tree",
+    "name": "Money Tree",
+    "latin": "Pachira aquatica",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Money%2BTree",
+    "tagline": "The braided trunk makes it a striking feature plant. Easy to grow and associated with good luck in many cultures.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water thoroughly then let top 3\u20135cm dry out. Reduce in winter.",
+        "bar": 42
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light is ideal. Tolerates some lower light. Direct sun scorches the leaves.",
+        "bar": 62
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Good quality potting compost with perlite.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "16\u201324\u00b0C",
+        "detail": "Consistent temperatures. Hates cold draughts."
+      },
+      "seedDepth": {
+        "value": "Seeds or cuttings",
+        "detail": "Seeds germinate easily. Stem cuttings also work."
+      },
+      "germination": "Seeds: 1\u20132 weeks",
+      "harvest": "Decorative",
+      "spacing": "30\u201360 cm"
+    },
+    "tips": [
+      "The braided trunk is made from multiple seedlings woven together when young \u2014 the braid is permanent.",
+      "Rotate the pot occasionally for even growth toward the light.",
+      "Yellowing leaves usually mean overwatering or a draught.",
+      "A popular Feng Shui plant \u2014 traditionally placed in the 'wealth corner' (south-east) of a room."
+    ],
+    "warning": "Generally considered non-toxic but keep away from pets as a precaution \u2014 some animals show sensitivity."
+  },
+  {
+    "id": "boston-fern",
+    "name": "Boston Fern",
+    "latin": "Nephrolepis exaltata",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Boston%2BFern",
+    "tagline": "Lush, feathery fronds that trail beautifully. Loves humidity \u2014 perfect for bathrooms.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20134 days",
+        "detail": "Keep soil consistently moist. Never let it dry out completely \u2014 fronds brown and drop quickly.",
+        "bar": 78
+      },
+      "sun": {
+        "value": "Low to bright indirect",
+        "detail": "Prefers indirect light. Tolerates quite low light. Direct sun scorches the delicate fronds.",
+        "bar": 40
+      },
+      "soil": {
+        "value": "Rich, moisture-retaining mix",
+        "detail": "Peat-free compost with good moisture retention. Mist around the pot to increase humidity.",
+        "bar": 72
+      },
+      "temp": {
+        "value": "15\u201324\u00b0C",
+        "detail": "Prefers cool to moderate temperatures. Hates dry, hot indoor air."
+      },
+      "seedDepth": {
+        "value": "Division or runners",
+        "detail": "Divide the root ball in spring or pot up runners (stolons) that appear at the base."
+      },
+      "germination": "N/A",
+      "harvest": "Decorative",
+      "spacing": "45\u201360 cm spread"
+    },
+    "tips": [
+      "Humidity is the key \u2014 bathrooms or kitchens are ideal. Mist daily or use a pebble tray.",
+      "Yellow, dropping fronds are normal in winter as light levels drop \u2014 not a sign of failure.",
+      "Repot every year in spring \u2014 boston ferns are vigorous and quickly become root-bound.",
+      "Hang in a basket for the most spectacular trailing effect."
+    ],
+    "warning": "Non-toxic to cats, dogs, and humans. One of the safest lush houseplants for pet owners."
+  },
+  {
+    "id": "bird-nest-fern",
+    "name": "Bird's Nest Fern",
+    "latin": "Asplenium nidus",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Bird%27s%2BNest%2BFern",
+    "tagline": "Wavy bright green fronds growing from a central rosette. More forgiving than most ferns.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Keep moist but not waterlogged. Water around the edges \u2014 never into the central rosette.",
+        "bar": 60
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "Tolerates low light well. One of the best ferns for shadier rooms.",
+        "bar": 40
+      },
+      "soil": {
+        "value": "Rich, well-draining mix",
+        "detail": "Good quality peat-free compost with some bark for drainage.",
+        "bar": 62
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Tropical fern \u2014 hates cold draughts and below 13\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Spores (very slow) or buy plants",
+        "detail": "Growing from spores takes years. Buy a small plant instead."
+      },
+      "germination": "N/A \u2014 buy plants",
+      "harvest": "Decorative",
+      "spacing": "40\u201360 cm"
+    },
+    "tips": [
+      "Never water directly into the central cup \u2014 this causes crown rot. Water around the edges only.",
+      "The wavy leaf edges ('Crispy Wave' variety) are extremely air-purifying according to research.",
+      "Fronds emerge tightly furled from the centre \u2014 be patient as they unfurl slowly.",
+      "Brown marks on fronds from touching are permanent \u2014 handle carefully."
+    ],
+    "warning": "Non-toxic to humans and pets. Safe household choice."
+  },
+  {
+    "id": "maidenhair-fern",
+    "name": "Maidenhair Fern",
+    "latin": "Adiantum raddianum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Maidenhair%2BFern",
+    "tagline": "The most delicate and beautiful of all ferns. Also the most demanding \u2014 rewards patience richly.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Never let it dry out. Even one missed watering can cause total frond drop. Consistent moisture is essential.",
+        "bar": 82
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "Bright but indirect light. Direct sun or strong light will scorch the delicate fronds.",
+        "bar": 38
+      },
+      "soil": {
+        "value": "Rich, moisture-retaining mix",
+        "detail": "Peat-free compost with good moisture retention. A slightly larger pot helps with moisture consistency.",
+        "bar": 75
+      },
+      "temp": {
+        "value": "16\u201324\u00b0C",
+        "detail": "Consistent temperature. Hates cold draughts and hot dry air."
+      },
+      "seedDepth": {
+        "value": "Division",
+        "detail": "Divide carefully in spring \u2014 the root system is delicate."
+      },
+      "germination": "N/A",
+      "harvest": "Decorative",
+      "spacing": "30\u201340 cm"
+    },
+    "tips": [
+      "If it dries out and all fronds die \u2014 don't throw it away. Cut back dead fronds and keep consistently moist. New growth often appears.",
+      "A bathroom is the ideal location \u2014 the humidity from showers keeps it happy.",
+      "Never put near a radiator, air vent, or draughty window.",
+      "Mist daily or use a pebble tray \u2014 humidity is as important as watering."
+    ],
+    "warning": "Will die (or appear to die) at the first sign of neglect. Not for beginners or anyone who travels frequently."
+  },
+  {
+    "id": "lucky-bamboo",
+    "name": "Lucky Bamboo",
+    "latin": "Dracaena sanderiana",
+    "emoji": "\ud83c\udf8d",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lucky%2BBamboo",
+    "tagline": "Not actually bamboo \u2014 it's a dracaena. Grows in just water, symbolises good luck, and lasts for years.",
+    "care": {
+      "water": {
+        "value": "Change water every 2 weeks",
+        "detail": "Grow in 5\u20138cm of water. Change the water completely every 1\u20132 weeks.",
+        "bar": 50
+      },
+      "sun": {
+        "value": "Low to bright indirect",
+        "detail": "Tolerates very low light. Direct sun causes yellowing.",
+        "bar": 40
+      },
+      "soil": {
+        "value": "Water or well-draining compost",
+        "detail": "Can grow in water only with some pebbles to support the stems, or in well-draining compost.",
+        "bar": 35
+      },
+      "temp": {
+        "value": "18\u201330\u00b0C",
+        "detail": "Warm temperatures. No cold below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Cut a stem with a node and place in water. Roots emerge in 2\u20134 weeks."
+      },
+      "germination": "Roots in 2\u20134 weeks",
+      "harvest": "Decorative",
+      "spacing": "Tabletop plant"
+    },
+    "tips": [
+      "Use filtered or bottled water \u2014 chlorine in tap water causes yellow leaves. Let tap water sit overnight before using.",
+      "The spiral and braided shapes are achieved by rotating toward light slowly over months.",
+      "Yellow leaves are usually caused by too much direct light, chlorine in water, or overfertilising.",
+      "Fertilise very sparingly \u2014 one drop of liquid fertiliser per month in the water is enough."
+    ],
+    "warning": "Toxic to cats and dogs. Despite the feng shui popularity, keep away from pets."
+  },
+  {
+    "id": "umbrella-plant",
+    "name": "Umbrella Plant",
+    "latin": "Schefflera arboricola",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Umbrella%2BPlant",
+    "tagline": "Fast-growing with dramatic umbrella-shaped leaf clusters. Tolerates some neglect and shapes well.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3\u20134cm of soil is dry. Drought-tolerant but consistent watering is best.",
+        "bar": 42
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light produces the best growth. Tolerates some lower light.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Good quality potting compost with perlite.",
+        "bar": 52
+      },
+      "temp": {
+        "value": "15\u201327\u00b0C",
+        "detail": "No cold draughts or below 12\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Take tip cuttings and root in moist compost with some warmth."
+      },
+      "germination": "Roots in 4\u20138 weeks",
+      "harvest": "Decorative",
+      "spacing": "60\u201390 cm \u2014 can become a small tree"
+    },
+    "tips": [
+      "Prune back aggressively if it gets too leggy \u2014 it recovers quickly and grows back bushier.",
+      "Wipe leaves regularly \u2014 the many small leaves collect dust.",
+      "Variegated varieties need more light to keep their colouring.",
+      "Can be trained into a bonsai-like form over many years with regular pruning."
+    ],
+    "warning": "Toxic to cats and dogs. Can cause vomiting and mouth irritation."
+  },
+  {
+    "id": "string-of-pearls",
+    "name": "String of Pearls",
+    "latin": "Senecio rowleyanus",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=String%2Bof%2BPearls",
+    "tagline": "One of the most visually striking trailing succulents. Long strings of perfect spherical leaves.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Water when soil is dry. Pearls will appear slightly shrivelled when thirsty \u2014 that's your cue.",
+        "bar": 22
+      },
+      "sun": {
+        "value": "Bright indirect to some direct",
+        "detail": "Needs bright light with some direct sun. Insufficient light causes spacing between pearls.",
+        "bar": 78
+      },
+      "soil": {
+        "value": "Cactus/succulent mix",
+        "detail": "Very fast-draining mix. 50% cactus compost, 50% grit or perlite.",
+        "bar": 18
+      },
+      "temp": {
+        "value": "15\u201327\u00b0C",
+        "detail": "No cold or frost. Below 10\u00b0C causes damage."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings on soil surface",
+        "detail": "Lay a strand on moist cactus compost and pin down. Roots form at the nodes."
+      },
+      "germination": "Roots in 2\u20134 weeks",
+      "harvest": "Decorative \u2014 trails impressively",
+      "spacing": "Trails to 60\u201390 cm"
+    },
+    "tips": [
+      "Shrivelled pearls = thirsty. Mushy pearls = overwatered.",
+      "Space between pearls means not enough light \u2014 move to a brighter spot.",
+      "A hanging pot shows off the trailing strands best.",
+      "Propagate easily \u2014 lay a strand on moist compost, pin it down, and new roots form at each node."
+    ],
+    "warning": "Toxic to cats, dogs, and humans. Can cause vomiting and skin irritation."
+  },
+  {
+    "id": "string-of-hearts",
+    "name": "String of Hearts",
+    "latin": "Ceropegia woodii",
+    "emoji": "\ud83d\udc9a",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=String%2Bof%2BHearts",
+    "tagline": "Delicate heart-shaped leaves on long trailing vines. One of the most charming small trailing plants.",
+    "care": {
+      "water": {
+        "value": "Every 2 weeks",
+        "detail": "Let soil dry out almost completely between waterings. Very drought-tolerant.",
+        "bar": 28
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light produces the best leaf variegation. Too much direct sun can bleach the leaves.",
+        "bar": 70
+      },
+      "soil": {
+        "value": "Well-draining, gritty mix",
+        "detail": "Cactus mix or potting compost with added perlite.",
+        "bar": 30
+      },
+      "temp": {
+        "value": "16\u201327\u00b0C",
+        "detail": "No cold. Below 10\u00b0C causes damage."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings or tubers",
+        "detail": "Small tubers form along the stems \u2014 pot these directly into compost. Or coil stems on moist compost."
+      },
+      "germination": "Roots in 3\u20135 weeks",
+      "harvest": "Decorative \u2014 trails to 90cm+",
+      "spacing": "Trails long"
+    },
+    "tips": [
+      "The small tubers along the stems can be planted directly into compost \u2014 instant propagation.",
+      "Pale, washed-out leaves mean not enough light.",
+      "Goes semi-dormant in winter \u2014 water much less.",
+      "The trailing vines look beautiful draped over a shelf or in a hanging pot."
+    ],
+    "warning": "Non-toxic to humans and pets. Safe and charming choice for any household."
+  },
+  {
+    "id": "croton",
+    "name": "Croton",
+    "latin": "Codiaeum variegatum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Croton",
+    "tagline": "The most colourful foliage houseplant. Vivid red, orange, yellow, and green leaves \u2014 indoors all year.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Keep soil consistently moist during growing season. Reduce slightly in winter.",
+        "bar": 62
+      },
+      "sun": {
+        "value": "Bright direct to indirect",
+        "detail": "Needs plenty of light to maintain vivid colours. Dull light = all-green leaves.",
+        "bar": 82
+      },
+      "soil": {
+        "value": "Rich, well-draining mix",
+        "detail": "Good quality potting compost with perlite.",
+        "bar": 60
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Hates cold, draughts, and temperature fluctuations \u2014 causes leaf drop."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Take 8\u201310cm tip cuttings, dip in rooting hormone, root in moist compost with warmth."
+      },
+      "germination": "Roots in 4\u20136 weeks",
+      "harvest": "Decorative \u2014 vivid all year",
+      "spacing": "45\u201360 cm"
+    },
+    "tips": [
+      "The brighter the light, the more vivid the colours \u2014 a sunny window produces the most dramatic look.",
+      "Leaf drop when you bring it home is normal \u2014 it's adjusting. Keep conditions stable and it will recover.",
+      "Mist occasionally or use a pebble tray \u2014 it enjoys humidity.",
+      "The sap is an irritant \u2014 wear gloves when taking cuttings."
+    ],
+    "warning": "Toxic to cats, dogs, and humans. The sap causes skin irritation and gastrointestinal upset if ingested."
+  },
+  {
+    "id": "polka-dot-plant",
+    "name": "Polka Dot Plant",
+    "latin": "Hypoestes phyllostachya",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Polka%2BDot%2BPlant",
+    "tagline": "Bright pink, red, or white spots on green leaves. A compact, cheerful little plant for bright spots.",
+    "care": {
+      "water": {
+        "value": "Every 4\u20135 days",
+        "detail": "Keep consistently moist. Wilts quickly when thirsty but recovers fast.",
+        "bar": 68
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Needs good light to maintain the vivid spot colours. Low light fades the pattern.",
+        "bar": 72
+      },
+      "soil": {
+        "value": "Rich, moisture-retaining mix",
+        "detail": "Good quality potting compost.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Warm temperatures. No cold or draughts."
+      },
+      "seedDepth": {
+        "value": "0.5cm deep",
+        "detail": "Easy from seed. Germinates quickly and grows fast."
+      },
+      "germination": "7\u201314 days",
+      "harvest": "Decorative",
+      "spacing": "15\u201320 cm"
+    },
+    "tips": [
+      "Pinch out the growing tips regularly to keep it bushy \u2014 it gets leggy quickly otherwise.",
+      "Pinch off flower spikes as they appear \u2014 after flowering the plant tends to die. Pinching extends its life.",
+      "Great for terrariums \u2014 loves humidity and compact conditions.",
+      "Easy to start fresh from seed each year if the plant gets old and tired."
+    ],
+    "warning": "Non-toxic to humans and pets. Safe choice for households with animals and children."
+  },
+  {
+    "id": "caladium",
+    "name": "Caladium",
+    "latin": "Caladium bicolor",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Caladium",
+    "tagline": "Heart-shaped leaves in spectacular pink, red, and white patterns. Dramatic seasonal colour.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20134 days",
+        "detail": "Keep moist during growing season. Goes dormant in winter \u2014 stop watering as leaves die back.",
+        "bar": 65
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright but indirect. Direct sun scorches the delicate leaves. Pink varieties need more light than green ones.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Rich, well-draining mix",
+        "detail": "Good quality compost with perlite. Needs good aeration.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Tropical plant \u2014 hates cold and draughts. Below 18\u00b0C causes dormancy."
+      },
+      "seedDepth": {
+        "value": "Tubers 3\u20135cm deep",
+        "detail": "Plant tubers (knobby side up) 3\u20135cm deep in warm soil. Sprouts in 2\u20134 weeks."
+      },
+      "germination": "Tubers sprout in 2\u20134 weeks",
+      "harvest": "Decorative \u2014 seasonal (spring\u2013autumn)",
+      "spacing": "20\u201330 cm"
+    },
+    "tips": [
+      "Goes dormant in winter \u2014 leaves die back naturally. Store dry tubers at 15\u00b0C and restart in spring.",
+      "Warm, humid conditions produce the biggest, most vibrant leaves.",
+      "Don't try to force it through winter \u2014 embrace the dormancy cycle.",
+      "Multiple tubers in one large pot creates a fuller, more impressive display."
+    ],
+    "warning": "Toxic to cats, dogs, and humans. Contains calcium oxalate crystals \u2014 causes mouth burning and swelling."
+  },
+  {
+    "id": "nerve-plant",
+    "name": "Nerve Plant",
+    "latin": "Fittonia albivenis",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Nerve%2BPlant",
+    "tagline": "Intricate white or pink veining on deep green leaves. Perfect for terrariums and humid environments.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20134 days",
+        "detail": "Keep consistently moist. Wilts dramatically when thirsty but recovers almost instantly when watered.",
+        "bar": 72
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "Prefers low light. Direct sun causes bleaching and leaf burn.",
+        "bar": 35
+      },
+      "soil": {
+        "value": "Rich, moisture-retaining mix",
+        "detail": "Peat-free compost with good moisture retention.",
+        "bar": 72
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Tropical plant \u2014 hates cold, draughts, and dry air."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Root stem cuttings easily in moist compost. Keep warm and humid."
+      },
+      "germination": "Roots in 2\u20134 weeks",
+      "harvest": "Decorative",
+      "spacing": "15\u201320 cm"
+    },
+    "tips": [
+      "Perfect terrarium plant \u2014 loves the enclosed humid conditions.",
+      "The dramatic wilting when thirsty is a theatrical reminder, not a death sentence \u2014 it bounces back fast.",
+      "Pinch out growing tips to keep it compact and bushy.",
+      "Group with other humidity-loving plants to create a naturally humid microclimate."
+    ],
+    "warning": "Non-toxic to humans and pets. Safe choice."
+  },
+  {
+    "id": "prayer-plant",
+    "name": "Prayer Plant",
+    "latin": "Maranta leuconeura",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Prayer%2BPlant",
+    "tagline": "Folds its striking patterned leaves upright at night like hands in prayer. A conversation piece.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Keep consistently moist but not waterlogged. Use room-temperature water.",
+        "bar": 60
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "Tolerates low light well. Direct sun fades the leaf patterns.",
+        "bar": 38
+      },
+      "soil": {
+        "value": "Rich, well-draining, moisture-retaining",
+        "detail": "Good quality peat-free compost with perlite.",
+        "bar": 65
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Hates cold draughts and below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings or division",
+        "detail": "Root stem cuttings in water or divide when repotting."
+      },
+      "germination": "Roots in 3\u20135 weeks",
+      "harvest": "Decorative \u2014 leaves fold at night",
+      "spacing": "30\u201345 cm"
+    },
+    "tips": [
+      "Use filtered or rainwater \u2014 sensitive to chlorine and fluoride in tap water.",
+      "The night movement (nyctinasty) is completely normal \u2014 it's the plant responding to light changes.",
+      "Brown edges = low humidity or tap water chemicals. Mist regularly or use a pebble tray.",
+      "Goes semi-dormant in winter \u2014 water less frequently."
+    ],
+    "warning": "Non-toxic to humans and pets. A safe, beautiful choice."
+  },
+  {
+    "id": "wandering-jew",
+    "name": "Wandering Dude",
+    "latin": "Tradescantia zebrina",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Wandering%2BDude",
+    "tagline": "Vivid purple and silver striped leaves on fast-trailing stems. Impossible to kill and extremely easy to propagate.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Water when top 2\u20133cm is dry. Very forgiving of irregular watering.",
+        "bar": 50
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Brighter light = more vivid purple. Low light = the plant goes mostly green.",
+        "bar": 68
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard potting compost. Not fussy.",
+        "bar": 48
+      },
+      "temp": {
+        "value": "15\u201327\u00b0C",
+        "detail": "Tolerates a wide range. No frost."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings in water",
+        "detail": "Pop cuttings in water \u2014 roots appear in 1\u20132 weeks. One of the fastest-rooting houseplants."
+      },
+      "germination": "Roots in 1\u20132 weeks",
+      "harvest": "Decorative \u2014 trails vigorously",
+      "spacing": "Trails widely"
+    },
+    "tips": [
+      "Propagates incredibly easily \u2014 a single stem in water roots in days.",
+      "Pinch back regularly or it gets straggly. The pinched stems can all be propagated.",
+      "The vivid purple fades to green in low light \u2014 this is the most reliable light indicator.",
+      "Looks spectacular in a hanging basket or trailing from a high shelf."
+    ],
+    "warning": "The sap can cause skin irritation in sensitive individuals. Mildly toxic to cats and dogs."
+  },
+  {
+    "id": "pilea",
+    "name": "Chinese Money Plant",
+    "latin": "Pilea peperomioides",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Chinese%2BMoney%2BPlant",
+    "tagline": "The trendiest houseplant of the last decade. Round coin-shaped leaves on long stems. Very easy to grow.",
+    "care": {
+      "water": {
+        "value": "Every 7\u201310 days",
+        "detail": "Water when top 3\u20134cm is dry. Droopy leaves are the sign it needs water.",
+        "bar": 42
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light is ideal. Too much direct sun scorches. Too little = leggy stems.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard potting mix with perlite.",
+        "bar": 52
+      },
+      "temp": {
+        "value": "13\u201325\u00b0C",
+        "detail": "Tolerates slightly cooler temperatures than most tropical houseplants."
+      },
+      "seedDepth": {
+        "value": "Pups from base",
+        "detail": "Baby plants (pups) grow at the base and can be separated when a few centimetres tall."
+      },
+      "germination": "N/A",
+      "harvest": "Decorative",
+      "spacing": "30\u201340 cm"
+    },
+    "tips": [
+      "Rotate the pot a quarter turn every week \u2014 it leans dramatically toward light.",
+      "Baby plants (pups) grow at the base \u2014 pot them up and share with friends (hence its other name: the friendship plant).",
+      "Yellow leaves usually mean overwatering. Curling leaves = underwatering.",
+      "Feed monthly in spring and summer with a balanced liquid fertiliser."
+    ],
+    "warning": "Non-toxic to humans and pets. A completely safe choice."
+  },
+  {
+    "id": "peperomia",
+    "name": "Peperomia",
+    "latin": "Peperomia obtusifolia",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Peperomia",
+    "tagline": "Hundreds of varieties, all easy. Compact, low-maintenance, and great for small spaces and shelves.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Let soil dry out between waterings. Stores water in its thick leaves \u2014 drought-tolerant.",
+        "bar": 30
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light suits most varieties. Patterned varieties need more light to keep markings.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Well-draining mix",
+        "detail": "Standard potting mix with extra perlite. Good drainage is key.",
+        "bar": 45
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold or draughts. Below 10\u00b0C causes damage."
+      },
+      "seedDepth": {
+        "value": "Leaf or stem cuttings",
+        "detail": "Most varieties root easily from leaf cuttings pushed into moist compost."
+      },
+      "germination": "Roots in 3\u20135 weeks",
+      "harvest": "Decorative",
+      "spacing": "15\u201325 cm"
+    },
+    "tips": [
+      "There are over 1,000 species \u2014 watermelon peperomia, ripple peperomia, and rubber peperomia are the most popular.",
+      "The thick succulent-like leaves store water \u2014 much more drought-tolerant than most houseplants.",
+      "Great for terrariums \u2014 compact size and humidity tolerance suit enclosed environments.",
+      "Leaf cuttings work well \u2014 insert a leaf petiole (stem) into moist compost for new plants."
+    ],
+    "warning": "Non-toxic to humans and pets. One of the safest houseplants."
+  },
+  {
+    "id": "syngonium",
+    "name": "Arrowhead Plant",
+    "latin": "Syngonium podophyllum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Arrowhead%2BPlant",
+    "tagline": "Arrow-shaped leaves that change shape as the plant matures. Trails, climbs, or bushes depending on how you train it.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 2\u20133cm is dry. Tolerates some drought.",
+        "bar": 45
+      },
+      "sun": {
+        "value": "Low to bright indirect",
+        "detail": "Very adaptable. Variegated varieties need more light to keep their colouring.",
+        "bar": 48
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard potting compost with perlite.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold draughts or below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings in water",
+        "detail": "Root easily in water \u2014 one of the easiest houseplants to propagate."
+      },
+      "germination": "Roots in 2\u20133 weeks",
+      "harvest": "Decorative \u2014 changes shape with age",
+      "spacing": "30\u201345 cm"
+    },
+    "tips": [
+      "Young plants have arrow-shaped leaves. Mature plants develop lobed, multi-fingered leaves \u2014 very different.",
+      "Pinch growing tips for a bushy shape. Let it climb a pole for larger, more dramatic mature leaves.",
+      "Pink and variegated varieties need brighter light to keep their colouring.",
+      "Propagates incredibly easily in water \u2014 great for beginners."
+    ],
+    "warning": "Toxic to cats, dogs, and humans. Causes mouth and stomach irritation if eaten."
+  },
+  {
+    "id": "dieffenbachia",
+    "name": "Dumb Cane",
+    "latin": "Dieffenbachia seguine",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Dumb%2BCane",
+    "tagline": "Large, boldly patterned tropical leaves. Fast-growing and very tolerant of indoor conditions.",
+    "care": {
+      "water": {
+        "value": "Every 7\u201310 days",
+        "detail": "Water when top 3\u20134cm is dry. Tolerates some drought but prefers consistent moisture.",
+        "bar": 48
+      },
+      "sun": {
+        "value": "Low to bright indirect",
+        "detail": "Tolerates low light well. Brighter light produces more vivid leaf markings.",
+        "bar": 50
+      },
+      "soil": {
+        "value": "Rich, well-draining mix",
+        "detail": "Good quality potting compost with perlite.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold below 15\u00b0C. Hates draughts."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Cut stem sections with nodes and root in moist compost."
+      },
+      "germination": "Roots in 4\u20138 weeks",
+      "harvest": "Decorative",
+      "spacing": "45\u201360 cm"
+    },
+    "tips": [
+      "One of the most tolerant large-leaved houseplants for low-light rooms.",
+      "Wipe the large patterned leaves with a damp cloth to keep them looking their best.",
+      "Can be cut back hard if it gets too leggy \u2014 new growth appears quickly from the base.",
+      "Feed monthly in spring and summer for the best leaf size and colour."
+    ],
+    "warning": "Highly toxic \u2014 all parts contain calcium oxalate crystals that cause temporary inability to speak (hence 'dumb cane'). Can cause severe mouth burning, swelling, and throat irritation. Keep away from children and pets."
+  },
+  {
+    "id": "cast-iron-plant",
+    "name": "Cast Iron Plant",
+    "latin": "Aspidistra elatior",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cast%2BIron%2BPlant",
+    "tagline": "Earns its name completely. Survives dust, draughts, deep shade, and total neglect.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Water when soil is dry. Very drought-tolerant.",
+        "bar": 20
+      },
+      "sun": {
+        "value": "Deep shade to indirect",
+        "detail": "One of the few plants that actually thrives in deep shade. Direct sun scorches.",
+        "bar": 20
+      },
+      "soil": {
+        "value": "Any well-draining soil",
+        "detail": "Genuinely not fussy. Almost any compost works.",
+        "bar": 38
+      },
+      "temp": {
+        "value": "7\u201327\u00b0C",
+        "detail": "Remarkable cold tolerance. Hardy down to about 5\u00b0C indoors."
+      },
+      "seedDepth": {
+        "value": "Division",
+        "detail": "Divide the rhizome when repotting in spring. Each section with roots and a shoot will grow."
+      },
+      "germination": "N/A",
+      "harvest": "Decorative",
+      "spacing": "45\u201360 cm"
+    },
+    "tips": [
+      "The ideal plant for dark hallways, stairwells, and rooms with no natural light.",
+      "Grows very slowly \u2014 don't expect rapid results.",
+      "Wipe the long leathery leaves occasionally \u2014 they do collect dust.",
+      "Virtually indestructible \u2014 a good choice for people who have killed every other houseplant."
+    ],
+    "warning": "Non-toxic to humans and pets. Genuinely one of the safest, toughest choices you can make."
+  },
+  {
+    "id": "money-plant-pothos",
+    "name": "Golden Pothos",
+    "latin": "Epipremnum aureum 'Golden'",
+    "emoji": "\ud83d\udc9b",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Golden%2BPothos",
+    "tagline": "The classic golden-variegated trailing plant. Unkillable, fast-growing, and propagates endlessly.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Let top 3cm dry out between waterings.",
+        "bar": 40
+      },
+      "sun": {
+        "value": "Low to bright indirect",
+        "detail": "Tolerates low light. The golden variegation is best maintained in brighter conditions.",
+        "bar": 50
+      },
+      "soil": {
+        "value": "Standard potting mix",
+        "detail": "Not fussy. Any decent potting compost works.",
+        "bar": 48
+      },
+      "temp": {
+        "value": "15\u201330\u00b0C",
+        "detail": "Very tolerant range."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings in water",
+        "detail": "Root in water in 1\u20132 weeks."
+      },
+      "germination": "Roots in 1\u20132 weeks",
+      "harvest": "Decorative",
+      "spacing": "Trails widely"
+    },
+    "tips": [
+      "The gold markings fade to green in low light \u2014 the plant's most reliable light indicator.",
+      "One of the best plants for absorbing indoor air pollutants.",
+      "Propagates so easily it's often given as a first houseplant.",
+      "Pinch tips to create a bushier plant instead of a long trailer."
+    ],
+    "warning": "Toxic to cats and dogs. Contains calcium oxalate crystals."
+  },
+  {
+    "id": "parlour-palm",
+    "name": "Parlour Palm",
+    "latin": "Chamaedorea elegans",
+    "emoji": "\ud83c\udf34",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Parlour%2BPalm",
+    "tagline": "The most forgiving indoor palm. Tolerates low light and irregular watering unlike most palms.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3cm is dry. Do not overwater \u2014 root rot is the main risk.",
+        "bar": 45
+      },
+      "sun": {
+        "value": "Low to medium indirect",
+        "detail": "Tolerates low light. Avoid direct sun \u2014 it scorches the delicate fronds.",
+        "bar": 42
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Good quality potting compost with perlite. Must drain well.",
+        "bar": 52
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold draughts or below 12\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Buy a plant (seeds are slow)",
+        "detail": "Seeds take months to germinate and years to grow. Buy a plant."
+      },
+      "germination": "Buy plants",
+      "harvest": "Decorative",
+      "spacing": "45\u201360 cm"
+    },
+    "tips": [
+      "One of the best palms for dim indoor conditions \u2014 most palms fail indoors, this one thrives.",
+      "Wipe the feathery fronds occasionally to remove dust.",
+      "Brown leaf tips are common \u2014 caused by dry air or fluoride in water. Use rainwater.",
+      "Can produce small flowers and berries indoors in good conditions."
+    ],
+    "warning": "Non-toxic to humans and pets. Safe choice."
+  },
+  {
+    "id": "kentia-palm",
+    "name": "Kentia Palm",
+    "latin": "Howea forsteriana",
+    "emoji": "\ud83c\udf34",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Kentia%2BPalm",
+    "tagline": "The most elegant indoor palm. Slow-growing, incredibly tough, and a fixture in luxury hotels.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3\u20135cm is dry. Tolerates drought well once established.",
+        "bar": 38
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Prefers bright indirect light but tolerates lower light conditions.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Good quality compost with perlite. Excellent drainage essential.",
+        "bar": 52
+      },
+      "temp": {
+        "value": "16\u201327\u00b0C",
+        "detail": "Tolerates slightly cooler temperatures than most palms."
+      },
+      "seedDepth": {
+        "value": "Buy a plant",
+        "detail": "Very slow from seed. Buy a plant \u2014 they are long-lived and get more impressive with age."
+      },
+      "germination": "Buy plants",
+      "harvest": "Decorative \u2014 architectural statement plant",
+      "spacing": "90\u2013150 cm \u2014 grows large"
+    },
+    "tips": [
+      "Slow-growing but extremely long-lived \u2014 a quality specimen is a decades-long companion.",
+      "Wipe the long fronds with a damp cloth to remove dust.",
+      "Feed sparingly \u2014 once a month in summer with half-strength fertiliser.",
+      "Does not like being repotted frequently \u2014 move up only one pot size when roots emerge from the bottom."
+    ],
+    "warning": "Non-toxic to humans and pets. Safe and elegant."
+  },
+  {
+    "id": "areca-palm",
+    "name": "Areca Palm",
+    "latin": "Dypsis lutescens",
+    "emoji": "\ud83c\udf34",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Areca%2BPalm",
+    "tagline": "The best palm for humid homes. Feathery arching fronds and excellent air humidifying properties.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Keep moist during summer. Reduce in winter. Never let roots sit in water.",
+        "bar": 58
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Needs bright indirect light. Direct sun scorches. Low light causes yellowing.",
+        "bar": 68
+      },
+      "soil": {
+        "value": "Well-draining, slightly acidic",
+        "detail": "Good quality compost with perlite. pH 6.0\u20136.5 is ideal.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold below 15\u00b0C. Hates draughts."
+      },
+      "seedDepth": {
+        "value": "Buy a plant or seeds",
+        "detail": "Seeds germinate in 6 weeks but grow slowly. Buy a multi-stemmed plant for instant impact."
+      },
+      "germination": "6 weeks from seed",
+      "harvest": "Decorative",
+      "spacing": "90\u2013180 cm \u2014 grows large"
+    },
+    "tips": [
+      "One of the best natural humidifiers \u2014 releases significant moisture into the air.",
+      "Brown tips are common and cosmetic \u2014 caused by dry air or tap water. Trim and use filtered water.",
+      "Remove yellowing fronds from the base to keep the plant looking tidy.",
+      "Feed monthly in summer with a palm-specific fertiliser."
+    ],
+    "warning": "Non-toxic to humans and pets. Safe choice."
+  },
+  {
+    "id": "yucca",
+    "name": "Yucca",
+    "latin": "Yucca elephantipes",
+    "emoji": "\ud83c\udf35",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Yucca",
+    "tagline": "Architectural sword-like leaves on a stout trunk. Drought-tolerant and almost indestructible indoors.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Let soil dry completely between waterings. Very drought-tolerant.",
+        "bar": 22
+      },
+      "sun": {
+        "value": "Bright direct to indirect",
+        "detail": "Loves light. A sunny windowsill is ideal. Tolerates lower light but grows more slowly.",
+        "bar": 82
+      },
+      "soil": {
+        "value": "Well-draining, sandy mix",
+        "detail": "Cactus mix or potting compost with lots of grit.",
+        "bar": 25
+      },
+      "temp": {
+        "value": "10\u201330\u00b0C",
+        "detail": "Tolerates a wide range including some cold."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings or offsets",
+        "detail": "Trunk sections can be rooted. Offsets that appear at the base can be separated and potted."
+      },
+      "germination": "Roots in 4\u20138 weeks",
+      "harvest": "Decorative",
+      "spacing": "60\u201390 cm"
+    },
+    "tips": [
+      "Wipe the sharp-edged leaves carefully \u2014 they are genuinely sharp.",
+      "In summer, move outside to a sunny sheltered spot for accelerated growth.",
+      "Water much less in winter \u2014 once a month is enough.",
+      "The lower leaves naturally yellow and drop as the trunk develops \u2014 this is normal."
+    ],
+    "warning": "The leaf tips are sharp enough to puncture skin. Place away from high-traffic areas, especially with children."
+  },
+  {
+    "id": "banana-plant",
+    "name": "Indoor Banana",
+    "latin": "Musa acuminata 'Dwarf Cavendish'",
+    "emoji": "\ud83c\udf4c",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Indoor%2BBanana",
+    "tagline": "Enormous tropical leaves that make any room feel like a jungle. Can fruit indoors in very good conditions.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20134 days",
+        "detail": "Thirsty plant. Keep consistently moist. Reduce in winter.",
+        "bar": 78
+      },
+      "sun": {
+        "value": "6+ hours bright light",
+        "detail": "Needs as much light as possible \u2014 a south-facing window or conservatory.",
+        "bar": 90
+      },
+      "soil": {
+        "value": "Rich, well-draining mix",
+        "detail": "Rich potting compost with good drainage. Feed generously during growing season.",
+        "bar": 72
+      },
+      "temp": {
+        "value": "18\u201330\u00b0C",
+        "detail": "Tropical plant \u2014 no cold, no draughts, no below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Offsets or corms",
+        "detail": "Separate offsets (pups) from the base when they have their own roots."
+      },
+      "germination": "N/A \u2014 use pups",
+      "harvest": "Fruit possible after 18+ months in ideal conditions",
+      "spacing": "90\u2013150 cm \u2014 grows large"
+    },
+    "tips": [
+      "Wipe the large leaves with a damp cloth to maximise light absorption.",
+      "Feed every 2 weeks with a high-nitrogen fertiliser during the growing season.",
+      "The main trunk flowers and fruits once then dies \u2014 pups continue the plant.",
+      "Move outside in summer to a warm sheltered spot for the best growth."
+    ],
+    "warning": "Non-toxic to humans and pets. Safe tropical statement plant."
+  },
+  {
+    "id": "elephant-ear",
+    "name": "Elephant Ear",
+    "latin": "Alocasia amazonica",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Elephant%2BEar",
+    "tagline": "Spectacular dark green leaves with dramatic white veins. A striking architectural statement plant.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Keep moist but never waterlogged. The main killer is root rot from overwatering.",
+        "bar": 60
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light is essential. Direct sun scorches the dramatic leaves.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Well-draining, chunky mix",
+        "detail": "Chunky potting mix with perlite and bark. Roots need excellent aeration.",
+        "bar": 58
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Tropical plant \u2014 no cold draughts or below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Corm division or offsets",
+        "detail": "Divide the corms when repotting or pot up offset pups."
+      },
+      "germination": "Pups: immediate",
+      "harvest": "Decorative",
+      "spacing": "60\u201390 cm"
+    },
+    "tips": [
+      "Goes dormant in winter \u2014 leaves may die back. Don't discard \u2014 reduce watering and wait for spring growth.",
+      "High humidity is important \u2014 group with other plants or use a pebble tray.",
+      "Wipe the dramatic veined leaves with a damp cloth.",
+      "Spider mites love them in dry indoor air \u2014 check the undersides of leaves regularly."
+    ],
+    "warning": "Highly toxic to cats, dogs, and humans. Causes severe mouth burning and irritation. Keep well away from children and pets."
+  },
+  {
+    "id": "colocasia",
+    "name": "Taro / Elephant Ear",
+    "latin": "Colocasia esculenta",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Taro%2B/%2BElephant%2BEar",
+    "tagline": "Enormous, velvety heart-shaped leaves with a dramatic tropical presence.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Loves moisture \u2014 water frequently and mist regularly.",
+        "bar": 80
+      },
+      "sun": {
+        "value": "Bright indirect to partial shade",
+        "detail": "Prefers bright indirect light. Tolerates some shade.",
+        "bar": 58
+      },
+      "soil": {
+        "value": "Rich, moisture-retaining mix",
+        "detail": "Rich compost with good moisture retention. Can even grow in water.",
+        "bar": 78
+      },
+      "temp": {
+        "value": "18\u201330\u00b0C",
+        "detail": "Tropical plant \u2014 no frost."
+      },
+      "seedDepth": {
+        "value": "Corms 5\u20137cm deep",
+        "detail": "Plant corms in spring. The knobbly corms sprout within a few weeks in warmth."
+      },
+      "germination": "2\u20134 weeks",
+      "harvest": "Tubers are edible when cooked. Grown primarily as an ornamental indoors.",
+      "spacing": "60\u201390 cm"
+    },
+    "tips": [
+      "The tubers (corms) are edible when cooked \u2014 the plant is a staple crop in much of Asia and the Pacific.",
+      "Goes dormant in winter \u2014 die back is normal. Store corms dry at 10\u00b0C.",
+      "Varieties like 'Black Magic' (deep purple leaves) are dramatic and popular.",
+      "Can be grown in a pot of water \u2014 place the corm in shallow water with just the base submerged."
+    ],
+    "warning": "All raw parts are toxic \u2014 contains calcium oxalate crystals. Must be cooked before eating. Causes severe burning if raw."
+  },
+  {
+    "id": "stromanthe",
+    "name": "Stromanthe",
+    "latin": "Stromanthe thalia",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Stromanthe",
+    "tagline": "Stunning three-tone leaves in pink, white, and green. Similar needs to calathea but slightly more forgiving.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Keep moist but not waterlogged. Use room-temperature filtered water.",
+        "bar": 60
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light maintains the vibrant pink colouring.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Rich, well-draining mix",
+        "detail": "Peat-free compost with perlite.",
+        "bar": 62
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold draughts or below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Division",
+        "detail": "Divide at repotting time in spring."
+      },
+      "germination": "N/A",
+      "harvest": "Decorative",
+      "spacing": "45\u201360 cm"
+    },
+    "tips": [
+      "Use filtered or rainwater \u2014 sensitive to tap water chemicals.",
+      "The pink undersides of the leaves are revealed as they fold up at night.",
+      "More forgiving than calathea but similar care \u2014 treat it as an easier cousin.",
+      "High humidity helps \u2014 mist or use a pebble tray."
+    ],
+    "warning": "Non-toxic to humans and pets."
+  },
+  {
+    "id": "begonia-rex",
+    "name": "Rex Begonia",
+    "latin": "Begonia rex-cultorum",
+    "emoji": "\ud83c\udf3a",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rex%2BBegonia",
+    "tagline": "The most spectacular foliage begonia. Leaves in metallic silver, red, purple, and green patterns.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Water when top 2\u20133cm is dry. Sensitive to both overwatering and complete drought.",
+        "bar": 55
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light produces the best leaf colours. Direct sun bleaches the patterns.",
+        "bar": 62
+      },
+      "soil": {
+        "value": "Well-draining, slightly acidic mix",
+        "detail": "Peat-free compost with perlite. Good drainage essential.",
+        "bar": 58
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold draughts or below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Leaf cuttings",
+        "detail": "Cut a leaf into sections with veins, press onto moist compost. New plants emerge from the veins."
+      },
+      "germination": "Plantlets in 4\u20138 weeks",
+      "harvest": "Decorative \u2014 striking foliage year-round",
+      "spacing": "30\u201345 cm"
+    },
+    "tips": [
+      "Water from below (place pot in a saucer of water for 30 minutes) to avoid wet leaves which cause rot.",
+      "High humidity is important \u2014 but avoid misting directly on the leaves as this causes spotting.",
+      "Goes semi-dormant in winter \u2014 water less and stop feeding.",
+      "Leaf section propagation is fascinating and works remarkably well."
+    ],
+    "warning": "All begonias are toxic to cats and dogs. Can cause vomiting and kidney failure in cats."
+  },
+  {
+    "id": "christmas-rose",
+    "name": "Cyclamen",
+    "latin": "Cyclamen persicum",
+    "emoji": "\ud83c\udf38",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cyclamen",
+    "tagline": "Cheerful swept-back flowers in winter when colour is scarce. Grown as a winter flowering houseplant.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20134 days when in flower",
+        "detail": "Water from below by placing in a saucer of water. Never water into the centre crown \u2014 causes rot.",
+        "bar": 60
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Cool, bright indirect light. Avoid hot sunny windowsills.",
+        "bar": 58
+      },
+      "soil": {
+        "value": "Well-draining compost",
+        "detail": "Standard potting compost. Good drainage essential.",
+        "bar": 52
+      },
+      "temp": {
+        "value": "10\u201318\u00b0C \u2014 cool room",
+        "detail": "Prefers cool conditions. A cool bright windowsill is ideal. Central heating makes it deteriorate faster."
+      },
+      "seedDepth": {
+        "value": "Tuber or seeds",
+        "detail": "Grown from tubers. Seeds take 18 months to flower \u2014 buy a plant."
+      },
+      "germination": "Buy plants",
+      "harvest": "Flowers October\u2013March",
+      "spacing": "20\u201325 cm"
+    },
+    "tips": [
+      "Cool rooms extend the flowering period significantly. Avoid keeping on hot windowsills near radiators.",
+      "Remove dead flowers and yellow leaves by twisting and pulling \u2014 don't cut.",
+      "After flowering, reduce watering, allow to go dormant in summer, then restart in autumn.",
+      "Water from below \u2014 never into the crown of the tuber as this causes rot."
+    ],
+    "warning": "Toxic to cats and dogs. Can cause digestive upset and, in large amounts, more serious symptoms."
+  },
+  {
+    "id": "impatiens",
+    "name": "Busy Lizzie",
+    "latin": "Impatiens walleriana",
+    "emoji": "\ud83c\udf38",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Busy%2BLizzie",
+    "tagline": "Non-stop cheerful flowers in vivid colours. One of the best plants for a bright windowsill.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 days",
+        "detail": "Keep consistently moist. Wilts fast when dry but recovers quickly when watered.",
+        "bar": 72
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright light without direct harsh sun. East or west-facing window is ideal.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Rich, moisture-retaining compost",
+        "detail": "Good quality potting compost. Feed weekly during flowering.",
+        "bar": 68
+      },
+      "temp": {
+        "value": "15\u201324\u00b0C",
+        "detail": "Not frost-hardy. Bring indoors in autumn."
+      },
+      "seedDepth": {
+        "value": "Surface sow \u2014 needs light",
+        "detail": "Tiny seeds need light to germinate. Press onto moist compost. Or buy plug plants."
+      },
+      "germination": "10\u201321 days",
+      "harvest": "Flowers May\u2013October",
+      "spacing": "20\u201325 cm"
+    },
+    "tips": [
+      "Pinch out growing tips when young to encourage a bushy, flower-covered plant.",
+      "Feed weekly with a high-potassium liquid feed (tomato fertiliser) during flowering.",
+      "Deadheading is unnecessary \u2014 they are self-cleaning.",
+      "Take cuttings in autumn and overwinter indoors to have free plants next year."
+    ],
+    "warning": "Non-toxic to humans and pets."
+  },
+  {
+    "id": "oxalis",
+    "name": "Oxalis (Wood Sorrel)",
+    "latin": "Oxalis triangularis",
+    "emoji": "\ud83c\udf40",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Oxalis%2B%28Wood%2BSorrel%29",
+    "tagline": "Deep purple clover-like leaves that open and close with the light. Charming, unique, and easy.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Water when top soil is dry. Goes dormant in summer \u2014 reduce watering then.",
+        "bar": 45
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright light produces the deepest purple colour. Low light = pale, sparse growth.",
+        "bar": 68
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard potting compost with perlite.",
+        "bar": 48
+      },
+      "temp": {
+        "value": "15\u201325\u00b0C",
+        "detail": "Hardy to around 5\u00b0C. Tolerates cooler rooms."
+      },
+      "seedDepth": {
+        "value": "Small bulbs 2\u20133cm deep",
+        "detail": "Plant small rhizomes just below the soil surface. Many rhizomes in one pot for fuller coverage."
+      },
+      "germination": "Sprouts in 2\u20133 weeks",
+      "harvest": "Decorative \u2014 opens and closes with light",
+      "spacing": "15\u201320 cm"
+    },
+    "tips": [
+      "The leaves open when bright and close in dim light or at night \u2014 a delightful daily rhythm.",
+      "Goes dormant in summer \u2014 die-back is normal. Rest dry for 4\u20136 weeks then restart.",
+      "Multiple bulbs in one pot creates a much fuller, more lush display.",
+      "Pink flowers appear above the purple leaves \u2014 very pretty combination."
+    ],
+    "warning": "Toxic to cats and dogs if eaten in large quantities. Contains oxalic acid."
+  },
+  {
+    "id": "african-violet",
+    "name": "African Violet",
+    "latin": "Streptocarpus ionanthus",
+    "emoji": "\ud83d\udc9c",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=African%2BViolet",
+    "tagline": "The most popular flowering windowsill plant. Compact, beautiful, and can flower year-round.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days from below",
+        "detail": "Water from below \u2014 pour water into the saucer and let the plant absorb what it needs. Never wet the leaves.",
+        "bar": 52
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light \u2014 no direct sun which scorches leaves and flowers. North or east-facing window is ideal.",
+        "bar": 58
+      },
+      "soil": {
+        "value": "African violet mix or peat-free compost",
+        "detail": "Specialist African violet compost or peat-free with added perlite.",
+        "bar": 58
+      },
+      "temp": {
+        "value": "18\u201324\u00b0C",
+        "detail": "Consistent warmth. Cold draughts and temperature fluctuations cause leaf damage."
+      },
+      "seedDepth": {
+        "value": "Leaf petiole cuttings",
+        "detail": "Insert a leaf stalk (petiole) into moist compost. New plantlets emerge from the base of the stalk in 4\u20138 weeks."
+      },
+      "germination": "Plantlets in 4\u20138 weeks",
+      "harvest": "Flowers year-round in good conditions",
+      "spacing": "20\u201325 cm"
+    },
+    "tips": [
+      "Water from below only \u2014 wet leaves cause permanent brown spots.",
+      "Remove spent flowers and yellowing leaves regularly to encourage continuous blooming.",
+      "Feed every 2 weeks with a specialist African violet fertiliser.",
+      "East or west-facing windowsill is the sweet spot \u2014 bright but no direct midday sun."
+    ],
+    "warning": "Non-toxic to humans and pets. Safe choice."
+  },
+  {
+    "id": "lipstick-plant",
+    "name": "Lipstick Plant",
+    "latin": "Aeschynanthus radicans",
+    "emoji": "\ud83d\udc84",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lipstick%2BPlant",
+    "tagline": "Tubular red flowers that emerge from dark tubes like lipstick being applied. Trails beautifully.",
+    "care": {
+      "water": {
+        "value": "Every 7\u201310 days",
+        "detail": "Water when top 2\u20133cm is dry. Reduce in winter during rest period.",
+        "bar": 45
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light triggers the best flowering. Too little light = few or no flowers.",
+        "bar": 70
+      },
+      "soil": {
+        "value": "Well-draining, slightly acidic mix",
+        "detail": "Mix of potting compost and orchid bark for excellent drainage.",
+        "bar": 48
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold draughts or below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem tip cuttings",
+        "detail": "Root 8\u201310cm tip cuttings in moist compost."
+      },
+      "germination": "Roots in 4\u20136 weeks",
+      "harvest": "Flowers spring and summer",
+      "spacing": "Trails to 60\u201390 cm"
+    },
+    "tips": [
+      "Needs a cooler, drier winter rest (4\u20136 weeks at around 15\u00b0C with reduced watering) to trigger spring flowering.",
+      "Hang in a basket where the trailing stems and dramatic flowers can be seen from below.",
+      "Trim back after flowering to encourage new growth and more flowers next season.",
+      "Mist occasionally \u2014 it appreciates some humidity."
+    ],
+    "warning": "Non-toxic to humans and pets."
+  },
+  {
+    "id": "columnea",
+    "name": "Goldfish Plant",
+    "latin": "Columnea gloriosa",
+    "emoji": "\ud83d\udc1f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Goldfish%2BPlant",
+    "tagline": "Trailing stems with tiny paired leaves and vivid orange-red flowers that really do look like goldfish.",
+    "care": {
+      "water": {
+        "value": "Every 7\u201310 days",
+        "detail": "Keep moist during flowering. Allow to dry slightly between waterings otherwise.",
+        "bar": 48
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light. Direct sun scorches the small leaves.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Well-draining, peaty mix",
+        "detail": "Mix of peat-free compost and perlite. Good drainage essential.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold. Consistent warmth encourages the best flowering."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Tip cuttings root easily in moist compost."
+      },
+      "germination": "Roots in 3\u20135 weeks",
+      "harvest": "Flowers mainly in spring",
+      "spacing": "Trails to 60\u201390 cm"
+    },
+    "tips": [
+      "A cool winter rest (15\u00b0C for 4\u20136 weeks) triggers the spectacular spring flower display.",
+      "Hang in a basket to appreciate the trailing stems covered in orange flowers.",
+      "Mist occasionally \u2014 appreciates humidity.",
+      "Feed monthly during the growing season with a high-potassium fertiliser."
+    ],
+    "warning": "Non-toxic to humans and pets."
+  },
+  {
+    "id": "passionflower",
+    "name": "Passionflower",
+    "latin": "Passiflora caerulea",
+    "emoji": "\ud83c\udf38",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Passionflower",
+    "tagline": "One of the most exotic-looking flowers you can grow at home. The intricate structure is unforgettable.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20134 days",
+        "detail": "Keep moist during growing season. Reduce significantly in winter.",
+        "bar": 60
+      },
+      "sun": {
+        "value": "Full sun to bright indirect",
+        "detail": "Needs as much sun as possible to flower well. South-facing window is ideal.",
+        "bar": 85
+      },
+      "soil": {
+        "value": "Well-draining, fertile mix",
+        "detail": "Good quality compost with perlite. Feed regularly during the growing season.",
+        "bar": 58
+      },
+      "temp": {
+        "value": "Hardy to -10\u00b0C (with protection)",
+        "detail": "More cold-hardy than most. Can overwinter in a cool frost-free place."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings or seeds",
+        "detail": "Semi-ripe cuttings in summer root well. Seeds need warmth (25\u00b0C) and take 1\u20133 months."
+      },
+      "germination": "Seeds: 1\u20133 months",
+      "harvest": "Flowers summer\u2013autumn. Fruit on mature plants.",
+      "spacing": "Climber \u2014 needs a trellis or support"
+    },
+    "tips": [
+      "Prune back hard in early spring \u2014 it flowers on new growth and pruning encourages vigorous flowering stems.",
+      "Give it a trellis or canes to climb \u2014 it grasps with tendrils and grows fast.",
+      "Orange fruits may appear after good summers \u2014 edible but not as flavourful as commercial passion fruit.",
+      "Feed weekly with a high-potassium fertiliser from May to September."
+    ],
+    "warning": "The leaves and unripe fruit are mildly toxic. The ripe fruit is edible. Keep away from young children."
+  },
+  {
+    "id": "velvet-plant",
+    "name": "Purple Velvet Plant",
+    "latin": "Gynura aurantiaca",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Purple%2BVelvet%2BPlant",
+    "tagline": "Deep green leaves covered in vivid purple velvet hairs. Unlike anything else on a windowsill.",
+    "care": {
+      "water": {
+        "value": "Every 5\u20137 days",
+        "detail": "Water when top soil is dry. Overwatering causes root rot.",
+        "bar": 48
+      },
+      "sun": {
+        "value": "Bright direct to indirect",
+        "detail": "Bright light brings out the vivid purple. Low light = mostly green leaves.",
+        "bar": 78
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard compost with perlite.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "16\u201327\u00b0C",
+        "detail": "No cold draughts or frost."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Root tip cuttings in water or moist compost very easily."
+      },
+      "germination": "Roots in 2\u20133 weeks",
+      "harvest": "Decorative",
+      "spacing": "30\u201345 cm"
+    },
+    "tips": [
+      "Never mist \u2014 the velvet hairs trap water and cause rot. Water from below only.",
+      "Pinch out flower buds \u2014 the orange flowers smell unpleasant and the plant deteriorates after flowering.",
+      "Pinch growing tips regularly for a bushy, full plant.",
+      "The younger the leaves, the more vivid the purple \u2014 older leaves turn more green."
+    ],
+    "warning": "Non-toxic to humans and pets."
+  },
+  {
+    "id": "haworthia",
+    "name": "Haworthia",
+    "latin": "Haworthia attenuata",
+    "emoji": "\ud83c\udf35",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Haworthia",
+    "tagline": "The ideal succulent for low-light conditions. Striped zebra-patterned leaves in a compact rosette.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Let soil dry completely. Very drought-tolerant.",
+        "bar": 18
+      },
+      "sun": {
+        "value": "Bright indirect \u2014 tolerates low light",
+        "detail": "Unlike most succulents, tolerates lower light. Direct sun scorches the tips.",
+        "bar": 50
+      },
+      "soil": {
+        "value": "Cactus/succulent mix",
+        "detail": "Fast-draining mix with grit or perlite.",
+        "bar": 18
+      },
+      "temp": {
+        "value": "10\u201327\u00b0C",
+        "detail": "Tolerates cool temperatures. Not frost-hardy."
+      },
+      "seedDepth": {
+        "value": "Offsets (pups)",
+        "detail": "Separate pups that appear at the base and pot individually."
+      },
+      "germination": "N/A",
+      "harvest": "Decorative",
+      "spacing": "10\u201315 cm"
+    },
+    "tips": [
+      "One of the few succulents that survives in lower-light conditions \u2014 great for less sunny rooms.",
+      "The white raised markings on the leaves are the plant's natural texture, not a problem.",
+      "Very slow-growing \u2014 be patient. Don't repot unnecessarily.",
+      "Group multiple in a shallow dish for a striking display."
+    ],
+    "warning": "Non-toxic to humans and pets. Safe choice."
+  },
+  {
+    "id": "gasteria",
+    "name": "Gasteria",
+    "latin": "Gasteria bicolor",
+    "emoji": "\ud83c\udf35",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Gasteria",
+    "tagline": "Tongue-shaped mottled leaves in stacked rows. A tough, shade-tolerant succulent rarely seen in shops.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Let soil dry completely. Very drought-tolerant.",
+        "bar": 18
+      },
+      "sun": {
+        "value": "Indirect light \u2014 shade-tolerant",
+        "detail": "One of the most shade-tolerant succulents. Direct sun causes reddish discolouration.",
+        "bar": 38
+      },
+      "soil": {
+        "value": "Cactus/succulent mix",
+        "detail": "Fast-draining gritty compost.",
+        "bar": 18
+      },
+      "temp": {
+        "value": "10\u201327\u00b0C",
+        "detail": "Tolerates cool temperatures but not frost."
+      },
+      "seedDepth": {
+        "value": "Offsets (pups)",
+        "detail": "Separate pups at repotting time."
+      },
+      "germination": "N/A",
+      "harvest": "Decorative \u2014 produces tubular orange-red flowers on long stalks",
+      "spacing": "10\u201315 cm"
+    },
+    "tips": [
+      "Even better suited to low light than haworthia \u2014 a genuine shade-tolerant succulent.",
+      "Produces attractive orange-red tubular flowers in spring if kept in good light.",
+      "Very slow-growing \u2014 a good indicator that you're not overwatering.",
+      "Related to aloe \u2014 shares similar care needs and even similar soothing gel in the leaves."
+    ],
+    "warning": "Non-toxic to humans and pets."
+  },
+  {
+    "id": "kalanchoe",
+    "name": "Kalanchoe",
+    "latin": "Kalanchoe blossfeldiana",
+    "emoji": "\ud83c\udf3a",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Kalanchoe",
+    "tagline": "Clusters of tiny bright flowers for months. One of the most popular gift plants worldwide.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Let soil dry between waterings. Succulent leaves store water \u2014 overwatering is the main mistake.",
+        "bar": 28
+      },
+      "sun": {
+        "value": "Bright indirect to some direct",
+        "detail": "Bright light keeps it compact and triggers re-blooming.",
+        "bar": 75
+      },
+      "soil": {
+        "value": "Cactus/succulent mix",
+        "detail": "Fast-draining compost. Never sit in water.",
+        "bar": 25
+      },
+      "temp": {
+        "value": "15\u201325\u00b0C",
+        "detail": "No cold or frost. Consistent room temperature is fine."
+      },
+      "seedDepth": {
+        "value": "Leaf cuttings or stem cuttings",
+        "detail": "Root easily from leaf or stem cuttings in dry compost."
+      },
+      "germination": "Roots in 3\u20134 weeks",
+      "harvest": "Flowers for weeks, sometimes months",
+      "spacing": "15\u201320 cm"
+    },
+    "tips": [
+      "To trigger re-blooming: give 14 hours of complete darkness for 6 weeks in autumn, then return to bright light.",
+      "Deadhead spent flower clusters to encourage the next flush.",
+      "Feed monthly with a high-potassium fertiliser during the growing season.",
+      "Very easy to propagate \u2014 a single leaf on dry compost will root and produce a new plant."
+    ],
+    "warning": "Toxic to cats and dogs. Can cause vomiting, diarrhoea, and cardiac issues."
+  },
+  {
+    "id": "sedum",
+    "name": "Stonecrop Sedum",
+    "latin": "Sedum morganianum",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Stonecrop%2BSedum",
+    "tagline": "Trailing stems of chubby blue-green leaves. The donkey's tail succulent is one of the most charming trailers.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Soak and let dry completely. Very drought-tolerant.",
+        "bar": 20
+      },
+      "sun": {
+        "value": "Bright light, some direct sun",
+        "detail": "Needs bright light for the best colour and compact growth.",
+        "bar": 82
+      },
+      "soil": {
+        "value": "Cactus/succulent mix",
+        "detail": "Fast-draining gritty compost.",
+        "bar": 18
+      },
+      "temp": {
+        "value": "15\u201325\u00b0C",
+        "detail": "Not frost-hardy. Tolerates cooler indoor temperatures."
+      },
+      "seedDepth": {
+        "value": "Leaf or stem cuttings",
+        "detail": "Leaves that fall off can be laid on dry compost to root. Stem sections also root easily."
+      },
+      "germination": "Leaves root in 3\u20136 weeks",
+      "harvest": "Decorative \u2014 trails impressively",
+      "spacing": "Trails to 60\u201390 cm"
+    },
+    "tips": [
+      "The leaves fall off extremely easily when touched \u2014 handle as little as possible.",
+      "Any fallen leaves that land on dry compost will often root on their own \u2014 free plants.",
+      "Hang in a basket where the trailing stems can grow long undisturbed.",
+      "Pink flowers may appear in summer at the tips of the stems."
+    ],
+    "warning": "Non-toxic to humans and pets."
+  },
+  {
+    "id": "jade-succulent",
+    "name": "String of Buttons",
+    "latin": "Crassula perforata",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=String%2Bof%2BButtons",
+    "tagline": "Stacked triangular leaves on trailing stems create a geometric tower effect. Unique and easy.",
+    "care": {
+      "water": {
+        "value": "Every 2\u20133 weeks",
+        "detail": "Drought-tolerant. Let dry completely between waterings.",
+        "bar": 20
+      },
+      "sun": {
+        "value": "Bright light, some direct",
+        "detail": "Bright light is essential for the compact stacked leaf pattern and pinkish colouring.",
+        "bar": 82
+      },
+      "soil": {
+        "value": "Cactus/succulent mix",
+        "detail": "Fast-draining gritty compost.",
+        "bar": 18
+      },
+      "temp": {
+        "value": "10\u201327\u00b0C",
+        "detail": "Tolerates cool temperatures."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Cut a stem and let callous for a day. Push into dry cactus compost."
+      },
+      "germination": "Roots in 3\u20135 weeks",
+      "harvest": "Decorative",
+      "spacing": "10\u201320 cm"
+    },
+    "tips": [
+      "The pink edges on the leaves intensify in bright sun \u2014 a sign of a very happy plant.",
+      "Trailing varieties look great in a hanging pot or cascading from a shelf.",
+      "Very forgiving \u2014 a good starter succulent.",
+      "Pairs beautifully with other succulents in a shallow dish arrangement."
+    ],
+    "warning": "Non-toxic to humans and pets."
+  },
+  {
+    "id": "earth-star",
+    "name": "Earth Star Bromeliad",
+    "latin": "Cryptanthus bivittatus",
+    "emoji": "\u2b50",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Earth%2BStar%2BBromeliad",
+    "tagline": "Flat, starfish-shaped rosettes with striped pink and green leaves. Unlike any other houseplant.",
+    "care": {
+      "water": {
+        "value": "Every 7\u201310 days",
+        "detail": "Water into the rosette cup and keep the compost slightly moist.",
+        "bar": 45
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light maintains the best colouring.",
+        "bar": 62
+      },
+      "soil": {
+        "value": "Bromeliad or orchid mix",
+        "detail": "Fast-draining, low-nutrient mix.",
+        "bar": 35
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Tropical plant \u2014 no cold draughts."
+      },
+      "seedDepth": {
+        "value": "Offsets (pups)",
+        "detail": "Small pups appear at the base \u2014 pot these up when they have their own roots."
+      },
+      "germination": "N/A",
+      "harvest": "Decorative \u2014 flat starfish shape",
+      "spacing": "20\u201330 cm"
+    },
+    "tips": [
+      "Unlike other bromeliads, earth stars prefer to be watered into the compost as well as the central cup.",
+      "The striped colouring is most vivid in bright light.",
+      "Unlike most bromeliads, these are quite compact and stay small \u2014 perfect for terrariums.",
+      "Produces pups slowly after flowering \u2014 pot these up for new plants."
+    ],
+    "warning": "Non-toxic to humans and pets."
+  },
+  {
+    "id": "venus-flytrap",
+    "name": "Venus Flytrap",
+    "latin": "Dionaea muscipula",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Venus%2BFlytrap",
+    "tagline": "The most famous carnivorous plant. Snaps shut on insects in a fraction of a second.",
+    "care": {
+      "water": {
+        "value": "Keep in a tray of rainwater",
+        "detail": "Always use rainwater or distilled water \u2014 tap water minerals kill it. Keep the pot sitting in 2\u20133cm of water at all times.",
+        "bar": 85
+      },
+      "sun": {
+        "value": "Full direct sun, 4+ hours",
+        "detail": "Needs direct sunlight. A south-facing windowsill or outdoors in summer.",
+        "bar": 90
+      },
+      "soil": {
+        "value": "Carnivorous plant mix (no nutrients)",
+        "detail": "50% sphagnum peat, 50% perlite or horticultural sand. Never regular compost \u2014 nutrients kill it.",
+        "bar": 0
+      },
+      "temp": {
+        "value": "Needs cold winter rest (0\u201310\u00b0C)",
+        "detail": "Needs a winter dormancy of 3\u20134 months at near-freezing to survive long-term. This is not optional."
+      },
+      "seedDepth": {
+        "value": "Leaf pullings or seeds",
+        "detail": "Leaf pullings (pulling a leaf from the base) can produce new plants. Seeds are slow."
+      },
+      "germination": "Seeds: 1\u20132 months",
+      "harvest": "The traps catch insects",
+      "spacing": "15\u201320 cm"
+    },
+    "tips": [
+      "Never feed it hamburger, cheese, or dead insects \u2014 the trap digests only freshly caught live prey or can be fed live mealworms.",
+      "Never trigger the traps for fun \u2014 it wastes enormous energy and weakens the plant.",
+      "The winter dormancy is non-negotiable for long-term health. A fridge works.",
+      "Only 3\u20134 traps open at once is normal \u2014 older traps turn black and die as new ones grow."
+    ],
+    "warning": "Non-toxic but requires very specific care. Most plants die within a year due to wrong water, wrong soil, or no winter rest."
+  },
+  {
+    "id": "pitcher-plant",
+    "name": "Pitcher Plant",
+    "latin": "Sarracenia purpurea",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pitcher%2BPlant",
+    "tagline": "Elegant tubular pitchers trap and digest insects. A genuinely alien-looking garden or windowsill plant.",
+    "care": {
+      "water": {
+        "value": "Keep in tray of rainwater",
+        "detail": "Must use rainwater or distilled water only. Sit pot in 2\u20133cm of water at all times during growing season.",
+        "bar": 80
+      },
+      "sun": {
+        "value": "Full sun, 6+ hours",
+        "detail": "Needs maximum direct sunlight for the best pitcher development and colouring.",
+        "bar": 92
+      },
+      "soil": {
+        "value": "Carnivorous mix \u2014 no nutrients",
+        "detail": "50% sphagnum peat, 50% perlite. Never regular compost.",
+        "bar": 0
+      },
+      "temp": {
+        "value": "Hardy \u2014 needs cold winter rest",
+        "detail": "Most sarracenia are cold-hardy and actually need freezing winters for long-term health."
+      },
+      "seedDepth": {
+        "value": "Division or seeds",
+        "detail": "Divide the rhizome in spring. Seeds take 2\u20133 years to reach a decent size."
+      },
+      "germination": "Seeds: months",
+      "harvest": "Pitchers trap insects \u2014 no manual feeding needed near windows",
+      "spacing": "20\u201340 cm"
+    },
+    "tips": [
+      "No fertilising ever \u2014 the plant gets all its nutrition from insects. Nutrients kill it.",
+      "The pitchers fill with rainwater and digestive enzymes naturally.",
+      "In autumn, as pitchers die back, this is normal. New pitchers emerge each spring.",
+      "Cold-hardy varieties (most North American sarracenia) can be grown outdoors year-round in cool climates."
+    ],
+    "warning": "Non-toxic to humans and pets. The digestive fluid in the pitchers is harmless."
+  },
+  {
+    "id": "sundew",
+    "name": "Sundew",
+    "latin": "Drosera capensis",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sundew",
+    "tagline": "Glistening sticky tentacles trap insects and slowly curl around them. Beautiful and fascinating.",
+    "care": {
+      "water": {
+        "value": "Keep in tray of rainwater",
+        "detail": "Rainwater or distilled only. Sit in 1\u20132cm of water at all times during growing season.",
+        "bar": 75
+      },
+      "sun": {
+        "value": "Bright light, some direct sun",
+        "detail": "Bright light keeps the tentacles vivid red. More sun = more colour and stickiness.",
+        "bar": 80
+      },
+      "soil": {
+        "value": "Carnivorous mix \u2014 no nutrients",
+        "detail": "50% sphagnum peat, 50% perlite. Never regular compost.",
+        "bar": 0
+      },
+      "temp": {
+        "value": "15\u201330\u00b0C, mild winter rest",
+        "detail": "Cape sundew (D. capensis) is one of the most forgiving. Only a light rest needed."
+      },
+      "seedDepth": {
+        "value": "Leaf cuttings or seeds",
+        "detail": "Lay a leaf on moist sphagnum \u2014 new plantlets emerge. Easy."
+      },
+      "germination": "Plantlets in 4\u20138 weeks",
+      "harvest": "Catches small insects, midges, gnats",
+      "spacing": "10\u201315 cm"
+    },
+    "tips": [
+      "One of the easiest carnivorous plants \u2014 more forgiving than Venus flytraps.",
+      "The sticky glands (tentacles) glisten in light \u2014 beautiful when backlit.",
+      "Catches fungus gnats reliably \u2014 a genuinely useful pest control plant.",
+      "Goes semi-dormant in winter \u2014 reduce watering slightly but never let it dry out."
+    ],
+    "warning": "Non-toxic to humans and pets. The digestive secretions are harmless to humans."
+  },
+  {
+    "id": "nerve-cactus",
+    "name": "Thanksgiving Cactus",
+    "latin": "Schlumbergera truncata",
+    "emoji": "\ud83c\udf3a",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Thanksgiving%2BCactus",
+    "tagline": "Similar to Christmas cactus but flowers in November. Vivid tubular flowers in pink, red, orange, or white.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "More frequent than desert cacti. Keep moist during flowering, reduce after.",
+        "bar": 50
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light. Direct sun bleaches flowers.",
+        "bar": 60
+      },
+      "soil": {
+        "value": "Well-draining, slightly acidic mix",
+        "detail": "Potting compost with perlite.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "15\u201321\u00b0C",
+        "detail": "Needs cool nights (below 15\u00b0C) in autumn to trigger flowering."
+      },
+      "seedDepth": {
+        "value": "Stem segment cuttings",
+        "detail": "Twist off 2\u20133 leaf segments, let callous, push into moist compost."
+      },
+      "germination": "Roots in 3\u20134 weeks",
+      "harvest": "Flowers in November",
+      "spacing": "30\u201345 cm"
+    },
+    "tips": [
+      "Distinguished from Christmas cactus by its leaf segments: Thanksgiving cactus has pointed teeth, Christmas cactus has rounded scallops.",
+      "Cool nights in September\u2013October trigger bud formation.",
+      "Feed monthly from spring to early autumn.",
+      "Can live for decades \u2014 gets larger and more spectacular with age."
+    ],
+    "warning": "Mildly toxic to cats and dogs."
+  },
+  {
+    "id": "string-of-turtles",
+    "name": "String of Turtles",
+    "latin": "Peperomia prostrata",
+    "emoji": "\ud83d\udc22",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=String%2Bof%2BTurtles",
+    "tagline": "Tiny round leaves with intricate white veining that really does look like turtle shells. A miniature wonder.",
+    "care": {
+      "water": {
+        "value": "Every 10\u201314 days",
+        "detail": "Let soil dry between waterings. Very drought-tolerant like all peperomias.",
+        "bar": 28
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light brings out the best markings. Too little light fades the pattern.",
+        "bar": 65
+      },
+      "soil": {
+        "value": "Well-draining, airy mix",
+        "detail": "Chunky mix of potting compost and perlite.",
+        "bar": 40
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings on surface",
+        "detail": "Lay stem sections on moist compost and pin down. Roots form at the nodes."
+      },
+      "germination": "Roots in 3\u20135 weeks",
+      "harvest": "Decorative \u2014 tiny trailing stems",
+      "spacing": "20\u201330 cm"
+    },
+    "tips": [
+      "Grows slowly \u2014 be patient and don't overwater while waiting.",
+      "Perfect in a hanging pot or at the edge of a shelf where the trailing stems can hang.",
+      "High humidity helps growth \u2014 but avoid misting directly on the leaves.",
+      "The intricate veining is most visible in bright light."
+    ],
+    "warning": "Non-toxic to humans and pets."
+  },
+  {
+    "id": "rubber-tree-variegated",
+    "name": "Tineke Rubber Plant",
+    "latin": "Ficus elastica 'Tineke'",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Tineke%2BRubber%2BPlant",
+    "tagline": "The variegated version of the classic rubber plant \u2014 creamy white, green, and pink leaves.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3\u20134cm is dry. Overwatering causes root rot.",
+        "bar": 38
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Needs more light than the plain green rubber plant to maintain the variegation.",
+        "bar": 72
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Good quality compost with perlite.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "15\u201327\u00b0C",
+        "detail": "No cold draughts."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Allow the white sap to dry on the cut end before rooting in moist compost."
+      },
+      "germination": "Roots in 4\u20138 weeks",
+      "harvest": "Decorative",
+      "spacing": "60\u201390 cm"
+    },
+    "tips": [
+      "The variegation fades in low light \u2014 brighter spot equals more white and pink in the leaves.",
+      "Wipe the large leaves with a damp cloth monthly.",
+      "New leaves emerge from a red sheath (cataphyll) which falls off naturally.",
+      "The white sap is a skin irritant \u2014 wear gloves when taking cuttings."
+    ],
+    "warning": "Toxic to cats and dogs. The milky sap irritates skin and causes digestive issues if ingested."
+  },
+  {
+    "id": "monstera-adansonii",
+    "name": "Swiss Cheese Vine",
+    "latin": "Monstera adansonii",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Swiss%2BCheese%2BVine",
+    "tagline": "The smaller, more delicate cousin of the iconic monstera. Holey leaves on trailing or climbing vines.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3cm is dry. Overwatering is the main problem.",
+        "bar": 42
+      },
+      "sun": {
+        "value": "Bright indirect light",
+        "detail": "Bright indirect light produces more holes in the leaves. Low light = smaller, less fenestrated leaves.",
+        "bar": 62
+      },
+      "soil": {
+        "value": "Well-draining, airy mix",
+        "detail": "Chunky potting mix with perlite. Roots need air.",
+        "bar": 55
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Take a cutting with a node and root in water or moist compost."
+      },
+      "germination": "Roots in 3\u20135 weeks",
+      "harvest": "Decorative \u2014 trails or climbs",
+      "spacing": "Trails to several metres"
+    },
+    "tips": [
+      "Grows faster and trails further than the large-leaf monstera.",
+      "Give it a pole to climb \u2014 produces bigger, more holey leaves when it can climb.",
+      "The holes in the leaves (fenestrations) are more pronounced in brighter light.",
+      "Very easy to propagate in water \u2014 the nodes root quickly."
+    ],
+    "warning": "Toxic to cats, dogs, and humans if ingested."
+  },
+  {
+    "id": "monstera-thai-constellation",
+    "name": "Thai Constellation Monstera",
+    "latin": "Monstera deliciosa 'Thai Constellation'",
+    "emoji": "\u2b50",
+    "type": "houseplant",
+    "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Thai%2BConstellation%2BMonstera",
+    "tagline": "The most coveted variegated houseplant. Creamy yellow speckled leaves on the iconic monstera. Expensive \u2014 but stunning.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3\u20135cm is dry. Overwatering damages the variegation.",
+        "bar": 38
+      },
+      "sun": {
+        "value": "Bright indirect light \u2014 essential",
+        "detail": "Needs more light than the plain monstera to sustain the white/cream variegation. Low light fades the pattern.",
+        "bar": 72
+      },
+      "soil": {
+        "value": "Well-draining, chunky mix",
+        "detail": "Chunky potting mix with perlite and bark. Excellent aeration essential.",
+        "bar": 58
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "Consistent warmth. No cold draughts."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Cuttings taken below a node. The variegation is genetic \u2014 all propagated plants maintain the pattern."
+      },
+      "germination": "Roots in 4\u20136 weeks",
+      "harvest": "Decorative \u2014 the ultimate statement plant",
+      "spacing": "90\u2013120 cm"
+    },
+    "tips": [
+      "The white/cream sections of the leaves have no chlorophyll \u2014 they cannot photosynthesise. The plant works harder with less green leaf area, so it grows more slowly than regular monstera.",
+      "Give it a moss pole \u2014 it grows bigger fenestrated leaves when it can climb.",
+      "The Thai Constellation is tissue-culture propagated \u2014 meaning the variegation is stable, unlike other variegated monsteras.",
+      "Feed monthly in spring and summer with a balanced fertiliser."
+    ],
+    "warning": "Toxic to cats, dogs, and humans if ingested. Very expensive plant \u2014 insure against pet damage."
+  },
+  {
+    "id": "pothos-marble-queen",
+    "name": "Marble Queen Pothos",
+    "latin": "Epipremnum aureum 'Marble Queen'",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Marble%2BQueen%2BPothos",
+    "tagline": "White and green marbled leaves on the most popular trailing houseplant. Slightly fussier than golden pothos.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3cm is dry. Highly variegated leaves mean slower growth and slightly more care needed.",
+        "bar": 40
+      },
+      "sun": {
+        "value": "Medium to bright indirect",
+        "detail": "Needs more light than green pothos varieties to maintain the white marbling.",
+        "bar": 62
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard potting compost with perlite.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings in water",
+        "detail": "Root in water \u2014 quick and easy."
+      },
+      "germination": "Roots in 1\u20133 weeks",
+      "harvest": "Decorative",
+      "spacing": "Trails widely"
+    },
+    "tips": [
+      "The white sections have no chlorophyll \u2014 the plant grows more slowly than all-green varieties.",
+      "If new leaves come out all white, move to slightly lower light \u2014 the plant is losing too much chlorophyll.",
+      "Propagates easily in water \u2014 a great first propagation project.",
+      "The more white on the leaves, the more light it needs."
+    ],
+    "warning": "Toxic to cats and dogs."
+  },
+  {
+    "id": "pothos-neon",
+    "name": "Neon Pothos",
+    "latin": "Epipremnum aureum 'Neon'",
+    "emoji": "\ud83d\udc9a",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Neon%2BPothos",
+    "tagline": "Electric lime-green leaves that glow in any room. The most vivid and eye-catching pothos variety.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Water when top 3cm is dry.",
+        "bar": 40
+      },
+      "sun": {
+        "value": "Low to bright indirect",
+        "detail": "Tolerates low light but the neon colour fades. Brighter light = more vivid electric green.",
+        "bar": 52
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard compost with perlite.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings in water",
+        "detail": "Root in water in 1\u20132 weeks."
+      },
+      "germination": "Roots in 1\u20132 weeks",
+      "harvest": "Decorative",
+      "spacing": "Trails widely"
+    },
+    "tips": [
+      "The neon colour is most intense in brighter light \u2014 in low light it fades to a more standard green.",
+      "Pairs dramatically with dark-leaved plants like ZZ or rubber plant.",
+      "Grows slightly faster than more variegated pothos varieties.",
+      "Looks spectacular trailing from a hanging pot where the lime-green really pops."
+    ],
+    "warning": "Toxic to cats and dogs."
+  },
+  {
+    "id": "scindapsus",
+    "name": "Scindapsus (Silver Pothos)",
+    "latin": "Scindapsus pictus",
+    "emoji": "\ud83c\udf3f",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Scindapsus%2B%28Silver%2BPothos%29",
+    "tagline": "Velvety dark green leaves with metallic silver splashes. Often mistaken for pothos but richer in texture.",
+    "care": {
+      "water": {
+        "value": "Every 1\u20132 weeks",
+        "detail": "Let top 3\u20134cm dry out. Very drought-tolerant.",
+        "bar": 35
+      },
+      "sun": {
+        "value": "Low to bright indirect",
+        "detail": "Tolerates lower light than most trailing plants. The silver markings are most vivid in bright conditions.",
+        "bar": 50
+      },
+      "soil": {
+        "value": "Well-draining potting mix",
+        "detail": "Standard compost with perlite.",
+        "bar": 50
+      },
+      "temp": {
+        "value": "18\u201327\u00b0C",
+        "detail": "No cold below 15\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Stem cuttings",
+        "detail": "Root in water or moist compost."
+      },
+      "germination": "Roots in 3\u20134 weeks",
+      "harvest": "Decorative \u2014 velvety metallic leaves",
+      "spacing": "Trails widely"
+    },
+    "tips": [
+      "The velvety texture is much more tactile than regular pothos \u2014 worth touching.",
+      "'Argyraeus' variety has small silver spots. 'Exotica' has large silver patches \u2014 even more dramatic.",
+      "Very easy to grow and propagate \u2014 a slightly more unusual alternative to standard pothos.",
+      "The leaves are heavier than pothos so it trails with a satisfying weight."
+    ],
+    "warning": "Toxic to cats and dogs."
+  },
+  {
+    "id": "bird-nest-sansevieria",
+    "name": "Bird's Nest Snake Plant",
+    "latin": "Dracaena trifasciata 'Hahnii'",
+    "emoji": "\ud83c\udf31",
+    "type": "houseplant",
+    "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Bird%27s%2BNest%2BSnake%2BPlant",
+    "tagline": "The compact, rosette form of the snake plant. Perfect for small spaces, shelves, and desks.",
+    "care": {
+      "water": {
+        "value": "Every 3\u20136 weeks",
+        "detail": "Extremely drought-tolerant. Let soil dry completely.",
+        "bar": 12
+      },
+      "sun": {
+        "value": "Any light level",
+        "detail": "Tolerates deep shade to full sun. Virtually impossible to provide wrong light.",
+        "bar": 45
+      },
+      "soil": {
+        "value": "Well-draining, gritty mix",
+        "detail": "Cactus mix or standard compost with grit.",
+        "bar": 22
+      },
+      "temp": {
+        "value": "15\u201330\u00b0C",
+        "detail": "Wide range. No cold below 10\u00b0C."
+      },
+      "seedDepth": {
+        "value": "Division or leaf cuttings",
+        "detail": "Divide the rosette or take leaf sections."
+      },
+      "germination": "Roots in 4\u20138 weeks",
+      "harvest": "Decorative",
+      "spacing": "15\u201325 cm"
+    },
+    "tips": [
+      "Perfect for desks, bookshelves, and bathroom windowsills.",
+      "Stays compact \u2014 never outgrows its space like the tall variety.",
+      "The same near-indestructible care as standard snake plant.",
+      "Groups of three in different pots make a striking arrangement."
+    ],
+    "warning": "Mildly toxic to cats and dogs."
+  }
+]
