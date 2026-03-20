@@ -1,0 +1,386 @@
+[
+  {
+    "id": "strawberry", "name": "Strawberry", "latin": "Fragaria × ananassa", "emoji": "🍓", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Strawberry",
+    "tagline": "The most satisfying fruit to grow at home. Sweet, fast, and perfect for pots and hanging baskets.",
+    "care": { "water": { "value": "Every 1–2 days in heat", "detail": "Keep moist during fruiting. Water at the base — wet fruit causes grey mould.", "bar": 70 }, "sun": { "value": "6–8 hours direct sun", "detail": "More sun equals sweeter fruit. Shade produces leaves but few berries.", "bar": 80 }, "soil": { "value": "Rich, slightly acidic", "detail": "pH 5.5–6.5. Mix in compost. Good drainage essential.", "bar": 60 }, "temp": { "value": "15–26°C optimal", "detail": "Hardy in winter. Best fruit in warm days with cool nights." }, "seedDepth": { "value": "Grown from runners", "detail": "Buy starter plants — growing from seed is slow and unreliable." }, "germination": "Buy plants", "harvest": "June–August", "spacing": "30 cm" },
+    "tips": ["Remove first flowers in year one — the plant roots deeper and gives far more fruit in years two and three.", "Runners (long stems with baby plants at the end) can be pegged into small pots to make free new plants.", "Lay straw under the fruit to keep it off wet soil and prevent rotting.", "Net the plants once berries start forming — birds will strip them overnight."],
+    "warning": "Grey mould thrives in wet conditions. Space plants well and remove any rotting fruit immediately."
+  },
+  {
+    "id": "raspberry", "name": "Raspberry", "latin": "Rubus idaeus", "emoji": "🍓", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Raspberry",
+    "tagline": "One of the most productive and low-maintenance fruits once established. Produces for decades.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep moist during fruiting. Mulch well to retain moisture.", "bar": 65 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for best yields. Tolerates light shade.", "bar": 78 }, "soil": { "value": "Rich, well-draining, slightly acidic", "detail": "Dig in plenty of compost. pH 6.0–6.5 is ideal.", "bar": 65 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy. Canes die back to the ground each winter and regrow." }, "seedDepth": { "value": "Plant bare-root canes", "detail": "Plant bare-root canes in autumn or early spring, 5–8cm deep." }, "germination": "N/A — plant canes", "harvest": "July–August (summer) or Sept–Oct (autumn varieties)", "spacing": "40–45 cm between canes" },
+    "tips": ["After summer raspberries fruit, cut ALL canes that fruited down to the ground. Leave new green canes for next year.", "Autumn varieties are even easier — cut all canes to the ground in February and they fruit on new growth.", "Tie canes to wires or a frame — they flop without support and fruit rots on the ground.", "Mulch heavily with wood chip each spring to suppress weeds and retain moisture."],
+    "warning": "Raspberry beetle grubs inside the fruit are common. They're harmless but unpleasant — a normal part of homegrown raspberries."
+  },
+  {
+    "id": "blueberry", "name": "Blueberry", "latin": "Vaccinium corymbosum", "emoji": "🫐", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Blueberry",
+    "tagline": "Takes patience to establish but produces fruit for 20+ years. The most nutritious berry you can grow.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Needs consistent moisture especially in the first 2 years. Use rainwater — tap water is often too alkaline.", "bar": 65 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for good fruit production and the best flavour.", "bar": 85 }, "soil": { "value": "Very acidic — pH 4.5–5.5", "detail": "Critical. Regular soil will slowly kill blueberries. Use ericaceous (acid) compost only.", "bar": 30 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy. Needs cold winters to fruit well the following summer." }, "seedDepth": { "value": "Buy 2-year-old plants", "detail": "Don't grow from seed. Plant at least two varieties near each other for cross-pollination." }, "germination": "Buy plants", "harvest": "July–September from year 2–3 onwards", "spacing": "1.5 m between plants" },
+    "tips": ["Always use ericaceous compost. Collect rainwater — tap water is too alkaline and will cause yellowing.", "Plant at least two different varieties near each other — they cross-pollinate and produce far more fruit.", "Prune out the oldest, darkest stems every winter to encourage new fruiting wood.", "Mulch with pine bark or wood chip to maintain soil acidity and moisture."],
+    "warning": "Yellow leaves mean the soil pH is too high — the plant cannot access nutrients. Switch to ericaceous compost and water with rainwater immediately."
+  },
+  {
+    "id": "blackcurrant", "name": "Blackcurrant", "latin": "Ribes nigrum", "emoji": "🫐", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Blackcurrant",
+    "tagline": "Incredibly productive and packed with vitamin C. One bush produces kilos of fruit every summer.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep moist especially during fruiting. Drought causes small, sparse berries.", "bar": 62 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for best yields. Tolerates partial shade but produces less fruit.", "bar": 75 }, "soil": { "value": "Rich, well-draining, fertile", "detail": "Dig in generous amounts of compost when planting. Top-dress with compost every autumn.", "bar": 68 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy. The flowers are frost-sensitive in spring — avoid frost pockets." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Take 20cm hardwood cuttings in autumn and push into the ground — they root easily." }, "germination": "Cuttings root over winter", "harvest": "July–August", "spacing": "1.5 m between plants" },
+    "tips": ["After harvesting, cut one-third of the oldest stems down to the ground — new growth produces the best fruit.", "The fruiting stems are easy to strip by running your fingers down the stem over a bowl.", "Blackcurrants are self-fertile — you only need one bush.", "Freeze excess fruit immediately — they freeze beautifully and keep for a year."],
+    "warning": "Big bud mite causes buds to swell abnormally in winter. Remove and destroy affected buds. Persistent infection means replacing the plant."
+  },
+  {
+    "id": "redcurrant", "name": "Redcurrant", "latin": "Ribes rubrum", "emoji": "🍒", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Redcurrant",
+    "tagline": "Beautiful jewel-like clusters of tart red berries. More versatile than blackcurrant and easier to manage.",
+    "care": { "water": { "value": "Every 3 days", "detail": "Keep moist during fruiting. More drought-tolerant than blackcurrant.", "bar": 55 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade better than most fruits — a good choice for less sunny spots.", "bar": 60 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Not as demanding as blackcurrant. Good garden soil with some compost is sufficient.", "bar": 58 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy. Can be grown as a fan against a north-facing wall." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Root easily from hardwood cuttings taken in autumn." }, "germination": "Cuttings root over winter", "harvest": "July", "spacing": "1.5 m" },
+    "tips": ["Train as a cordon (single upright stem) to save space — very productive in a narrow space.", "The berries keep on the plant for several weeks after ripening — no rush to harvest.", "Birds love redcurrants — net the bush as berries start to colour.", "Self-fertile — one bush is enough."],
+    "warning": "Sawfly caterpillars can strip leaves completely in late spring. Check weekly and remove by hand or spray with an appropriate insecticide."
+  },
+  {
+    "id": "gooseberry", "name": "Gooseberry", "latin": "Ribes uva-crispa", "emoji": "🍈", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Gooseberry",
+    "tagline": "Britain's most underrated fruit. Tangy, productive, and virtually self-sufficient once established.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Water during dry spells especially when fruits are swelling.", "bar": 50 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade better than most fruits. Good for north-facing spots.", "bar": 58 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Not fussy. Good garden soil with some compost works well.", "bar": 55 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy. Very tough once established." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Root easily from hardwood cuttings taken in winter." }, "germination": "Cuttings root over winter", "harvest": "June–July — pick green for cooking, ripe for eating", "spacing": "1.2–1.5 m" },
+    "tips": ["Pick some berries green in June for cooking — this thins the crop and remaining berries swell to a larger size.", "Train as a standard (on a single stem like a lollipop) to make harvesting easier and reduce disease.", "Prune to an open goblet shape to improve airflow and reduce powdery mildew.", "Self-fertile — one bush is sufficient."],
+    "warning": "The thorns are vicious. Wear thick gloves when pruning and harvesting. Worth it — the fruit is exceptional."
+  },
+  {
+    "id": "apple", "name": "Apple Tree", "latin": "Malus domestica", "emoji": "🍎", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Apple+Tree",
+    "tagline": "A long-term investment that pays dividends for decades. Even small gardens can fit a dwarf apple tree.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water regularly for the first 2–3 years. Established trees are largely self-sufficient.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for fruiting and disease resistance.", "bar": 85 }, "soil": { "value": "Deep, well-draining, fertile", "detail": "Dig in compost when planting. Mulch annually around the base.", "bar": 65 }, "temp": { "value": "Hardy to -30°C (varies by variety)", "detail": "Needs cold winters for dormancy. Late spring frosts can damage blossom." }, "seedDepth": { "value": "Plant bare-root or container tree", "detail": "Plant bare-root trees in autumn or winter when dormant." }, "germination": "N/A — plant trees", "harvest": "August–November depending on variety", "spacing": "Dwarf: 2–3m. Standard: 6–8m" },
+    "tips": ["Choose a self-fertile variety or plant two compatible varieties nearby for pollination.", "Annual pruning in winter — remove crossing branches, dead wood, and the centre to create an open goblet shape.", "Thin the fruitlets in June — reduce clusters to one or two fruits for larger, better-quality apples.", "Dwarf rootstocks (M9, M26) make management easy for small gardens."],
+    "warning": "Codling moth and apple scab are the two main problems. Both are manageable with good hygiene — pick up fallen fruit and prune for airflow."
+  },
+  {
+    "id": "pear", "name": "Pear Tree", "latin": "Pyrus communis", "emoji": "🍐", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pear+Tree",
+    "tagline": "More elegant than apple and often less disease-prone. Homegrown pears at peak ripeness are sublime.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Regular watering for first 3 years. Established trees largely self-sufficient.", "bar": 42 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential. Pears blossom earlier than apples — avoid frost pockets.", "bar": 85 }, "soil": { "value": "Deep, well-draining, fertile", "detail": "Dig in compost when planting. Deep soil important for good root development.", "bar": 65 }, "temp": { "value": "Hardy to -25°C", "detail": "Hardy but early blossom is frost-sensitive. Avoid growing in frost pockets." }, "seedDepth": { "value": "Plant bare-root or container tree", "detail": "Plant bare-root in autumn or winter." }, "germination": "N/A — plant trees", "harvest": "August–October depending on variety", "spacing": "Dwarf: 3–4m. Standard: 6–8m" },
+    "tips": ["Most pears need two compatible varieties for pollination — check the label carefully before buying.", "Pears ripen off the tree — harvest when they separate easily with a gentle twist, then ripen indoors.", "Fan-train against a warm wall for earlier, better-quality fruit in cooler climates.", "Fireblight is the main disease — infected branches look scorched. Cut back to healthy wood immediately."],
+    "warning": "Pears ripen from the inside out — a pear that feels firm on the outside may be perfect inside. Don't wait for them to feel soft on the tree."
+  },
+  {
+    "id": "plum", "name": "Plum Tree", "latin": "Prunus domestica", "emoji": "🍑", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Plum+Tree",
+    "tagline": "One of the most generous fruit trees. A mature plum can produce more fruit than you know what to do with.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water regularly when young. Established trees need water during dry spells when fruiting.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for the sweetest fruit.", "bar": 85 }, "soil": { "value": "Well-draining, fertile", "detail": "Good garden soil with compost. Plums are less demanding than apples or pears.", "bar": 60 }, "temp": { "value": "Hardy to -20°C", "detail": "Cold-hardy. Early blossom can be damaged by late frosts — avoid frost pockets." }, "seedDepth": { "value": "Plant bare-root or container tree", "detail": "Plant bare-root in autumn or winter when dormant." }, "germination": "N/A — plant trees", "harvest": "July–September depending on variety", "spacing": "4–6m" },
+    "tips": ["Many plum varieties are self-fertile — check before buying if you only have space for one tree.", "Never prune plums in winter — always prune in summer to avoid silver leaf disease.", "Thin heavily laden branches to prevent them snapping under the weight of fruit.", "Victoria is the most reliable and popular variety for home gardens."],
+    "warning": "Silver leaf disease enters through winter pruning wounds. Only prune plums, cherries, and other Prunus species in summer when sap is flowing."
+  },
+  {
+    "id": "cherry", "name": "Cherry Tree", "latin": "Prunus avium", "emoji": "🍒", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cherry+Tree",
+    "tagline": "Spectacular spring blossom followed by jewel-like fruit. Dwarf varieties make it accessible for any garden.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Regular watering while establishing. Reduce once mature.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best fruit. Cherries need warmth to ripen properly.", "bar": 88 }, "soil": { "value": "Well-draining, fertile", "detail": "Good garden soil. Cherries dislike waterlogged conditions.", "bar": 62 }, "temp": { "value": "Hardy to -20°C", "detail": "Hardy but blossom is frost-sensitive. Late frosts can eliminate the crop." }, "seedDepth": { "value": "Plant bare-root or container tree", "detail": "Plant bare-root in autumn or winter." }, "germination": "N/A — plant trees", "harvest": "June–August", "spacing": "Dwarf: 3–4m. Standard: 8–10m" },
+    "tips": ["Self-fertile varieties like Stella and Sunburst remove the need for a pollination partner.", "Net the tree when fruit starts to colour — birds will take every cherry otherwise.", "Dwarf rootstocks (Gisela 5) keep the tree small enough for most gardens.", "Only prune in summer — same as plums — to prevent silver leaf disease."],
+    "warning": "Birds will strip an unprotected cherry tree in hours. Netting is not optional if you want any fruit."
+  },
+  {
+    "id": "peach", "name": "Peach Tree", "latin": "Prunus persica", "emoji": "🍑", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Peach+Tree",
+    "tagline": "A warm, sun-ripened peach from your own garden is one of the finest things in horticulture.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep consistently moist especially when fruit is swelling. Irregular watering causes fruit to split.", "bar": 68 }, "sun": { "value": "8+ hours direct", "detail": "Needs maximum warmth and sun. Fan-training against a south-facing wall is ideal in cool climates.", "bar": 92 }, "soil": { "value": "Well-draining, fertile", "detail": "Good loamy soil. Excellent drainage essential — peaches hate wet roots.", "bar": 65 }, "temp": { "value": "Hardy to -15°C but needs warmth to fruit", "detail": "Cold-hardy but needs warm summers to produce good fruit. Sheltered south-facing position essential." }, "seedDepth": { "value": "Plant container tree", "detail": "Buy a named variety as a container or bare-root tree." }, "germination": "N/A — plant trees", "harvest": "July–September", "spacing": "Fan: 3–4m spread. Freestanding: 4–5m" },
+    "tips": ["Fan-train against a south or west-facing wall — this is the key to reliable crops in cool climates.", "Hand-pollinate the blossom with a soft brush on dry days — insects are scarce when peaches flower in early spring.", "Thin fruit to one per 15cm of branch when they reach marble size — this produces much larger, better fruit.", "Peach leaf curl is the main disease — hang a clear polythene rain shelter over the tree from late winter to May."],
+    "warning": "Peach leaf curl (red blistered leaves) will defoliate the tree if unprotected. A simple rain shelter from January to May prevents it entirely."
+  },
+  {
+    "id": "fig", "name": "Fig Tree", "latin": "Ficus carica", "emoji": "🫐", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Fig+Tree",
+    "tagline": "Dramatic tropical foliage and gloriously sweet fruit. Restricting the roots is the secret to fruiting.",
+    "care": { "water": { "value": "Every 3–4 days in summer", "detail": "Water regularly when in growth. Reduce significantly in winter when dormant.", "bar": 58 }, "sun": { "value": "8+ hours direct", "detail": "Needs maximum warmth and sun. South-facing wall or sheltered courtyard is ideal.", "bar": 92 }, "soil": { "value": "Well-draining, moderately fertile — NOT too rich", "detail": "Poor to moderate soil actually produces better fruit. Too rich soil causes leaves not fruit.", "bar": 40 }, "temp": { "value": "Hardy to -10°C once established", "detail": "Protect young plants from hard frosts. Established plants are surprisingly cold-hardy." }, "seedDepth": { "value": "Plant container tree or cuttings", "detail": "Take hardwood cuttings in winter — they root easily. Or buy a plant." }, "germination": "Cuttings root in spring", "harvest": "August–October", "spacing": "3–5m but restrict roots" },
+    "tips": ["Plant in a large container or restrict roots by planting in a bottomless box — this is the key to fruiting. Unrestricted roots produce leaves not figs.", "Two crops per year are possible — tiny embryo figs visible in autumn are next year's main crop. Protect them from hard frosts.", "In autumn, remove any large unripe figs — they won't ripen and waste the plant's energy.", "Brown Turkey is the most reliable variety for cool climates."],
+    "warning": "Restricting the roots is non-negotiable for fruit production. An unrestricted fig tree in rich soil will grow enormous and produce almost no fruit."
+  },
+  {
+    "id": "grape", "name": "Grape Vine", "latin": "Vitis vinifera", "emoji": "🍇", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Grape+Vine",
+    "tagline": "Dramatically productive when well-pruned. Grow over a pergola for fruit, shade, and stunning autumn colour.",
+    "care": { "water": { "value": "Weekly in growing season", "detail": "Water regularly when young. Established vines are drought-tolerant. Reduce watering as grapes ripen.", "bar": 45 }, "sun": { "value": "8+ hours direct", "detail": "Maximum sun and warmth essential. South-facing wall or greenhouse for reliable crops in cool climates.", "bar": 92 }, "soil": { "value": "Well-draining, poor to moderate fertility", "detail": "Deep, well-draining soil. NOT rich — over-fertile soil produces leaves not grapes.", "bar": 35 }, "temp": { "value": "Hardy to -15°C (varies by variety)", "detail": "Many varieties are cold-hardy. Desert varieties need greenhouse protection in cool climates." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Take hardwood cuttings in winter — they root reliably. Or buy a young plant." }, "germination": "Cuttings root in spring", "harvest": "September–October", "spacing": "1.2–1.5m between vines" },
+    "tips": ["Pruning is everything with grapes — without annual hard pruning you get leaves and no fruit. Learn the Guyot or spur pruning system.", "Thin grape clusters by removing some berries — this improves air circulation and increases the size of remaining grapes.", "For outdoor growing in cool climates, choose varieties specifically bred for northern growing like Solaris or Regent.", "Indoor greenhouse grapes (Black Hamburg, Muscat) produce reliably in almost any climate."],
+    "warning": "Without proper annual pruning, a grape vine quickly becomes an unmanageable tangle that produces no fruit. Pruning is not optional."
+  },
+  {
+    "id": "kiwi", "name": "Kiwi Vine", "latin": "Actinidia deliciosa", "emoji": "🥝", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Kiwi+Vine",
+    "tagline": "Surprisingly hardy and vigorous. Given space and sun, produces dozens of kiwi fruits every autumn.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep consistently moist during growing season. Drought causes fruit drop.", "bar": 65 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential. Sheltered position important — protect from strong winds.", "bar": 85 }, "soil": { "value": "Rich, well-draining", "detail": "Deep, fertile, well-draining soil. Feed monthly during growing season.", "bar": 68 }, "temp": { "value": "Hardy to -12°C once established", "detail": "Surprisingly cold-hardy. Young plants need frost protection for first 2 winters." }, "seedDepth": { "value": "Buy male and female plants", "detail": "You need one male plant to every 6 female plants for pollination." }, "germination": "N/A — buy plants", "harvest": "October–November", "spacing": "3–5m — very vigorous climber" },
+    "tips": ["You need at least one male plant to pollinate the female fruiting plants — check labels carefully.", "Hardy kiwi (Actinidia arguta) produces grape-sized fruits and is even more cold-hardy — a better choice for cool climates.", "Prune side shoots back to 5 leaves in summer to control vigour and encourage fruiting spurs.", "Give it a very strong support structure — mature kiwi vines become extremely heavy."],
+    "warning": "Needs a very robust support — a mature kiwi vine can weigh hundreds of kilograms. A weak trellis will eventually collapse."
+  },
+  {
+    "id": "melon", "name": "Cantaloupe Melon", "latin": "Cucumis melo", "emoji": "🍈", "type": "fruit", "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cantaloupe+Melon",
+    "tagline": "Challenging but the reward — a sun-warm melon from your own garden — is exceptional.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep moist but reduce watering significantly as fruit ripens to concentrate the sugars.", "bar": 72 }, "sun": { "value": "8+ hours direct", "detail": "Maximum sun and heat. Greenhouse or polytunnel essential in cool climates.", "bar": 95 }, "soil": { "value": "Very rich, well-draining", "detail": "Plant into generous amounts of compost. Feed weekly with high-potassium fertiliser.", "bar": 82 }, "temp": { "value": "25–35°C optimal", "detail": "Demands sustained heat. A cold summer produces no ripe fruit." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Start indoors 3–4 weeks before last frost. Plant in the warmest spot possible." }, "germination": "7–10 days", "harvest": "70–90 days from transplant", "spacing": "60–90 cm" },
+    "tips": ["Train to a single main stem. Pinch out side shoots and allow only 3–4 fruits to develop per plant.", "Support developing fruit in nets or old tights tied to the trellis.", "Reduce watering significantly when fruit is nearly ripe — this concentrates the sugars dramatically.", "Ripe melons smell sweet near the stem end and separate from the vine with a gentle twist."],
+    "warning": "Requires sustained high temperatures to ripen properly. In cool climates, expect failure without a greenhouse."
+  },
+  {
+    "id": "watermelon", "name": "Watermelon", "latin": "Citrullus lanatus", "emoji": "🍉", "type": "fruit", "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Watermelon",
+    "tagline": "Possible in warm summers with the right variety. A homegrown watermelon is an extraordinary achievement.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep moist during fruit development. Reduce dramatically as fruit ripens.", "bar": 68 }, "sun": { "value": "8+ hours direct", "detail": "Demands maximum heat and sunlight.", "bar": 95 }, "soil": { "value": "Very rich, well-draining, sandy", "detail": "Sandy, nutrient-rich soil with excellent drainage.", "bar": 78 }, "temp": { "value": "28–35°C optimal", "detail": "Needs hot days and warm nights. Very long season required." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Start indoors 4–5 weeks before last frost." }, "germination": "7–10 days", "harvest": "70–90 days from transplant", "spacing": "1.5–2 m" },
+    "tips": ["Choose small-fruited icebox varieties for cool climates — they mature faster.", "The hollow sound when tapped and the yellowing of the ground spot signal ripeness.", "Limit to 2–3 fruits per plant for the largest, sweetest melons.", "Plant through black plastic mulch to maximise soil temperature."],
+    "warning": "Needs a very long hot season. Challenging even in warm climates. Choose early-maturing varieties."
+  },
+  {
+    "id": "lemon", "name": "Lemon Tree", "latin": "Citrus limon", "emoji": "🍋", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lemon+Tree",
+    "tagline": "Possible even in cool climates in a pot. The flowers smell incredible and the fruit is a real achievement.",
+    "care": { "water": { "value": "Every 3–5 days", "detail": "Water when top 3–4cm of soil is dry. Never waterlogged. Use room-temperature water.", "bar": 55 }, "sun": { "value": "8+ hours direct", "detail": "As much sun as possible. South-facing wall or greenhouse. Outdoors in summer only in cool climates.", "bar": 95 }, "soil": { "value": "Citrus-specific or well-draining mix", "detail": "Use citrus compost. Must drain fast — never sit in water.", "bar": 58 }, "temp": { "value": "Bring indoors below 10°C", "detail": "Not frost-hardy. In cool climates: outside in summer, bright cool room in winter." }, "seedDepth": { "value": "Buy a grafted tree", "detail": "Seed-grown lemons take 7–15 years to fruit. Buy a grafted tree for fruit in 2–3 years." }, "germination": "Buy grafted tree", "harvest": "Year-round on established trees", "spacing": "Container plant" },
+    "tips": ["Feed with citrus fertiliser every month from spring to autumn — yellowing leaves usually mean nutrient deficiency.", "Move outside in late May when nights are above 10°C. Move back inside in September.", "Inconsistent watering causes fruit drop. Keep moisture consistent.", "Dry indoor air in winter causes leaf drop — mist the leaves occasionally or use a pebble tray."],
+    "warning": "Scale insects (brown lumps on stems) are the main pest on indoor citrus. Check monthly and treat early with neem oil."
+  },
+  {
+    "id": "orange", "name": "Orange Tree", "latin": "Citrus sinensis", "emoji": "🍊", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Orange+Tree",
+    "tagline": "Fragrant flowers and vivid fruit in a pot. More demanding than lemons but spectacular when it works.",
+    "care": { "water": { "value": "Every 3–5 days", "detail": "Water when top 3–4cm is dry. Consistent moisture is key — fluctuations cause fruit drop.", "bar": 55 }, "sun": { "value": "8+ hours direct", "detail": "More sun-demanding than lemons. South-facing greenhouse is ideal in cool climates.", "bar": 95 }, "soil": { "value": "Citrus compost", "detail": "Specialist citrus compost essential for correct pH and drainage.", "bar": 58 }, "temp": { "value": "Bring indoors below 12°C", "detail": "Slightly less cold-tolerant than lemons. Keep above 12°C in winter." }, "seedDepth": { "value": "Buy a grafted tree", "detail": "Always buy a grafted tree — seed-grown takes too long to fruit." }, "germination": "Buy grafted tree", "harvest": "Winter–spring on established trees", "spacing": "Container plant" },
+    "tips": ["Feed monthly with citrus fertiliser year-round, increasing frequency in summer.", "The fragrance of the flowers is extraordinary — worth growing for the scent alone.", "Calamondin orange is easier than sweet orange and produces fruit more reliably in cool climates.", "Repot every 2–3 years into a slightly larger pot in spring."],
+    "warning": "Needs more warmth than lemons to produce good fruit. In cool climates a heated greenhouse gives much better results than a windowsill."
+  },
+  {
+    "id": "lime", "name": "Lime Tree", "latin": "Citrus aurantiifolia", "emoji": "🍋", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lime+Tree",
+    "tagline": "The most aromatic citrus you can grow. Even the leaves are fragrant and useful in cooking.",
+    "care": { "water": { "value": "Every 3–5 days", "detail": "Water consistently. Limes are more sensitive to drought than other citrus.", "bar": 58 }, "sun": { "value": "8+ hours direct", "detail": "Needs maximum sun. More heat-demanding than lemons.", "bar": 95 }, "soil": { "value": "Citrus compost", "detail": "Specialist citrus compost. Excellent drainage essential.", "bar": 55 }, "temp": { "value": "Bring indoors below 12°C", "detail": "Less cold-tolerant than lemons. Must be kept warm." }, "seedDepth": { "value": "Buy a grafted tree", "detail": "Always buy grafted — not from seed." }, "germination": "Buy grafted tree", "harvest": "Year-round on established trees", "spacing": "Container plant" },
+    "tips": ["Kaffir lime (Citrus hystrix) is easier to grow and the leaves are the primary culinary use.", "Feed monthly with citrus fertiliser.", "The Persian lime (seedless) is the most productive variety for container growing.", "Move outside in summer to the hottest, most sheltered spot available."],
+    "warning": "More cold-sensitive than lemons. Must come indoors earlier in autumn."
+  },
+  {
+    "id": "avocado", "name": "Avocado", "latin": "Persea americana", "emoji": "🥑", "type": "fruit", "difficulty": "hard",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Avocado",
+    "tagline": "Growing an avocado from a pit is a satisfying houseplant project — fruiting requires patience of years.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Water when top 3–4cm is dry. Tolerates some drought but hates waterlogging.", "bar": 52 }, "sun": { "value": "6+ hours direct", "detail": "Needs maximum light. A south-facing window or conservatory.", "bar": 90 }, "soil": { "value": "Well-draining, slightly acidic", "detail": "Good potting compost with excellent drainage. pH 6.0–6.5.", "bar": 55 }, "temp": { "value": "Above 13°C at all times", "detail": "Tropical plant. Not frost-hardy. Needs warm conditions year-round." }, "seedDepth": { "value": "Pit suspended over water", "detail": "Push 3 toothpicks into the pit and suspend over a glass of water, broad end down. Roots in 2–6 weeks." }, "germination": "2–6 weeks in water", "harvest": "Rarely fruits outside tropical climates", "spacing": "Container plant — can become a large tree" },
+    "tips": ["Growing from the pit produces a beautiful houseplant but fruiting takes 5–13 years and rarely happens outside tropical climates.", "Pinch out the growing tip when 15cm tall to encourage a bushy rather than leggy plant.", "Feed monthly with a balanced fertiliser during the growing season.", "The real achievement is a healthy, beautiful houseplant — manage expectations about fruit."],
+    "warning": "Fruiting in cool climates is extremely unlikely from a pit-grown plant. Grow it as a beautiful tropical houseplant rather than expecting fruit."
+  },
+  {
+    "id": "passion-fruit", "name": "Passion Fruit", "latin": "Passiflora edulis", "emoji": "🍊", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Passion+Fruit",
+    "tagline": "Extraordinary flowers and tangy tropical fruit. Surprisingly possible in warm sheltered gardens or greenhouses.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist. Drought causes flower and fruit drop.", "bar": 65 }, "sun": { "value": "8+ hours direct", "detail": "Maximum sun and warmth. Greenhouse or very sheltered south-facing position.", "bar": 92 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost-rich soil with excellent drainage. Feed weekly during growing season.", "bar": 68 }, "temp": { "value": "Minimum 10°C — protect from frost", "detail": "Frost-sensitive. In cool climates grow in a greenhouse or bring indoors in winter." }, "seedDepth": { "value": "Seeds 1–2 cm deep", "detail": "Soak seeds overnight before sowing. Germination needs warmth (25°C+)." }, "germination": "2–4 weeks in warmth", "harvest": "Fruit when skin wrinkles — 70–80 days from fruit set", "spacing": "2–3m — vigorous climber" },
+    "tips": ["Hand-pollinate flowers with a soft brush — transfer pollen between flowers on the same plant for fruit set.", "The fruit is ripe when the skin wrinkles — don't harvest before this.", "Prune back hard after fruiting to keep the plant manageable.", "P. caerulea (blue passion flower) is hardier and produces small edible fruits in warm summers."],
+    "warning": "Needs sustained warmth to fruit. In cool climates, a greenhouse is required for reliable fruiting."
+  },
+  {
+    "id": "quince", "name": "Quince Tree", "latin": "Cydonia oblonga", "emoji": "🍐", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Quince+Tree",
+    "tagline": "Beautiful pink spring blossom, golden autumn fruit, and the most intense fragrance of any fruit tree.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water regularly when establishing. Drought-tolerant once mature.", "bar": 42 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best fruit. Tolerates some shade.", "bar": 78 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Adaptable to most soils. Tolerates heavier clay better than most fruit trees.", "bar": 55 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy. One of the most adaptable fruit trees." }, "seedDepth": { "value": "Plant bare-root or container tree", "detail": "Plant bare-root in autumn or winter." }, "germination": "N/A — plant trees", "harvest": "October–November", "spacing": "4–5m" },
+    "tips": ["Quince fruit is inedible raw — it must be cooked. It makes the finest jelly, membrillo (quince paste), and poached desserts.", "Self-fertile — one tree is sufficient.", "The fruit has such an intense fragrance that storing them in a bowl perfumes an entire room.", "Fireblight can affect quince — cut back infected material to healthy wood immediately."],
+    "warning": "Raw quince is astringent and unpleasant — always cook before eating. The cooked fruit is extraordinary."
+  },
+  {
+    "id": "medlar", "name": "Medlar Tree", "latin": "Mespilus germanica", "emoji": "🍂", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Medlar+Tree",
+    "tagline": "An ancient, beautiful tree that virtually looks after itself. The fruit requires bletting (partial rotting) before eating.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Extremely drought-tolerant once mature.", "bar": 35 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade better than most fruit trees.", "bar": 60 }, "soil": { "value": "Any well-draining soil", "detail": "Exceptionally adaptable. Grows in poor, clay, or chalky soils.", "bar": 38 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy. One of the toughest fruit trees." }, "seedDepth": { "value": "Plant bare-root or container tree", "detail": "Plant bare-root in autumn or winter." }, "germination": "N/A — plant trees", "harvest": "October–November — blet for 2–3 weeks after", "spacing": "4–6m" },
+    "tips": ["Blet the fruit after harvest — leave in a cool dry place until the flesh softens and turns brown (2–3 weeks). This is essential before eating.", "Self-fertile — one tree is sufficient.", "Beautiful twisted branching structure makes it ornamental in winter.", "One of the most low-maintenance fruit trees you can grow."],
+    "warning": "Freshly harvested medlars are inedible — they must be bletted until soft and brown before the flavour develops. This is not a sign of rotting."
+  },
+  {
+    "id": "elderberry", "name": "Elderberry", "latin": "Sambucus nigra", "emoji": "🫐", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Elderberry",
+    "tagline": "Fragrant flower clusters for cordial in early summer, then black berries for wine, jam, and medicine.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water regularly for first 2 years. Extremely drought-tolerant once established.", "bar": 38 }, "sun": { "value": "4–8 hours", "detail": "Adaptable — grows in full sun or partial shade.", "bar": 58 }, "soil": { "value": "Any reasonable soil", "detail": "Very adaptable. Grows in almost any soil including clay.", "bar": 40 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Hardwood cuttings in winter root easily. Or buy a small plant." }, "germination": "Cuttings root in spring", "harvest": "Flowers in June, berries in August–September", "spacing": "3–5 m — grows into a large shrub" },
+    "tips": ["Harvest flowers on dry days in the morning before the fragrance diminishes.", "The berries must be cooked before eating — raw berries cause nausea.", "Cut back hard every year or two to encourage vigorous growth and the best flowers.", "Both the flowers and cooked berries have significant medicinal properties — widely used in traditional medicine."],
+    "warning": "All parts except ripe cooked berries and flowers are toxic. Never eat the leaves, bark, roots, or raw berries."
+  },
+  {
+    "id": "damson", "name": "Damson Tree", "latin": "Prunus insititia", "emoji": "🍑", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Damson+Tree",
+    "tagline": "The toughest and most reliable of all stone fruits. Deep purple fruit with an intense sharp flavour for cooking.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Very drought-tolerant once mature.", "bar": 38 }, "sun": { "value": "4–6 hours", "detail": "More shade-tolerant than other plums. Good for less sunny spots.", "bar": 65 }, "soil": { "value": "Any reasonable soil", "detail": "Very adaptable. Tolerates heavier, wetter soil than most fruit trees.", "bar": 42 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy. More resilient than dessert plums." }, "seedDepth": { "value": "Plant bare-root or container tree", "detail": "Plant bare-root in autumn or winter." }, "germination": "N/A — plant trees", "harvest": "September–October", "spacing": "3–5m" },
+    "tips": ["Self-fertile — one tree is sufficient.", "The fruit is too sharp to eat raw but makes the finest jam, gin, and crumble of any plum.", "Only prune in summer — same rule as all Prunus to avoid silver leaf disease.", "One of the most reliable and low-maintenance fruit trees for cold, exposed, or difficult sites."],
+    "warning": "Damsons are not for eating raw — the intense sharpness is unpleasant. Cooked or preserved, they're exceptional."
+  },
+  {
+    "id": "mulberry", "name": "Mulberry Tree", "latin": "Morus nigra", "emoji": "🫐", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Mulberry+Tree",
+    "tagline": "A slow-growing but very long-lived tree producing extraordinary dark red-black fruit that stains everything.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water regularly when establishing. Drought-tolerant once mature.", "bar": 40 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best, sweetest fruit.", "bar": 82 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good garden soil. Not particularly demanding.", "bar": 55 }, "temp": { "value": "Hardy to -15°C", "detail": "Cold-hardy once established. Young plants need frost protection." }, "seedDepth": { "value": "Plant container tree", "detail": "Very slow from seed. Buy a named container tree." }, "germination": "N/A — buy trees", "harvest": "August–September", "spacing": "6–8m — grows slowly but large" },
+    "tips": ["Spread a sheet under the tree and shake the branches — ripe mulberries fall easily.", "The juice stains clothes, paving, and skin permanently. Site carefully and wear old clothes when harvesting.", "Very slow-growing — plant as a gift to the future and to future owners of the garden.", "Self-fertile — one tree is sufficient."],
+    "warning": "The fruit stains absolutely everything it touches — clothes, paving, walls. Position the tree accordingly and wear old clothes at harvest time."
+  },
+  {
+    "id": "apricot", "name": "Apricot Tree", "latin": "Prunus armeniaca", "emoji": "🍑", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Apricot+Tree",
+    "tagline": "The most rewarding stone fruit to grow well. Sun-warm apricots from the garden are in a different category.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep moist especially when fruit is swelling. Irregular watering causes fruit to split.", "bar": 65 }, "sun": { "value": "8+ hours direct", "detail": "Maximum sun and warmth. Fan-train against a south-facing wall in cool climates.", "bar": 92 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good, free-draining soil. Apricots hate wet roots.", "bar": 60 }, "temp": { "value": "Hardy to -20°C but needs warmth to fruit", "detail": "The tree is cold-hardy but the early blossom is very frost-sensitive." }, "seedDepth": { "value": "Plant bare-root or container tree", "detail": "Buy a named variety — self-fertile varieties like Flavorcot are best." }, "germination": "N/A — plant trees", "harvest": "July–August", "spacing": "Fan: 3–5m spread. Freestanding: 4–5m" },
+    "tips": ["Fan-train against a south-facing wall — this is the key to reliable crops in cool climates.", "Hand-pollinate blossom with a soft brush — blossom opens in late winter when few insects are active.", "Protect blossom from frost with fleece on cold nights in spring.", "Thin fruit to one per 7cm of branch for the best quality."],
+    "warning": "Late frosts kill the blossom and eliminate the entire crop. Protecting the blossom with fleece on cold nights is essential."
+  },
+  {
+    "id": "nectarine", "name": "Nectarine Tree", "latin": "Prunus persica var. nucipersica", "emoji": "🍑", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Nectarine",
+    "tagline": "A smooth-skinned peach with an even more intense flavour. Same care as peach but slightly more tender.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Consistent moisture essential. Drought causes fruit drop and splitting.", "bar": 68 }, "sun": { "value": "8+ hours direct", "detail": "Needs maximum warmth. Fan against a south-facing wall or greenhouse.", "bar": 92 }, "soil": { "value": "Well-draining, fertile", "detail": "Good loamy soil with excellent drainage.", "bar": 65 }, "temp": { "value": "Hardy to -15°C but needs warmth", "detail": "Slightly less cold-tolerant than peaches. Protected position essential." }, "seedDepth": { "value": "Plant container tree", "detail": "Buy a named variety as a container or bare-root tree." }, "germination": "N/A — plant trees", "harvest": "July–September", "spacing": "Fan: 3–4m. Freestanding: 4–5m" },
+    "tips": ["All the same care as peach — fan-training, hand pollination, thinning, and peach leaf curl protection.", "Slightly more demanding than peaches — a greenhouse gives much more reliable results.", "Lord Napier and Pineapple are reliable varieties for cooler climates.", "Self-fertile — one tree is sufficient."],
+    "warning": "Peach leaf curl affects nectarines just as badly as peaches. A rain shelter from January to May is essential."
+  },
+  {
+    "id": "blackberry", "name": "Blackberry", "latin": "Rubus fruticosus", "emoji": "🫐", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Blackberry",
+    "tagline": "Enormously productive and virtually indestructible. Thornless varieties make harvesting a pleasure.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep moist during fruiting. More drought-tolerant than raspberries.", "bar": 58 }, "sun": { "value": "4–8 hours", "detail": "Tolerates partial shade better than most fruits. Full sun for best yields.", "bar": 65 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Adaptable to most soils. Not as demanding as raspberries.", "bar": 55 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy. Essentially indestructible once established." }, "seedDepth": { "value": "Plant canes or tip layer", "detail": "Buy canes or propagate for free by tip layering — push a long cane tip into soil and it roots." }, "germination": "N/A — plant canes", "harvest": "August–October", "spacing": "2–3m between plants" },
+    "tips": ["Choose thornless varieties (Loch Ness, Waldo) — the fruit is identical and harvesting is infinitely more pleasant.", "Same pruning system as raspberries — cut fruited canes to the ground after harvest, tie in new canes.", "Train along wires to contain the vigorous growth and make picking easier.", "Tip layering is free propagation — push a long cane tip into soil in summer, it roots within weeks."],
+    "warning": "Thorned varieties are genuinely ferocious. Thornless varieties are strongly recommended for garden use."
+  },
+  {
+    "id": "loganberry", "name": "Loganberry", "latin": "Rubus × loganobaccus", "emoji": "🍓", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Loganberry",
+    "tagline": "A raspberry-blackberry hybrid with long, dark red fruit and an intense, complex flavour.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep moist during fruiting.", "bar": 60 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for best yields and flavour.", "bar": 78 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost-rich soil.", "bar": 65 }, "temp": { "value": "Hardy to -15°C", "detail": "Cold-hardy once established." }, "seedDepth": { "value": "Plant canes or tip layer", "detail": "Same propagation as blackberry — tip layering works well." }, "germination": "N/A — plant canes", "harvest": "July–August", "spacing": "2–3m" },
+    "tips": ["Same pruning system as raspberries and blackberries — cut fruited canes to the ground after harvest.", "The flavour is more intense than either raspberry or blackberry — excellent for jam.", "Less productive than blackberry but the flavour makes it worth growing.", "Train along wires to manage the vigorous growth."],
+    "warning": "Has thorns — not as vicious as blackberry but wear gloves when pruning."
+  },
+  {
+    "id": "tayberry", "name": "Tayberry", "latin": "Rubus fruticosus × idaeus", "emoji": "🍓", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Tayberry",
+    "tagline": "A raspberry-blackberry cross with large, dark red fruit and exceptional flavour. Less common but superb.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep moist during the growing and fruiting season.", "bar": 60 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for best results.", "bar": 78 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost-rich soil.", "bar": 65 }, "temp": { "value": "Hardy to -15°C", "detail": "Cold-hardy once established." }, "seedDepth": { "value": "Plant canes", "detail": "Buy canes from a specialist fruit nursery." }, "germination": "N/A — plant canes", "harvest": "July–August", "spacing": "2–3m" },
+    "tips": ["Larger and sweeter than loganberry — excellent for eating fresh as well as cooking.", "Same pruning as all hybrid berries — cut fruited canes to the ground after harvest.", "Produces over a longer period than raspberries alone.", "Thorned — wear gloves when working with the plants."],
+    "warning": "Less widely available than other berries — order from specialist fruit nurseries."
+  },
+  {
+    "id": "jostaberry", "name": "Jostaberry", "latin": "Ribes × nidigrolaria", "emoji": "🫐", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Jostaberry",
+    "tagline": "A blackcurrant-gooseberry cross with large, sweet-tart berries and none of the gooseberry thorns.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist during fruiting. Reasonably drought-tolerant.", "bar": 52 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade well.", "bar": 60 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good garden soil with some compost.", "bar": 55 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy and disease-resistant." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Roots easily from hardwood cuttings taken in autumn." }, "germination": "Cuttings root over winter", "harvest": "July–August", "spacing": "1.5–2m" },
+    "tips": ["Completely thornless — much easier to harvest than gooseberry.", "More disease-resistant than blackcurrant — rarely affected by big bud mite or mildew.", "Self-fertile — one plant is sufficient.", "The large berries can be eaten fresh when fully ripe, unlike blackcurrant."],
+    "warning": "Non-toxic. One of the most problem-free soft fruits you can grow."
+  },
+  {
+    "id": "honeyberry", "name": "Honeyberry", "latin": "Lonicera caerulea", "emoji": "🫐", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Honeyberry",
+    "tagline": "The earliest fruiting berry — ready before strawberries. Elongated blue fruit with a blueberry-raspberry flavour.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist. Reasonably drought-tolerant once established.", "bar": 50 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for best yields.", "bar": 80 }, "soil": { "value": "Well-draining, slightly acidic", "detail": "pH 5.5–7.0. More adaptable than blueberry.", "bar": 52 }, "temp": { "value": "Hardy to -40°C", "detail": "Extraordinarily cold-hardy. One of the most frost-tolerant fruit plants." }, "seedDepth": { "value": "Buy plants — need two varieties", "detail": "Need at least two different varieties for cross-pollination." }, "germination": "Buy plants", "harvest": "May–June — the earliest fruit of the year", "spacing": "1.5m between plants" },
+    "tips": ["One of the very first fruits of the year — ready weeks before strawberries.", "Must plant at least two different varieties for pollination.", "More adaptable than blueberry — tolerates a wider pH range and colder conditions.", "The early fruit makes it invaluable for hungry gap gardening."],
+    "warning": "Two varieties are required for pollination — a single plant will produce very little or no fruit."
+  },
+  {
+    "id": "goji-berry", "name": "Goji Berry", "latin": "Lycium barbarum", "emoji": "🍒", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Goji+Berry",
+    "tagline": "The superfruit you can grow in your own garden. Incredibly hardy and produces for decades.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant once established. Don't overwater.", "bar": 40 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best fruit production.", "bar": 85 }, "soil": { "value": "Well-draining, alkaline to neutral", "detail": "Prefers slightly alkaline soil. Very adaptable overall.", "bar": 42 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy perennial shrub." }, "seedDepth": { "value": "Seeds 0.5cm deep or buy a plant", "detail": "Grows readily from seed or buy a young plant for faster fruiting." }, "germination": "14–21 days", "harvest": "August–October from year 2–3", "spacing": "1–2m" },
+    "tips": ["Grows vigorously and can spread by suckers — plant in a contained area or pot.", "Berries must be ripe (bright red) before harvesting — underripe berries are bitter.", "Can be trained as a hedge or left to grow as an informal shrub.", "Dried goji berries from the supermarket can be planted — soak overnight and the seeds germinate easily."],
+    "warning": "Can spread aggressively via underground suckers. Consider growing in a large container to contain it."
+  },
+  {
+    "id": "sea-buckthorn", "name": "Sea Buckthorn", "latin": "Hippophae rhamnoides", "emoji": "🍊", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sea+Buckthorn",
+    "tagline": "Vivid orange berries packed with vitamins. Incredibly tough — thrives in coastal, exposed, or sandy conditions.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Extremely drought-tolerant once established. Essentially self-sufficient.", "bar": 18 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 88 }, "soil": { "value": "Any well-draining soil, even poor sandy", "detail": "Thrives in poor, sandy, coastal soil where little else grows.", "bar": 22 }, "temp": { "value": "Hardy to -40°C", "detail": "Extraordinarily cold-hardy." }, "seedDepth": { "value": "Buy male and female plants", "detail": "Need one male plant to every 6 female plants. Only female plants produce berries." }, "germination": "N/A — buy plants", "harvest": "September–November", "spacing": "2–3m" },
+    "tips": ["You need both male and female plants — only females fruit, males just pollinate.", "The berries are very difficult to harvest — the stems are covered in thorns. Freeze the whole branch and strip frozen.", "The berries are too tart to eat raw for most people but make excellent juice, jam, and oil.", "Excellent windbreak and coastal garden plant."],
+    "warning": "Very thorny — wear thick gloves when harvesting or pruning. The freezing harvesting technique is strongly recommended."
+  },
+  {
+    "id": "rhubarb", "name": "Rhubarb", "latin": "Rheum × hybridum", "emoji": "🌿", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rhubarb",
+    "tagline": "Plant once, harvest for 20+ years. Enormous productive plants with reliable stems every spring.",
+    "care": { "water": { "value": "Weekly", "detail": "Water regularly in dry spells during the growing season. Very drought-tolerant otherwise.", "bar": 42 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade better than most vegetables.", "bar": 60 }, "soil": { "value": "Very rich, well-draining", "detail": "Dig in huge amounts of compost at planting. Top-dress with compost every autumn.", "bar": 72 }, "temp": { "value": "Hardy to -25°C", "detail": "Needs cold winters to break dormancy properly. Very cold-hardy." }, "seedDepth": { "value": "Plant crowns at surface level", "detail": "Plant crowns in spring with the growing bud just at or slightly above soil level." }, "germination": "Buy crowns — don't grow from seed", "harvest": "Don't harvest year 1. Then April–June from year 2", "spacing": "90 cm — they spread to a large clump" },
+    "tips": ["Don't harvest a single stem in the first year — let the plant establish fully.", "Forced rhubarb (covering with a bucket in February) produces tender, sweeter, pink stems 3–4 weeks earlier.", "Remove flower stalks immediately — flowering weakens the plant.", "Split the crown every 5–6 years to maintain vigour and create new plants."],
+    "warning": "The leaves are highly toxic — oxalic acid levels are dangerous. Only ever eat the stems. Never put leaves in cooking or eat them."
+  },
+  {
+    "id": "physalis", "name": "Cape Gooseberry", "latin": "Physalis peruviana", "emoji": "🍊", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cape+Gooseberry",
+    "tagline": "Golden berries wrapped in papery lanterns. Sweet-tart flavour and very ornamental.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist. Drought causes fruit to be small and sparse.", "bar": 62 }, "sun": { "value": "6–8 hours direct", "detail": "Full sun for the best fruit production.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good potting compost. Not too rich — over-feeding produces leaves not fruit.", "bar": 58 }, "temp": { "value": "Not frost-hardy — 15–25°C", "detail": "Treat as a half-hardy annual in cool climates. Start indoors and move out after last frost." }, "seedDepth": { "value": "0.5cm deep", "detail": "Start indoors 8–10 weeks before last frost." }, "germination": "14–21 days", "harvest": "August–October — when papery husk turns brown", "spacing": "60–90cm" },
+    "tips": ["Harvest when the papery husk turns brown and papery — the fruit inside will be golden.", "Can be overwintered indoors as a perennial in cool climates — bring in before first frost.", "Stake the plants — they become large and top-heavy.", "The fruit keeps for weeks inside the papery husk — better storage than most soft fruits."],
+    "warning": "The unripe fruit and all green parts are toxic. Only eat fruit when the husk is fully brown and papery and the berry inside is golden."
+  },
+  {
+    "id": "cranberry", "name": "Cranberry", "latin": "Vaccinium macrocarpon", "emoji": "🍒", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cranberry",
+    "tagline": "A ground-covering acid-loving berry that produces the famous tart red fruit used in sauces and juices.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist. Cranberries love water — they naturally grow in boggy conditions.", "bar": 78 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for best fruit production.", "bar": 82 }, "soil": { "value": "Very acidic, moisture-retaining — pH 4.0–5.5", "detail": "Ericaceous (acid) compost is essential. Cranberries need acidic, moist, peaty conditions.", "bar": 30 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "Buy plants", "detail": "Buy young plants and plant in large containers of ericaceous compost." }, "germination": "Buy plants", "harvest": "October–November", "spacing": "30–45cm — spreads as groundcover" },
+    "tips": ["Grow in large containers of ericaceous compost — acidic conditions are non-negotiable.", "Keep consistently moist — cranberries love water.", "Use rainwater for watering — tap water is too alkaline.", "Can be grown as an attractive evergreen ground cover."],
+    "warning": "The extremely acidic, moist soil requirements make cranberries challenging in normal garden conditions. Containers with ericaceous compost are the most reliable approach."
+  },
+  {
+    "id": "boysenberry", "name": "Boysenberry", "latin": "Rubus × loganobaccus 'Boysen'", "emoji": "🫐", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Boysenberry",
+    "tagline": "A large, dark, complex-flavoured hybrid berry — raspberry, blackberry, and loganberry in one fruit.",
+    "care": { "water": { "value": "2–3 times per week", "detail": "Keep moist during fruiting season.", "bar": 60 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best yields.", "bar": 78 }, "soil": { "value": "Rich, well-draining", "detail": "Good compost-rich soil.", "bar": 65 }, "temp": { "value": "Hardy to -15°C", "detail": "Cold-hardy once established." }, "seedDepth": { "value": "Plant canes", "detail": "Buy canes from a specialist fruit nursery." }, "germination": "N/A — plant canes", "harvest": "July–August", "spacing": "2–3m" },
+    "tips": ["Same pruning system as all hybrid berries — cut fruited canes to the ground after harvest.", "The large berries have a complex, wine-like flavour — excellent for jam and desserts.", "Less widely available than blackberry or raspberry — order from specialist nurseries.", "Thornless varieties are available and recommended."],
+    "warning": "Less widely available in Europe than in the US and New Zealand — may need to order from specialist fruit nurseries."
+  },
+  {
+    "id": "white-currant", "name": "White Currant", "latin": "Ribes rubrum (white form)", "emoji": "🍇", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=White+Currant",
+    "tagline": "The mildest and sweetest of the currants. Translucent white berries that look beautiful and taste delicate.",
+    "care": { "water": { "value": "Every 3 days", "detail": "Keep moist during fruiting. More drought-tolerant than blackcurrant.", "bar": 52 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade well.", "bar": 58 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good garden soil with some compost.", "bar": 55 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Root easily from hardwood cuttings taken in autumn." }, "germination": "Cuttings root over winter", "harvest": "July", "spacing": "1.5m" },
+    "tips": ["Sweeter and milder than red or blackcurrant — can be eaten fresh from the bush.", "White Versailles and White Pearl are the most commonly available varieties.", "Same care and pruning as redcurrant.", "Birds find them less attractive than red berries — slightly less netting required."],
+    "warning": "Non-toxic. One of the least problematic soft fruits to grow."
+  },
+  {
+    "id": "banana-outdoor", "name": "Hardy Banana", "latin": "Musa basjoo", "emoji": "🍌", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hardy+Banana",
+    "tagline": "Surprisingly cold-hardy tropical statement plant. Enormous leaves and dramatic presence in any garden.",
+    "care": { "water": { "value": "Every 2–3 days in summer", "detail": "Thirsty plant with huge leaves. Keep consistently moist in growing season.", "bar": 75 }, "sun": { "value": "6+ hours direct", "detail": "Full sun and a sheltered spot for the best growth.", "bar": 85 }, "soil": { "value": "Rich, well-draining", "detail": "Very fertile, moisture-retaining soil. Feed generously in summer.", "bar": 72 }, "temp": { "value": "Hardy to -10°C with protection", "detail": "The pseudostem dies back in frost but the roots survive. Mulch heavily in winter." }, "seedDepth": { "value": "Plant offsets or buy a plant", "detail": "Separate offsets from the base of established plants." }, "germination": "N/A — plant offsets", "harvest": "Rarely produces edible fruit outside tropical climates", "spacing": "2–3m — grows very large" },
+    "tips": ["Cut back the main stem to 1m in autumn and wrap with fleece or straw for winter protection.", "New shoots emerge from the base each spring — the plant regrows vigorously.", "Grown primarily as an ornamental in cool climates — the fruit rarely ripens outside the tropics.", "Creates an instant tropical atmosphere — spectacular combined with other exotic plants."],
+    "warning": "Not grown for edible fruit in cool climates — grown as a dramatic ornamental. Manage expectations accordingly."
+  },
+  {
+    "id": "pineapple-guava", "name": "Feijoa", "latin": "Acca sellowiana", "emoji": "🍈", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Feijoa",
+    "tagline": "An underappreciated evergreen shrub with beautiful flowers and pineapple-guava flavoured fruit.",
+    "care": { "water": { "value": "Weekly", "detail": "Drought-tolerant once established. Water regularly when young and during fruiting.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best fruiting.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Adaptable to most soils with good drainage.", "bar": 52 }, "temp": { "value": "Hardy to -12°C once established", "detail": "Surprisingly cold-hardy for a subtropical plant." }, "seedDepth": { "value": "Seeds or buy a plant", "detail": "Seeds germinate readily. Buy named varieties for reliable fruit." }, "germination": "14–21 days", "harvest": "October–November — fruit falls when ripe", "spacing": "3–5m" },
+    "tips": ["The fruit is ripe when it falls naturally from the tree — don't harvest early.", "The red and white flower petals are edible and delicious — sweet and fruity.", "Plant two or more for better pollination, or choose a self-fertile variety.", "Makes an excellent ornamental evergreen hedge as well as a fruiting shrub."],
+    "warning": "Fruit that falls early before naturally ripe will be astringent and unpleasant. Wait for natural fruit fall."
+  },
+  {
+    "id": "pomegranate", "name": "Pomegranate", "latin": "Punica granatum", "emoji": "🍎", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pomegranate",
+    "tagline": "Stunning orange-red flowers and dramatic fruit. Surprisingly hardy and grows well as a container plant.",
+    "care": { "water": { "value": "Every 3–5 days", "detail": "Water regularly during the growing season. Drought-tolerant once established.", "bar": 50 }, "sun": { "value": "8+ hours direct", "detail": "Needs maximum sun and heat for fruit to ripen.", "bar": 92 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Sandy, well-draining soil preferred. Not too rich.", "bar": 45 }, "temp": { "value": "Hardy to -10°C once established", "detail": "More cold-hardy than most tropical fruits. Container growing allows overwintering indoors." }, "seedDepth": { "value": "Seeds or buy a plant", "detail": "Seeds from fresh pomegranate germinate readily. Or buy a named fruiting variety." }, "germination": "14–28 days", "harvest": "October–November in warm climates", "spacing": "3–5m or container grown" },
+    "tips": ["Container growing allows moving to a sunny sheltered spot in summer and overwintering in a frost-free place.", "The Wonderful variety is the most widely grown for fruit quality.", "Even in cool climates the spectacular flowers make it worth growing ornamentally.", "Fruit ripens very slowly — needs 6–7 months of warm weather from flower to ripe fruit."],
+    "warning": "Fruit production requires a long hot summer. In cool climates, the flowers are the main reward — fruit ripening is unlikely without greenhouse protection."
+  },
+  {
+    "id": "paw-paw", "name": "Pawpaw", "latin": "Asimina triloba", "emoji": "🍈", "type": "fruit", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pawpaw",
+    "tagline": "North America's largest native fruit. Custard-like flesh with a tropical banana-mango flavour.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water regularly while establishing. Drought-tolerant once mature.", "bar": 45 }, "sun": { "value": "4–8 hours", "detail": "Tolerates partial shade when young. Full sun for best fruiting in maturity.", "bar": 65 }, "soil": { "value": "Deep, fertile, well-draining", "detail": "Deep, rich, moist soil. Slightly acidic pH preferred.", "bar": 65 }, "temp": { "value": "Hardy to -25°C", "detail": "Surprisingly cold-hardy. Native to the eastern United States." }, "seedDepth": { "value": "Seeds 2–3cm deep — need stratification", "detail": "Seeds need 60–90 days cold stratification before germination. Or buy young plants." }, "germination": "After stratification — 2–4 weeks", "harvest": "August–October", "spacing": "3–5m — plant at least two for pollination" },
+    "tips": ["Plant at least two for cross-pollination — self-fertility is unreliable.", "The fruit doesn't store well — eat within a few days of harvest or freeze.", "Hand-pollinate flowers for better fruit set — the flies and beetles that naturally pollinate them are often scarce in gardens.", "Young plants need shade protection in the first 1–2 years."],
+    "warning": "Some people develop skin reactions from handling the fruit skin or unripe fruit. Wear gloves when harvesting."
+  },
+  {
+    "id": "prickly-pear", "name": "Prickly Pear Cactus", "latin": "Opuntia ficus-indica", "emoji": "🌵", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Prickly+Pear",
+    "tagline": "An edible cactus that produces sweet, colourful fruit. Hardy and drought-tolerant — needs almost nothing.",
+    "care": { "water": { "value": "Every 2–3 weeks", "detail": "Very drought-tolerant. Water occasionally in summer, barely at all in winter.", "bar": 18 }, "sun": { "value": "8+ hours direct", "detail": "Needs maximum sun and heat.", "bar": 92 }, "soil": { "value": "Very well-draining, sandy or gritty", "detail": "Sandy or gravelly soil with perfect drainage. Rich soil causes rot.", "bar": 15 }, "temp": { "value": "Hardy to -10°C once established", "detail": "Surprisingly cold-hardy. Some varieties survive harder frosts." }, "seedDepth": { "value": "Pads or seeds", "detail": "Lay a pad on dry sandy compost — it roots easily. Seeds also work." }, "germination": "Pads root in 4–8 weeks", "harvest": "August–October", "spacing": "1–2m" },
+    "tips": ["Use thick gloves and tongs when handling — the tiny hair-like glochids are more irritating than the main spines.", "Remove glochids from fruit by rolling in a thick towel or burning off with a flame before eating.", "The pads (nopales) are also edible — a vegetable in Mexican cuisine.", "One of the most drought-tolerant fruiting plants you can grow."],
+    "warning": "The tiny hair-like spines (glochids) embed in skin and are extremely difficult to remove. Always use thick gloves and long tongs when handling."
+  },
+  {
+    "id": "aronia", "name": "Aronia (Chokeberry)", "latin": "Aronia melanocarpa", "emoji": "🫐", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Aronia",
+    "tagline": "The most antioxidant-rich berry you can grow. Spectacular autumn colour and virtually maintenance-free.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Very drought-tolerant once mature.", "bar": 38 }, "sun": { "value": "4–8 hours", "detail": "Tolerates partial shade well. Full sun for best fruit production.", "bar": 62 }, "soil": { "value": "Any reasonable soil", "detail": "Remarkably adaptable — tolerates wet, dry, acidic, or alkaline conditions.", "bar": 35 }, "temp": { "value": "Hardy to -35°C", "detail": "Extraordinarily cold-hardy." }, "seedDepth": { "value": "Buy a plant or hardwood cuttings", "detail": "Hardwood cuttings root easily in autumn." }, "germination": "Cuttings root over winter", "harvest": "August–September", "spacing": "1.5–2m" },
+    "tips": ["The raw berries are very astringent — hence chokeberry. Much better cooked into juice, jam, or wine.", "Spectacular autumn foliage makes it as valuable ornamentally as productively.", "Self-fertile — one plant is sufficient.", "One of the toughest, most low-maintenance fruiting shrubs available."],
+    "warning": "Raw berries are very astringent and unpleasant. Always cook or process before eating."
+  },
+  {
+    "id": "serviceberry", "name": "Serviceberry", "latin": "Amelanchier lamarckii", "emoji": "🍒", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Serviceberry",
+    "tagline": "Beautiful spring blossom, sweet summer berries, and stunning autumn colour. One of the best garden trees.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Drought-tolerant once mature.", "bar": 40 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade well — excellent for woodland gardens.", "bar": 60 }, "soil": { "value": "Well-draining, slightly acidic", "detail": "Most soils work well. Slightly acidic pH preferred.", "bar": 50 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Plant bare-root or container tree", "detail": "Plant bare-root in autumn or winter." }, "germination": "N/A — plant trees", "harvest": "June–July", "spacing": "3–5m" },
+    "tips": ["The berries taste like a cross between blueberry and almond — excellent eaten fresh.", "Birds love serviceberries — net if you want any fruit for yourself.", "One of the best small multi-season garden trees — spring blossom, summer fruit, autumn colour.", "Self-fertile — one plant is sufficient."],
+    "warning": "Birds will strip the berries very quickly. Net the tree as fruit starts to colour if you want any for yourself."
+  },
+  {
+    "id": "cornelian-cherry", "name": "Cornelian Cherry", "latin": "Cornus mas", "emoji": "🍒", "type": "fruit", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cornelian+Cherry",
+    "tagline": "Early yellow flowers in February, then vivid red fruit in late summer. Beautiful and productive.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Very drought-tolerant once mature.", "bar": 35 }, "sun": { "value": "4–8 hours", "detail": "Grows well in sun or partial shade.", "bar": 60 }, "soil": { "value": "Any well-draining soil", "detail": "Very adaptable. Tolerates chalk, clay, and most conditions.", "bar": 38 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Plant bare-root or container shrub", "detail": "Plant bare-root in autumn or winter." }, "germination": "N/A — plant shrubs", "harvest": "August–September when fruit turns deep red", "spacing": "3–5m" },
+    "tips": ["One of the earliest flowering plants — vivid yellow flowers appear in February before the leaves.", "The fruit is sour when fresh but excellent for jam, wine, and vodka infusions.", "Self-fertile but produces better with a second plant nearby.", "Very long-lived — some specimens in Europe are hundreds of years old."],
+    "warning": "The fruit needs to be fully ripe (deep red) before eating — unripe cornelian cherries are unpleasantly astringent."
+  }
+]

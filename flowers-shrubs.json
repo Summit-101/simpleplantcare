@@ -1,0 +1,490 @@
+[
+  {
+    "id": "rose", "name": "Rose", "latin": "Rosa", "emoji": "🌹", "type": "flower", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rose",
+    "tagline": "The most beloved garden flower in the world. Modern varieties are far easier than roses' difficult reputation suggests.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Water deeply at the base — never overhead. Wet foliage causes blackspot.", "bar": 65 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential. Roses in shade produce few flowers and more disease.", "bar": 88 }, "soil": { "value": "Rich, well-draining, slightly acidic", "detail": "Dig in plenty of compost when planting. Feed monthly with rose fertiliser during flowering.", "bar": 72 }, "temp": { "value": "Hardy to -20°C (most varieties)", "detail": "Most modern roses are very cold-hardy. Tender varieties need winter protection." }, "seedDepth": { "value": "Buy bare-root or container plants", "detail": "Plant bare-root roses in autumn or winter when dormant. Container roses any time." }, "germination": "N/A — buy plants", "harvest": "Cut flowers June–October", "spacing": "45cm–1.2m depending on variety" },
+    "tips": ["Deadhead spent flowers regularly — this directs energy into new blooms rather than seed production.", "Prune in late winter (February–March) — cut back by one-third to half, remove dead wood, open the centre.", "Feed with a high-potassium rose fertiliser from April to August for continuous flowering.", "Disease-resistant varieties (David Austin, Knock Out) require far less maintenance than old hybrid teas."],
+    "warning": "Blackspot and aphids are the main problems. Water at the base only, ensure good airflow, and choose disease-resistant varieties to minimise issues."
+  },
+  {
+    "id": "sunflower", "name": "Sunflower", "latin": "Helianthus annuus", "emoji": "🌻", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sunflower",
+    "tagline": "The most cheerful flower you can grow. Children love them and they attract huge numbers of pollinators.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Water regularly when young. Once established, surprisingly drought-tolerant.", "bar": 55 }, "sun": { "value": "8+ hours direct", "detail": "Non-negotiable. The clue is in the name — sunflowers need maximum sun.", "bar": 95 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Not too rich — over-feeding produces leaves and weak stems. Average soil is fine.", "bar": 48 }, "temp": { "value": "Sow after last frost", "detail": "Half-hardy annual. Plant out after all frost risk has passed." }, "seedDepth": { "value": "2–3 cm deep", "detail": "Sow direct outside after last frost, or start indoors 2–3 weeks before." }, "germination": "7–14 days", "harvest": "Flowers 8–12 weeks from sowing", "spacing": "45–60cm for tall varieties, 25cm for dwarf" },
+    "tips": ["Sow direct where they'll grow — sunflowers hate root disturbance and bolt if transplanted too late.", "Stake tall varieties (over 1m) early — they become top-heavy when in flower.", "For seeds to harvest and eat, leave heads on the plant until the back turns brown, then cut and dry.", "Birds and squirrels will take seeds — cover drying heads with a paper bag if you want them for yourself."],
+    "warning": "Slugs will demolish seedlings overnight. Protect young plants with slug deterrent until they're 15cm tall."
+  },
+  {
+    "id": "marigold", "name": "Marigold", "latin": "Tagetes patula", "emoji": "🌼", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Marigold",
+    "tagline": "One of the most useful flowers in the garden. Deters pests, attracts pollinators, and flowers all summer.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep moist but don't overwater. Tolerates some drought once established.", "bar": 50 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers. Tolerates light shade.", "bar": 80 }, "soil": { "value": "Any well-draining soil", "detail": "Not fussy at all. Poor soil often produces more flowers than rich.", "bar": 38 }, "temp": { "value": "Half-hardy annual — plant after last frost", "detail": "Sow indoors 6 weeks before last frost. Plant out after all frost risk has passed." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow indoors or direct outside after last frost." }, "germination": "5–7 days", "harvest": "Flowers from 8 weeks throughout summer", "spacing": "20–30cm" },
+    "tips": ["Plant around tomatoes, peppers, and vegetables — they deter aphids, whitefly, and nematodes significantly.", "Deadhead spent flowers regularly for continuous blooming all summer.", "French marigolds (Tagetes patula) are most effective as pest deterrents.", "The flowers are edible — petals add colour and mild flavour to salads."],
+    "warning": "Can cause skin irritation in sensitive individuals. Wear gloves if you have sensitive skin."
+  },
+  {
+    "id": "nasturtium-flower", "name": "Nasturtium", "latin": "Tropaeolum majus", "emoji": "🌸", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Nasturtium",
+    "tagline": "Entirely edible from flower to seed. Peppery, cheerful, and thrives in poor soil with zero attention.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant. Overwatering and rich soil causes leaves with no flowers.", "bar": 38 }, "sun": { "value": "4–8 hours", "detail": "Full sun or partial shade both work.", "bar": 60 }, "soil": { "value": "Poor, well-draining", "detail": "Key insight: rich soil produces leaves not flowers. Never fertilise.", "bar": 18 }, "temp": { "value": "Half-hardy annual — sow after last frost", "detail": "Self-seeds freely. After the first year it reappears without sowing." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Sow direct where they'll grow. Hate root disturbance." }, "germination": "7–14 days", "harvest": "Flowers from 8 weeks. Seeds at 12 weeks.", "spacing": "20–25cm" },
+    "tips": ["Flowers, leaves, and seeds are all edible — the peppery flowers are spectacular in salads.", "Seeds can be pickled in vinegar as a caper substitute — excellent and unusual.", "Don't fertilise — poor soil produces more flowers than rich.", "Self-seeds freely — after the first year you'll never need to sow again."],
+    "warning": "Rich soil or fertiliser produces an enormous mass of leaves with almost no flowers. Never feed nasturtiums."
+  },
+  {
+    "id": "lavender-flower", "name": "Lavender", "latin": "Lavandula angustifolia", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lavender",
+    "tagline": "Drought-tolerant, beautiful, intensely fragrant, and loved by bees. One of the most useful garden plants.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Let soil dry between waterings. Established plants survive on rainfall alone in mild climates.", "bar": 25 }, "sun": { "value": "6+ hours direct", "detail": "More sun = more flowers and more intense fragrance.", "bar": 92 }, "soil": { "value": "Poor, well-draining, alkaline", "detail": "Prefers poor soil. Rich compost causes lush growth but far fewer flowers.", "bar": 20 }, "temp": { "value": "Hardy to -15°C", "detail": "Very cold-hardy. Wet winter roots kill it faster than any frost." }, "seedDepth": { "value": "3–4 mm deep or buy a plant", "detail": "Slow from seed (2–3 months). Much easier to buy a small plant." }, "germination": "2–3 months from seed", "harvest": "Cut when half the flowers are open", "spacing": "30–45cm" },
+    "tips": ["Cut back by one-third after flowering every single year — without this it becomes woody and unproductive.", "Never cut into old woody growth — it won't regrow from old wood.", "Harvest when about half the tiny flowers are open for the best fragrance.", "Dried bundles in wardrobes repel moths naturally."],
+    "warning": "Never let lavender sit in waterlogged soil, especially in winter. Root rot will kill it quickly and is irreversible."
+  },
+  {
+    "id": "peony", "name": "Peony", "latin": "Paeonia lactiflora", "emoji": "🌸", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Peony",
+    "tagline": "Enormous, lush, fragrant flowers every May and June. Plant once and enjoy for 50+ years.",
+    "care": { "water": { "value": "Weekly", "detail": "Keep moist during active growth. Drought-tolerant once established.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun to light shade. More sun = more flowers.", "bar": 80 }, "soil": { "value": "Rich, well-draining, fertile", "detail": "Dig in plenty of compost when planting. Feed with a balanced fertiliser in spring.", "bar": 68 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy. Needs cold winters to trigger flowering." }, "seedDepth": { "value": "Plant crown 2–5 cm below surface", "detail": "Plant with the eyes (pink buds) no more than 2–5cm below the soil surface. Too deep = no flowers." }, "germination": "N/A — plant divisions or buy plants", "harvest": "May–June", "spacing": "90cm–1.2m" },
+    "tips": ["The single most important rule: plant with eyes no more than 5cm deep. Too deep is the number one reason peonies fail to flower.", "Ants on the buds are completely normal — they're attracted to the nectar and do no harm whatsoever.", "Don't move or disturb once established — peonies resent disturbance and may not flower for 2–3 years after moving.", "They need no dividing or fussing — plant and leave them to get on with it."],
+    "warning": "Won't flower if planted too deep — this is the single most common mistake. Eyes must be within 5cm of the surface."
+  },
+  {
+    "id": "dahlia", "name": "Dahlia", "latin": "Dahlia pinnata", "emoji": "🌸", "type": "flower", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Dahlia",
+    "tagline": "Produces more flowers per plant than almost anything else. Blooms from July until the first frost.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist once in growth. Drought causes wilting and fewer flowers.", "bar": 70 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most and best flowers.", "bar": 88 }, "soil": { "value": "Rich, well-draining, fertile", "detail": "Dig in compost. Feed with a high-potassium fertiliser every 2 weeks once in flower.", "bar": 72 }, "temp": { "value": "Not frost-hardy — lift tubers in autumn", "detail": "Plant tubers after last frost. Lift and store in autumn before first frost." }, "seedDepth": { "value": "Tubers 10 cm deep", "detail": "Plant tubers horizontally 10cm deep after last frost, with the main stem pointing up." }, "germination": "Shoots in 2–3 weeks", "harvest": "Flowers July–October", "spacing": "45–90cm depending on variety" },
+    "tips": ["Pinch out the growing tip when the plant is 30–40cm tall — this produces a bushier plant with far more flowers.", "Deadhead constantly — removing spent blooms is the single most effective way to increase flowering.", "Stake tall varieties early — before the plant grows into them, not after.", "Lift tubers after first frost, dry, and store in dry compost in a frost-free place."],
+    "warning": "Slugs destroy young shoots in spring — protect tubers with slug deterrent from the moment they start emerging."
+  },
+  {
+    "id": "geranium-pelargonium", "name": "Pelargonium (Geranium)", "latin": "Pelargonium × hortorum", "emoji": "🌸", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Pelargonium",
+    "tagline": "The classic container flower. Cheerful, low-maintenance, and flowers continuously all summer.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Let soil dry slightly between waterings. Overwatering causes yellowing leaves.", "bar": 52 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers. Tolerates light shade.", "bar": 82 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Regular potting compost. Feed every 2 weeks with a high-potassium liquid fertiliser.", "bar": 55 }, "temp": { "value": "Not frost-hardy — bring indoors below 5°C", "detail": "Half-hardy perennial. Overwinter on a bright windowsill and plant out again in spring." }, "seedDepth": { "value": "Stem cuttings", "detail": "Take 10cm cuttings in late summer. Remove lower leaves, pot in gritty compost." }, "germination": "Cuttings root in 3–4 weeks", "harvest": "Flowers May–October", "spacing": "20–30cm in containers" },
+    "tips": ["Deadhead spent flower heads regularly — pull off the entire flower stem, not just the petals.", "Overwinter by bringing indoors before first frost — they're perennial and regrow in spring.", "Take cuttings in late summer to create free plants for next year.", "Scented pelargoniums (rose, lemon, peppermint scent) are grown for their fragrant leaves."],
+    "warning": "Overwatering causes more deaths than underwatering. Allow soil to dry slightly between waterings."
+  },
+  {
+    "id": "sweet-pea", "name": "Sweet Pea", "latin": "Lathyrus odoratus", "emoji": "💐", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Sweet+Pea",
+    "tagline": "The most fragrant annual climber. Cut them every day and they produce more. Stop cutting and they stop.",
+    "care": { "water": { "value": "Every 2 days", "detail": "Keep consistently moist. Drought causes immediate wilting and reduces flowering significantly.", "bar": 68 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers and strongest fragrance.", "bar": 85 }, "soil": { "value": "Rich, well-draining, deep", "detail": "Sweet peas are hungry. Dig in compost generously. Soak seeds overnight before sowing.", "bar": 70 }, "temp": { "value": "Hardy — can sow in autumn", "detail": "Sow in autumn for early flowering next spring, or in early spring for summer flowers." }, "seedDepth": { "value": "2–3 cm deep", "detail": "Soak seeds overnight to speed germination. Chip the hard seed coat with a file if needed." }, "germination": "10–21 days", "harvest": "June–August", "spacing": "15–20cm" },
+    "tips": ["Cut flowers every single day — if sweet peas are left to set seed, the plant stops producing flowers completely.", "Pinch out the growing tip when 10cm tall to encourage bushy growth with more flowering stems.", "Deep soil is important — sweet peas have long roots. A trench filled with compost is ideal.", "The more you cut, the more they produce — this is the most important thing to know."],
+    "warning": "Sweet peas are toxic — all parts including the seeds contain lathyrogens. Do not eat any part of the plant."
+  },
+  {
+    "id": "cosmos", "name": "Cosmos", "latin": "Cosmos bipinnatus", "emoji": "🌸", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cosmos",
+    "tagline": "Airy, elegant, and incredibly generous. One of the best cutting flowers you can grow from seed.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant once established. Overwatering causes lush growth but fewer flowers.", "bar": 42 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 85 }, "soil": { "value": "Poor to moderate, well-draining", "detail": "Thrives in poor soil. Rich soil produces lush plants with few flowers.", "bar": 30 }, "temp": { "value": "Half-hardy annual — plant after last frost", "detail": "Frost-sensitive. Sow indoors 4–6 weeks before last frost." }, "germination": "7–14 days", "seedDepth": { "value": "0.5 cm deep", "detail": "Barely cover seeds. Start indoors or sow direct after last frost." }, "harvest": "Flowers July–October", "spacing": "30–45cm" },
+    "tips": ["Don't over-fertilise — poor soil produces the most flowers.", "Deadhead or cut regularly to extend the flowering season well into autumn.", "Self-seeds freely in warm spots — may reappear without sowing the following year.", "Excellent cut flower — lasts well in a vase and the feathery foliage adds elegance."],
+    "warning": "Non-toxic. One of the safest, most reliable, and low-maintenance garden annuals."
+  },
+  {
+    "id": "zinnia", "name": "Zinnia", "latin": "Zinnia elegans", "emoji": "🌸", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Zinnia",
+    "tagline": "The most heat-tolerant flowering annual. Vivid colours, long vase life, and flowers until the first frost.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Water at the base — wet foliage encourages powdery mildew. Keep roots moist.", "bar": 58 }, "sun": { "value": "8+ hours direct", "detail": "Loves heat and full sun. More sun = more flowers.", "bar": 92 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good garden soil or compost. Not too rich.", "bar": 55 }, "temp": { "value": "Sow after last frost — loves heat", "detail": "Don't rush to sow — zinnias grow fastest when the soil is warm." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow direct after last frost. Zinnias hate root disturbance — sow where they'll grow." }, "germination": "5–7 days", "harvest": "Flowers 8 weeks from sowing until frost", "spacing": "20–30cm" },
+    "tips": ["Sow direct — zinnias resent transplanting and bolt when roots are disturbed.", "Pinch out the growing tip for bushier plants with more flowers.", "Excellent cut flower — cutting actually encourages more blooms.", "Water at the base only — wet leaves cause powdery mildew which disfigures the plants."],
+    "warning": "Powdery mildew is inevitable in humid or wet weather — water at the base only and ensure good airflow."
+  },
+  {
+    "id": "dahlia-single", "name": "Rudbeckia (Black-Eyed Susan)", "latin": "Rudbeckia hirta", "emoji": "🌻", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rudbeckia",
+    "tagline": "Cheerful golden daisy flowers that brighten the late summer garden when many plants are fading.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Drought-tolerant once established. Water regularly when young.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Not fussy. Average garden soil works well.", "bar": 48 }, "temp": { "value": "Hardy perennial — very cold-hardy", "detail": "Perennial in most climates. Very cold-hardy once established." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Tiny seeds need light to germinate. Press onto moist compost." }, "germination": "14–21 days", "harvest": "Flowers July–October", "spacing": "30–45cm" },
+    "tips": ["Leave seed heads standing in winter — birds love the seeds and the structural form is beautiful.", "Divide clumps every 3–4 years to maintain vigour.", "Self-seeds freely in good conditions.", "Excellent combined with ornamental grasses for late summer and autumn interest."],
+    "warning": "Non-toxic. Can cause mild skin irritation in sensitive individuals — wear gloves when deadheading."
+  },
+  {
+    "id": "echinacea-flower", "name": "Echinacea (Coneflower)", "latin": "Echinacea purpurea", "emoji": "🌸", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Echinacea",
+    "tagline": "Beautiful long-lasting purple flowers that attract butterflies and bees from July to September.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Drought-tolerant once established. Water regularly in the first year.", "bar": 40 }, "sun": { "value": "6+ hours direct", "detail": "Full sun produces the most flowers.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Not fussy. Average garden soil works well.", "bar": 48 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy perennial." }, "seedDepth": { "value": "0.5–1 cm deep", "detail": "Sow in autumn or cold-stratify seeds before spring sowing." }, "germination": "10–21 days", "harvest": "Flowers mid to late summer", "spacing": "45–60cm" },
+    "tips": ["Leave seed heads standing through winter — goldfinches feed on the seeds and the structure is beautiful.", "Divide every 4–5 years to maintain vigour.", "New varieties come in pink, white, orange, and yellow — the orange and yellow are slightly less hardy.", "Attracts an extraordinary range of butterflies and bees."],
+    "warning": "Can cause allergic reactions in people sensitive to Asteraceae plants (daisies, chrysanthemums)."
+  },
+  {
+    "id": "hollyhock", "name": "Hollyhock", "latin": "Alcea rosea", "emoji": "🌸", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hollyhock",
+    "tagline": "Tall, cottage-garden classics with flowers stacked up tall stems. Self-seeds to create a permanent colony.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Water at the base. Drought-tolerant once established.", "bar": 48 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best flowers.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Not too rich. Average garden soil is fine.", "bar": 48 }, "temp": { "value": "Biennial/short-lived perennial — very hardy", "detail": "Flowers in year 2. Self-seeds freely to create a permanent colony." }, "seedDepth": { "value": "0.5 cm deep", "detail": "Sow in late spring/early summer for flowers the following year." }, "germination": "10–14 days", "harvest": "Flowers in year 2, July–September", "spacing": "45–60cm" },
+    "tips": ["Allow to self-seed — once established they perpetuate themselves without any intervention.", "The tall spires (up to 2.5m) look spectacular against walls and fences.", "Single-flowered varieties are better for bees than double-flowered varieties.", "Remove rust-affected leaves promptly to reduce disease spread."],
+    "warning": "Hollyhock rust (orange pustules on leaves) is almost inevitable. Remove affected leaves promptly. The plants usually survive."
+  },
+  {
+    "id": "foxglove", "name": "Foxglove", "latin": "Digitalis purpurea", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Foxglove",
+    "tagline": "Dramatic tall spires of tubular flowers, loved by bumblebees. Perfect for shaded spots.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist. Tolerates some drought but better with consistent moisture.", "bar": 52 }, "sun": { "value": "Partial shade to full sun", "detail": "One of the few tall dramatic flowers that thrives in partial shade.", "bar": 55 }, "soil": { "value": "Moist, well-draining, humus-rich", "detail": "Woodland conditions are ideal — moist, leafy soil in dappled shade.", "bar": 62 }, "temp": { "value": "Hardy biennial", "detail": "Flowers in year 2. Self-seeds prolifically for permanent colonies." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Scatter seed on soil surface in summer. Do not cover — needs light to germinate." }, "germination": "14–21 days", "harvest": "Flowers June–July in year 2", "spacing": "45–60cm" },
+    "tips": ["Self-seeds prolifically — once established it maintains itself without any sowing.", "After flowering, cut back the main spike to encourage secondary side spikes.", "The flowers are particularly attractive to long-tongued bumblebees.", "Self-seeds in gravel, cracks, and unlikely spots — let it grow where it chooses."],
+    "warning": "Extremely toxic — all parts contain digitalis glycosides. Never eat any part. Keep away from children. Wash hands after handling."
+  },
+  {
+    "id": "lupin", "name": "Lupin", "latin": "Lupinus polyphyllus", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lupin",
+    "tagline": "Spectacular tall flower spires in vivid colours. A cottage garden classic that also fixes nitrogen.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist in spring when in active growth. More drought-tolerant in summer.", "bar": 52 }, "sun": { "value": "6+ hours direct", "detail": "Full sun to light shade. Flowers lean towards the light.", "bar": 78 }, "soil": { "value": "Well-draining, slightly acidic", "detail": "Alkaline soil causes yellowing. Sandy, slightly acidic soil is ideal.", "bar": 45 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy perennial. Dies back in winter, returns reliably in spring." }, "seedDepth": { "value": "1–2 cm deep", "detail": "Soak seeds overnight before sowing. Nick the hard seed coat to help germination." }, "germination": "14–21 days", "harvest": "Flowers May–July, sometimes again in September", "spacing": "45–60cm" },
+    "tips": ["Cut back the main spike after flowering — side spikes often produce a second flush of flowers in September.", "Lupins live for 3–5 years — they naturally decline. Grow from fresh seed or take basal cuttings in spring.", "Russell Hybrids give the most vivid range of flower colours.", "The dramatic palmate leaves are as attractive as the flowers."],
+    "warning": "Seeds and pods are toxic if eaten in quantity. Wear gloves when handling — some people develop skin irritation from the sap."
+  },
+  {
+    "id": "delphinium", "name": "Delphinium", "latin": "Delphinium elatum", "emoji": "💙", "type": "flower", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Delphinium",
+    "tagline": "Towering spires of the most intense blue in the garden. Staking is required but the effect is unmatched.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep consistently moist during active growth. Drought causes poor flowering.", "bar": 65 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential — delphiniums in shade are weak and flower poorly.", "bar": 88 }, "soil": { "value": "Rich, well-draining, fertile", "detail": "Very hungry plants. Dig in plenty of compost and feed monthly during growing season.", "bar": 72 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Fresh seed sown in summer. Or buy young plants." }, "germination": "14–21 days", "harvest": "Flowers June–July, second flush in September", "spacing": "60–90cm" },
+    "tips": ["Stake early and firmly — tall delphiniums snap in wind without support.", "Cut back to 30cm after first flowering — side shoots produce a second flush in September.", "Slugs will eat emerging shoots in spring — protect from the moment growth appears.", "The most intense true blue available in the garden — worth the extra effort."],
+    "warning": "All parts are toxic if ingested. Wear gloves when handling — the sap irritates skin and eyes. Keep away from children and pets."
+  },
+  {
+    "id": "hydrangea", "name": "Hydrangea", "latin": "Hydrangea macrophylla", "emoji": "💙", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hydrangea",
+    "tagline": "Enormous flower heads that last for months — even dried on the plant through winter they look beautiful.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Thirsty plant — large leaves lose water fast. Wilting dramatically on hot days is normal — water in the evening.", "bar": 72 }, "sun": { "value": "4–6 hours, morning sun preferred", "detail": "Partial shade is ideal. Full afternoon sun causes wilting. Morning sun with afternoon shade is perfect.", "bar": 52 }, "soil": { "value": "Rich, moisture-retaining", "detail": "Acid soil (pH below 7) produces blue flowers. Alkaline soil produces pink. Change the colour with aluminium sulphate (blue) or lime (pink).", "bar": 70 }, "temp": { "value": "Hardy to -15°C", "detail": "Hardy. The flower buds can be damaged by late frosts in cold areas." }, "seedDepth": { "value": "Stem cuttings or buy a plant", "detail": "Take 10cm softwood cuttings in summer. They root easily in gritty compost." }, "germination": "Cuttings root in 4–6 weeks", "harvest": "Flowers July–October — dry for winter arrangements", "spacing": "1–1.5m" },
+    "tips": ["Don't prune in autumn — flower buds for next year are already formed. Prune lightly in spring only.", "Blue flowers require acidic soil (pH below 6.5) plus aluminium in the soil. Add aluminium sulphate for blue, garden lime for pink.", "Leave dried flower heads on through winter — they're beautiful and protect the buds beneath from frost.", "Annabelle (white mophead) and Limelight (lime green) are easy alternatives that flower on new wood — prune freely."],
+    "warning": "All parts are toxic if ingested — contains cyanogenic glycosides. Keep away from children and pets."
+  },
+  {
+    "id": "buddleia", "name": "Buddleja (Butterfly Bush)", "latin": "Buddleja davidii", "emoji": "💜", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Buddleja",
+    "tagline": "The butterfly magnet of the garden. Dozens of butterfly species are drawn to the honey-scented flowers.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water regularly when establishing. Very drought-tolerant once mature.", "bar": 32 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers and the strongest fragrance.", "bar": 88 }, "soil": { "value": "Any well-draining soil", "detail": "Thrives in poor, dry, even chalky soil. Too rich soil produces leaves not flowers.", "bar": 30 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Press onto surface or buy a plant", "detail": "Self-seeds freely. Or take softwood cuttings in summer." }, "germination": "14–21 days from seed", "harvest": "Flowers July–September", "spacing": "1.5–2m" },
+    "tips": ["Cut back hard every spring (March) — reduce by half to two-thirds. This is essential for the most flowers.", "Without annual hard pruning it becomes leggy and flowers poorly at the top of tall stems.", "Plant near a window or seating area to enjoy the honey fragrance and butterfly activity.", "Deadhead spent spikes to encourage a second flush of flowers."],
+    "warning": "Invasive in some regions — listed as invasive in parts of the US and UK. Check local guidance. Deadhead to prevent seeding into wild areas."
+  },
+  {
+    "id": "lilac", "name": "Lilac", "latin": "Syringa vulgaris", "emoji": "💜", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Lilac",
+    "tagline": "The most intoxicating fragrance in the spring garden. Spectacular for 2–3 weeks every May.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Very drought-tolerant once mature.", "bar": 35 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers.", "bar": 85 }, "soil": { "value": "Well-draining, alkaline to neutral", "detail": "Prefers neutral to slightly alkaline soil. Add lime if soil is acidic.", "bar": 48 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy. Needs cold winters for good flower production." }, "seedDepth": { "value": "Buy a named plant", "detail": "Seed-grown lilacs may not flower for 10 years. Always buy a named variety." }, "germination": "Buy named plants", "harvest": "Flowers in May — cut as buds just begin to open", "spacing": "2–4m — grows into a large shrub" },
+    "tips": ["Deadhead immediately after flowering — this prevents the plant putting energy into seeds and improves the following year's flowers.", "Don't over-prune — lilacs flower on last year's wood. Hard pruning means no flowers the following year.", "Cut budded stems for vases just as the flowers begin to open — they last 7–10 days inside.", "Patience required — a newly planted lilac may take 2–3 years to flower well."],
+    "warning": "Can spread by suckers which can gradually take over. Remove suckers from the base annually."
+  },
+  {
+    "id": "wisteria", "name": "Wisteria", "latin": "Wisteria sinensis", "emoji": "💜", "type": "shrub", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Wisteria",
+    "tagline": "The most spectacular climbing plant. Cascades of fragrant purple flowers in May — nothing matches it.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water regularly when establishing. Drought-tolerant once mature.", "bar": 40 }, "sun": { "value": "6+ hours direct", "detail": "Full sun is essential for reliable flowering. A south or west-facing wall is ideal.", "bar": 90 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good garden soil. Not too rich — over-fertile soil produces leaves not flowers.", "bar": 52 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy once established. The flowers are susceptible to late frosts." }, "seedDepth": { "value": "Buy a grafted named plant", "detail": "Seed-grown wisteria may take 20+ years to flower. Only buy grafted named varieties." }, "germination": "Buy grafted plants only", "harvest": "Flowers in May", "spacing": "5–10m — extremely vigorous climber" },
+    "tips": ["Prune twice a year — once in August (cut all new shoots back to 5 leaves) and once in February (cut back to 2–3 buds). This is non-negotiable for flowering.", "Always buy a grafted named variety — check for the graft union (a slight kink near the base). Seed-grown plants rarely flower.", "Needs a very strong support — mature wisteria is extremely heavy.", "Slow to establish — some take 3–5 years to flower. Patience is required."],
+    "warning": "All parts are toxic — seeds especially. Keep away from children. Roots are extremely invasive and can damage walls, drains, and foundations over time."
+  },
+  {
+    "id": "clematis", "name": "Clematis", "latin": "Clematis", "emoji": "🌸", "type": "shrub", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Clematis",
+    "tagline": "The queen of climbing plants. Hundreds of varieties flowering from January to December.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Keep roots moist. Clematis likes cool, moist roots and warm flowers.", "bar": 65 }, "sun": { "value": "6+ hours sun on flowers, shade on roots", "detail": "Classic rule: head in sun, feet in shade. Shade the root zone with stones or a low planting.", "bar": 72 }, "soil": { "value": "Rich, well-draining, slightly alkaline", "detail": "Dig in compost generously. Add lime if soil is acidic.", "bar": 65 }, "temp": { "value": "Hardy to -20°C (most varieties)", "detail": "Most clematis are very cold-hardy once established." }, "seedDepth": { "value": "Plant 5–8 cm deeper than in the pot", "detail": "Planting deep allows regrowth from the base if clematis wilt strikes." }, "germination": "Buy plants", "harvest": "Flowers from spring to autumn depending on variety", "spacing": "1–2m" },
+    "tips": ["Prune group determines when to prune — group 1 (spring): don't prune; group 2 (early summer): light prune; group 3 (late summer): cut hard to 30cm in February.", "Plant 5–8cm deeper than the nursery pot — this protects against clematis wilt.", "Shade the roots with a flat stone, low plant, or mulch — this is important for health.", "The enormous range of varieties means something is flowering almost every month of the year."],
+    "warning": "Clematis wilt causes sudden collapse of stems — cut back to healthy growth at ground level immediately. Deep planting greatly reduces the risk."
+  },
+  {
+    "id": "forsythia", "name": "Forsythia", "latin": "Forsythia × intermedia", "emoji": "🌼", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Forsythia",
+    "tagline": "A cascade of vivid yellow flowers in March before a single leaf appears. One of the first signs of spring.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Very drought-tolerant once mature.", "bar": 32 }, "sun": { "value": "4–6 hours", "detail": "Full sun to partial shade. Tolerates most positions.", "bar": 60 }, "soil": { "value": "Any reasonable soil", "detail": "Very adaptable. Grows in most soils.", "bar": 38 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Root easily from hardwood cuttings in winter." }, "germination": "Cuttings root over winter", "harvest": "Flowers in March–April", "spacing": "2–3m" },
+    "tips": ["Prune immediately after flowering — never prune in winter or you'll remove all the flower buds.", "Cut out one-third of the oldest stems after flowering for the most vigorous regrowth.", "Cut budded branches in January and bring inside — they'll flower in a vase within a week.", "One of the most reliable and early-flowering shrubs for any garden."],
+    "warning": "Non-toxic. Easy and reliable. The main mistake is pruning in winter — always prune immediately after flowering."
+  },
+  {
+    "id": "viburnum", "name": "Viburnum", "latin": "Viburnum opulus", "emoji": "⚪", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Viburnum",
+    "tagline": "Four seasons of interest — spring flowers, summer berries, autumn colour, winter structure.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Drought-tolerant once mature.", "bar": 38 }, "sun": { "value": "4–8 hours", "detail": "Sun to partial shade. Very adaptable.", "bar": 60 }, "soil": { "value": "Any reasonable soil", "detail": "Tolerates most soils including clay and chalk.", "bar": 40 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Buy a plant", "detail": "Many good named varieties available from garden centres." }, "germination": "Buy plants", "harvest": "Flowers spring, berries summer–autumn", "spacing": "2–3m" },
+    "tips": ["Guelder rose (V. opulus) produces spectacular translucent red berries and vivid autumn colour.", "V. bodnantense Dawn flowers on bare branches in winter — intensely fragrant pink flowers from November to February.", "Requires minimal pruning — just remove any dead or crossing branches.", "Excellent wildlife value — berries are eaten by many bird species."],
+    "warning": "The berries of Viburnum opulus are mildly toxic when eaten raw. Cook before consuming if using for food purposes."
+  },
+  {
+    "id": "cotoneaster", "name": "Cotoneaster", "latin": "Cotoneaster horizontalis", "emoji": "🔴", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Cotoneaster",
+    "tagline": "A workhorse shrub with tiny flowers, brilliant red berries, and stunning autumn colour. Wildlife loves it.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Extremely drought-tolerant once established.", "bar": 20 }, "sun": { "value": "4–8 hours", "detail": "Full sun or shade — one of the most adaptable shrubs.", "bar": 55 }, "soil": { "value": "Any soil", "detail": "Grows in virtually any soil including poor, dry, and chalk.", "bar": 22 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Buy a plant", "detail": "Wide range available at garden centres." }, "germination": "Buy plants", "harvest": "Tiny white flowers May–June, red berries autumn–winter", "spacing": "Depends on variety — 0.5–3m" },
+    "tips": ["C. horizontalis grows flat against walls in a distinctive herringbone pattern — excellent for north-facing walls.", "One of the best wildlife plants — tiny flowers attract huge numbers of bees; berries feed birds all winter.", "Requires almost no maintenance — one of the most genuinely low-care garden shrubs.", "The herringbone branch pattern is striking in winter when leaves have fallen."],
+    "warning": "The berries are mildly toxic to humans — best left for the birds. Not for culinary use."
+  },
+  {
+    "id": "camellia", "name": "Camellia", "latin": "Camellia japonica", "emoji": "🌸", "type": "shrub", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Camellia",
+    "tagline": "Perfect waxy flowers in late winter and early spring when nothing else blooms. A garden treasure.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist especially in summer when next year's buds are forming. Use rainwater — tap water is often too alkaline.", "bar": 60 }, "sun": { "value": "Partial shade — avoid morning sun", "detail": "East-facing positions are risky — frozen buds thaw too fast in morning sun and turn brown. North or west-facing is better.", "bar": 42 }, "soil": { "value": "Acidic — pH 5.0–6.5", "detail": "Ericaceous (acid) compost essential. Regular soil causes yellowing and death.", "bar": 30 }, "temp": { "value": "Hardy to -10°C (buds more tender)", "detail": "The plants are cold-hardy but flower buds are damaged by hard frost followed by morning sun." }, "seedDepth": { "value": "Buy a named plant", "detail": "Buy named varieties for reliable flower colour and form." }, "germination": "Buy plants", "harvest": "Flowers February–April", "spacing": "1.5–2m or container grown" },
+    "tips": ["Use rainwater or collected water — tap water gradually alkalises the soil and causes leaf yellowing.", "Avoid east-facing positions — frozen buds that thaw in early morning sun turn brown.", "Container growing in ericaceous compost is the easiest approach in alkaline areas.", "Feed with an ericaceous fertiliser in spring and summer."],
+    "warning": "Non-toxic. The main challenge is providing consistently acidic conditions — yellowing leaves are the first sign of pH problems."
+  },
+  {
+    "id": "rhododendron", "name": "Rhododendron", "latin": "Rhododendron", "emoji": "🌸", "type": "shrub", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Rhododendron",
+    "tagline": "Spectacular masses of flower in April and May. Evergreen, dramatic, and long-lived in the right conditions.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep consistently moist. Very sensitive to drought — wilted leaves are a serious warning sign.", "bar": 65 }, "sun": { "value": "Partial shade", "detail": "Woodland conditions — dappled shade or morning sun with afternoon shade.", "bar": 45 }, "soil": { "value": "Acidic — pH 4.5–6.0", "detail": "Non-negotiable. Ericaceous (acid) compost and soil only. Regular soil = death.", "bar": 28 }, "temp": { "value": "Hardy to -15°C (varies)", "detail": "Most varieties are cold-hardy. Early-flowering varieties can be damaged by late frosts." }, "seedDepth": { "value": "Buy a named plant", "detail": "Wide range available in various sizes, colours, and flowering times." }, "germination": "Buy plants", "harvest": "Flowers April–May mainly", "spacing": "1–3m depending on variety" },
+    "tips": ["Deadhead by snapping off spent flowers — this directs energy into next year's buds rather than seed production.", "Use rainwater and ericaceous fertiliser — alkaline water gradually raises pH and kills rhododendrons.", "Never plant in alkaline soil without creating a completely separate raised bed of ericaceous compost.", "Small-leaved Japanese azaleas (a type of rhododendron) are more compact and easier for smaller gardens."],
+    "warning": "All parts are highly toxic to humans, dogs, cats, and livestock. Honey from rhododendron nectar (grayanotoxin honey) is also toxic. Keep away from animals."
+  },
+  {
+    "id": "magnolia", "name": "Magnolia", "latin": "Magnolia stellata", "emoji": "⚪", "type": "shrub", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Magnolia",
+    "tagline": "Spectacular cup-shaped flowers on bare stems in early spring. One of the most beautiful garden plants.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Regular watering for first 3 years. Drought-tolerant once established.", "bar": 45 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best flowering. Sheltered from north and east winds.", "bar": 82 }, "soil": { "value": "Rich, well-draining, slightly acidic", "detail": "Deep, fertile, slightly acidic soil. Dig in plenty of compost when planting.", "bar": 65 }, "temp": { "value": "Hardy to -20°C (M. stellata)", "detail": "The tree is cold-hardy but early flowers are frost-sensitive." }, "seedDepth": { "value": "Buy a named plant", "detail": "Plant in a sheltered spot — early flowers are damaged by frost and cold wind." }, "germination": "Buy plants", "harvest": "Flowers March–April (stellata)", "spacing": "2–4m" },
+    "tips": ["Plant in a sheltered spot — a late frost can destroy the entire spring flower display.", "Never prune hard — magnolias resent heavy pruning. Only remove dead or damaged wood.", "M. stellata (star magnolia) is the best choice for small gardens — compact and very reliable.", "Mulch the root zone annually — magnolias have shallow roots that benefit from moisture retention."],
+    "warning": "Late spring frosts can destroy the flower display entirely — a common heartbreak. Planting in a sheltered spot reduces but doesn't eliminate this risk."
+  },
+  {
+    "id": "jasmine", "name": "Common Jasmine", "latin": "Jasminum officinale", "emoji": "⚪", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Jasmine",
+    "tagline": "The most intensely fragrant summer climber. The scent on a warm evening is unforgettable.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist when young. Drought-tolerant once established.", "bar": 50 }, "sun": { "value": "6+ hours direct", "detail": "Full sun produces the strongest fragrance.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Average to good garden soil. Not demanding.", "bar": 52 }, "temp": { "value": "Hardy to -15°C", "detail": "Fully hardy in most temperate climates." }, "seedDepth": { "value": "Stem cuttings or buy a plant", "detail": "Layering or softwood cuttings in summer root readily." }, "germination": "Cuttings root in 4–6 weeks", "harvest": "Flowers June–September", "spacing": "3–5m — vigorous climber" },
+    "tips": ["Plant near a window, doorway, or seating area to enjoy the fragrance in the evening — this is when it's most intense.", "Train the main stems horizontally to encourage more flowering side shoots.", "Prune after flowering — cut back flowered shoots and any overly congested growth.", "Winter jasmine (J. nudiflorum) flowers on bare stems January–March — different plant, equally valuable."],
+    "warning": "Non-toxic. Easy and vigorous — may need regular trimming to keep in bounds."
+  },
+  {
+    "id": "honeysuckle", "name": "Honeysuckle", "latin": "Lonicera periclymenum", "emoji": "🌸", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Honeysuckle",
+    "tagline": "Intensely fragrant twining climber that attracts moths, bees, and birds. Flowers all summer.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep roots moist. Tolerates some drought once established.", "bar": 52 }, "sun": { "value": "Partial shade — roots cool, flowers sunny", "detail": "Classic advice: roots in shade, flowers in sun. Tolerates full shade but flowers less.", "bar": 58 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Moist, humus-rich soil. Mulch the root zone to keep it cool and moist.", "bar": 62 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Stem cuttings or buy a plant", "detail": "Semi-hardwood cuttings in summer root well." }, "germination": "Cuttings root in 4–6 weeks", "harvest": "Flowers June–September, berries in autumn", "spacing": "3–5m — vigorous twiner" },
+    "tips": ["The evening fragrance is the strongest — plant near doorways, pathways, and bedroom windows.", "Berries in autumn are excellent food for birds, including warblers and thrushes.", "Prune after flowering — remove congested stems and reduce the overall size if needed.", "Keep roots cool and moist — this is the key to healthy honeysuckle."],
+    "warning": "The berries are mildly toxic to humans and can cause nausea. They are safe for birds. Keep away from small children."
+  },
+  {
+    "id": "smoke-bush", "name": "Smoke Bush", "latin": "Cotinus coggygria", "emoji": "🍂", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Smoke+Bush",
+    "tagline": "Billowing clouds of smoky pink-purple plumes in summer and spectacular autumn foliage.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Very drought-tolerant once mature.", "bar": 32 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best foliage colour and smoke effect.", "bar": 85 }, "soil": { "value": "Well-draining, poor to moderate", "detail": "Actually performs better in lean soil — too rich produces leaves at the expense of the smoke effect.", "bar": 35 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Softwood cuttings or buy a plant", "detail": "Take softwood cuttings in early summer." }, "germination": "Cuttings root in 4–6 weeks", "harvest": "Plumes June–September, autumn colour October–November", "spacing": "2–3m" },
+    "tips": ["Royal Purple (deep purple) and Grace (red-orange autumn) are the most popular varieties.", "For the most intense foliage colour, cut back hard every spring — this sacrifices the smoke effect but gives larger, more vivid leaves.", "Leave as an unpruned shrub for the spectacular summer smoke effect.", "One of the finest shrubs for multi-season interest."],
+    "warning": "Can cause skin irritation and sensitisation in some people. Wear gloves when pruning."
+  },
+  {
+    "id": "mahonia", "name": "Mahonia", "latin": "Mahonia aquifolium", "emoji": "🌼", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Mahonia",
+    "tagline": "Fragrant yellow flowers in the darkest months (November to February), then blue-black berries for wildlife.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Extremely drought-tolerant once established.", "bar": 20 }, "sun": { "value": "Deep shade to full sun", "detail": "One of the most shade-tolerant flowering shrubs. Excellent under trees.", "bar": 42 }, "soil": { "value": "Any reasonable soil", "detail": "Very adaptable to most conditions including dry shade.", "bar": 30 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Buy a plant", "detail": "Widely available at garden centres." }, "germination": "Buy plants", "harvest": "Flowers November–February, berries spring–summer", "spacing": "1–1.5m" },
+    "tips": ["Flowers in the darkest months when virtually nothing else does — invaluable for winter interest.", "The berries are eaten by many bird species in spring and summer.", "After flowering, cut back the tallest stems to maintain a compact shape.", "Excellent ground cover under trees where little else grows."],
+    "warning": "Non-toxic to humans. The berries are edible but very tart — better left for birds or used in wine and jelly."
+  },
+  {
+    "id": "spiraea", "name": "Spiraea", "latin": "Spiraea japonica", "emoji": "🌸", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Spiraea",
+    "tagline": "Compact, low-maintenance shrubs covered in tiny flowers. Perfect for small gardens and front borders.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Drought-tolerant once mature.", "bar": 35 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the best foliage colour and most flowers.", "bar": 82 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Adaptable to most soils.", "bar": 48 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Buy a plant or hardwood cuttings", "detail": "Root easily from hardwood cuttings in winter." }, "germination": "Cuttings root over winter", "harvest": "Flowers June–August", "spacing": "60cm–1m" },
+    "tips": ["Gold Flame and Magic Carpet are popular varieties with vivid golden-orange new growth.", "Cut back hard in spring (March) for the most vigorous new growth and best foliage colour.", "Very low maintenance once established — one of the most reliable small shrubs.", "Attracts many pollinator species when in flower."],
+    "warning": "Non-toxic. Very easy and problem-free."
+  },
+  {
+    "id": "weigela", "name": "Weigela", "latin": "Weigela florida", "emoji": "🌸", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Weigela",
+    "tagline": "Masses of tubular flowers in May and June. A reliable, easy shrub that suits almost any garden.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Drought-tolerant once mature.", "bar": 35 }, "sun": { "value": "4–8 hours", "detail": "Full sun to light shade. Adaptable.", "bar": 62 }, "soil": { "value": "Any well-draining soil", "detail": "Very adaptable. Grows in most conditions.", "bar": 40 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Root easily from hardwood cuttings in winter." }, "germination": "Cuttings root over winter", "harvest": "Flowers May–June, sometimes again in September", "spacing": "1.5–2m" },
+    "tips": ["Prune after flowering — cut back one-third of the oldest stems to the ground.", "Wine and Roses (dark leaves, pink flowers) is one of the most popular varieties for foliage and flower contrast.", "Often produces a second smaller flush of flowers in late summer.", "One of the most reliable flowering shrubs for beginners."],
+    "warning": "Non-toxic. Easy and reliable. One of the most forgiving flowering shrubs."
+  },
+  {
+    "id": "potentilla-shrub", "name": "Potentilla (Shrubby Cinquefoil)", "latin": "Potentilla fruticosa", "emoji": "🌼", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Potentilla",
+    "tagline": "A compact shrub that flowers continuously from May to October with almost no attention needed.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Very drought-tolerant once established. Water only in severe drought.", "bar": 22 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most prolific flowering.", "bar": 82 }, "soil": { "value": "Any well-draining soil", "detail": "Very adaptable. Thrives even in poor soil.", "bar": 25 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Roots easily from hardwood cuttings in winter." }, "germination": "Cuttings root over winter", "harvest": "Flowers May–October", "spacing": "60cm–1m" },
+    "tips": ["Flowers for longer than almost any other shrub — May to October without stopping.", "Trim lightly after flowering to keep it compact.", "Available in white, yellow, pink, and orange varieties.", "One of the most reliable low-maintenance flowering shrubs for exposed or difficult sites."],
+    "warning": "Non-toxic. One of the most easy-care and problem-free garden shrubs available."
+  },
+  {
+    "id": "hibiscus-hardy", "name": "Hardy Hibiscus", "latin": "Hibiscus syriacus", "emoji": "🌺", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hardy+Hibiscus",
+    "tagline": "Exotic-looking flowers on a completely hardy shrub. Produces dinner-plate sized blooms from July to October.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist during flowering. Tolerates some drought once established.", "bar": 52 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for good flowering.", "bar": 88 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good garden soil with some compost.", "bar": 55 }, "temp": { "value": "Hardy to -20°C", "detail": "Fully cold-hardy despite tropical appearance." }, "seedDepth": { "value": "Buy a named plant", "detail": "Wide range of named varieties available." }, "germination": "Buy plants", "harvest": "Flowers July–October", "spacing": "1–1.5m" },
+    "tips": ["Slow to wake up in spring — don't assume it's dead if it's still bare in April or May.", "Prune lightly in spring to shape. Not required but keeps it tidy.", "Blue Bird (blue-mauve) and Diana (pure white) are classic varieties.", "One of the latest flowering shrubs in the season — still flowering when most shrubs are over."],
+    "warning": "Leaf drop in spring — don't panic. This shrub leafs out later than almost any other. Scratching the stem reveals green below the surface if it's alive."
+  },
+  {
+    "id": "cornus-shrub", "name": "Cornus (Dogwood)", "latin": "Cornus alba", "emoji": "🔴", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Dogwood",
+    "tagline": "Vivid red or yellow stems that glow in winter sunlight. The most impactful shrub for winter colour.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Keep moist especially in first 2 years. Tolerates wet conditions well.", "bar": 48 }, "sun": { "value": "4–8 hours", "detail": "Full sun to partial shade. Very adaptable.", "bar": 60 }, "soil": { "value": "Any soil including wet", "detail": "One of the few shrubs that grows happily in wet or waterlogged soil.", "bar": 42 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Root extremely easily from hardwood cuttings in winter." }, "germination": "Cuttings root over winter", "harvest": "Stems vivid in winter, flowers in spring, berries in autumn", "spacing": "1.5–2m" },
+    "tips": ["Cut back all stems to within 5–10cm of the ground every spring (or every other year) — only young stems have the vivid winter colour.", "Without annual coppicing the stems age and lose their colour.", "Sibirica (red stems) and Flaviramea (yellow-green stems) are the most popular varieties.", "Plant in groups of three or more in contrasting colours for the best winter effect."],
+    "warning": "Non-toxic. One of the easiest and most rewarding shrubs for winter interest."
+  },
+  {
+    "id": "amelanchier", "name": "Amelanchier (Snowy Mespilus)", "latin": "Amelanchier lamarckii", "emoji": "⚪", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Amelanchier",
+    "tagline": "Four seasons of beauty — spring blossom, edible summer berries, vivid autumn colour, elegant winter structure.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Drought-tolerant once mature.", "bar": 38 }, "sun": { "value": "4–6 hours", "detail": "Sun to partial shade. Very adaptable.", "bar": 58 }, "soil": { "value": "Well-draining, slightly acidic", "detail": "Most soils work well. Slightly acidic preferred.", "bar": 50 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Buy a plant or bare-root tree", "detail": "Available as multi-stemmed shrubs or single-stemmed small trees." }, "germination": "Buy plants", "harvest": "Flowers April, berries June–July", "spacing": "3–5m" },
+    "tips": ["One of the most multi-season garden plants available — beautiful in every season.", "The berries taste of blueberry with a hint of almond — excellent fresh or cooked.", "Net if you want any berries — birds will strip them rapidly.", "Can be grown as a large shrub or a small multi-stemmed tree."],
+    "warning": "Non-toxic. The berries are edible and tasty. One of the safest and most rewarding garden plants."
+  },
+  {
+    "id": "photinia", "name": "Photinia (Red Robin)", "latin": "Photinia × fraseri", "emoji": "🔴", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Photinia+Red+Robin",
+    "tagline": "Vivid scarlet new growth every spring, fresh again with each new flush. A bold evergreen statement.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Drought-tolerant once mature.", "bar": 35 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most vivid red new growth.", "bar": 82 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good garden soil. Not too wet.", "bar": 50 }, "temp": { "value": "Hardy to -15°C", "detail": "Hardy in most temperate climates." }, "seedDepth": { "value": "Buy a plant or semi-ripe cuttings", "detail": "Semi-ripe cuttings in late summer root well." }, "germination": "Cuttings root in 6–8 weeks", "harvest": "Vivid red new growth spring and late summer", "spacing": "1.5–2m" },
+    "tips": ["Trim twice a year (spring and late summer) to encourage multiple flushes of vivid red new growth.", "Makes an excellent formal hedge or informal specimen shrub.", "The more you clip, the more new red growth is triggered.", "Leaf spot disease can cause brown spots — improve airflow and avoid overhead watering."],
+    "warning": "Non-toxic. Generally easy and problem-free. Leaf spot in wet conditions is the main issue."
+  },
+  {
+    "id": "euonymus", "name": "Euonymus", "latin": "Euonymus fortunei", "emoji": "🌿", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Euonymus",
+    "tagline": "A versatile evergreen workhorse. Tolerates deep shade, drought, and neglect while looking consistently smart.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Very drought-tolerant once established.", "bar": 20 }, "sun": { "value": "Deep shade to full sun", "detail": "One of the most adaptable shrubs for any light condition.", "bar": 50 }, "soil": { "value": "Any soil", "detail": "Tolerates almost any soil including dry, poor, and chalk.", "bar": 22 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Hardwood cuttings or buy a plant", "detail": "Very easy from hardwood cuttings in winter." }, "germination": "Cuttings root over winter", "harvest": "Year-round evergreen foliage", "spacing": "60cm–1m" },
+    "tips": ["Emerald Gaiety (white-edged) and Emerald n Gold (gold-edged) are the most popular variegated varieties.", "Can be clipped into formal shapes or left to grow naturally.", "Excellent ground cover under trees where little else grows.", "One of the most reliable problem-free evergreen shrubs for any garden."],
+    "warning": "The fruits and seeds are toxic. Keep away from children — the bright orange berries look attractive."
+  },
+  {
+    "id": "hebe", "name": "Hebe", "latin": "Hebe speciosa", "emoji": "💜", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hebe",
+    "tagline": "Compact evergreen shrubs with bottle-brush flowers. Excellent for coastal gardens and containers.",
+    "care": { "water": { "value": "Every 3–4 days when young", "detail": "Water when establishing. Drought-tolerant once mature.", "bar": 40 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers.", "bar": 82 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good drainage is key. Hebes hate waterlogged soil.", "bar": 45 }, "temp": { "value": "Hardy to -10°C (large-leaved varieties less so)", "detail": "Small-leaved varieties are hardier. Large-leaved varieties may need protection in cold areas." }, "seedDepth": { "value": "Softwood cuttings or buy a plant", "detail": "Take softwood cuttings in summer — they root easily." }, "germination": "Cuttings root in 4–6 weeks", "harvest": "Flowers June–October depending on variety", "spacing": "60cm–1m" },
+    "tips": ["Small-leaved varieties (H. pinguifolia, H. rakaiensis) are the hardiest and most reliable.", "Excellent for coastal gardens — very tolerant of salt-laden winds.", "Trim lightly after flowering to maintain a compact shape.", "Excellent in containers — compact, evergreen, and long-flowering."],
+    "warning": "Large-leaved varieties may be damaged or killed in very cold winters. Choose small-leaved varieties for reliability in cold areas."
+  },
+  {
+    "id": "lavatera", "name": "Tree Mallow", "latin": "Lavatera × clementii", "emoji": "🌸", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Tree+Mallow",
+    "tagline": "A fast-growing shrub smothered in silky pink flowers all summer. Extraordinary value for money and effort.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Very drought-tolerant once mature.", "bar": 32 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good drainage is essential. Too rich soil produces leaves over flowers.", "bar": 40 }, "temp": { "value": "Hardy to -10°C", "detail": "Cut back in spring — often the top growth dies back but regrows from the base." }, "seedDepth": { "value": "Softwood cuttings or buy a plant", "detail": "Take cuttings in summer — they root quickly and easily." }, "germination": "Cuttings root in 3–4 weeks", "harvest": "Flowers June–October", "spacing": "1.5–2m" },
+    "tips": ["Cut back by half in autumn to reduce wind rock, then cut back hard to 30cm in spring.", "One of the fastest-growing flowering shrubs — reaches full size in a single season.", "Barnsley (white with pink eye) and Rosea (deep pink) are classic varieties.", "If it dies back in a hard winter, don't give up — it often regrows vigorously from the roots."],
+    "warning": "Short-lived shrub — typically 5–7 years before declining. Take cuttings regularly to maintain a supply of replacement plants."
+  },
+  {
+    "id": "escallonia", "name": "Escallonia", "latin": "Escallonia rubra", "emoji": "🌸", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Escallonia",
+    "tagline": "A tough evergreen shrub with masses of small flowers. Excellent for hedging and coastal gardens.",
+    "care": { "water": { "value": "Weekly when young", "detail": "Water when establishing. Drought-tolerant once mature.", "bar": 32 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers.", "bar": 82 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Adaptable to most soils with good drainage.", "bar": 42 }, "temp": { "value": "Hardy to -10°C", "detail": "Fairly cold-hardy. May suffer in severe winters in cold inland areas." }, "seedDepth": { "value": "Softwood cuttings or buy a plant", "detail": "Take softwood cuttings in summer." }, "germination": "Cuttings root in 4–6 weeks", "harvest": "Flowers June–September", "spacing": "1–1.5m" },
+    "tips": ["Excellent for coastal gardens — very tolerant of salt-laden winds.", "Makes a good informal flowering hedge.", "Trim after flowering to keep compact.", "Glossy evergreen leaves look good year-round even when not in flower."],
+    "warning": "May be damaged in severe winters inland. Choose a sheltered position in cold areas."
+  },
+  {
+    "id": "phormium", "name": "Phormium (New Zealand Flax)", "latin": "Phormium tenax", "emoji": "🌿", "type": "shrub", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Phormium",
+    "tagline": "Bold, architectural sword-like leaves in vivid colours. Creates instant drama in any planting.",
+    "care": { "water": { "value": "Every 3–4 days when young", "detail": "Water when establishing. Very drought-tolerant once mature.", "bar": 35 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most vivid leaf colour.", "bar": 85 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Any reasonable soil with good drainage.", "bar": 42 }, "temp": { "value": "Hardy to -10°C (varies by variety)", "detail": "Green and bronze varieties are hardier. Variegated varieties are more tender." }, "seedDepth": { "value": "Division or buy a plant", "detail": "Divide established clumps in spring to create more plants." }, "germination": "Division in spring", "harvest": "Year-round foliage interest, dramatic flowers on mature plants", "spacing": "1–2m depending on variety" },
+    "tips": ["Remove dead or tatty outer leaves by pulling firmly downwards — they come off cleanly.", "Dramatic flower spikes on mature plants reach 2–3m tall and are hugely attractive to birds.", "Bronze-leaved varieties are generally hardier than the colourful striped varieties.", "Excellent in containers for a contemporary, architectural look."],
+    "warning": "The leaf edges are sharp — wear gloves when working with or near phormiums."
+  },
+  {
+    "id": "agapanthus", "name": "Agapanthus", "latin": "Agapanthus africanus", "emoji": "💙", "type": "flower", "difficulty": "medium",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Agapanthus",
+    "tagline": "Globes of vivid blue flowers on tall stems in July and August. Spectacular and long-flowering.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Water regularly during growing season. Reduce in winter.", "bar": 55 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential for reliable flowering.", "bar": 88 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good drainage is essential. Too wet in winter causes root rot.", "bar": 52 }, "temp": { "value": "Hardy to -10°C (deciduous varieties more so)", "detail": "Deciduous varieties are hardier. Evergreen varieties need frost protection in cold climates." }, "seedDepth": { "value": "Division or buy a plant", "detail": "Divide established clumps every 3–4 years in spring." }, "germination": "Division in spring", "harvest": "Flowers July–September", "spacing": "30–45cm" },
+    "tips": ["Pot-bound plants flower most prolifically — don't repot unless really necessary.", "Deciduous varieties (Headbourne Hybrids) are far hardier than evergreen types.", "Mulch the crown in autumn in cold areas to protect from frost.", "Excellent in large containers — restrict the roots for better flowering."],
+    "warning": "All parts are toxic to cats and dogs. Keep pets away. Can cause skin irritation in humans — wear gloves when handling."
+  },
+  {
+    "id": "allium-ornamental", "name": "Ornamental Allium", "latin": "Allium giganteum", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Ornamental+Allium",
+    "tagline": "Giant purple spheres on tall stems that look architectural even after the flowers have faded.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Water sparingly. Drought-tolerant. Overwatering causes bulb rot.", "bar": 28 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 88 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Excellent drainage is critical — bulbs rot in wet soil.", "bar": 35 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy bulbs." }, "seedDepth": { "value": "Bulbs 15–20 cm deep", "detail": "Plant bulbs in autumn at a depth of 3× their diameter." }, "germination": "Spring growth from autumn-planted bulbs", "harvest": "Flowers May–June", "spacing": "15–20cm" },
+    "tips": ["The spherical seed heads that follow the flowers are equally beautiful — leave standing.", "Plant between perennials that will grow up and hide the dying foliage.", "Plant in autumn for spring-summer flowers.", "Self-seeds freely in good conditions — gradually naturalises into colonies."],
+    "warning": "Non-toxic. One of the easiest and most architectural garden bulbs."
+  },
+  {
+    "id": "tulip", "name": "Tulip", "latin": "Tulipa", "emoji": "🌷", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Tulip",
+    "tagline": "The most spectacular spring bulb. Hundreds of varieties in every colour imaginable, flowering March–May.",
+    "care": { "water": { "value": "Rarely — rain usually sufficient", "detail": "Don't water unless very dry. Bulbs rot in wet conditions.", "bar": 22 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the strongest stems and most vivid colours.", "bar": 88 }, "soil": { "value": "Well-draining — critical", "detail": "Perfect drainage is the single most important factor. Wet soil = rotting bulbs.", "bar": 25 }, "temp": { "value": "Hardy bulbs — plant in autumn", "detail": "Plant in October–November for spring flowering." }, "seedDepth": { "value": "15–20 cm deep", "detail": "Plant bulbs pointed side up, 15–20cm deep, in October–November." }, "germination": "Spring growth from autumn planting", "harvest": "Flowers March–May depending on variety", "spacing": "10–15cm" },
+    "tips": ["Plant late (October–November) to reduce tulip fire disease risk.", "For reliable repeat flowering, plant deeply (20cm) in very well-drained soil or treat as annuals.", "Dead-head immediately after flowering but leave foliage to die back naturally.", "Species tulips (T. turkestanica, T. sprengeri) naturalise and come back reliably year after year."],
+    "warning": "Tulip bulbs cause skin irritation in some people — wear gloves when planting. Toxic if eaten."
+  },
+  {
+    "id": "daffodil", "name": "Daffodil", "latin": "Narcissus", "emoji": "🌼", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Daffodil",
+    "tagline": "The most reliable spring bulb. Plant in autumn and they return faithfully every year for decades.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Rainfall is usually sufficient. Water only in extended dry spells when in active growth.", "bar": 22 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade. Good under deciduous trees where they flower before the leaves appear.", "bar": 62 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good drainage is important. Tolerates most soils.", "bar": 48 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy. Increase reliably each year." }, "seedDepth": { "value": "15–20 cm deep", "detail": "Plant bulbs pointed side up, at a depth of 3× their diameter." }, "germination": "Spring growth from autumn planting", "harvest": "Flowers February–April depending on variety", "spacing": "10–15cm" },
+    "tips": ["Allow the foliage to die back completely before removing — 6 weeks minimum. The leaves are feeding next year's bulbs.", "Naturalise in grass by scattering bulbs randomly and planting where they land for a natural effect.", "Dead-head flowers but leave stems until they yellow — they continue feeding the bulb.", "Divide overcrowded clumps every 5–6 years when flowering decreases."],
+    "warning": "All parts are toxic — the sap causes daffodil itch (skin irritation). Wear gloves when handling. Don't mix cut daffodils with other flowers in a vase — the sap poisons other flowers."
+  },
+  {
+    "id": "hyacinth", "name": "Hyacinth", "latin": "Hyacinthus orientalis", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hyacinth",
+    "tagline": "The most intensely fragrant spring bulb. One flower spike can perfume an entire room.",
+    "care": { "water": { "value": "Every 2 weeks outdoors", "detail": "Keep moist during active growth. Allow to dry when dormant in summer.", "bar": 38 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for best outdoor performance.", "bar": 82 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good drainage is key — bulbs rot in wet conditions.", "bar": 42 }, "temp": { "value": "Hardy to -15°C", "detail": "Cold-hardy bulbs. Plant in autumn for spring flowering." }, "seedDepth": { "value": "10–15 cm deep", "detail": "Plant pointed side up, 10–15cm deep in October–November." }, "germination": "Spring growth from autumn planting", "harvest": "Flowers March–April", "spacing": "10cm" },
+    "tips": ["Force indoors for Christmas by planting prepared bulbs in September in a cool dark place for 8–10 weeks.", "The first year's flowers are usually the biggest and best — subsequent years the spikes may be smaller.", "The fragrance is strongest in the morning.", "Hyacinth vases allow you to grow them in water — beautiful and unusual."],
+    "warning": "The bulb sap causes skin irritation and is a known sensitiser. Always wear gloves when handling bulbs."
+  },
+  {
+    "id": "crocus", "name": "Crocus", "latin": "Crocus vernus", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Crocus",
+    "tagline": "The first flowers of spring, often pushing through snow. Naturalise effortlessly in grass and borders.",
+    "care": { "water": { "value": "Rarely needed", "detail": "Natural rainfall is sufficient. Never water in summer dormancy.", "bar": 15 }, "sun": { "value": "4–6 hours", "detail": "Tolerates partial shade well. Naturalises beautifully under deciduous trees.", "bar": 58 }, "soil": { "value": "Well-draining", "detail": "Good drainage is important. Tolerates most soils.", "bar": 38 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy. Among the first flowers to appear in late winter." }, "seedDepth": { "value": "5–8 cm deep", "detail": "Plant corms 5–8cm deep in autumn, pointed side up." }, "germination": "Late winter/early spring from autumn planting", "harvest": "Flowers February–April", "spacing": "5–8cm — naturalise freely" },
+    "tips": ["Plant in large drifts for the most impact — 50 or 100 look far better than 10.", "Naturalise in lawns by cutting holes with a bulb planter, dropping a corm in each hole, and replacing the plug.", "Don't mow the lawn until 6 weeks after flowering to allow leaves to die back.", "Increase freely each year without any attention."],
+    "warning": "Non-toxic to humans. Squirrels and mice dig up and eat corms — plant in wire mesh baskets in squirrel-prone areas."
+  },
+  {
+    "id": "aquilegia", "name": "Aquilegia (Columbine)", "latin": "Aquilegia vulgaris", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Aquilegia",
+    "tagline": "Elegant, spurred flowers in a huge range of colours. Self-seeds to create a permanent colony.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist in spring when in active growth. More drought-tolerant in summer.", "bar": 48 }, "sun": { "value": "Partial shade to full sun", "detail": "Tolerates partial shade well — good for the edges of woodland or dappled shade.", "bar": 58 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Not fussy. Average garden soil works well.", "bar": 50 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy short-lived perennial." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Scatter seed in autumn. Don't cover — needs light to germinate." }, "germination": "In spring after autumn sowing", "harvest": "Flowers May–June", "spacing": "30–45cm" },
+    "tips": ["Allow to self-seed freely — the seedlings cross-pollinate to produce an ever-changing range of colours.", "Short-lived perennial (2–3 years) but self-seeds prolifically to maintain a permanent colony.", "Leaf miners make white squiggly lines on the leaves — unsightly but not fatal.", "Cut down after flowering to encourage a fresh flush of foliage."],
+    "warning": "All parts are toxic if eaten in quantity. Keep away from children. Contact with sap can cause skin irritation."
+  },
+  {
+    "id": "salvia-ornamental", "name": "Salvia (Ornamental)", "latin": "Salvia nemorosa", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Ornamental+Salvia",
+    "tagline": "Upright spikes of vivid blue-purple flowers that bees cannot resist. Flowers for months with deadheading.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant once established. Don't overwater.", "bar": 32 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers and most vivid colour.", "bar": 88 }, "soil": { "value": "Well-draining, lean", "detail": "Lean, well-draining soil produces better flowering than rich compost.", "bar": 28 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy perennial." }, "seedDepth": { "value": "Press onto surface or buy a plant", "detail": "Tiny seeds need light. Buy named varieties for specific colours." }, "germination": "14–21 days", "harvest": "Flowers June–September with deadheading", "spacing": "30–45cm" },
+    "tips": ["Cut back by half after the first flush of flowers — this triggers a second and sometimes third flush.", "Caradonna (dark purple stems) and Marcus (compact, vivid blue) are outstanding varieties.", "One of the best plants for attracting bees — long tongues of bumblebees are particularly suited.", "Leave standing in winter — the dried flower spikes are structural and attractive."],
+    "warning": "Non-toxic. One of the most reliable and bee-friendly perennials for dry sunny positions."
+  },
+  {
+    "id": "catmint", "name": "Catmint", "latin": "Nepeta × faassenii", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Catmint",
+    "tagline": "A soft, fragrant mound of lavender-blue flowers that spills beautifully over path edges. Bees love it.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Drought-tolerant once established. Overwatering causes root rot.", "bar": 28 }, "sun": { "value": "6+ hours direct", "detail": "Full sun for the most flowers.", "bar": 85 }, "soil": { "value": "Well-draining, lean to moderate", "detail": "Lean soil produces the most flowers. Too rich = lush growth with few blooms.", "bar": 28 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Press onto surface or divide", "detail": "Divides easily in spring. Or buy a plant." }, "germination": "Division in spring", "harvest": "Flowers May–September with deadheading", "spacing": "30–45cm" },
+    "tips": ["Cut back to 10cm after the first flush of flowers — regrows to flower again within 4–6 weeks.", "Walker's Low is the most reliable and long-flowering variety.", "Cats are attracted to it like catnip — they may roll in it. Some protection may be needed for young plants.", "Excellent edging plant — the soft spreading habit is beautiful along path margins."],
+    "warning": "Cats are strongly attracted to catmint and may flatten or damage plants by rolling on them. Non-toxic."
+  },
+  {
+    "id": "verbena-bonariensis", "name": "Verbena bonariensis", "latin": "Verbena bonariensis", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Verbena+bonariensis",
+    "tagline": "Tall, airy stems topped with vivid purple flowers. See-through quality means it works anywhere in a border.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Drought-tolerant once established.", "bar": 30 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 88 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Average garden soil. Good drainage essential.", "bar": 45 }, "temp": { "value": "Hardy to -10°C", "detail": "May not survive very hard winters. Self-seeds freely so often replaces itself." }, "seedDepth": { "value": "Press onto surface — needs light", "detail": "Sow on soil surface in spring. Very easy from seed." }, "germination": "14–21 days", "harvest": "Flowers July–October", "spacing": "45–60cm" },
+    "tips": ["The tall thin stems are transparent — plant at the front of borders where other plants would block the view.", "Self-seeds prolifically — once established it reappears every year.", "Butterflies and bees are strongly attracted to the flowers.", "Leave standing in winter — structural and provides food for birds."],
+    "warning": "Can self-seed excessively. Remove unwanted seedlings in spring. Non-toxic."
+  },
+  {
+    "id": "gaura", "name": "Gaura (Whirling Butterflies)", "latin": "Oenothera lindheimeri", "emoji": "⚪", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Gaura",
+    "tagline": "Delicate white and pink flowers on wiry stems that dance in the breeze all summer long.",
+    "care": { "water": { "value": "Every 1–2 weeks", "detail": "Very drought-tolerant. Overwatering is a more common cause of death than drought.", "bar": 25 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 88 }, "soil": { "value": "Well-draining, poor to moderate", "detail": "Thrives in poor, lean soil. Too rich soil produces floppy growth.", "bar": 25 }, "temp": { "value": "Hardy to -15°C", "detail": "Hardy perennial in most temperate climates." }, "seedDepth": { "value": "Press onto surface or buy a plant", "detail": "Sow seeds on surface in spring. Or buy a young plant." }, "germination": "14–21 days", "harvest": "Flowers June–October", "spacing": "45–60cm" },
+    "tips": ["Excellent movement in the breeze — the wiry stems sway beautifully.", "Cut back by half in late autumn to reduce wind rock.", "Siskiyou Pink (deep pink) and Whirling Butterflies (white) are the most popular varieties.", "Exceptional drought and heat tolerance — excellent for hot, dry spots."],
+    "warning": "Non-toxic. Very easy in well-drained conditions. The main cause of failure is waterlogged winter soil."
+  },
+  {
+    "id": "kniphofia", "name": "Red Hot Poker", "latin": "Kniphofia uvaria", "emoji": "🔴", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Red+Hot+Poker",
+    "tagline": "Dramatic torch-like flowers in vivid orange, red, and yellow. Hummingbirds and bees can't resist them.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Drought-tolerant once established. Reduce watering in winter.", "bar": 35 }, "sun": { "value": "6+ hours direct", "detail": "Full sun essential.", "bar": 88 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good drainage essential — roots rot in wet soil.", "bar": 45 }, "temp": { "value": "Hardy to -15°C", "detail": "Most varieties are cold-hardy. Protect crowns in very cold areas with a dry mulch." }, "seedDepth": { "value": "Division or buy a plant", "detail": "Divide established clumps every 3–4 years in spring." }, "germination": "Division in spring", "harvest": "Flowers June–September depending on variety", "spacing": "45–60cm" },
+    "tips": ["Tie the leaves over the crown in late autumn to protect the heart from winter wet and frost.", "In spring, remove the tied leaves and clear out old dead foliage.", "Divide every 3–4 years when clumps become congested and flowering decreases.", "Excellent for providing height and drama in a border."],
+    "warning": "Non-toxic. The main risk is crown rot in wet winter conditions — ensure good drainage and protect from excessive wet."
+  },
+  {
+    "id": "astrantia", "name": "Astrantia (Masterwort)", "latin": "Astrantia major", "emoji": "⚪", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Astrantia",
+    "tagline": "Intricate, jewel-like flowers beloved by florists. Thrives in partial shade and flowers for months.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Prefers moist conditions. Keep consistently moist for best results.", "bar": 65 }, "sun": { "value": "Partial shade preferred", "detail": "Thrives in partial shade or dappled light. Tolerates full sun if soil stays moist.", "bar": 45 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Moist, humus-rich soil. Mulch annually to retain moisture.", "bar": 68 }, "temp": { "value": "Hardy to -25°C", "detail": "Very cold-hardy." }, "seedDepth": { "value": "Press onto surface or divide", "detail": "Sow fresh seed on soil surface in autumn. Divide established clumps in spring." }, "germination": "In spring after autumn sowing", "harvest": "Flowers June–August, sometimes again if cut back", "spacing": "45cm" },
+    "tips": ["Cut back all stems after first flowering — often produces a second flush in September.", "Roma (deep red-pink) and Shaggy (white with long petals) are outstanding varieties.", "Excellent cut flower — lasts 2 weeks in a vase.", "Self-seeds in good conditions but seedlings may not match parent colour."],
+    "warning": "Non-toxic. Easy in moist, partially shaded conditions."
+  },
+  {
+    "id": "heuchera", "name": "Heuchera (Coral Bells)", "latin": "Heuchera micrantha", "emoji": "🍂", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Heuchera",
+    "tagline": "Extraordinary foliage in purple, bronze, lime, and silver. Beautiful year-round ground cover.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Keep moist but don't waterlog. Tolerates some drought.", "bar": 52 }, "sun": { "value": "Partial shade", "detail": "Partial shade produces the best leaf colour. Full sun bleaches the foliage in hot weather.", "bar": 45 }, "soil": { "value": "Well-draining, moderately fertile", "detail": "Good potting compost or garden soil with compost mixed in.", "bar": 55 }, "temp": { "value": "Hardy to -20°C", "detail": "Very cold-hardy. Evergreen in mild winters." }, "seedDepth": { "value": "Division or buy a plant", "detail": "Divide every 3–4 years in spring when the crown lifts above the soil." }, "germination": "Division in spring", "harvest": "Year-round foliage, flowers June–August", "spacing": "30–45cm" },
+    "tips": ["Divide every 3–4 years when the woody crown lifts above the soil surface — replant the healthy outer sections.", "The range of leaf colours is extraordinary — mix several varieties for a tapestry effect.", "Excellent for containers — year-round interest and compact habit.", "Tiny bell-shaped flowers attract hummingbirds and small pollinators."],
+    "warning": "Non-toxic. Easy and adaptable. Main issue is crown lifting — divide regularly to maintain vigour."
+  },
+  {
+    "id": "geranium-hardy", "name": "Hardy Geranium (Cranesbill)", "latin": "Geranium × magnificum", "emoji": "💜", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hardy+Geranium",
+    "tagline": "The most useful and reliable perennial in the garden. Flowers for weeks and looks after itself for decades.",
+    "care": { "water": { "value": "Every 2 weeks", "detail": "Drought-tolerant once established. Very low maintenance.", "bar": 30 }, "sun": { "value": "Partial shade to full sun", "detail": "Extraordinarily adaptable. Grows well in almost any light condition.", "bar": 60 }, "soil": { "value": "Any reasonable soil", "detail": "Genuinely grows in almost any soil. Very undemanding.", "bar": 35 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy." }, "seedDepth": { "value": "Division or buy a plant", "detail": "Divide established clumps in spring or autumn." }, "germination": "Division — immediate", "harvest": "Flowers May–July, sometimes again if cut back", "spacing": "45–60cm" },
+    "tips": ["Cut back hard after flowering — the mound of foliage often produces a second flush of flowers and fresh leaves.", "Rozanne (vivid blue, very long flowering) is one of the best perennials in existence — flowers May to November.", "Spreads slowly into a weed-suppressing ground cover.", "Virtually indestructible — one of the best plants for problem spots."],
+    "warning": "Non-toxic. One of the most problem-free and reliable garden perennials."
+  },
+  {
+    "id": "hosta", "name": "Hosta", "latin": "Hosta sieboldiana", "emoji": "🌿", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hosta",
+    "tagline": "The king of foliage plants for shade. Enormous leaves in blue, green, gold, and variegated forms.",
+    "care": { "water": { "value": "Every 2–3 days", "detail": "Hostas love moisture. Keep consistently moist for the largest, most impressive leaves.", "bar": 68 }, "sun": { "value": "Shade to partial shade", "detail": "The classic shade plant. Direct afternoon sun scorches the leaves badly.", "bar": 28 }, "soil": { "value": "Rich, moist, well-draining", "detail": "Moist, humus-rich soil. Dig in plenty of compost when planting.", "bar": 70 }, "temp": { "value": "Hardy to -30°C", "detail": "Extremely cold-hardy. Completely dormant in winter." }, "seedDepth": { "value": "Division or buy a plant", "detail": "Divide established clumps in spring just as new growth appears." }, "germination": "Division in spring", "harvest": "Foliage April–October, flowers July–August", "spacing": "30–90cm depending on variety" },
+    "tips": ["Slugs and snails will destroy hostas overnight — protection is essential from the moment growth emerges in spring.", "Blue-leaved varieties (Halcyon, Blue Angel) are slug-resistant as the waxy leaf coating deters them.", "The lavender or white flowers are attractive but secondary to the foliage — remove if you prefer.", "Divide every 4–5 years to maintain vigour and expand your collection for free."],
+    "warning": "Toxic to cats and dogs — causes vomiting and diarrhoea. Keep away from pets. Slugs are the biggest threat to young plants."
+  },
+  {
+    "id": "fern-hardy", "name": "Hardy Fern", "latin": "Dryopteris filix-mas", "emoji": "🌿", "type": "flower", "difficulty": "easy",
+    "img": "https://placehold.co/600x400/2d5a3d/8fbc6e?text=Hardy+Fern",
+    "tagline": "Architectural, ancient, and incredibly reliable. Transforms dark shady spots that defeat most other plants.",
+    "care": { "water": { "value": "Every 3–4 days", "detail": "Prefers moist conditions but surprisingly drought-tolerant once established.", "bar": 55 }, "sun": { "value": "Deep shade to partial shade", "detail": "One of the finest plants for deep shade. Avoid full sun which scorches fronds.", "bar": 22 }, "soil": { "value": "Moist, humus-rich", "detail": "Woodland soil conditions — moist, leafy, slightly acidic.", "bar": 65 }, "temp": { "value": "Hardy to -25°C", "detail": "Extremely cold-hardy. Evergreen in mild winters." }, "seedDepth": { "value": "Division or buy a plant", "detail": "Divide established clumps in spring. Spores can be sown but are very slow." }, "germination": "Division in spring", "harvest": "Foliage year-round (evergreen varieties)", "spacing": "45–60cm" },
+    "tips": ["Cut back old fronds in late winter before new croziers (curled new fronds) emerge in spring.", "Polystichum setiferum (soft shield fern) and Dryopteris erythrosora (autumn fern) are among the most beautiful.", "Combine with hostas and astrantia for a complete shade planting.", "Almost no maintenance once established in the right conditions."],
+    "warning": "Non-toxic. One of the most problem-free plants for difficult shady spots."
+  }
+]
