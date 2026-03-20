@@ -1,1707 +1,2097 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://simpleplantcare.co/</loc>
+    <loc>https://simpleplantcare.org/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/basil</loc>
+    <loc>https://simpleplantcare.org/herbs</loc>
     <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants-for-tea</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants-for-skin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/easy-houseplants</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/vegetables-beginners</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants-for-balcony</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/basil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/tomato</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/garden-peas</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/carrot</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/cucumber</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/spinach</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/kale</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/lettuce</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/courgette-zucchini</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/bell-pepper</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/onion</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/garlic</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/potato</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/broccoli</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/radish</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/beetroot</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/sweetcorn</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/pumpkin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/aloe-vera</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/peace-lily</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/monstera</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/snake-plant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/pothos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/spider-plant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/fiddle-leaf-fig</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/zz-plant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/mint</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/lavender</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/rosemary</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/thyme</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/chives</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/parsley</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/oregano</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/coriander-cilantro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/sage</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/dill</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/strawberry</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/blueberry</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/raspberry</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/apple-tree</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/lemon-tree</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/sunflower</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/rose</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/marigold</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/nasturtium</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/geranium-pelargonium</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/petunia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/pansy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/dahlia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/blackhaw</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/hydrangea</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/buddleia-butterfly-bush</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/wisteria</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/english-oak</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/aloe-vera</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/rubber-plant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/fiddle-leaf-fig</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/calathea</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/heartleaf-philodendron</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://simpleplantcare.org/plants/split-leaf-philodendron</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/tomato</loc>
+    <loc>https://simpleplantcare.org/plants/chinese-evergreen</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/garden-peas</loc>
+    <loc>https://simpleplantcare.org/plants/dracaena</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/carrot</loc>
+    <loc>https://simpleplantcare.org/plants/bird-of-paradise</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/cucumber</loc>
+    <loc>https://simpleplantcare.org/plants/moth-orchid</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/spinach</loc>
+    <loc>https://simpleplantcare.org/plants/anthurium</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/kale</loc>
+    <loc>https://simpleplantcare.org/plants/jade-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lettuce</loc>
+    <loc>https://simpleplantcare.org/plants/echeveria</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/courgette-zucchini</loc>
+    <loc>https://simpleplantcare.org/plants/desert-cactus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/bell-pepper</loc>
+    <loc>https://simpleplantcare.org/plants/christmas-cactus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/onion</loc>
+    <loc>https://simpleplantcare.org/plants/hoya-wax-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/garlic</loc>
+    <loc>https://simpleplantcare.org/plants/bromeliad</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/potato</loc>
+    <loc>https://simpleplantcare.org/plants/air-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/broccoli</loc>
+    <loc>https://simpleplantcare.org/plants/money-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/radish</loc>
+    <loc>https://simpleplantcare.org/plants/boston-fern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/beetroot</loc>
+    <loc>https://simpleplantcare.org/plants/bird-s-nest-fern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sweetcorn</loc>
+    <loc>https://simpleplantcare.org/plants/maidenhair-fern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/pumpkin</loc>
+    <loc>https://simpleplantcare.org/plants/lucky-bamboo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/aloe-vera</loc>
+    <loc>https://simpleplantcare.org/plants/umbrella-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/peace-lily</loc>
+    <loc>https://simpleplantcare.org/plants/string-of-pearls</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/monstera</loc>
+    <loc>https://simpleplantcare.org/plants/string-of-hearts</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/snake-plant</loc>
+    <loc>https://simpleplantcare.org/plants/croton</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/pothos</loc>
+    <loc>https://simpleplantcare.org/plants/polka-dot-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/spider-plant</loc>
+    <loc>https://simpleplantcare.org/plants/caladium</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/fiddle-leaf-fig</loc>
+    <loc>https://simpleplantcare.org/plants/nerve-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/zz-plant</loc>
+    <loc>https://simpleplantcare.org/plants/prayer-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/mint</loc>
+    <loc>https://simpleplantcare.org/plants/wandering-dude</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lavender</loc>
+    <loc>https://simpleplantcare.org/plants/chinese-money-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/rosemary</loc>
+    <loc>https://simpleplantcare.org/plants/peperomia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/thyme</loc>
+    <loc>https://simpleplantcare.org/plants/arrowhead-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/chives</loc>
+    <loc>https://simpleplantcare.org/plants/dumb-cane</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/parsley</loc>
+    <loc>https://simpleplantcare.org/plants/cast-iron-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/oregano</loc>
+    <loc>https://simpleplantcare.org/plants/golden-pothos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/coriander-cilantro</loc>
+    <loc>https://simpleplantcare.org/plants/parlour-palm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sage</loc>
+    <loc>https://simpleplantcare.org/plants/kentia-palm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/dill</loc>
+    <loc>https://simpleplantcare.org/plants/areca-palm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/strawberry</loc>
+    <loc>https://simpleplantcare.org/plants/yucca</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/blueberry</loc>
+    <loc>https://simpleplantcare.org/plants/indoor-banana</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/raspberry</loc>
+    <loc>https://simpleplantcare.org/plants/elephant-ear</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/apple-tree</loc>
+    <loc>https://simpleplantcare.org/plants/taro-elephant-ear</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lemon-tree</loc>
+    <loc>https://simpleplantcare.org/plants/stromanthe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sunflower</loc>
+    <loc>https://simpleplantcare.org/plants/rex-begonia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/rose</loc>
+    <loc>https://simpleplantcare.org/plants/cyclamen</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/marigold</loc>
+    <loc>https://simpleplantcare.org/plants/busy-lizzie</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/nasturtium</loc>
+    <loc>https://simpleplantcare.org/plants/oxalis-wood-sorrel</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/geranium-pelargonium</loc>
+    <loc>https://simpleplantcare.org/plants/african-violet</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/petunia</loc>
+    <loc>https://simpleplantcare.org/plants/lipstick-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lavender</loc>
+    <loc>https://simpleplantcare.org/plants/goldfish-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/pansy</loc>
+    <loc>https://simpleplantcare.org/plants/passionflower</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/dahlia</loc>
+    <loc>https://simpleplantcare.org/plants/purple-velvet-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/blackhaw</loc>
+    <loc>https://simpleplantcare.org/plants/haworthia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/hydrangea</loc>
+    <loc>https://simpleplantcare.org/plants/gasteria</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/buddleia-butterfly-bush</loc>
+    <loc>https://simpleplantcare.org/plants/kalanchoe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/wisteria</loc>
+    <loc>https://simpleplantcare.org/plants/stonecrop-sedum</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/english-oak</loc>
+    <loc>https://simpleplantcare.org/plants/string-of-buttons</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/monstera</loc>
+    <loc>https://simpleplantcare.org/plants/earth-star-bromeliad</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/snake-plant</loc>
+    <loc>https://simpleplantcare.org/plants/venus-flytrap</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/pothos</loc>
+    <loc>https://simpleplantcare.org/plants/pitcher-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/aloe-vera</loc>
+    <loc>https://simpleplantcare.org/plants/sundew</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/peace-lily</loc>
+    <loc>https://simpleplantcare.org/plants/thanksgiving-cactus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/spider-plant</loc>
+    <loc>https://simpleplantcare.org/plants/string-of-turtles</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/rubber-plant</loc>
+    <loc>https://simpleplantcare.org/plants/tineke-rubber-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/fiddle-leaf-fig</loc>
+    <loc>https://simpleplantcare.org/plants/swiss-cheese-vine</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/zz-plant</loc>
+    <loc>https://simpleplantcare.org/plants/thai-constellation-monstera</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/calathea</loc>
+    <loc>https://simpleplantcare.org/plants/marble-queen-pothos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/heartleaf-philodendron</loc>
+    <loc>https://simpleplantcare.org/plants/neon-pothos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/split-leaf-philodendron</loc>
+    <loc>https://simpleplantcare.org/plants/scindapsus-silver-pothos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/chinese-evergreen</loc>
+    <loc>https://simpleplantcare.org/plants/bird-s-nest-snake-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/dracaena</loc>
+    <loc>https://simpleplantcare.org/plants/cauliflower</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/bird-of-paradise</loc>
+    <loc>https://simpleplantcare.org/plants/cabbage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/moth-orchid</loc>
+    <loc>https://simpleplantcare.org/plants/brussels-sprouts</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/anthurium</loc>
+    <loc>https://simpleplantcare.org/plants/leek</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/jade-plant</loc>
+    <loc>https://simpleplantcare.org/plants/sweet-pepper</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/echeveria</loc>
+    <loc>https://simpleplantcare.org/plants/chilli-pepper</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/desert-cactus</loc>
+    <loc>https://simpleplantcare.org/plants/butternut-squash</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/christmas-cactus</loc>
+    <loc>https://simpleplantcare.org/plants/french-bean</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/hoya-wax-plant</loc>
+    <loc>https://simpleplantcare.org/plants/runner-bean</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/bromeliad</loc>
+    <loc>https://simpleplantcare.org/plants/broad-bean</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/air-plant</loc>
+    <loc>https://simpleplantcare.org/plants/spring-onion</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/money-tree</loc>
+    <loc>https://simpleplantcare.org/plants/shallot</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/boston-fern</loc>
+    <loc>https://simpleplantcare.org/plants/turnip</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/bird-s-nest-fern</loc>
+    <loc>https://simpleplantcare.org/plants/parsnip</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/maidenhair-fern</loc>
+    <loc>https://simpleplantcare.org/plants/swede</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lucky-bamboo</loc>
+    <loc>https://simpleplantcare.org/plants/celery</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/umbrella-plant</loc>
+    <loc>https://simpleplantcare.org/plants/celeriac</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/string-of-pearls</loc>
+    <loc>https://simpleplantcare.org/plants/asparagus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/string-of-hearts</loc>
+    <loc>https://simpleplantcare.org/plants/globe-artichoke</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/croton</loc>
+    <loc>https://simpleplantcare.org/plants/florence-fennel</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/polka-dot-plant</loc>
+    <loc>https://simpleplantcare.org/plants/chicory</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/caladium</loc>
+    <loc>https://simpleplantcare.org/plants/endive</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/nerve-plant</loc>
+    <loc>https://simpleplantcare.org/plants/swiss-chard</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/prayer-plant</loc>
+    <loc>https://simpleplantcare.org/plants/pak-choi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/wandering-dude</loc>
+    <loc>https://simpleplantcare.org/plants/mizuna</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/chinese-money-plant</loc>
+    <loc>https://simpleplantcare.org/plants/watercress</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/peperomia</loc>
+    <loc>https://simpleplantcare.org/plants/rocket-arugula</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/arrowhead-plant</loc>
+    <loc>https://simpleplantcare.org/plants/corn-salad-m-che</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/dumb-cane</loc>
+    <loc>https://simpleplantcare.org/plants/aubergine-eggplant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/cast-iron-plant</loc>
+    <loc>https://simpleplantcare.org/plants/okra</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/golden-pothos</loc>
+    <loc>https://simpleplantcare.org/plants/sweet-potato</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/parlour-palm</loc>
+    <loc>https://simpleplantcare.org/plants/jerusalem-artichoke</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/kentia-palm</loc>
+    <loc>https://simpleplantcare.org/plants/taro</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/areca-palm</loc>
+    <loc>https://simpleplantcare.org/plants/armenian-cucumber</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/yucca</loc>
+    <loc>https://simpleplantcare.org/plants/cantaloupe-melon</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/indoor-banana</loc>
+    <loc>https://simpleplantcare.org/plants/watermelon</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/elephant-ear</loc>
+    <loc>https://simpleplantcare.org/plants/rhubarb</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/taro-elephant-ear</loc>
+    <loc>https://simpleplantcare.org/plants/marsh-samphire</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/stromanthe</loc>
+    <loc>https://simpleplantcare.org/plants/kohlrabi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/rex-begonia</loc>
+    <loc>https://simpleplantcare.org/plants/hakurei-turnip</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/cyclamen</loc>
+    <loc>https://simpleplantcare.org/plants/calabrese</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/busy-lizzie</loc>
+    <loc>https://simpleplantcare.org/plants/mustard-greens</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/oxalis-wood-sorrel</loc>
+    <loc>https://simpleplantcare.org/plants/tatsoi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/african-violet</loc>
+    <loc>https://simpleplantcare.org/plants/sorrel</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lipstick-plant</loc>
+    <loc>https://simpleplantcare.org/plants/lemongrass</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/goldfish-plant</loc>
+    <loc>https://simpleplantcare.org/plants/ginger</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/passionflower</loc>
+    <loc>https://simpleplantcare.org/plants/turmeric</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/purple-velvet-plant</loc>
+    <loc>https://simpleplantcare.org/plants/wasabi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/haworthia</loc>
+    <loc>https://simpleplantcare.org/plants/horseradish</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/gasteria</loc>
+    <loc>https://simpleplantcare.org/plants/popcorn-corn</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/kalanchoe</loc>
+    <loc>https://simpleplantcare.org/plants/edamame</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/stonecrop-sedum</loc>
+    <loc>https://simpleplantcare.org/plants/chickpea</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/string-of-buttons</loc>
+    <loc>https://simpleplantcare.org/plants/lentil</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/earth-star-bromeliad</loc>
+    <loc>https://simpleplantcare.org/plants/lamb-s-lettuce</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/venus-flytrap</loc>
+    <loc>https://simpleplantcare.org/plants/amaranth</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/pitcher-plant</loc>
+    <loc>https://simpleplantcare.org/plants/purslane</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sundew</loc>
+    <loc>https://simpleplantcare.org/plants/malabar-spinach</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/thanksgiving-cactus</loc>
+    <loc>https://simpleplantcare.org/plants/red-cabbage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/string-of-turtles</loc>
+    <loc>https://simpleplantcare.org/plants/chinese-cabbage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/tineke-rubber-plant</loc>
+    <loc>https://simpleplantcare.org/plants/daikon-radish</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/swiss-cheese-vine</loc>
+    <loc>https://simpleplantcare.org/plants/salsify</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/thai-constellation-monstera</loc>
+    <loc>https://simpleplantcare.org/plants/scorzonera</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/marble-queen-pothos</loc>
+    <loc>https://simpleplantcare.org/plants/perpetual-spinach</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/neon-pothos</loc>
+    <loc>https://simpleplantcare.org/plants/land-cress</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/scindapsus-silver-pothos</loc>
+    <loc>https://simpleplantcare.org/plants/winter-purslane</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/bird-s-nest-snake-plant</loc>
+    <loc>https://simpleplantcare.org/plants/good-king-henry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/tomato</loc>
+    <loc>https://simpleplantcare.org/plants/fennel-herb</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/cucumber</loc>
+    <loc>https://simpleplantcare.org/plants/lemon-balm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lettuce</loc>
+    <loc>https://simpleplantcare.org/plants/french-tarragon</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/courgette-zucchini</loc>
+    <loc>https://simpleplantcare.org/plants/chervil</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/garden-peas</loc>
+    <loc>https://simpleplantcare.org/plants/lovage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/carrot</loc>
+    <loc>https://simpleplantcare.org/plants/bay-laurel</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/spinach</loc>
+    <loc>https://simpleplantcare.org/plants/lemon-verbena</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/kale</loc>
+    <loc>https://simpleplantcare.org/plants/marjoram</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/broccoli</loc>
+    <loc>https://simpleplantcare.org/plants/hyssop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/cauliflower</loc>
+    <loc>https://simpleplantcare.org/plants/borage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/cabbage</loc>
+    <loc>https://simpleplantcare.org/plants/calendula-pot-marigold</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/brussels-sprouts</loc>
+    <loc>https://simpleplantcare.org/plants/german-chamomile</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/onion</loc>
+    <loc>https://simpleplantcare.org/plants/echinacea-coneflower</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/garlic</loc>
+    <loc>https://simpleplantcare.org/plants/valerian</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/leek</loc>
+    <loc>https://simpleplantcare.org/plants/st-john-s-wort</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/potato</loc>
+    <loc>https://simpleplantcare.org/plants/elder</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/radish</loc>
+    <loc>https://simpleplantcare.org/plants/meadowsweet</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/beetroot</loc>
+    <loc>https://simpleplantcare.org/plants/angelica</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sweet-pepper</loc>
+    <loc>https://simpleplantcare.org/plants/winter-savory</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/chilli-pepper</loc>
+    <loc>https://simpleplantcare.org/plants/summer-savory</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sweetcorn</loc>
+    <loc>https://simpleplantcare.org/plants/bergamot-bee-balm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/pumpkin</loc>
+    <loc>https://simpleplantcare.org/plants/costmary</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/butternut-squash</loc>
+    <loc>https://simpleplantcare.org/plants/southernwood</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/french-bean</loc>
+    <loc>https://simpleplantcare.org/plants/wormwood</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/runner-bean</loc>
+    <loc>https://simpleplantcare.org/plants/mugwort</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/broad-bean</loc>
+    <loc>https://simpleplantcare.org/plants/tansy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/spring-onion</loc>
+    <loc>https://simpleplantcare.org/plants/yarrow</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/shallot</loc>
+    <loc>https://simpleplantcare.org/plants/comfrey</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/turnip</loc>
+    <loc>https://simpleplantcare.org/plants/stinging-nettle</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/parsnip</loc>
+    <loc>https://simpleplantcare.org/plants/ribwort-plantain</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/swede</loc>
+    <loc>https://simpleplantcare.org/plants/wood-sorrel</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/celery</loc>
+    <loc>https://simpleplantcare.org/plants/sweet-cicely</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/celeriac</loc>
+    <loc>https://simpleplantcare.org/plants/sweet-woodruff</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/asparagus</loc>
+    <loc>https://simpleplantcare.org/plants/vervain</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/globe-artichoke</loc>
+    <loc>https://simpleplantcare.org/plants/ashwagandha</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/florence-fennel</loc>
+    <loc>https://simpleplantcare.org/plants/tulsi-holy-basil</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/chicory</loc>
+    <loc>https://simpleplantcare.org/plants/thai-basil</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/endive</loc>
+    <loc>https://simpleplantcare.org/plants/vietnamese-coriander</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/swiss-chard</loc>
+    <loc>https://simpleplantcare.org/plants/perilla-shiso</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/pak-choi</loc>
+    <loc>https://simpleplantcare.org/plants/curry-leaf-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/mizuna</loc>
+    <loc>https://simpleplantcare.org/plants/kaffir-lime</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/watercress</loc>
+    <loc>https://simpleplantcare.org/plants/lemongrass</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/rocket-arugula</loc>
+    <loc>https://simpleplantcare.org/plants/galangal</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/corn-salad-m-che</loc>
+    <loc>https://simpleplantcare.org/plants/pandan</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/aubergine-eggplant</loc>
+    <loc>https://simpleplantcare.org/plants/safflower</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/okra</loc>
+    <loc>https://simpleplantcare.org/plants/fenugreek</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sweet-potato</loc>
+    <loc>https://simpleplantcare.org/plants/cumin</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/jerusalem-artichoke</loc>
+    <loc>https://simpleplantcare.org/plants/nigella-black-seed</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/taro</loc>
+    <loc>https://simpleplantcare.org/plants/motherwort</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/armenian-cucumber</loc>
+    <loc>https://simpleplantcare.org/plants/clary-sage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/cantaloupe-melon</loc>
+    <loc>https://simpleplantcare.org/plants/agastache-anise-hyssop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/watermelon</loc>
+    <loc>https://simpleplantcare.org/plants/mexican-tarragon</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/rhubarb</loc>
+    <loc>https://simpleplantcare.org/plants/epazote</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/marsh-samphire</loc>
+    <loc>https://simpleplantcare.org/plants/papalo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/kohlrabi</loc>
+    <loc>https://simpleplantcare.org/plants/toothache-plant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/hakurei-turnip</loc>
+    <loc>https://simpleplantcare.org/plants/blackcurrant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/calabrese</loc>
+    <loc>https://simpleplantcare.org/plants/redcurrant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/mustard-greens</loc>
+    <loc>https://simpleplantcare.org/plants/gooseberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/tatsoi</loc>
+    <loc>https://simpleplantcare.org/plants/pear-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sorrel</loc>
+    <loc>https://simpleplantcare.org/plants/plum-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lemongrass</loc>
+    <loc>https://simpleplantcare.org/plants/cherry-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/ginger</loc>
+    <loc>https://simpleplantcare.org/plants/peach-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/turmeric</loc>
+    <loc>https://simpleplantcare.org/plants/fig-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/wasabi</loc>
+    <loc>https://simpleplantcare.org/plants/grape-vine</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/horseradish</loc>
+    <loc>https://simpleplantcare.org/plants/kiwi-vine</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/popcorn-corn</loc>
+    <loc>https://simpleplantcare.org/plants/orange-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/edamame</loc>
+    <loc>https://simpleplantcare.org/plants/lime-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/chickpea</loc>
+    <loc>https://simpleplantcare.org/plants/avocado</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lentil</loc>
+    <loc>https://simpleplantcare.org/plants/passion-fruit</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lamb-s-lettuce</loc>
+    <loc>https://simpleplantcare.org/plants/quince-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/amaranth</loc>
+    <loc>https://simpleplantcare.org/plants/medlar-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/purslane</loc>
+    <loc>https://simpleplantcare.org/plants/elderberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/malabar-spinach</loc>
+    <loc>https://simpleplantcare.org/plants/damson-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/red-cabbage</loc>
+    <loc>https://simpleplantcare.org/plants/mulberry-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/chinese-cabbage</loc>
+    <loc>https://simpleplantcare.org/plants/apricot-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/daikon-radish</loc>
+    <loc>https://simpleplantcare.org/plants/nectarine-tree</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/salsify</loc>
+    <loc>https://simpleplantcare.org/plants/blackberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/scorzonera</loc>
+    <loc>https://simpleplantcare.org/plants/loganberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/perpetual-spinach</loc>
+    <loc>https://simpleplantcare.org/plants/tayberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/land-cress</loc>
+    <loc>https://simpleplantcare.org/plants/jostaberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/winter-purslane</loc>
+    <loc>https://simpleplantcare.org/plants/honeyberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/good-king-henry</loc>
+    <loc>https://simpleplantcare.org/plants/goji-berry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/basil</loc>
+    <loc>https://simpleplantcare.org/plants/sea-buckthorn</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/mint</loc>
+    <loc>https://simpleplantcare.org/plants/cape-gooseberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/rosemary</loc>
+    <loc>https://simpleplantcare.org/plants/cranberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/thyme</loc>
+    <loc>https://simpleplantcare.org/plants/boysenberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/chives</loc>
+    <loc>https://simpleplantcare.org/plants/white-currant</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/parsley</loc>
+    <loc>https://simpleplantcare.org/plants/hardy-banana</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/oregano</loc>
+    <loc>https://simpleplantcare.org/plants/feijoa</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sage</loc>
+    <loc>https://simpleplantcare.org/plants/pomegranate</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/dill</loc>
+    <loc>https://simpleplantcare.org/plants/pawpaw</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/coriander-cilantro</loc>
+    <loc>https://simpleplantcare.org/plants/prickly-pear-cactus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/fennel-herb</loc>
+    <loc>https://simpleplantcare.org/plants/aronia-chokeberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lemon-balm</loc>
+    <loc>https://simpleplantcare.org/plants/serviceberry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/french-tarragon</loc>
+    <loc>https://simpleplantcare.org/plants/cornelian-cherry</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/chervil</loc>
+    <loc>https://simpleplantcare.org/plants/nasturtium</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lovage</loc>
+    <loc>https://simpleplantcare.org/plants/lavender</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/bay-laurel</loc>
+    <loc>https://simpleplantcare.org/plants/peony</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lemon-verbena</loc>
+    <loc>https://simpleplantcare.org/plants/pelargonium-geranium</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lavender</loc>
+    <loc>https://simpleplantcare.org/plants/sweet-pea</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/marjoram</loc>
+    <loc>https://simpleplantcare.org/plants/cosmos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/hyssop</loc>
+    <loc>https://simpleplantcare.org/plants/zinnia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/borage</loc>
+    <loc>https://simpleplantcare.org/plants/rudbeckia-black-eyed-susan</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/calendula-pot-marigold</loc>
+    <loc>https://simpleplantcare.org/plants/echinacea-coneflower</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/german-chamomile</loc>
+    <loc>https://simpleplantcare.org/plants/hollyhock</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/echinacea-coneflower</loc>
+    <loc>https://simpleplantcare.org/plants/foxglove</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/valerian</loc>
+    <loc>https://simpleplantcare.org/plants/lupin</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/st-john-s-wort</loc>
+    <loc>https://simpleplantcare.org/plants/delphinium</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/elder</loc>
+    <loc>https://simpleplantcare.org/plants/lilac</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/meadowsweet</loc>
+    <loc>https://simpleplantcare.org/plants/clematis</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/angelica</loc>
+    <loc>https://simpleplantcare.org/plants/forsythia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/winter-savory</loc>
+    <loc>https://simpleplantcare.org/plants/viburnum</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/summer-savory</loc>
+    <loc>https://simpleplantcare.org/plants/cotoneaster</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/bergamot-bee-balm</loc>
+    <loc>https://simpleplantcare.org/plants/camellia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/costmary</loc>
+    <loc>https://simpleplantcare.org/plants/rhododendron</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/southernwood</loc>
+    <loc>https://simpleplantcare.org/plants/magnolia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/wormwood</loc>
+    <loc>https://simpleplantcare.org/plants/common-jasmine</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/mugwort</loc>
+    <loc>https://simpleplantcare.org/plants/honeysuckle</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/tansy</loc>
+    <loc>https://simpleplantcare.org/plants/smoke-bush</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/yarrow</loc>
+    <loc>https://simpleplantcare.org/plants/mahonia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/comfrey</loc>
+    <loc>https://simpleplantcare.org/plants/spiraea</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/stinging-nettle</loc>
+    <loc>https://simpleplantcare.org/plants/weigela</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/ribwort-plantain</loc>
+    <loc>https://simpleplantcare.org/plants/potentilla-shrubby-cinquefoil</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/wood-sorrel</loc>
+    <loc>https://simpleplantcare.org/plants/hardy-hibiscus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sweet-cicely</loc>
+    <loc>https://simpleplantcare.org/plants/cornus-dogwood</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/sweet-woodruff</loc>
+    <loc>https://simpleplantcare.org/plants/amelanchier-snowy-mespilus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/vervain</loc>
+    <loc>https://simpleplantcare.org/plants/photinia-red-robin</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/ashwagandha</loc>
+    <loc>https://simpleplantcare.org/plants/euonymus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/tulsi-holy-basil</loc>
+    <loc>https://simpleplantcare.org/plants/hebe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/thai-basil</loc>
+    <loc>https://simpleplantcare.org/plants/tree-mallow</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/vietnamese-coriander</loc>
+    <loc>https://simpleplantcare.org/plants/escallonia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/perilla-shiso</loc>
+    <loc>https://simpleplantcare.org/plants/phormium-new-zealand-flax</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/curry-leaf-plant</loc>
+    <loc>https://simpleplantcare.org/plants/agapanthus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/kaffir-lime</loc>
+    <loc>https://simpleplantcare.org/plants/ornamental-allium</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/lemongrass</loc>
+    <loc>https://simpleplantcare.org/plants/tulip</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/galangal</loc>
+    <loc>https://simpleplantcare.org/plants/daffodil</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/pandan</loc>
+    <loc>https://simpleplantcare.org/plants/hyacinth</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/safflower</loc>
+    <loc>https://simpleplantcare.org/plants/crocus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/fenugreek</loc>
+    <loc>https://simpleplantcare.org/plants/aquilegia-columbine</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/cumin</loc>
+    <loc>https://simpleplantcare.org/plants/salvia-ornamental</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/nigella-black-seed</loc>
+    <loc>https://simpleplantcare.org/plants/catmint</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/nasturtium</loc>
+    <loc>https://simpleplantcare.org/plants/verbena-bonariensis</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/motherwort</loc>
+    <loc>https://simpleplantcare.org/plants/gaura-whirling-butterflies</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/clary-sage</loc>
+    <loc>https://simpleplantcare.org/plants/red-hot-poker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/agastache-anise-hyssop</loc>
+    <loc>https://simpleplantcare.org/plants/astrantia-masterwort</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/mexican-tarragon</loc>
+    <loc>https://simpleplantcare.org/plants/heuchera-coral-bells</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/epazote</loc>
+    <loc>https://simpleplantcare.org/plants/hardy-geranium-cranesbill</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/papalo</loc>
+    <loc>https://simpleplantcare.org/plants/hosta</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
-    <loc>https://simpleplantcare.co/#/plants/toothache-plant</loc>
+    <loc>https://simpleplantcare.org/plants/hardy-fern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-20</lastmod>
   </url>
 </urlset>
