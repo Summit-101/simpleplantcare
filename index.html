@@ -204,6 +204,17 @@
       <span style="font-size:1.4rem">🌱</span>
       <div><strong>283 plants and growing.</strong> Add more by editing <code>plants.json</code> — copy any existing entry as a template.</div>
     </div>
+    <div style="margin-top:2rem;">
+      <div class="filter-label">Browse by collection</div>
+      <div class="filter-tabs" style="flex-wrap:wrap;">
+        <a href="/herbs" onclick="showCluster('herbs');return false;" class="filter-tab">🌿 Herbs</a>
+        <a href="/plants-for-tea" onclick="showCluster('plants-for-tea');return false;" class="filter-tab">🍵 Tea plants</a>
+        <a href="/plants-for-skin" onclick="showCluster('plants-for-skin');return false;" class="filter-tab">🌸 Skin care plants</a>
+        <a href="/easy-houseplants" onclick="showCluster('easy-houseplants');return false;" class="filter-tab">🏠 Easy houseplants</a>
+        <a href="/vegetables-beginners" onclick="showCluster('vegetables-beginners');return false;" class="filter-tab">🥬 Beginner vegetables</a>
+        <a href="/plants-for-balcony" onclick="showCluster('plants-for-balcony');return false;" class="filter-tab">🪴 Balcony plants</a>
+      </div>
+    </div>
   </section>
 </div>
 
@@ -223,6 +234,15 @@ let allPlants = [];
 let activeFilter = 'all';
 const capFirst = s => s.charAt(0).toUpperCase() + s.slice(1);
 const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+
+const topicClusters = {
+  'herbs': { title: 'Herbs to Grow at Home', desc: 'Easy herbs to grow indoors or in the garden — basil, mint, rosemary, thyme and more.', ids: ['basil','mint','rosemary','thyme','chives','parsley','oregano','sage','dill','coriander','lemon-balm','french-tarragon','lavender','marjoram'] },
+  'plants-for-tea': { title: 'Plants You Can Make Tea With', desc: 'Grow your own herbal teas — chamomile, mint, lemon balm, lavender and more.', ids: ['mint','chamomile-german','lemon-balm','lavender','lemongrass-herb','tulsi-holy-basil','valerian','echinacea','agastache'] },
+  'plants-for-skin': { title: 'Plants for Skin Care', desc: 'Grow plants with natural skin benefits — aloe vera, calendula, lavender and more.', ids: ['aloe-vera','calendula','lavender','chamomile-german','rosemary','echinacea','comfrey'] },
+  'easy-houseplants': { title: 'Easy Houseplants for Beginners', desc: 'The easiest houseplants to keep alive — snake plant, pothos, spider plant and more.', ids: ['snake-plant','pothos','aloe-vera','spider-plant','zz-plant','peace-lily','snake-plant','monstera','jade-plant'] },
+  'vegetables-beginners': { title: 'Best Vegetables for Beginners', desc: 'The easiest vegetables to grow from seed — lettuce, radish, courgette and more.', ids: ['lettuce','radish','courgette','spinach','peas','kale','spring-onion','beetroot'] },
+  'plants-for-balcony': { title: 'Plants for Balconies and Small Spaces', desc: 'Plants that thrive in pots and small spaces — perfect for balconies and windowsills.', ids: ['basil','mint','chives','tomato','lettuce','strawberry','lavender','geranium','pothos','snake-plant'] },
+};
 
 const wikiOverrides = {
   'rosa': 'Rosa_gallica_officinalis',
@@ -296,6 +316,58 @@ async function getWikiImage(latin, name) {
   return img;
 }
 
+function showCluster(key) {
+  const cluster = topicClusters[key];
+  if (!cluster) { showHome(); return; }
+  history.pushState(null, '', '/' + key);
+  document.title = cluster.title + ' | Simple Plant Care';
+  document.querySelector('meta[name="description"]').setAttribute('content', cluster.desc);
+  const plants = cluster.ids.map(id => allPlants.find(p => p.id === id)).filter(Boolean);
+  document.getElementById('home-page').style.display = 'none';
+  document.getElementById('plant-page').style.display = 'block';
+  document.getElementById('breadcrumb-type').textContent = 'Collections';
+  document.getElementById('breadcrumb-name').textContent = cluster.title;
+  const heroPlaceholder = 'https://placehold.co/680x280/1a3a2a/8fbc6e?text=' + encodeURIComponent(cluster.title);
+  document.getElementById('plantPageContent').innerHTML = `
+    <div style="background:var(--green-dark);padding:2rem 1.5rem;">
+      <h1 style="font-family:'Lora',serif;font-size:1.8rem;color:#fff;font-weight:600;margin-bottom:0.5rem;">${cluster.title}</h1>
+      <p style="color:rgba(255,255,255,0.55);font-size:0.9rem;line-height:1.6;">${cluster.desc}</p>
+    </div>
+    <div class="plant-body">
+      <div class="plant-grid" style="padding-top:1rem;">
+        ${plants.map(p => `
+          <a class="plant-card" href="/plants/${slugify(p.name)}" onclick="openPlantPage(allPlants.find(x=>x.id==='${p.id}'));return false;">
+            <img class="plant-card-img" id="cimg-${p.id}" src="${p.img}" alt="${p.name}" loading="lazy"
+              onerror="this.src='https://placehold.co/600x400/2d5a3d/8fbc6e?text=${encodeURIComponent(p.name)}'">
+            <div class="plant-card-body">
+              <div class="plant-name">${p.name}</div>
+              <div class="plant-latin">${p.latin}</div>
+              <div class="plant-pills">
+                <span class="pill pill-diff-${p.difficulty}">${capFirst(p.difficulty)}</span>
+                <span class="pill pill-type">${capFirst(p.type)}</span>
+              </div>
+            </div>
+          </a>`).join('')}
+      </div>
+      <h2 class="section-head" style="margin-top:2rem;">All plant collections</h2>
+      <div class="related-grid">
+        ${Object.entries(topicClusters).map(([k,c]) => `
+          <a class="related-card" href="/${k}" onclick="showCluster('${k}');return false;">
+            <span>🌿</span>
+            <span class="related-card-name">${c.title}</span>
+          </a>`).join('')}
+      </div>
+      <div style="height:1.5rem"></div>
+    </div>`;
+  plants.forEach(p => {
+    getWikiImage(p.latin, p.name).then(url => {
+      const el = document.getElementById('cimg-' + p.id);
+      if (el && url) el.src = url;
+    });
+  });
+  window.scrollTo(0,0);
+}
+
 async function loadPlants() {
   const results = await Promise.allSettled(FILES.map(f => fetch(f).then(r => r.ok ? r.json() : [])));
   const seen = new Set();
@@ -319,6 +391,9 @@ function checkRoute() {
     const slug = hash.replace('#/plants/', '');
     const plant = allPlants.find(p => slugify(p.name) === slug || p.id === slug);
     if (plant) { openPlantPage(plant, false); return; }
+  } else if (path.length > 1 && !path.startsWith('/plants/')) {
+    const key = path.replace('/', '');
+    if (topicClusters[key]) { showCluster(key); return; }
   }
   showHome();
 }
@@ -373,9 +448,9 @@ function openPlantPage(p, pushState = true) {
   if (pushState) history.pushState(null, '', `/plants/${slugify(p.name)}`);
 
   // SEO: update title + meta for this plant page
-  document.title = `How to Grow ${p.name} – Care Guide | Simple Plant Care`;
+  document.title = `How to Grow ${p.name} – Watering, Light & Care | Simple Plant Care`;
   document.querySelector('meta[name="description"]').setAttribute('content',
-    `How to grow and care for ${p.name} (${p.latin}). Water ${p.care.water.value.toLowerCase()}, needs ${p.care.sun.value.toLowerCase()}. Seed depth: ${p.care.seedDepth.value}. ${p.tagline}`);
+    `How to grow ${p.name.toLowerCase()} — water ${p.care.water.value.toLowerCase()}, needs ${p.care.sun.value.toLowerCase()}, plant seeds ${p.care.seedDepth.value.toLowerCase()}. Simple plant care guide for ${p.name.toLowerCase()} with watering schedule, sunlight needs, soil tips and more.`);
 
   // Schema markup for this plant
   const schema = {
@@ -416,7 +491,12 @@ function openPlantPage(p, pushState = true) {
       <span class="diff-badge diff-${p.difficulty}">${p.difficulty==='easy'?'✓':p.difficulty==='medium'?'◑':'!'} ${capFirst(p.difficulty)} to grow</span>
     </div>
     <div class="plant-body">
-      <p class="plant-intro">${p.tagline} ${p.difficulty === 'easy' ? p.name + ' is one of the easiest plants to grow, suitable for complete beginners.' : p.difficulty === 'medium' ? p.name + ' requires some attention but rewards the effort well.' : p.name + ' is a challenging plant that rewards experienced growers.'}</p>
+      <p class="plant-intro">
+        Learning how to grow ${p.name.toLowerCase()} is ${p.difficulty === 'easy' ? 'easier than most people think' : p.difficulty === 'medium' ? 'rewarding with the right approach' : 'challenging but worth the effort'}.
+        Water ${p.name.toLowerCase()} ${p.care.water.value.toLowerCase()}, and make sure it gets ${p.care.sun.value.toLowerCase()}.
+        ${p.difficulty === 'easy' ? p.name + ' is one of the easiest plants to grow — perfect for complete beginners.' : p.difficulty === 'medium' ? p.name + ' requires some attention to detail but rewards the effort beautifully.' : p.name + ' is a challenging plant best suited to experienced growers.'}
+        ${p.tagline}
+      </p>
       <h2 class="section-head">How to care for ${p.name}</h2>
       <div class="info-grid">
         <div class="info-card">
