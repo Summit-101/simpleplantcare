@@ -192,6 +192,18 @@
     </div>
   </section>
 
+  <section class="filter-section" style="padding-top:1.25rem;">
+    <div class="filter-label">Browse by collection</div>
+    <div class="filter-tabs">
+      <a href="/herbs" onclick="showCluster('herbs');return false;" class="filter-tab">Herbs</a>
+      <a href="/plants-for-tea" onclick="showCluster('plants-for-tea');return false;" class="filter-tab">Tea plants</a>
+      <a href="/plants-for-skin" onclick="showCluster('plants-for-skin');return false;" class="filter-tab">Skin care</a>
+      <a href="/easy-houseplants" onclick="showCluster('easy-houseplants');return false;" class="filter-tab">Easy houseplants</a>
+      <a href="/vegetables-beginners" onclick="showCluster('vegetables-beginners');return false;" class="filter-tab">Beginner veg</a>
+      <a href="/plants-for-balcony" onclick="showCluster('plants-for-balcony');return false;" class="filter-tab">Balcony plants</a>
+    </div>
+  </section>
+
   <section class="grid-section">
     <div class="grid-count" id="gridCount"></div>
     <div class="plant-grid" id="plantGrid" role="main">
@@ -204,17 +216,7 @@
       <span style="font-size:1.4rem">🌱</span>
       <div><strong>283 plants and growing.</strong> Add more by editing <code>plants.json</code> — copy any existing entry as a template.</div>
     </div>
-    <div style="margin-top:2rem;">
-      <div class="filter-label">Browse by collection</div>
-      <div class="filter-tabs" style="flex-wrap:wrap;">
-        <a href="/herbs" onclick="showCluster('herbs');return false;" class="filter-tab">🌿 Herbs</a>
-        <a href="/plants-for-tea" onclick="showCluster('plants-for-tea');return false;" class="filter-tab">🍵 Tea plants</a>
-        <a href="/plants-for-skin" onclick="showCluster('plants-for-skin');return false;" class="filter-tab">🌸 Skin care plants</a>
-        <a href="/easy-houseplants" onclick="showCluster('easy-houseplants');return false;" class="filter-tab">🏠 Easy houseplants</a>
-        <a href="/vegetables-beginners" onclick="showCluster('vegetables-beginners');return false;" class="filter-tab">🥬 Beginner vegetables</a>
-        <a href="/plants-for-balcony" onclick="showCluster('plants-for-balcony');return false;" class="filter-tab">🪴 Balcony plants</a>
-      </div>
-    </div>
+
   </section>
 </div>
 
@@ -492,10 +494,8 @@ function openPlantPage(p, pushState = true) {
     </div>
     <div class="plant-body">
       <p class="plant-intro">
-        Learning how to grow ${p.name.toLowerCase()} is ${p.difficulty === 'easy' ? 'easier than most people think' : p.difficulty === 'medium' ? 'rewarding with the right approach' : 'challenging but worth the effort'}.
-        Water ${p.name.toLowerCase()} ${p.care.water.value.toLowerCase()}, and make sure it gets ${p.care.sun.value.toLowerCase()}.
+        Learning how to grow ${p.name.toLowerCase()} is ${p.difficulty === 'easy' ? 'easier than most people think' : p.difficulty === 'medium' ? 'rewarding with the right approach' : 'challenging but worth the effort'}. ${p.name} needs ${p.care.water.value.toLowerCase()} of water and ${p.care.sun.value.toLowerCase()}.
         ${p.difficulty === 'easy' ? p.name + ' is one of the easiest plants to grow — perfect for complete beginners.' : p.difficulty === 'medium' ? p.name + ' requires some attention to detail but rewards the effort beautifully.' : p.name + ' is a challenging plant best suited to experienced growers.'}
-        ${p.tagline}
       </p>
       <h2 class="section-head">How to care for ${p.name}</h2>
       <div class="info-grid">
