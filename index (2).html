@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Plant Care — How to Grow Any Plant, Plain and Simple</title>
+<meta name="description" content="Free plant care guides in plain language. No jargon, no signup. Learn how to grow 283+ plants — watering schedules, sunlight needs, seed depth, and expert tips.">
+<meta name="keywords" content="plant care, how to grow plants, plant care guide, simple plant care, how to care for plants, plant watering guide, indoor plant care, vegetable growing guide">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Simple Plant Care">
+<link rel="canonical" href="https://simpleplantcare.co/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://simpleplantcare.co/">
+<meta property="og:title" content="Simple Plant Care — How to Grow Any Plant">
+<meta property="og:description" content="Free plant care guides for 283+ plants. No jargon, no signup. Watering, sunlight, soil, seed depth and tips — all in plain language.">
+<meta property="og:site_name" content="Simple Plant Care">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Simple Plant Care — How to Grow Any Plant">
+<meta name="twitter:description" content="Free plant care guides for 283+ plants. No jargon, no signup.">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Simple Plant Care",
+  "url": "https://simpleplantcare.co",
+  "description": "Free plant care guides in plain language. How to grow 283+ plants — watering, sunlight, soil, seed depth and tips.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://simpleplantcare.co/plants/{search_term}",
+    "query-input": "required name=search_term"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green-dark:#1a3a2a;--green-mid:#2d5a3d;--green-soft:#4a7c59;--green-light:#8fbc6e;
+    --green-pale:#d4edda;--green-wash:#f0f7f0;--cream:#faf8f3;
+    --text:#1a2e1e;--text-mid:#3d5c46;--text-soft:#7a9882;--border:#d8e8d8;
+    --white:#fff;--shadow:0 2px 20px rgba(26,58,42,0.08);--shadow-hover:0 8px 40px rgba(26,58,42,0.15);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--text);min-height:100vh;overflow-x:hidden;}
+  header{background:var(--green-dark);padding:0 2rem;position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(255,255,255,0.08);}
+  .header-inner{max-width:1100px;margin:0 auto;height:60px;display:flex;align-items:center;justify-content:space-between;}
+  .logo{font-family:'Lora',serif;font-size:1.3rem;color:var(--green-light);letter-spacing:-0.02em;cursor:pointer;}
+  .logo span{color:rgba(255,255,255,0.4);font-weight:400;font-size:0.8rem;margin-left:8px;font-family:'DM Sans',sans-serif;}
+  .header-tag{font-size:0.72rem;color:rgba(255,255,255,0.35);letter-spacing:0.08em;text-transform:uppercase;}
+  .hero{background:var(--green-dark);padding:4rem 2rem 5rem;text-align:center;position:relative;overflow:hidden;}
+  .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 100%,rgba(143,188,110,0.12) 0%,transparent 70%);pointer-events:none;}
+  .plant-count-badge{display:inline-block;background:rgba(143,188,110,0.15);border:1px solid rgba(143,188,110,0.3);color:var(--green-light);font-size:0.72rem;padding:3px 12px;border-radius:20px;margin-bottom:0.75rem;letter-spacing:0.05em;}
+  .hero h1{font-family:'Lora',serif;font-size:clamp(2rem,5vw,3.2rem);color:var(--white);line-height:1.2;margin-bottom:1rem;font-weight:600;}
+  .hero h1 em{font-style:italic;color:var(--green-light);}
+  .hero p{color:rgba(255,255,255,0.5);font-size:1rem;max-width:480px;margin:0 auto 2.5rem;line-height:1.7;font-weight:300;}
+  .search-wrap{max-width:520px;margin:0 auto;position:relative;}
+  .search-wrap input{width:100%;padding:1rem 1.25rem 1rem 3.2rem;border-radius:12px;border:1.5px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.06);color:var(--white);font-family:'DM Sans',sans-serif;font-size:1rem;outline:none;transition:all 0.2s;}
+  .search-wrap input::placeholder{color:rgba(255,255,255,0.3);}
+  .search-wrap input:focus{border-color:var(--green-light);background:rgba(255,255,255,0.1);}
+  .search-icon{position:absolute;left:1rem;top:50%;transform:translateY(-50%);color:rgba(255,255,255,0.3);font-size:1rem;pointer-events:none;}
+  .search-results{position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--white);border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow-hover);overflow:hidden;z-index:50;display:none;}
+  .search-results.visible{display:block;}
+  .search-result-item{padding:0.75rem 1.25rem;cursor:pointer;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--border);transition:background 0.15s;color:var(--text);font-size:0.9rem;}
+  .search-result-item:last-child{border-bottom:none;}
+  .search-result-item:hover{background:var(--green-wash);}
+  .sri-img{width:36px;height:36px;border-radius:6px;object-fit:cover;background:var(--green-wash);flex-shrink:0;}
+  .sri-name{font-weight:500;flex:1;}
+  .sri-type{font-size:0.72rem;color:var(--text-soft);}
+  .filter-section{max-width:1100px;margin:0 auto;padding:2rem 2rem 0;}
+  .filter-label{font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-soft);margin-bottom:0.75rem;font-weight:500;}
+  .filter-tabs{display:flex;gap:6px;flex-wrap:wrap;}
+  .filter-tab{padding:0.4rem 1rem;border-radius:20px;border:1px solid var(--border);background:var(--white);color:var(--text-mid);font-family:'DM Sans',sans-serif;font-size:0.82rem;cursor:pointer;transition:all 0.15s;}
+  .filter-tab:hover{border-color:var(--green-soft);color:var(--green-mid);}
+  .filter-tab.active{background:var(--green-mid);border-color:var(--green-mid);color:var(--white);}
+  .grid-section{max-width:1100px;margin:0 auto;padding:1.5rem 2rem 4rem;}
+  .grid-count{font-size:0.8rem;color:var(--text-soft);margin-bottom:1rem;}
+  .plant-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;}
+  .plant-card{background:var(--white);border-radius:14px;border:1px solid var(--border);cursor:pointer;transition:all 0.2s;overflow:hidden;text-decoration:none;display:block;}
+  .plant-card:hover{box-shadow:var(--shadow-hover);transform:translateY(-2px);border-color:var(--green-pale);}
+  .plant-card-img{width:100%;height:140px;object-fit:cover;display:block;background:var(--green-wash);}
+  .plant-card-placeholder{width:100%;height:140px;background:var(--green-wash);display:none;align-items:center;justify-content:center;font-size:2.5rem;}
+  .plant-card-body{padding:0.9rem 1rem 1rem;}
+  .plant-name{font-family:'Lora',serif;font-size:0.95rem;font-weight:600;color:var(--text);margin-bottom:0.15rem;}
+  .plant-latin{font-size:0.68rem;color:var(--text-soft);font-style:italic;margin-bottom:0.6rem;}
+  .plant-pills{display:flex;gap:4px;flex-wrap:wrap;}
+  .pill{font-size:0.65rem;padding:2px 7px;border-radius:10px;font-weight:500;}
+  .pill-diff-easy{background:#e8f5e9;color:#2e7d32;}
+  .pill-diff-medium{background:#fff8e1;color:#e65100;}
+  .pill-diff-hard{background:#fce4ec;color:#c62828;}
+  .pill-type{background:var(--green-wash);color:var(--green-mid);}
+  .loading{text-align:center;padding:4rem 1rem;color:var(--text-soft);grid-column:1/-1;}
+  .loading-spinner{width:32px;height:32px;border:2px solid var(--border);border-top-color:var(--green-soft);border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 1rem;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .empty-state{text-align:center;padding:3rem 1rem;color:var(--text-soft);grid-column:1/-1;}
+
+  /* PLANT PAGE */
+  #plant-page{display:none;}
+  .plant-page-inner{max-width:680px;margin:0 auto;padding:0 1.5rem 4rem;}
+  .plant-page-back{display:inline-flex;align-items:center;gap:6px;color:var(--text-soft);font-size:0.85rem;cursor:pointer;padding:1.25rem 0 0;margin-bottom:0;transition:color 0.15s;background:none;border:none;font-family:'DM Sans',sans-serif;}
+  .plant-page-back:hover{color:var(--green-mid);}
+  .plant-hero-img{width:100%;height:280px;object-fit:cover;display:block;background:var(--green-wash);}
+  .plant-page-header{background:var(--green-dark);padding:1.5rem 1.5rem 2rem;}
+  .plant-page-title{font-family:'Lora',serif;font-size:2rem;color:var(--white);font-weight:600;}
+  .plant-page-latin{font-size:0.85rem;color:rgba(255,255,255,0.4);font-style:italic;margin-top:0.25rem;}
+  .plant-page-tagline{color:rgba(255,255,255,0.55);font-size:0.9rem;margin-top:0.75rem;font-weight:300;line-height:1.6;}
+  .diff-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:500;margin-top:0.65rem;}
+  .diff-easy{background:rgba(143,188,110,0.2);color:#a8d87a;}
+  .diff-medium{background:rgba(255,200,80,0.2);color:#ffc850;}
+  .diff-hard{background:rgba(255,100,100,0.15);color:#ff8080;}
+  .plant-body{padding:1.5rem 0 0;}
+  .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:1.5rem;}
+  .info-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:1rem;}
+  .info-card-label{font-size:0.65rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--text-soft);font-weight:500;margin-bottom:0.3rem;}
+  .info-card-value{font-size:0.92rem;font-weight:500;color:var(--text);line-height:1.4;}
+  .info-card-sub{font-size:0.72rem;color:var(--text-soft);margin-top:0.15rem;line-height:1.45;}
+  .bar-wrap{margin-top:0.6rem;}
+  .bar-label-row{display:flex;justify-content:space-between;font-size:0.68rem;color:var(--text-soft);margin-bottom:0.3rem;}
+  .bar-track{height:5px;background:var(--green-wash);border-radius:3px;overflow:hidden;}
+  .bar-fill{height:100%;border-radius:3px;background:var(--green-soft);}
+  .section-head{font-size:0.68rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--text-soft);font-weight:500;margin:1.5rem 0 0.75rem;display:flex;align-items:center;gap:8px;border:none;background:none;padding:0;width:100%;}
+  .section-head::after{content:'';flex:1;height:1px;background:var(--border);}
+  .tips-list{list-style:none;display:flex;flex-direction:column;gap:8px;}
+  .tip-item{background:var(--white);border:1px solid var(--border);border-left:3px solid var(--green-light);border-radius:0 10px 10px 0;padding:0.75rem 1rem;font-size:0.86rem;line-height:1.55;color:var(--text-mid);}
+  .warning-box{background:#fff8e1;border:1px solid #ffe082;border-radius:10px;padding:0.85rem 1rem;font-size:0.83rem;color:#7c5a00;margin-top:0.75rem;line-height:1.5;}
+  .warning-box strong{display:block;margin-bottom:0.2rem;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.08em;}
+  .plant-intro{font-size:0.95rem;color:var(--text-mid);line-height:1.7;padding:1rem 0 0.5rem;border-left:3px solid var(--green-light);padding-left:1rem;margin-bottom:0.5rem;}
+  .add-banner{background:var(--green-wash);border:1px dashed var(--green-light);border-radius:12px;padding:1.25rem 1.5rem;margin-top:2rem;display:flex;align-items:center;gap:12px;font-size:0.85rem;color:var(--text-mid);}
+
+  /* SEO BREADCRUMB */
+  .breadcrumb{font-size:0.78rem;color:var(--text-soft);padding:0.75rem 0 0;}
+  .breadcrumb a{color:var(--green-mid);text-decoration:none;}
+  .breadcrumb a:hover{text-decoration:underline;}
+
+  /* RELATED PLANTS */
+  .related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:0.75rem;}
+  .related-card{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:0.75rem;cursor:pointer;transition:all 0.15s;display:flex;align-items:center;gap:8px;text-decoration:none;}
+  .related-card:hover{border-color:var(--green-soft);background:var(--green-wash);}
+  .related-card-name{font-size:0.82rem;font-weight:500;color:var(--text);}
+
+  @media(max-width:600px){
+    .info-grid{grid-template-columns:1fr;}
+    .hero{padding:3rem 1.25rem 4rem;}
+    .plant-body{padding:1.25rem 0 0;}
+    .plant-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));}
+    .plant-hero-img{height:220px;}
+    .plant-page-title{font-size:1.6rem;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo" onclick="showHome()">Simple Plant Care <span>— plain language guides</span></div>
+    <div class="header-tag">Free · No signup</div>
+  </div>
+</header>
+
+<!-- HOME PAGE -->
+<div id="home-page">
+  <section class="hero">
+    <div class="plant-count-badge" id="heroBadge">Loading plants...</div>
+    <h1>Simple plant care.<br><em>No jargon.</em></h1>
+    <p>How to grow and care for 283+ plants in plain language. Watering, sunlight, seed depth, and real tips — nothing more.</p>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search — how to grow basil, tomato care..." autocomplete="off" aria-label="Search plants">
+      <div class="search-results" id="searchResults" role="listbox"></div>
+    </div>
+  </section>
+
+  <section class="filter-section">
+    <div class="filter-label">Browse by type</div>
+    <div class="filter-tabs" id="filterTabs" role="tablist">
+      <button class="filter-tab active" data-filter="all" role="tab">All plants</button>
+      <button class="filter-tab" data-filter="herb" role="tab">Herbs</button>
+      <button class="filter-tab" data-filter="vegetable" role="tab">Vegetables</button>
+      <button class="filter-tab" data-filter="fruit" role="tab">Fruit</button>
+      <button class="filter-tab" data-filter="houseplant" role="tab">Houseplants</button>
+      <button class="filter-tab" data-filter="flower" role="tab">Flowers</button>
+      <button class="filter-tab" data-filter="shrub" role="tab">Shrubs & Trees</button>
+    </div>
+  </section>
+
+  <section class="grid-section">
+    <div class="grid-count" id="gridCount"></div>
+    <div class="plant-grid" id="plantGrid" role="main">
+      <div class="loading">
+        <div class="loading-spinner"></div>
+        Loading plant care guides...
+      </div>
+    </div>
+    <div class="add-banner">
+      <span style="font-size:1.4rem">🌱</span>
+      <div><strong>283 plants and growing.</strong> Add more by editing <code>plants.json</code> — copy any existing entry as a template.</div>
+    </div>
+  </section>
+</div>
+
+<!-- INDIVIDUAL PLANT PAGE -->
+<div id="plant-page">
+  <div class="plant-page-inner">
+    <button class="plant-page-back" onclick="showHome()" aria-label="Back to all plants">← All plants</button>
+    <p class="breadcrumb"><a href="/" onclick="showHome();return false;">Simple Plant Care</a> › <span id="breadcrumb-type"></span> › <span id="breadcrumb-name"></span></p>
+    <div id="plantPageContent"></div>
+  </div>
+</div>
+
+<script>
+const SITE = 'https://simpleplantcare.org';
+const FILES = ['plants.json','houseplants.json','vegetables.json','herbs.json','fruits.json','flowers-shrubs.json'];
+let allPlants = [];
+let activeFilter = 'all';
+const capFirst = s => s.charAt(0).toUpperCase() + s.slice(1);
+const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+
+const wikiOverrides = {
+  'rosa': 'Rosa_gallica_officinalis',
+  'fragaria': 'Fragaria_×_ananassa',
+  'mentha spicata': 'Mentha_spicata',
+  'ocimum basilicum': 'Ocimum_basilicum',
+  'solanum lycopersicum': 'Solanum_lycopersicum',
+  'helianthus annuus': 'Helianthus_annuus',
+  'cucumis sativus': 'Cucumber',
+  'brassica oleracea': 'Brassica_oleracea',
+  'allium cepa': 'Onion',
+  'allium sativum': 'Garlic',
+  'daucus carota': 'Carrot',
+  'lactuca sativa': 'Lettuce',
+  'monstera deliciosa': 'Monstera_deliciosa',
+  'epipremnum aureum': 'Epipremnum_aureum',
+  'spathiphyllum wallisii': 'Spathiphyllum',
+  'chlorophytum comosum': 'Chlorophytum_comosum',
+  'zamioculcas zamiifolia': 'Zamioculcas',
+  'dracaena trifasciata': 'Dracaena_trifasciata',
+  'ficus lyrata': 'Ficus_lyrata',
+  'aloe barbadensis miller': 'Aloe_vera',
+  'lavandula angustifolia': 'Lavandula_angustifolia',
+  'rosmarinus officinalis': 'Rosmarinus_officinalis',
+  'salvia rosmarinus': 'Salvia_rosmarinus',
+  'thymus vulgaris': 'Thymus_vulgaris',
+  'origanum vulgare': 'Origanum_vulgare',
+  'petroselinum crispum': 'Petroselinum_crispum',
+  'mentha': 'Mentha',
+  'solanum tuberosum': 'Potato',
+  'pisum sativum': 'Pea',
+  'phaseolus vulgaris': 'Phaseolus_vulgaris',
+  'cucurbita pepo': 'Cucurbita_pepo',
+  'zea mays': 'Maize',
+  'vaccinium corymbosum': 'Vaccinium_corymbosum',
+  'rubus idaeus': 'Rubus_idaeus',
+  'malus domestica': 'Malus_domestica',
+  'citrus limon': 'Lemon',
+};
+const imgCache = {};
+async function getWikiImage(latin, name) {
+  const key = latin || name;
+  if (imgCache[key]) return imgCache[key];
+  const fallback = `https://placehold.co/600x400/2d5a3d/8fbc6e?text=${encodeURIComponent(name)}`;
+
+  async function tryWiki(term) {
+    try {
+      const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(term)}`);
+      if (!res.ok) return null;
+      const data = await res.json();
+      if (data.type === 'disambiguation') return null;
+      return data?.thumbnail?.source || null;
+    } catch { return null; }
+  }
+
+  const latinLower = (latin || '').toLowerCase().split(' ').slice(0,2).join(' ');
+  const overrideKey = Object.keys(wikiOverrides).find(k => latinLower.startsWith(k));
+  const overrideTerm = overrideKey ? wikiOverrides[overrideKey] : null;
+  const latinTerm = (latin || '').split(' ').slice(0,2).join('_');
+  const nameTerm = name.replace(/ /g,'_');
+  const namePlusCare = name.replace(/ /g,'_') + '_plant';
+
+  const img =
+    (overrideTerm && await tryWiki(overrideTerm)) ||
+    (latinTerm && await tryWiki(latinTerm)) ||
+    await tryWiki(nameTerm) ||
+    await tryWiki(namePlusCare) ||
+    fallback;
+
+  imgCache[key] = img;
+  return img;
+}
+
+async function loadPlants() {
+  const results = await Promise.allSettled(FILES.map(f => fetch(f).then(r => r.ok ? r.json() : [])));
+  const seen = new Set();
+  results.forEach(r => {
+    if (r.status === 'fulfilled' && Array.isArray(r.value))
+      r.value.forEach(p => { if (!seen.has(p.id)) { seen.add(p.id); allPlants.push(p); } });
+  });
+  document.getElementById('heroBadge').textContent = `${allPlants.length} plant care guides · plain language · free`;
+  checkRoute();
+}
+
+// ── ROUTING ──────────────────────────────────────────────────────────
+function checkRoute() {
+  const path = window.location.pathname;
+  const hash = window.location.hash;
+  if (path.startsWith('/plants/')) {
+    const slug = path.replace('/plants/', '');
+    const plant = allPlants.find(p => slugify(p.name) === slug || p.id === slug);
+    if (plant) { openPlantPage(plant, false); return; }
+  } else if (hash.startsWith('#/plants/')) {
+    const slug = hash.replace('#/plants/', '');
+    const plant = allPlants.find(p => slugify(p.name) === slug || p.id === slug);
+    if (plant) { openPlantPage(plant, false); return; }
+  }
+  showHome();
+}
+
+window.addEventListener('popstate', checkRoute);
+
+function showHome() {
+  document.getElementById('plant-page').style.display = 'none';
+  document.getElementById('home-page').style.display = 'block';
+  document.title = 'Simple Plant Care — How to Grow Any Plant, Plain and Simple';
+  document.querySelector('meta[name="description"]').setAttribute('content',
+    'Free plant care guides in plain language. How to grow 283+ plants — watering, sunlight, seed depth and real tips. No jargon, no signup.');
+  history.pushState(null, '', '/');
+  window.scrollTo(0,0);
+  renderGrid(activeFilter, document.getElementById('searchInput').value);
+}
+
+// ── GRID ─────────────────────────────────────────────────────────────
+function renderGrid(filter = 'all', query = '') {
+  const grid = document.getElementById('plantGrid');
+  const count = document.getElementById('gridCount');
+  const filtered = allPlants.filter(p =>
+    (filter === 'all' || p.type === filter) &&
+    (query === '' || p.name.toLowerCase().includes(query.toLowerCase()) || (p.latin||'').toLowerCase().includes(query.toLowerCase()))
+  );
+  count.textContent = `${filtered.length} plant${filtered.length !== 1 ? 's' : ''}`;
+  if (!filtered.length) { grid.innerHTML = `<div class="empty-state">🌱<p>No plants found. Try a different search.</p></div>`; return; }
+  grid.innerHTML = filtered.map(p => `
+    <a class="plant-card" href="/plants/${slugify(p.name)}" onclick="openPlantPage(allPlants.find(x=>x.id==='${p.id}'));return false;" aria-label="How to grow ${p.name}">
+      <img class="plant-card-img" id="img-${p.id}" src="${p.img}" alt="How to grow ${p.name} — ${p.latin}" loading="lazy"
+        onerror="this.src='https://placehold.co/600x400/2d5a3d/8fbc6e?text=${encodeURIComponent(p.name)}'">
+      <div class="plant-card-body">
+        <div class="plant-name">${p.name}</div>
+        <div class="plant-latin">${p.latin}</div>
+        <div class="plant-pills">
+          <span class="pill pill-diff-${p.difficulty}">${capFirst(p.difficulty)}</span>
+          <span class="pill pill-type">${capFirst(p.type)}</span>
+        </div>
+      </div>
+    </a>`).join('');
+  filtered.forEach(p => {
+    getWikiImage(p.latin, p.name).then(url => {
+      const el = document.getElementById('img-' + p.id);
+      if (el && url) el.src = url;
+    });
+  });
+}
+
+// ── PLANT PAGE ────────────────────────────────────────────────────────
+function openPlantPage(p, pushState = true) {
+  if (!p) return;
+  if (pushState) history.pushState(null, '', `/plants/${slugify(p.name)}`);
+
+  // SEO: update title + meta for this plant page
+  document.title = `How to Grow ${p.name} – Care Guide | Simple Plant Care`;
+  document.querySelector('meta[name="description"]').setAttribute('content',
+    `How to grow and care for ${p.name} (${p.latin}). Water ${p.care.water.value.toLowerCase()}, needs ${p.care.sun.value.toLowerCase()}. Seed depth: ${p.care.seedDepth.value}. ${p.tagline}`);
+
+  // Schema markup for this plant
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": `How to Grow ${p.name} — Simple Plant Care Guide`,
+    "description": `How to care for ${p.name}. Watering: ${p.care.water.value}. Sunlight: ${p.care.sun.value}. Seed depth: ${p.care.seedDepth.value}.`,
+    "author": { "@type": "Organization", "name": "Simple Plant Care" },
+    "publisher": { "@type": "Organization", "name": "Simple Plant Care", "url": SITE },
+    "url": `${SITE}/plants/${slugify(p.name)}`,
+    "mainEntityOfPage": `${SITE}/plants/${slugify(p.name)}`,
+    "keywords": `how to grow ${p.name.toLowerCase()}, ${p.name.toLowerCase()} care, ${p.name.toLowerCase()} watering, ${p.name.toLowerCase()} plant guide`
+  };
+  let schemaEl = document.getElementById('plant-schema');
+  if (!schemaEl) { schemaEl = document.createElement('script'); schemaEl.type = 'application/ld+json'; schemaEl.id = 'plant-schema'; document.head.appendChild(schemaEl); }
+  schemaEl.textContent = JSON.stringify(schema);
+
+  // Breadcrumb
+  document.getElementById('breadcrumb-type').textContent = capFirst(p.type);
+  document.getElementById('breadcrumb-name').textContent = p.name;
+
+  // Related plants (same type, not the same plant)
+  const related = allPlants.filter(x => x.type === p.type && x.id !== p.id).slice(0, 6);
+
+  const heroPlaceholder = `https://placehold.co/680x280/1a3a2a/8fbc6e?text=${encodeURIComponent(p.name)}`;
+  document.getElementById('plantPageContent').innerHTML = `
+    <img class="plant-hero-img" id="hero-img-${p.id}" src="${p.img}" alt="${p.name} plant care guide"
+      onerror="this.src='${heroPlaceholder}'">`;
+  getWikiImage(p.latin, p.name).then(url => {
+    const el = document.getElementById('hero-img-' + p.id);
+    if (el && url) el.src = url;
+  });
+  document.getElementById('plantPageContent').innerHTML += `
+    <div class="plant-page-header">
+      <h1 class="plant-page-title">How to grow ${p.name}</h1>
+      <div class="plant-page-latin">${p.latin}</div>
+      <div class="plant-page-tagline">${p.tagline}</div>
+      <span class="diff-badge diff-${p.difficulty}">${p.difficulty==='easy'?'✓':p.difficulty==='medium'?'◑':'!'} ${capFirst(p.difficulty)} to grow</span>
+    </div>
+    <div class="plant-body">
+      <p class="plant-intro">${p.tagline} ${p.difficulty === 'easy' ? p.name + ' is one of the easiest plants to grow, suitable for complete beginners.' : p.difficulty === 'medium' ? p.name + ' requires some attention but rewards the effort well.' : p.name + ' is a challenging plant that rewards experienced growers.'}</p>
+      <h2 class="section-head">How to care for ${p.name}</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-card-label">💧 How often to water ${p.name}</div>
+          <div class="info-card-value">${p.care.water.value}</div>
+          <div class="info-card-sub">${p.care.water.detail}</div>
+          <div class="bar-wrap"><div class="bar-label-row"><span>Rarely</span><span>Daily</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:${p.care.water.bar}%"></div></div></div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-label">☀️ How much sun does ${p.name} need</div>
+          <div class="info-card-value">${p.care.sun.value}</div>
+          <div class="info-card-sub">${p.care.sun.detail}</div>
+          <div class="bar-wrap"><div class="bar-label-row"><span>Shade</span><span>Full sun</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:${p.care.sun.bar}%"></div></div></div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-label">🌡️ Best temperature for ${p.name}</div>
+          <div class="info-card-value">${p.care.temp.value}</div>
+          <div class="info-card-sub">${p.care.temp.detail}</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-label">🪴 Best soil for ${p.name}</div>
+          <div class="info-card-value">${p.care.soil.value}</div>
+          <div class="info-card-sub">${p.care.soil.detail}</div>
+        </div>
+      </div>
+      <h2 class="section-head">How to plant ${p.name} from seed</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-card-label">🌰 How deep to plant ${p.name} seeds</div>
+          <div class="info-card-value">${p.care.seedDepth.value}</div>
+          <div class="info-card-sub">${p.care.seedDepth.detail}</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-label">🌤 How long does ${p.name} take to germinate</div>
+          <div class="info-card-value">${p.care.germination}</div>
+          <div class="info-card-sub">Time from sowing to first sprout</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-label">📏 How far apart to plant ${p.name}</div>
+          <div class="info-card-value">${p.care.spacing}</div>
+          <div class="info-card-sub">Spacing between plants for good airflow</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-label">🍽 When to harvest ${p.name}</div>
+          <div class="info-card-value">${p.care.harvest}</div>
+          <div class="info-card-sub">When you can start picking or using</div>
+        </div>
+      </div>
+      <h2 class="section-head">Tips for growing ${p.name}</h2>
+      <ul class="tips-list">${p.tips.map(t => `<li class="tip-item">${t}</li>`).join('')}</ul>
+      ${p.warning ? `<div class="warning-box"><strong>⚠ Watch out</strong>${p.warning}</div>` : ''}
+      ${related.length ? `
+      <h2 class="section-head">Other ${p.type} care guides</h2>
+      <div class="related-grid">
+        ${related.map(r => `
+          <a class="related-card" href="/plants/${slugify(r.name)}" onclick="openPlantPage(allPlants.find(x=>x.id==='${r.id}'));return false;">
+            <span>${r.emoji}</span>
+            <span class="related-card-name">${r.name}</span>
+          </a>`).join('')}
+      </div>` : ''}
+      <div style="height:1.5rem"></div>
+    </div>`;
+
+  document.getElementById('home-page').style.display = 'none';
+  document.getElementById('plant-page').style.display = 'block';
+  window.scrollTo(0, 0);
+}
+
+// ── FILTERS ───────────────────────────────────────────────────────────
+document.getElementById('filterTabs').addEventListener('click', e => {
+  const tab = e.target.closest('.filter-tab');
+  if (!tab) return;
+  document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  activeFilter = tab.dataset.filter;
+  renderGrid(activeFilter, document.getElementById('searchInput').value);
+});
+
+// ── SEARCH ────────────────────────────────────────────────────────────
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
+searchInput.addEventListener('input', e => {
+  const q = e.target.value.trim();
+  renderGrid(activeFilter, q);
+  if (!q.length) { searchResults.classList.remove('visible'); return; }
+  const matches = allPlants.filter(p =>
+    p.name.toLowerCase().includes(q.toLowerCase()) ||
+    (p.latin||'').toLowerCase().includes(q.toLowerCase())
+  ).slice(0, 6);
+  if (!matches.length) { searchResults.classList.remove('visible'); return; }
+  searchResults.innerHTML = matches.map(p => `
+    <div class="search-result-item" role="option"
+      onclick="openPlantPage(allPlants.find(x=>x.id==='${p.id}'));searchResults.classList.remove('visible');searchInput.value=''">
+      <img class="sri-img" src="${p.img}" alt="${p.name}"
+        onerror="this.src='https://placehold.co/36x36/2d5a3d/8fbc6e?text=🌱'">
+      <span class="sri-name">How to grow ${p.name}</span>
+      <span class="sri-type">${capFirst(p.type)}</span>
+    </div>`).join('');
+  searchResults.classList.add('visible');
+});
+document.addEventListener('click', e => {
+  if (!searchInput.contains(e.target) && !searchResults.contains(e.target))
+    searchResults.classList.remove('visible');
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') searchResults.classList.remove('visible');
+});
+
+loadPlants();
+</script>
+</body>
+</html>
