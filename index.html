@@ -124,12 +124,13 @@
   .bar-label-row{display:flex;justify-content:space-between;font-size:0.68rem;color:var(--text-soft);margin-bottom:0.3rem;}
   .bar-track{height:5px;background:var(--green-wash);border-radius:3px;overflow:hidden;}
   .bar-fill{height:100%;border-radius:3px;background:var(--green-soft);}
-  .section-head{font-size:0.68rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--text-soft);font-weight:500;margin:1.5rem 0 0.75rem;display:flex;align-items:center;gap:8px;}
+  .section-head{font-size:0.68rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--text-soft);font-weight:500;margin:1.5rem 0 0.75rem;display:flex;align-items:center;gap:8px;border:none;background:none;padding:0;width:100%;}
   .section-head::after{content:'';flex:1;height:1px;background:var(--border);}
   .tips-list{list-style:none;display:flex;flex-direction:column;gap:8px;}
   .tip-item{background:var(--white);border:1px solid var(--border);border-left:3px solid var(--green-light);border-radius:0 10px 10px 0;padding:0.75rem 1rem;font-size:0.86rem;line-height:1.55;color:var(--text-mid);}
   .warning-box{background:#fff8e1;border:1px solid #ffe082;border-radius:10px;padding:0.85rem 1rem;font-size:0.83rem;color:#7c5a00;margin-top:0.75rem;line-height:1.5;}
   .warning-box strong{display:block;margin-bottom:0.2rem;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.08em;}
+  .plant-intro{font-size:0.95rem;color:var(--text-mid);line-height:1.7;padding:1rem 0 0.5rem;border-left:3px solid var(--green-light);padding-left:1rem;margin-bottom:0.5rem;}
   .add-banner{background:var(--green-wash);border:1px dashed var(--green-light);border-radius:12px;padding:1.25rem 1.5rem;margin-top:2rem;display:flex;align-items:center;gap:12px;font-size:0.85rem;color:var(--text-mid);}
 
   /* SEO BREADCRUMB */
@@ -305,8 +306,13 @@ async function loadPlants() {
 
 // ── ROUTING ──────────────────────────────────────────────────────────
 function checkRoute() {
+  const path = window.location.pathname;
   const hash = window.location.hash;
-  if (hash.startsWith('#/plants/')) {
+  if (path.startsWith('/plants/')) {
+    const slug = path.replace('/plants/', '');
+    const plant = allPlants.find(p => slugify(p.name) === slug || p.id === slug);
+    if (plant) { openPlantPage(plant, false); return; }
+  } else if (hash.startsWith('#/plants/')) {
     const slug = hash.replace('#/plants/', '');
     const plant = allPlants.find(p => slugify(p.name) === slug || p.id === slug);
     if (plant) { openPlantPage(plant, false); return; }
@@ -314,7 +320,7 @@ function checkRoute() {
   showHome();
 }
 
-window.addEventListener('hashchange', checkRoute);
+window.addEventListener('popstate', checkRoute);
 
 function showHome() {
   document.getElementById('plant-page').style.display = 'none';
@@ -322,7 +328,7 @@ function showHome() {
   document.title = 'Simple Plant Care — How to Grow Any Plant, Plain and Simple';
   document.querySelector('meta[name="description"]').setAttribute('content',
     'Free plant care guides in plain language. How to grow 283+ plants — watering, sunlight, seed depth and real tips. No jargon, no signup.');
-  history.pushState(null, '', window.location.pathname);
+  history.pushState(null, '', '/');
   window.scrollTo(0,0);
   renderGrid(activeFilter, document.getElementById('searchInput').value);
 }
@@ -338,7 +344,7 @@ function renderGrid(filter = 'all', query = '') {
   count.textContent = `${filtered.length} plant${filtered.length !== 1 ? 's' : ''}`;
   if (!filtered.length) { grid.innerHTML = `<div class="empty-state">🌱<p>No plants found. Try a different search.</p></div>`; return; }
   grid.innerHTML = filtered.map(p => `
-    <a class="plant-card" href="#/plants/${slugify(p.name)}" onclick="openPlantPage(allPlants.find(x=>x.id==='${p.id}'));return false;" aria-label="How to grow ${p.name}">
+    <a class="plant-card" href="/plants/${slugify(p.name)}" onclick="openPlantPage(allPlants.find(x=>x.id==='${p.id}'));return false;" aria-label="How to grow ${p.name}">
       <img class="plant-card-img" id="img-${p.id}" src="${p.img}" alt="How to grow ${p.name} — ${p.latin}" loading="lazy"
         onerror="this.src='https://placehold.co/600x400/2d5a3d/8fbc6e?text=${encodeURIComponent(p.name)}'">
       <div class="plant-card-body">
@@ -361,10 +367,10 @@ function renderGrid(filter = 'all', query = '') {
 // ── PLANT PAGE ────────────────────────────────────────────────────────
 function openPlantPage(p, pushState = true) {
   if (!p) return;
-  if (pushState) window.location.hash = `/plants/${slugify(p.name)}`;
+  if (pushState) history.pushState(null, '', `/plants/${slugify(p.name)}`);
 
   // SEO: update title + meta for this plant page
-  document.title = `How to Grow ${p.name} — Simple Plant Care Guide`;
+  document.title = `How to Grow ${p.name} – Care Guide | Simple Plant Care`;
   document.querySelector('meta[name="description"]').setAttribute('content',
     `How to grow and care for ${p.name} (${p.latin}). Water ${p.care.water.value.toLowerCase()}, needs ${p.care.sun.value.toLowerCase()}. Seed depth: ${p.care.seedDepth.value}. ${p.tagline}`);
 
@@ -376,8 +382,8 @@ function openPlantPage(p, pushState = true) {
     "description": `How to care for ${p.name}. Watering: ${p.care.water.value}. Sunlight: ${p.care.sun.value}. Seed depth: ${p.care.seedDepth.value}.`,
     "author": { "@type": "Organization", "name": "Simple Plant Care" },
     "publisher": { "@type": "Organization", "name": "Simple Plant Care", "url": SITE },
-    "url": `${SITE}/#/plants/${slugify(p.name)}`,
-    "mainEntityOfPage": `${SITE}/#/plants/${slugify(p.name)}`,
+    "url": `${SITE}/plants/${slugify(p.name)}`,
+    "mainEntityOfPage": `${SITE}/plants/${slugify(p.name)}`,
     "keywords": `how to grow ${p.name.toLowerCase()}, ${p.name.toLowerCase()} care, ${p.name.toLowerCase()} watering, ${p.name.toLowerCase()} plant guide`
   };
   let schemaEl = document.getElementById('plant-schema');
@@ -407,7 +413,8 @@ function openPlantPage(p, pushState = true) {
       <span class="diff-badge diff-${p.difficulty}">${p.difficulty==='easy'?'✓':p.difficulty==='medium'?'◑':'!'} ${capFirst(p.difficulty)} to grow</span>
     </div>
     <div class="plant-body">
-      <div class="section-head">How to care for ${p.name}</div>
+      <p class="plant-intro">${p.tagline} ${p.difficulty === 'easy' ? p.name + ' is one of the easiest plants to grow, suitable for complete beginners.' : p.difficulty === 'medium' ? p.name + ' requires some attention but rewards the effort well.' : p.name + ' is a challenging plant that rewards experienced growers.'}</p>
+      <h2 class="section-head">How to care for ${p.name}</h2>
       <div class="info-grid">
         <div class="info-card">
           <div class="info-card-label">💧 How often to water ${p.name}</div>
@@ -434,7 +441,7 @@ function openPlantPage(p, pushState = true) {
           <div class="info-card-sub">${p.care.soil.detail}</div>
         </div>
       </div>
-      <div class="section-head">How to plant ${p.name} from seed</div>
+      <h2 class="section-head">How to plant ${p.name} from seed</h2>
       <div class="info-grid">
         <div class="info-card">
           <div class="info-card-label">🌰 How deep to plant ${p.name} seeds</div>
@@ -457,14 +464,14 @@ function openPlantPage(p, pushState = true) {
           <div class="info-card-sub">When you can start picking or using</div>
         </div>
       </div>
-      <div class="section-head">Tips for growing ${p.name}</div>
+      <h2 class="section-head">Tips for growing ${p.name}</h2>
       <ul class="tips-list">${p.tips.map(t => `<li class="tip-item">${t}</li>`).join('')}</ul>
       ${p.warning ? `<div class="warning-box"><strong>⚠ Watch out</strong>${p.warning}</div>` : ''}
       ${related.length ? `
-      <div class="section-head">Other ${p.type} care guides</div>
+      <h2 class="section-head">Other ${p.type} care guides</h2>
       <div class="related-grid">
         ${related.map(r => `
-          <a class="related-card" href="#/plants/${slugify(r.name)}" onclick="openPlantPage(allPlants.find(x=>x.id==='${r.id}'));return false;">
+          <a class="related-card" href="/plants/${slugify(r.name)}" onclick="openPlantPage(allPlants.find(x=>x.id==='${r.id}'));return false;">
             <span>${r.emoji}</span>
             <span class="related-card-name">${r.name}</span>
           </a>`).join('')}
