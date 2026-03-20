@@ -220,20 +220,76 @@ let activeFilter = 'all';
 const capFirst = s => s.charAt(0).toUpperCase() + s.slice(1);
 const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 
+const wikiOverrides = {
+  'rosa': 'Rosa_gallica_officinalis',
+  'fragaria': 'Fragaria_×_ananassa',
+  'mentha spicata': 'Mentha_spicata',
+  'ocimum basilicum': 'Ocimum_basilicum',
+  'solanum lycopersicum': 'Solanum_lycopersicum',
+  'helianthus annuus': 'Helianthus_annuus',
+  'cucumis sativus': 'Cucumber',
+  'brassica oleracea': 'Brassica_oleracea',
+  'allium cepa': 'Onion',
+  'allium sativum': 'Garlic',
+  'daucus carota': 'Carrot',
+  'lactuca sativa': 'Lettuce',
+  'monstera deliciosa': 'Monstera_deliciosa',
+  'epipremnum aureum': 'Epipremnum_aureum',
+  'spathiphyllum wallisii': 'Spathiphyllum',
+  'chlorophytum comosum': 'Chlorophytum_comosum',
+  'zamioculcas zamiifolia': 'Zamioculcas',
+  'dracaena trifasciata': 'Dracaena_trifasciata',
+  'ficus lyrata': 'Ficus_lyrata',
+  'aloe barbadensis miller': 'Aloe_vera',
+  'lavandula angustifolia': 'Lavandula_angustifolia',
+  'rosmarinus officinalis': 'Rosmarinus_officinalis',
+  'salvia rosmarinus': 'Salvia_rosmarinus',
+  'thymus vulgaris': 'Thymus_vulgaris',
+  'origanum vulgare': 'Origanum_vulgare',
+  'petroselinum crispum': 'Petroselinum_crispum',
+  'mentha': 'Mentha',
+  'solanum tuberosum': 'Potato',
+  'pisum sativum': 'Pea',
+  'phaseolus vulgaris': 'Phaseolus_vulgaris',
+  'cucurbita pepo': 'Cucurbita_pepo',
+  'zea mays': 'Maize',
+  'vaccinium corymbosum': 'Vaccinium_corymbosum',
+  'rubus idaeus': 'Rubus_idaeus',
+  'malus domestica': 'Malus_domestica',
+  'citrus limon': 'Lemon',
+};
 const imgCache = {};
 async function getWikiImage(latin, name) {
   const key = latin || name;
   if (imgCache[key]) return imgCache[key];
   const fallback = `https://placehold.co/600x400/2d5a3d/8fbc6e?text=${encodeURIComponent(name)}`;
-  try {
-    const term = (latin || name).split(' ').slice(0,2).join('_');
-    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(term)}`);
-    if (!res.ok) throw new Error();
-    const data = await res.json();
-    const img = data?.thumbnail?.source || fallback;
-    imgCache[key] = img;
-    return img;
-  } catch { imgCache[key] = fallback; return fallback; }
+
+  async function tryWiki(term) {
+    try {
+      const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(term)}`);
+      if (!res.ok) return null;
+      const data = await res.json();
+      if (data.type === 'disambiguation') return null;
+      return data?.thumbnail?.source || null;
+    } catch { return null; }
+  }
+
+  const latinLower = (latin || '').toLowerCase().split(' ').slice(0,2).join(' ');
+  const overrideKey = Object.keys(wikiOverrides).find(k => latinLower.startsWith(k));
+  const overrideTerm = overrideKey ? wikiOverrides[overrideKey] : null;
+  const latinTerm = (latin || '').split(' ').slice(0,2).join('_');
+  const nameTerm = name.replace(/ /g,'_');
+  const namePlusCare = name.replace(/ /g,'_') + '_plant';
+
+  const img =
+    (overrideTerm && await tryWiki(overrideTerm)) ||
+    (latinTerm && await tryWiki(latinTerm)) ||
+    await tryWiki(nameTerm) ||
+    await tryWiki(namePlusCare) ||
+    fallback;
+
+  imgCache[key] = img;
+  return img;
 }
 
 async function loadPlants() {
