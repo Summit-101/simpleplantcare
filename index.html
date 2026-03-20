@@ -213,12 +213,28 @@
 </div>
 
 <script>
-const SITE = 'https://simpleplantcare.co';
+const SITE = 'https://simpleplantcare.org';
 const FILES = ['plants.json','houseplants.json','vegetables.json','herbs.json','fruits.json','flowers-shrubs.json'];
 let allPlants = [];
 let activeFilter = 'all';
 const capFirst = s => s.charAt(0).toUpperCase() + s.slice(1);
 const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+
+const imgCache = {};
+async function getWikiImage(latin, name) {
+  const key = latin || name;
+  if (imgCache[key]) return imgCache[key];
+  const fallback = `https://placehold.co/600x400/2d5a3d/8fbc6e?text=${encodeURIComponent(name)}`;
+  try {
+    const term = (latin || name).split(' ').slice(0,2).join('_');
+    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(term)}`);
+    if (!res.ok) throw new Error();
+    const data = await res.json();
+    const img = data?.thumbnail?.source || fallback;
+    imgCache[key] = img;
+    return img;
+  } catch { imgCache[key] = fallback; return fallback; }
+}
 
 async function loadPlants() {
   const results = await Promise.allSettled(FILES.map(f => fetch(f).then(r => r.ok ? r.json() : [])));
@@ -267,9 +283,8 @@ function renderGrid(filter = 'all', query = '') {
   if (!filtered.length) { grid.innerHTML = `<div class="empty-state">🌱<p>No plants found. Try a different search.</p></div>`; return; }
   grid.innerHTML = filtered.map(p => `
     <a class="plant-card" href="#/plants/${slugify(p.name)}" onclick="openPlantPage(allPlants.find(x=>x.id==='${p.id}'));return false;" aria-label="How to grow ${p.name}">
-      <img class="plant-card-img" src="${p.img}" alt="How to grow ${p.name} — ${p.latin}" loading="lazy"
-        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-      <div class="plant-card-placeholder">${p.emoji}</div>
+      <img class="plant-card-img" id="img-${p.id}" src="${p.img}" alt="How to grow ${p.name} — ${p.latin}" loading="lazy"
+        onerror="this.src='https://placehold.co/600x400/2d5a3d/8fbc6e?text=${encodeURIComponent(p.name)}'">
       <div class="plant-card-body">
         <div class="plant-name">${p.name}</div>
         <div class="plant-latin">${p.latin}</div>
@@ -279,6 +294,12 @@ function renderGrid(filter = 'all', query = '') {
         </div>
       </div>
     </a>`).join('');
+  filtered.forEach(p => {
+    getWikiImage(p.latin, p.name).then(url => {
+      const el = document.getElementById('img-' + p.id);
+      if (el && url) el.src = url;
+    });
+  });
 }
 
 // ── PLANT PAGE ────────────────────────────────────────────────────────
@@ -314,9 +335,15 @@ function openPlantPage(p, pushState = true) {
   // Related plants (same type, not the same plant)
   const related = allPlants.filter(x => x.type === p.type && x.id !== p.id).slice(0, 6);
 
+  const heroPlaceholder = `https://placehold.co/680x280/1a3a2a/8fbc6e?text=${encodeURIComponent(p.name)}`;
   document.getElementById('plantPageContent').innerHTML = `
-    <img class="plant-hero-img" src="${p.img}" alt="${p.name} plant care guide"
-      onerror="this.src='https://placehold.co/680x280/1a3a2a/8fbc6e?text=${encodeURIComponent(p.name)}'">
+    <img class="plant-hero-img" id="hero-img-${p.id}" src="${p.img}" alt="${p.name} plant care guide"
+      onerror="this.src='${heroPlaceholder}'">`;
+  getWikiImage(p.latin, p.name).then(url => {
+    const el = document.getElementById('hero-img-' + p.id);
+    if (el && url) el.src = url;
+  });
+  document.getElementById('plantPageContent').innerHTML += `
     <div class="plant-page-header">
       <h1 class="plant-page-title">How to grow ${p.name}</h1>
       <div class="plant-page-latin">${p.latin}</div>
