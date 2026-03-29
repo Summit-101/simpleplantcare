@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.simpleplantcare.org/$1",
+      "permanent": true
+    }
+  ],
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
