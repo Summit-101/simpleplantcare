@@ -3,7 +3,13 @@
     {
       "source": "/(.*)",
       "destination": "https://www.simpleplantcare.org/$1",
-      "permanent": true
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "simpleplantcare.org"
+        }
+      ]
     }
   ],
   "cleanUrls": true,
