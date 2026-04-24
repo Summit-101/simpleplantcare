@@ -15,39 +15,47 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    {
-      "source": "/herbs",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/plants-for-tea",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/plants-for-skin",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/easy-houseplants",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/vegetables-beginners",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/plants-for-balcony",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/plants/:slug",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
+  {
+    "source": "/sitemap.xml",
+    "destination": "/sitemap.xml"
+  },
+  {
+    "source": "/robots.txt",
+    "destination": "/robots.txt"
+  },
+  {
+    "source": "/herbs",
+    "destination": "/index.html"
+  },
+  {
+    "source": "/plants-for-tea",
+    "destination": "/index.html"
+  },
+  {
+    "source": "/plants-for-skin",
+    "destination": "/index.html"
+  },
+  {
+    "source": "/easy-houseplants",
+    "destination": "/index.html"
+  },
+  {
+    "source": "/vegetables-beginners",
+    "destination": "/index.html"
+  },
+  {
+    "source": "/plants-for-balcony",
+    "destination": "/index.html"
+  },
+  {
+    "source": "/plants/:slug",
+    "destination": "/index.html"
+  },
+  {
+    "source": "/(.*)",
+    "destination": "/index.html"
+  }
+],
   "headers": [
     {
       "source": "/(.*)",
