@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://simpleplantcare.co/sitemap.xml
+Sitemap: https://www.simpleplantcare.org/sitemap.xml
