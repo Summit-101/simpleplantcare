@@ -9,7 +9,7 @@
     { "source": "/easy-houseplants", "destination": "/index.html" },
     { "source": "/vegetables-beginners", "destination": "/index.html" },
     { "source": "/plants-for-balcony", "destination": "/index.html" },
-    { "source": "/plants/:slug", "destination": "/index.html" },
+    { "source": "/plants/:slug", "destination": "/api/plant-page" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "headers": [
