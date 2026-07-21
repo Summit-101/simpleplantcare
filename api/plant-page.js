@@ -22,6 +22,7 @@ export default async function handler(req) {
   if (!plant) return new Response(html, { headers: { 'content-type': 'text/html' } });
 
 const pageUrl = `https://www.simpleplantcare.org/plants/${slug}`;
+console.log("PLANT API RUNNING:", slug);
 
 const patched = html
   // Title
