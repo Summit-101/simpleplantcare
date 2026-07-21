@@ -42,8 +42,8 @@ const patched = html
 
   // Canonical
   .replace(
-    '<link rel="canonical" href="https://www.simpleplantcare.org/">',
-    `<link rel="canonical" href="${pageUrl}">`
+  /<link rel="canonical" href="[^"]*">/,
+  `<link rel="canonical" href="${pageUrl}">`
   )
 
   // Open Graph URL
