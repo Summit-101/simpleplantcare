@@ -75,8 +75,8 @@ const patched = html
   // Fix remaining .co reference
   .replace(
   '"url": "https://simpleplantcare.co"',
-  `"url": "${pageUrl}"`
-);
+  '"url": "https://www.simpleplantcare.org"'
+)
   return new Response(patched, {
   headers: {
     "content-type": "text/html"
