@@ -18,6 +18,11 @@ export default async function handler(req) {
   }
 
   const html = await fetch('https://www.simpleplantcare.org/index.html').then(r => r.text());
+  return new Response(html, {
+  headers: {
+    "content-type": "text/plain"
+  }
+});
   console.log(html.includes('<link rel="canonical"'));
   console.log(html.includes('https://simpleplantcare.org/'));
   console.log(html.includes('https://www.simpleplantcare.org/'));
