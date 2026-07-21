@@ -21,19 +21,64 @@ export default async function handler(req) {
   
   if (!plant) return new Response(html, { headers: { 'content-type': 'text/html' } });
 
-  const patched = html
-    .replace(
-      '<title>Simple Plant Care — How to Grow Any Plant, Plain and Simple</title>',
-      `<title>How to Grow ${plant.name} – Watering, Light & Care | Simple Plant Care</title>`
-    )
-    .replace(
-      '<meta name="description" content="Free plant care guides in plain language. No jargon, no signup. Learn how to grow 283+ plants — watering schedules, sunlight needs, seed depth, and expert tips.">',
-      `<meta name="description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
-    )
-    .replace(
-      '<link rel="canonical" href="https://simpleplantcare.co/">',
-      `<link rel="canonical" href="https://www.simpleplantcare.org/plants/${slug}">`
-    );
+const pageUrl = `https://www.simpleplantcare.org/plants/${slug}`;
 
-  return new Response(patched, { headers: { 'content-type': 'text/html' } });
-}
+const patched = html
+  // Title
+  .replace(
+    '<title>Simple Plant Care — How to Grow Any Plant, Plain and Simple</title>',
+    `<title>How to Grow ${plant.name} – Watering, Light & Care | Simple Plant Care</title>`
+  )
+
+  // Meta description
+  .replace(
+    '<meta name="description" content="Free plant care guides in plain language. No jargon, no signup. Learn how to grow 283+ plants — watering schedules, sunlight needs, seed depth, and expert tips.">',
+    `<meta name="description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
+  )
+
+  // Canonical
+  .replace(
+    '<link rel="canonical" href="https://www.simpleplantcare.org/">',
+    `<link rel="canonical" href="${pageUrl}">`
+  )
+
+  // Open Graph URL
+  .replace(
+    '<meta property="og:url" content="https://www.simpleplantcare.org/">',
+    `<meta property="og:url" content="${pageUrl}">`
+  )
+
+  // Open Graph title
+  .replace(
+    '<meta property="og:title" content="Simple Plant Care — How to Grow Any Plant">',
+    `<meta property="og:title" content="How to Grow ${plant.name} – Watering, Light & Care">`
+  )
+
+  // Open Graph description
+  .replace(
+    '<meta property="og:description" content="Free plant care guides for 283+ plants. No jargon, no signup. Watering, sunlight, soil, seed depth and tips — all in plain language.">',
+    `<meta property="og:description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
+  )
+
+  // Twitter title
+  .replace(
+    '<meta name="twitter:title" content="Simple Plant Care — How to Grow Any Plant">',
+    `<meta name="twitter:title" content="How to Grow ${plant.name} – Watering, Light & Care">`
+  )
+
+  // Twitter description
+  .replace(
+    '<meta name="twitter:description" content="Free plant care guides for 283+ plants. No jargon, no signup.">',
+    `<meta name="twitter:description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
+  )
+
+  // Fix remaining .co reference
+  .replace(
+  '"url": "https://simpleplantcare.co"',
+  `"url": "${pageUrl}"`
+);
+  return new Response(patched, {
+  headers: {
+    "content-type": "text/html"
+  }
+});
