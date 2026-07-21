@@ -83,3 +83,4 @@ const patched = html
     "content-type": "text/html"
   }
 });
+}
