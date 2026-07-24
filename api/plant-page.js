@@ -18,11 +18,7 @@ export default async function handler(req) {
   }
 
   const html = await fetch('https://www.simpleplantcare.org/index.html').then(r => r.text());
-  return new Response(html, {
-  headers: {
-    "content-type": "text/plain"
-  }
-});
+  
   console.log(html.includes('<link rel="canonical"'));
   console.log(html.includes('https://simpleplantcare.org/'));
   console.log(html.includes('https://www.simpleplantcare.org/'));
@@ -53,39 +49,37 @@ const patched = html
 
   // Open Graph URL
   .replace(
-    '<meta property="og:url" content="https://www.simpleplantcare.org/">',
-    `<meta property="og:url" content="${pageUrl}">`
+  /<meta property="og:url" content="[^"]*">/,
+  `<meta property="og:url" content="${pageUrl}">`
   )
 
   // Open Graph title
   .replace(
-    '<meta property="og:title" content="Simple Plant Care — How to Grow Any Plant">',
-    `<meta property="og:title" content="How to Grow ${plant.name} – Watering, Light & Care">`
+  /<meta property="og:title" content="[^"]*">/,
+  `<meta property="og:title" content="How to Grow ${plant.name} – Watering, Light & Care">`
   )
-
   // Open Graph description
   .replace(
-    '<meta property="og:description" content="Free plant care guides for 283+ plants. No jargon, no signup. Watering, sunlight, soil, seed depth and tips — all in plain language.">',
-    `<meta property="og:description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
+  /<meta property="og:description" content="[^"]*">/,
+  `<meta property="og:description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
   )
-
   // Twitter title
   .replace(
-    '<meta name="twitter:title" content="Simple Plant Care — How to Grow Any Plant">',
-    `<meta name="twitter:title" content="How to Grow ${plant.name} – Watering, Light & Care">`
+  /<meta name="twitter:title" content="[^"]*">/,
+  `<meta name="twitter:title" content="How to Grow ${plant.name} – Watering, Light & Care">`
   )
 
   // Twitter description
   .replace(
-    '<meta name="twitter:description" content="Free plant care guides for 283+ plants. No jargon, no signup.">',
-    `<meta name="twitter:description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
+  /<meta name="twitter:description" content="[^"]*">/,
+  `<meta name="twitter:description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
   )
 
   // Fix remaining .co reference
   .replace(
-  '"url": "https://simpleplantcare.co"',
-  '"url": "https://www.simpleplantcare.org"'
-)
+  /"url":\s*"https:\/\/simpleplantcare\.co"/,
+  `"url": "https://www.simpleplantcare.org"`
+  );
   return new Response(patched, {
   headers: {
     "content-type": "text/html"
