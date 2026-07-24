@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SITE = 'https://simpleplantcare.co';
+const SITE = 'https://www.simpleplantcare.org';
 const FILES = ['plants.json','houseplants.json','vegetables.json','herbs.json','fruits.json','flowers-shrubs.json'];
 
 const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -38,7 +38,7 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
 allPlants.forEach(p => {
   const slug = slugify(p.name);
   xml += `  <url>
-    <loc>${SITE}/#/plants/${slug}</loc>
+    <loc>${SITE}/plants/${slug}</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>${today}</lastmod>
