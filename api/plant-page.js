@@ -27,7 +27,7 @@ const pageUrl = `https://www.simpleplantcare.org/plants/${slug}`;
 
 const seoTitle = slug === 'cosmos'
   ? 'Cosmos Plant Care: How to Grow Cosmos Flowers | Simple Plant Care'
-  : slug === 'bay'
+  : slug === 'bay-laurel'
     ? 'Bay Laurel Care: How to Grow Bay Laurel | Simple Plant Care'
     : `How to Grow ${plant.name} – Watering, Light & Care | Simple Plant Care`;
 
