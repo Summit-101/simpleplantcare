@@ -33,7 +33,7 @@ const seoTitle = slug === 'cosmos'
 
 const seoDescription = slug === 'cosmos'
   ? 'Learn how to grow cosmos flowers from seed, including watering, sunlight, soil, spacing, germination and flowering tips.'
-  : slug === 'bay'
+  : slug === 'bay-laurel'
     ? 'Learn how to grow and care for bay laurel, including watering, sunlight, soil, temperature, pruning and harvesting bay leaves.'
     : `How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.`;
 
