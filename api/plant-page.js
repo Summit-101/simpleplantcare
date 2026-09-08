@@ -24,63 +24,36 @@ export default async function handler(req) {
   if (!plant) return new Response(html, { headers: { 'content-type': 'text/html' } });
 
 const pageUrl = `https://www.simpleplantcare.org/plants/${slug}`;
-console.log("PLANT API RUNNING:", slug);
+
+const seoTitle = slug === 'cosmos'
+  ? 'Cosmos Plant Care: How to Grow Cosmos Flowers | Simple Plant Care'
+  : slug === 'bay'
+    ? 'Bay Laurel Care: How to Grow Bay Laurel | Simple Plant Care'
+    : `How to Grow ${plant.name} – Watering, Light & Care | Simple Plant Care`;
+
+const seoDescription = slug === 'cosmos'
+  ? 'Learn how to grow cosmos flowers from seed, including watering, sunlight, soil, spacing, germination and flowering tips.'
+  : slug === 'bay'
+    ? 'Learn how to grow and care for bay laurel, including watering, sunlight, soil, temperature, pruning and harvesting bay leaves.'
+    : `How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.`;
 
 const patched = html
-  // Title
   .replace(
     '<title>Simple Plant Care — How to Grow Any Plant, Plain and Simple</title>',
-    `<title>How to Grow ${plant.name} – Watering, Light & Care | Simple Plant Care</title>`
+    `<title>${seoTitle}</title>`
   )
-
-  // Meta description
   .replace(
     '<meta name="description" content="Free plant care guides in plain language. No jargon, no signup. Learn how to grow 283+ plants — watering schedules, sunlight needs, seed depth, and expert tips.">',
-    `<meta name="description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
+    `<meta name="description" content="${seoDescription}">`
   )
-
-  // Canonical
-  .replace(
-  /<link rel="canonical" href="[^"]*">/,
-  `<link rel="canonical" href="${pageUrl}">`
-  )
-
-  // Open Graph URL
-  .replace(
-  /<meta property="og:url" content="[^"]*">/,
-  `<meta property="og:url" content="${pageUrl}">`
-  )
-
-  // Open Graph title
-  .replace(
-  /<meta property="og:title" content="[^"]*">/,
-  `<meta property="og:title" content="How to Grow ${plant.name} – Watering, Light & Care">`
-  )
-  // Open Graph description
-  .replace(
-  /<meta property="og:description" content="[^"]*">/,
-  `<meta property="og:description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
-  )
-  // Twitter title
-  .replace(
-  /<meta name="twitter:title" content="[^"]*">/,
-  `<meta name="twitter:title" content="How to Grow ${plant.name} – Watering, Light & Care">`
-  )
-
-  // Twitter description
-  .replace(
-  /<meta name="twitter:description" content="[^"]*">/,
-  `<meta name="twitter:description" content="How to grow ${plant.name} (${plant.latin}). ${plant.tagline} Watering, sunlight, soil and expert tips in plain language.">`
-  )
-
-  // Fix remaining .co reference
-  .replace(
-  /"url":\s*"https:\/\/simpleplantcare\.co"/,
-  `"url": "https://www.simpleplantcare.org"`
-  );
+  .replace(/<link rel="canonical" href="[^"]*">/, `<link rel="canonical" href="${pageUrl}">`)
+  .replace(/<meta property="og:url" content="[^"]*">/, `<meta property="og:url" content="${pageUrl}">`)
+  .replace(/<meta property="og:title" content="[^"]*">/, `<meta property="og:title" content="${seoTitle}">`)
+  .replace(/<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${seoDescription}">`)
+  .replace(/<meta name="twitter:title" content="[^"]*">/, `<meta name="twitter:title" content="${seoTitle}">`)
+  .replace(/<meta name="twitter:description" content="[^"]*">/, `<meta name="twitter:description" content="${seoDescription}">`)
+  .replace(/"url":\s*"https:\/\/simpleplantcare\.co"/, `"url": "https://www.simpleplantcare.org"`);
   return new Response(patched, {
-  headers: {
-    "content-type": "text/html"
-  }
-});
+    headers: { "content-type": "text/html" }
+  });
 }
